@@ -1,0 +1,258 @@
+[
+  {
+    "page_index": 1,
+    "printed_page_number": null,
+    "char_start": 0,
+    "char_end": 260,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 2,
+    "printed_page_number": null,
+    "char_start": 260,
+    "char_end": 1604,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 3,
+    "printed_page_number": null,
+    "char_start": 1604,
+    "char_end": 2022,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 4,
+    "printed_page_number": null,
+    "char_start": 2022,
+    "char_end": 3562,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 5,
+    "printed_page_number": null,
+    "char_start": 3562,
+    "char_end": 4385,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 6,
+    "printed_page_number": null,
+    "char_start": 4385,
+    "char_end": 5480,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 7,
+    "printed_page_number": null,
+    "char_start": 5480,
+    "char_end": 5833,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 8,
+    "printed_page_number": null,
+    "char_start": 5833,
+    "char_end": 6713,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 9,
+    "printed_page_number": null,
+    "char_start": 6713,
+    "char_end": 7952,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 10,
+    "printed_page_number": null,
+    "char_start": 7952,
+    "char_end": 8708,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 11,
+    "printed_page_number": null,
+    "char_start": 8708,
+    "char_end": 9615,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 12,
+    "printed_page_number": null,
+    "char_start": 9615,
+    "char_end": 10422,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 13,
+    "printed_page_number": null,
+    "char_start": 10422,
+    "char_end": 11271,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 14,
+    "printed_page_number": null,
+    "char_start": 11271,
+    "char_end": 11857,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 15,
+    "printed_page_number": null,
+    "char_start": 11857,
+    "char_end": 12747,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 16,
+    "printed_page_number": null,
+    "char_start": 12747,
+    "char_end": 13577,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 17,
+    "printed_page_number": null,
+    "char_start": 13577,
+    "char_end": 15102,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 18,
+    "printed_page_number": null,
+    "char_start": 15102,
+    "char_end": 16001,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 19,
+    "printed_page_number": null,
+    "char_start": 16001,
+    "char_end": 16690,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 20,
+    "printed_page_number": null,
+    "char_start": 16690,
+    "char_end": 18251,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 21,
+    "printed_page_number": null,
+    "char_start": 18251,
+    "char_end": 18867,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 22,
+    "printed_page_number": null,
+    "char_start": 18867,
+    "char_end": 20202,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 23,
+    "printed_page_number": null,
+    "char_start": 20202,
+    "char_end": 21117,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 24,
+    "printed_page_number": null,
+    "char_start": 21117,
+    "char_end": 22001,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 25,
+    "printed_page_number": null,
+    "char_start": 22001,
+    "char_end": 22390,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 26,
+    "printed_page_number": null,
+    "char_start": 22390,
+    "char_end": 23123,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 27,
+    "printed_page_number": null,
+    "char_start": 23123,
+    "char_end": 24211,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 28,
+    "printed_page_number": null,
+    "char_start": 24211,
+    "char_end": 25416,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 29,
+    "printed_page_number": null,
+    "char_start": 25416,
+    "char_end": 25888,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 30,
+    "printed_page_number": null,
+    "char_start": 25888,
+    "char_end": 26875,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 31,
+    "printed_page_number": null,
+    "char_start": 26875,
+    "char_end": 28003,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  },
+  {
+    "page_index": 32,
+    "printed_page_number": null,
+    "char_start": 28003,
+    "char_end": 28672,
+    "evidence": "searchable_pdf_text_layer_alignment",
+    "confidence": 0.9
+  }
+]

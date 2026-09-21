@@ -1,0 +1,784 @@
+{
+    "root":  "node_000",
+    "nodes":  [
+                  {
+                      "id":  "node_000",
+                      "type":  "book",
+                      "title":  "الأربعين النووية",
+                      "number":  null,
+                      "parent_id":  null,
+                      "children":  [
+                                       "node_001",
+                                       "node_002",
+                                       "node_003"
+                                   ],
+                      "source":  {
+                                     "start":  0,
+                                     "end":  28672,
+                                     "page":  null
+                                 },
+                      "confidence":  0.98
+                  },
+                  {
+                      "id":  "node_001",
+                      "type":  "front_matter",
+                      "title":  "صفحة العنوان وبيانات النشر والمقدمة",
+                      "number":  null,
+                      "parent_id":  "node_000",
+                      "children":  [
+
+                                   ],
+                      "source":  {
+                                     "start":  0,
+                                     "end":  1168,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_002",
+                      "type":  "main_content",
+                      "title":  "متن الأربعين النووية (الأحاديث الأربعون)",
+                      "number":  null,
+                      "parent_id":  "node_000",
+                      "children":  [
+                                       "node_004",
+                                       "node_005",
+                                       "node_006",
+                                       "node_007",
+                                       "node_008",
+                                       "node_009",
+                                       "node_010",
+                                       "node_011",
+                                       "node_012",
+                                       "node_013",
+                                       "node_014",
+                                       "node_015",
+                                       "node_016",
+                                       "node_017",
+                                       "node_018",
+                                       "node_019",
+                                       "node_020",
+                                       "node_021",
+                                       "node_022",
+                                       "node_023",
+                                       "node_024",
+                                       "node_025",
+                                       "node_026",
+                                       "node_027",
+                                       "node_028",
+                                       "node_029",
+                                       "node_030",
+                                       "node_031",
+                                       "node_032",
+                                       "node_033",
+                                       "node_034",
+                                       "node_035",
+                                       "node_036",
+                                       "node_037",
+                                       "node_038",
+                                       "node_039",
+                                       "node_040",
+                                       "node_041",
+                                       "node_042",
+                                       "node_043",
+                                       "node_044",
+                                       "node_045"
+                                   ],
+                      "source":  {
+                                     "start":  1168,
+                                     "end":  27751,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_003",
+                      "type":  "index",
+                      "title":  "الفهرس",
+                      "number":  null,
+                      "parent_id":  "node_000",
+                      "children":  [
+
+                                   ],
+                      "source":  {
+                                     "start":  27751,
+                                     "end":  28672,
+                                     "page":  null
+                                 },
+                      "confidence":  0.9
+                  },
+                  {
+                      "id":  "node_004",
+                      "type":  "hadith",
+                      "title":  "لا عمل إلا بنية",
+                      "number":  1,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_001"
+                                   ],
+                      "source":  {
+                                     "start":  1168,
+                                     "end":  1929,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_005",
+                      "type":  "hadith",
+                      "title":  "مراتب الدين",
+                      "number":  2,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_002"
+                                   ],
+                      "source":  {
+                                     "start":  1929,
+                                     "end":  3377,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_006",
+                      "type":  "hadith",
+                      "title":  "أركان الإسلام",
+                      "number":  3,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_003"
+                                   ],
+                      "source":  {
+                                     "start":  3377,
+                                     "end":  3920,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_007",
+                      "type":  "hadith",
+                      "title":  "الخلق والأجل والرزق",
+                      "number":  4,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_004"
+                                   ],
+                      "source":  {
+                                     "start":  3920,
+                                     "end":  4970,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_008",
+                      "type":  "hadith",
+                      "title":  "إنكار البدع",
+                      "number":  5,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_005"
+                                   ],
+                      "source":  {
+                                     "start":  4970,
+                                     "end":  5286,
+                                     "page":  null
+                                 },
+                      "confidence":  0.8
+                  },
+                  {
+                      "id":  "node_009",
+                      "type":  "hadith",
+                      "title":  "الورع والإخلاص",
+                      "number":  6,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_006"
+                                   ],
+                      "source":  {
+                                     "start":  5286,
+                                     "end":  6127,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_010",
+                      "type":  "hadith",
+                      "title":  "النصح من أصول الإسلام",
+                      "number":  7,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_007"
+                                   ],
+                      "source":  {
+                                     "start":  6127,
+                                     "end":  6391,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_011",
+                      "type":  "hadith",
+                      "title":  "حرمة دم المسلم وماله",
+                      "number":  8,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_008"
+                                   ],
+                      "source":  {
+                                     "start":  6391,
+                                     "end":  6970,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_012",
+                      "type":  "hadith",
+                      "title":  "الطاعة وعدم التعنت سبيل النجاة",
+                      "number":  9,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_009"
+                                   ],
+                      "source":  {
+                                     "start":  6970,
+                                     "end":  7341,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_013",
+                      "type":  "hadith",
+                      "title":  "الكسب الحلال سبب إجابة الدعاء",
+                      "number":  10,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_010"
+                                   ],
+                      "source":  {
+                                     "start":  7341,
+                                     "end":  8214,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_014",
+                      "type":  "hadith",
+                      "title":  "البعد عن الشبهات",
+                      "number":  11,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_011"
+                                   ],
+                      "source":  {
+                                     "start":  8214,
+                                     "end":  8555,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_015",
+                      "type":  "hadith",
+                      "title":  "الاشتغال بما يُفيد",
+                      "number":  12,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_012"
+                                   ],
+                      "source":  {
+                                     "start":  8555,
+                                     "end":  8773,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_016",
+                      "type":  "hadith",
+                      "title":  "أخوة الإيمان والإسلام",
+                      "number":  13,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_013"
+                                   ],
+                      "source":  {
+                                     "start":  8773,
+                                     "end":  9213,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_017",
+                      "type":  "hadith",
+                      "title":  "حرمة دم المسلم ومتى تهدر ؟",
+                      "number":  14,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_014"
+                                   ],
+                      "source":  {
+                                     "start":  9213,
+                                     "end":  9495,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_018",
+                      "type":  "hadith",
+                      "title":  "حق الضيف والجار",
+                      "number":  15,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_015"
+                                   ],
+                      "source":  {
+                                     "start":  9495,
+                                     "end":  10118,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_019",
+                      "type":  "hadith",
+                      "title":  "لا تغضب ولك الجنة",
+                      "number":  16,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_016"
+                                   ],
+                      "source":  {
+                                     "start":  10118,
+                                     "end":  10321,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_020",
+                      "type":  "hadith",
+                      "title":  "الإحسان",
+                      "number":  17,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_017"
+                                   ],
+                      "source":  {
+                                     "start":  10321,
+                                     "end":  10625,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_021",
+                      "type":  "hadith",
+                      "title":  "تقوى الله وحسن الخلق",
+                      "number":  18,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_018"
+                                   ],
+                      "source":  {
+                                     "start":  10625,
+                                     "end":  11068,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_022",
+                      "type":  "hadith",
+                      "title":  "عون الله تعالى وحفظه",
+                      "number":  19,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_019"
+                                   ],
+                      "source":  {
+                                     "start":  11068,
+                                     "end":  12134,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_023",
+                      "type":  "hadith",
+                      "title":  "فضيلة الحياء",
+                      "number":  20,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_020"
+                                   ],
+                      "source":  {
+                                     "start":  12134,
+                                     "end":  12590,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_024",
+                      "type":  "hadith",
+                      "title":  "الاستقامة لب الإسلام",
+                      "number":  21,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_021"
+                                   ],
+                      "source":  {
+                                     "start":  12590,
+                                     "end":  12917,
+                                     "page":  null
+                                 },
+                      "confidence":  0.7
+                  },
+                  {
+                      "id":  "node_025",
+                      "type":  "hadith",
+                      "title":  "طريق الجنة",
+                      "number":  22,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_022"
+                                   ],
+                      "source":  {
+                                     "start":  12917,
+                                     "end":  13452,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_026",
+                      "type":  "hadith",
+                      "title":  "جوامع الخير",
+                      "number":  23,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_023"
+                                   ],
+                      "source":  {
+                                     "start":  13452,
+                                     "end":  13932,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_027",
+                      "type":  "hadith",
+                      "title":  "فضل الله على",
+                      "number":  24,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_024"
+                                   ],
+                      "source":  {
+                                     "start":  13932,
+                                     "end":  15661,
+                                     "page":  null
+                                 },
+                      "confidence":  0.6
+                  },
+                  {
+                      "id":  "node_028",
+                      "type":  "hadith",
+                      "title":  "فضل الذكر",
+                      "number":  25,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_025"
+                                   ],
+                      "source":  {
+                                     "start":  15661,
+                                     "end":  16447,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_029",
+                      "type":  "hadith",
+                      "title":  "كثرة طرق الخير",
+                      "number":  26,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_026"
+                                   ],
+                      "source":  {
+                                     "start":  16447,
+                                     "end":  16983,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_030",
+                      "type":  "hadith",
+                      "title":  "البر والإثم",
+                      "number":  27,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_027"
+                                   ],
+                      "source":  {
+                                     "start":  16983,
+                                     "end":  17855,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_031",
+                      "type":  "hadith",
+                      "title":  "الطاعة والتزام السنة",
+                      "number":  28,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_028"
+                                   ],
+                      "source":  {
+                                     "start":  17855,
+                                     "end":  18587,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_032",
+                      "type":  "hadith",
+                      "title":  "ذروة الإسلام وعموده",
+                      "number":  29,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_029"
+                                   ],
+                      "source":  {
+                                     "start":  18587,
+                                     "end":  20075,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_033",
+                      "type":  "hadith",
+                      "title":  "الوقوف عند حدود الشرع",
+                      "number":  30,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_030"
+                                   ],
+                      "source":  {
+                                     "start":  20075,
+                                     "end":  20594,
+                                     "page":  null
+                                 },
+                      "confidence":  0.8
+                  },
+                  {
+                      "id":  "node_034",
+                      "type":  "hadith",
+                      "title":  "الزهد وثمرته",
+                      "number":  31,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_031"
+                                   ],
+                      "source":  {
+                                     "start":  20594,
+                                     "end":  20968,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_035",
+                      "type":  "hadith",
+                      "title":  "لا ضرر ولا ضرار",
+                      "number":  32,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_032"
+                                   ],
+                      "source":  {
+                                     "start":  20968,
+                                     "end":  21523,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_036",
+                      "type":  "hadith",
+                      "title":  "أسس القضاء في الإسلام",
+                      "number":  33,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_033"
+                                   ],
+                      "source":  {
+                                     "start":  21523,
+                                     "end":  21860,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_037",
+                      "type":  "hadith",
+                      "title":  "إزالة المنكر فريضة إسلامية محكمة",
+                      "number":  34,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_034"
+                                   ],
+                      "source":  {
+                                     "start":  21860,
+                                     "end":  22262,
+                                     "page":  null
+                                 },
+                      "confidence":  0.85
+                  },
+                  {
+                      "id":  "node_038",
+                      "type":  "hadith",
+                      "title":  "حقوق الأخوة في الإسلام",
+                      "number":  35,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_035"
+                                   ],
+                      "source":  {
+                                     "start":  22262,
+                                     "end":  22825,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_039",
+                      "type":  "hadith",
+                      "title":  "التعاون والعلم والعمل",
+                      "number":  36,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_036"
+                                   ],
+                      "source":  {
+                                     "start":  22825,
+                                     "end":  23870,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_040",
+                      "type":  "hadith",
+                      "title":  "عظيم لطف الله وفضله",
+                      "number":  37,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_037"
+                                   ],
+                      "source":  {
+                                     "start":  23870,
+                                     "end":  25289,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_041",
+                      "type":  "hadith",
+                      "title":  "محبة الله تعالى لأوليائه",
+                      "number":  38,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_038"
+                                   ],
+                      "source":  {
+                                     "start":  25289,
+                                     "end":  25839,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_042",
+                      "type":  "hadith",
+                      "title":  "رفع الحرج في الإسلام",
+                      "number":  39,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_039"
+                                   ],
+                      "source":  {
+                                     "start":  25839,
+                                     "end":  26183,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_043",
+                      "type":  "hadith",
+                      "title":  "كن في الدنيا غريبا",
+                      "number":  40,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_040"
+                                   ],
+                      "source":  {
+                                     "start":  26183,
+                                     "end":  26584,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_044",
+                      "type":  "hadith",
+                      "title":  "اتباع شرع الله على عماد الإيمان",
+                      "number":  41,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_041"
+                                   ],
+                      "source":  {
+                                     "start":  26584,
+                                     "end":  27039,
+                                     "page":  null
+                                 },
+                      "confidence":  0.95
+                  },
+                  {
+                      "id":  "node_045",
+                      "type":  "hadith",
+                      "title":  "سعة مغفرة الله عل",
+                      "number":  42,
+                      "parent_id":  "node_002",
+                      "children":  [
+                                       "unit_042"
+                                   ],
+                      "source":  {
+                                     "start":  27039,
+                                     "end":  27751,
+                                     "page":  null
+                                 },
+                      "confidence":  0.6
+                  }
+              ]
+}

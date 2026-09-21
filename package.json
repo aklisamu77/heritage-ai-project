@@ -1,0 +1,19 @@
+{
+  "name": "heritage-poc",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "اختبار إثبات المفهوم (4-6 أسابيع): كتاب -> OCR -> Knowledge Objects -> مقال",
+  "scripts": {
+    "pdf-to-images": "node ingest/pdf-to-images.js",
+    "ocr": "node pipeline/ocr.js",
+    "db-init": "node db/init.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.68.0",
+    "@napi-rs/canvas": "^0.1.60",
+    "dotenv": "^16.4.5",
+    "pdfjs-dist": "^4.7.76",
+    "pg": "^8.13.1"
+  }
+}

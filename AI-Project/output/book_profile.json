@@ -1,0 +1,56 @@
+{
+  "title": "الأربعين النووية",
+  "author": "أبو زكريا يحيى بن شرف النووي",
+  "editor_commentator": "أحمد عبد الرازق البكري",
+  "publisher": "دار السلام",
+  "edition": "الطبعة الرابعة",
+  "publication_year": "١٤٢٨هـ / ٢٠٠٧م",
+  "isbn": "977-342-075-2",
+  "genre": "hadith_collection",
+  "language": "ar",
+  "source_file": "the-40-ocr-fastocr.txt",
+  "source_sha256": "4a26d629416e12673e1df6d61f21a6c8c0e35bb27ea8247e4d127411d8233244",
+  "source_length_chars": 28672,
+  "line_endings": "LF",
+  "sources_used": [
+    "the-40-ocr-fastocr.txt"
+  ],
+  "expected_components": [
+    {
+      "component": "author_introduction",
+      "status": "absent_or_undetermined",
+      "issue_id": "issue_006"
+    },
+    {
+      "component": "editor_introduction",
+      "status": "absent_or_undetermined",
+      "issue_id": "issue_006"
+    },
+    {
+      "component": "toc",
+      "status": "present"
+    },
+    {
+      "component": "index",
+      "status": "present"
+    },
+    {
+      "component": "publisher_title_page",
+      "status": "present"
+    }
+  ],
+  "segment_roles_used": [
+    "heading",
+    "body",
+    "attribution",
+    "editorial_note",
+    "footnote",
+    "noise_ref"
+  ],
+  "structure_summary": "flat collection: front matter (title page, lines 1-36) → 42 numbered hadith units (lines 37-700) → back-matter index (الفهرس, lines 701-790). No chapters or sections. Each unit: heading + body (isnad+matn) + attribution (رواه…) + editor footnotes (takhrij/gharib). Unit numbers read from inline isnad markers (0.95) or page-top tokens (0.7). Page boundaries unknown (no auxiliary source). OCR noise: running headers, page numbers, displaced headings/footnotes, garbled glyphs.",
+  "notes": [
+    "No auxiliary input (PDF/DOCX/images) available; page model empty and recorded as issue_005.",
+    "Numbering systems mixed in source: Arabic-Indic (٢٤٥), Persian (۲۴۵), ASCII (34). Treated as equivalent; original digits preserved.",
+    "Footnotes frequently read by the OCR after the next unit's heading; each reassigned to its logical owner and cross-referenced via foreign_spans (issue_007)."
+  ]
+}
