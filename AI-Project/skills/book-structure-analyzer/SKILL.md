@@ -86,11 +86,12 @@ book-structure-analyzer/
 
 ### Phase B — Build, validate, review, refine
 
-1. **Page model** (if a searchable PDF exists):
+1. **Page model** (if a searchable PDF exists — always make it when one does):
    ```bash
    python scripts/extract_pages.py --txt <book.txt> --pdf <book-searchable.pdf> --out pages.json
    ```
-2. **Build:**
+   With PyMuPDF installed, `pages.json` also carries the **line layout**: every PDF line with its position, and every TXT line matched to the PDF line it came from (the script prints how many matched). The engine uses it to find each page's footnote zone — see *Page layout* below. Re-run it whenever the TXT changes: the engine refuses a layout that does not match the source (`layout_mismatch`).
+2. **Build** — from the book's own work folder: its `book_config.json`, `overrides.json` and `pages.json` live there, next to the TXT, so the build can be repeated (`book_profile.json` records their names):
    ```bash
    python scripts/engine.py build --source <book.txt> --config book_config.json \
           --overrides overrides.json --pages pages.json --out <output_dir>
@@ -109,7 +110,8 @@ book-structure-analyzer/
 ### Review checklist (after every build)
 
 - **Headings:** the 5 lowest-confidence units — is the chosen heading the real one? Any `glued_heading` / `heading_not_found` issues?
-- **Footnotes:** read every occurrence of `displaced_footnote` and `unanchored_footnote`. Does the footnote's content (the words it explains, the source it cites) match the unit it was assigned to?
+- **Page layout:** in `structure.json`, `pages[].footnote_zone` gives each page's footnote-zone top and how many continuation lines were found above its first footnote. Every page that prints footnotes should have one; open the page image for a page with footnotes but no zone (that page falls back to the text rules), and for any zone with continuation lines whose previous page has no footnote.
+- **Footnotes:** read every occurrence of `displaced_footnote` and `unanchored_footnote`. Does the footnote's content (the words it explains, the source it cites) match the unit it was assigned to? Also read `footnote_continuation_joined` (does each joined piece continue that footnote?) and every `footnote_zone_fragment` (a piece OCR read out of order — assign it with an override if its owner is clear on the page image).
 - **Trailing fragments:** each `trailing_fragment` is either legitimate (second narration, author's comment, continued attribution) or a displaced fragment → override if displaced.
 - **Noise:** skim `noise_spans`; no real word of the author or editor may be noise.
 - **First and last unit, and units around front/back matter** — the most error-prone places.
@@ -124,13 +126,24 @@ book-structure-analyzer/
 | `sections` | ordered list `{title, level, type, start_at:{text, occurrence?}, heading: true/false}`. Located in order before the main text; a section runs to the next section of the same or higher level. `heading: false` = the start text is not a heading line (e.g. a parent like «الدراسة» that starts where its first child starts, or an introduction without a heading). `occurrence` counts over the whole front region; without it the first match after the previous section is used. |
 | `main_start_at` | `{text, occurrence, heading}` — the main text starts here (before unit 1). Text between it and unit 1 becomes the main node's `preamble`, with its own footnotes/anchors. |
 | `digit_lookalikes` | `{"ه": "5", …}` — letters OCR produced for digits; used in number prefixes and footnote markers only. |
-| `footnote_continued_mark` | default `=`; footnotes ending with it get a `continued_footnote` issue (their continuation on the next page is usually read as main text — check it). |
+| `footnote_continued_mark` | default `=`; a footnote ending with it whose continuation was not found through the page layout gets a `continued_footnote` issue. |
+| `layout` | page-layout rules (defaults suit printed editions; change only with evidence from the page images): `zone_gap` (1.6 — the footnote zone starts below a vertical gap ≥ this × the page's median line pitch), `max_continuation_lines` (12), `min_zone_top` (0.25 of the page height), `min_match` (0.6) / `min_tokens` (3) / `fragment_cover` (0.8) for placing TXT lines on PDF lines, `use` (true). |
 
-Footnotes inside sections and the preamble are labeled as the node's `footnote`/`anchor` segments (no ownership search). Page numbers glued to a heading or to the first word of a main-text line (`٣٦لم يكن`) become `page_number` noise; if the glued number equals the unit's ordinal it becomes the unit's `number`.
+Footnotes read inside sections and the preamble are labeled as the node's `footnote`/`anchor` segments. Page numbers glued to a heading or to the first word of a main-text line (`٣٦لم يكن`, also with a garbled glyph between: `٣٣备أصول`) become `page_number` noise; if the glued number equals the unit's ordinal it becomes the unit's `number`.
 
-## Known limit: footnote continuations
+## Page layout (footnote zone)
 
-Plain OCR text loses the page layout. When a footnote continues on the next page, its continuation is usually read as main text and the rules cannot reliably tell them apart (especially in undiacritized books). The engine flags each such case (`continued_footnote`, `unanchored_footnote`, `trailing_fragment`); fix confirmed cases with `assign` / `set_role` overrides. A layout-aware page model (block positions from the PDF) is the planned fix.
+Plain OCR text loses the page layout: a footnote's continuation on the next page is read as main text, a marker at the start of a main-text line looks like a footnote, and a page's footnotes are read after the next unit's heading. When `pages.json` carries the line layout, the engine restores it:
+
+1. **Placing lines.** Each TXT line takes the page and position of the PDF line it was matched to. A short line (a lone `(2)`, `في`) uses its own match only if it is that whole PDF line, or shares its PDF line with a well-placed neighbour; otherwise it takes the page/zone of its neighbours when they agree.
+2. **The footnote zone of a page** starts at a vertical gap ≥ `zone_gap` × line pitch, found at most `max_continuation_lines` lines above the first footnote line (a line opening with a marker) below `min_zone_top`. A candidate is rejected when a heading lies between the gap and that line, or when a footnote printed below it has a lower number (footnotes are printed in increasing order down the page — the candidate is then a marker read at the start of a main-text line). No zone found → the top of the page is main text and the rest falls back to the text rules.
+3. **Main zone:** a line opening with a marker is main text with an anchor, never a footnote.
+4. **Footnote zone:** a marker line starts a footnote (even a marker alone on its line); the footnote runs over the next footnote-zone lines of the page up to the next marker line — diacritics, ﷺ or body markers do not end it there. Lines above the page's first marker (the *continuation block*) continue the previous page's last footnote; other lines without a marker join the footnote printed directly above them. Both are reported as `footnote_continuation_joined`; a piece that cannot be joined is left as text and reported as `footnote_zone_fragment`.
+5. **Ownership by page.** Footnote numbers restart on each page, so the anchor with the same marker **on the same page** owns the footnote — also when that anchor is in the preamble or a section (the footnote then becomes that node's). An unanchored footnote goes with its anchored neighbours on the same page (same owner on both sides 0.7, one side 0.55). Footnotes without page information use the text rules below.
+6. **Anchors.** A marker printed as its own fragment above its host unit's heading belongs to the previous unit; the "anchor right after the heading" rule is not applied when the previous unit has no text on the anchor's page.
+7. **Pages.** A page starts at its first placed line (moved past a glued page number of the previous page); confirmed by a page number / running header → 0.85, otherwise 0.75 (`pdf_line_layout`).
+
+Without a line layout (no searchable PDF, or no PyMuPDF) none of this applies and the known limit remains: continuations are usually read as main text; the engine flags them (`continued_footnote`, `unanchored_footnote`, `trailing_fragment`) and confirmed cases are fixed with `assign` / `set_role` overrides.
 
 ## What the engine does (so you know what to configure)
 
@@ -138,20 +151,21 @@ In order, over a per-character label array:
 
 1. **Regions** — front matter = text before the first unit; back matter from each `back_matter.start_at`.
 2. **Headings** — every occurrence of each configured heading; the real one is the latest standalone occurrence before the next unit's heading (earlier copies are marginal/displaced). Units run from heading to next heading (or an override start).
-3. **Numbers** — `N -` at a line start, or a standalone number equal to this or the next unit's ordinal; other standalone numbers are page numbers.
-4. **Footnotes** — a line starting with a marker `(N)` + text; continuation lines while they look like footnote text (low diacritics, no body markers, no page break).
-   **Ownership** among the host unit and up to `footnote_lookback` units before it:
+3. **Page layout** — with a line layout in `pages.json`: each line's page and zone (main / footnote), see *Page layout*.
+4. **Numbers** — `N -` at a line start, or a standalone number equal to this or the next unit's ordinal; other standalone numbers are page numbers.
+5. **Footnotes** — in the footnote zone, by the layout rules; elsewhere, a line starting with a marker `(N)` + text, with continuation lines while they look like footnote text (low diacritics, no body markers, no page break).
+   **Ownership** — with the layout, the anchor on the same page (then page order). Otherwise among the host unit and up to `footnote_lookback` units before it:
    - an anchor with the same marker **before** the footnote in the text (+2);
    - the words the footnote explains (`قوله : « … »`) found in the unit's main text (+4 × share);
    - locality (+0.5).
    Then **block order**: an unanchored footnote followed in the same block by a higher-numbered footnote of unit U goes to the nearest unit before U that lacks that marker.
-5. **Anchors** — inline `(N)`; an anchor that precedes all text of its unit (right after the heading) belongs to the previous unit.
-6. **Footnote roles** — split at `footnote_split.takhrij_until` words into `takhrij` / `gharib` (or whatever roles the config names).
-7. **Attribution** — `[ رواه … ]` / `( رواه … ]` or a line starting with a keyword.
-8. **Noise** — running headers, non-chosen heading copies (only when undiacritized and at a line edge), separator lines, garbled glyphs. Noise covers only noise characters.
-9. **Overrides** — applied last; each becomes a `manual_decision` issue.
-10. **Pages** — PDF-aligned boundaries snapped to a nearby running header / page number; unconfirmed ones flagged.
-11. **Assembly** — runs of identical labels become segments; displaced segments are mirrored as `foreign_spans` of their host unit; issues are grouped by type; confidence computed.
+6. **Anchors** — inline `(N)`; an anchor that precedes all text of its unit (right after the heading) belongs to the previous unit (with the layout: only if that unit has text on the anchor's page; a marker printed above the heading also belongs to it).
+7. **Footnote roles** — split at `footnote_split.takhrij_until` words into `takhrij` / `gharib` (or whatever roles the config names); joined continuation lines keep the role the footnote ends with.
+8. **Attribution** — `[ رواه … ]` / `( رواه … ]` or a line starting with a keyword.
+9. **Noise** — running headers, non-chosen heading copies (only when undiacritized and at a line edge), separator lines, garbled glyphs, glued page numbers. Noise covers only noise characters.
+10. **Overrides** — applied last; each becomes a `manual_decision` issue.
+11. **Pages** — from the line layout when present, else PDF-aligned boundaries snapped to a nearby running header / page number; unconfirmed ones flagged.
+12. **Assembly** — runs of identical labels become segments; displaced segments are mirrored as `foreign_spans` of their host unit; issues are grouped by type; confidence computed.
 
 ### Confidence (computed)
 
@@ -159,7 +173,7 @@ In order, over a per-character label array:
 - any displaced / foreign content caps the unit at 0.8
 - −0.05 per occurrence of a medium issue, −0.15 per high, −0.03 per trailing fragment in the unit
 - units touched by an override ≤ 0.85
-- footnote segments carry their ownership confidence: 0.9 anchor + content terms, 0.8 anchor only, 0.65 terms only, 0.55 block order, 0.5 locality only
+- footnote segments carry their ownership confidence: with the layout 0.9 anchor on the same page + content terms, 0.85 anchor on the same page, 0.7 page order (same owner on both sides), 0.55 page order (one side); without it 0.9 anchor + content terms, 0.8 anchor only, 0.65 terms only, 0.55 block order, 0.5 locality only
 
 ### Overrides (ops)
 

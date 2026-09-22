@@ -14,7 +14,7 @@
   "line_endings": "LF",
   "sources_used": [
     "asul-elsona-ocr-fastocr.txt",
-    "pages.json (page model)"
+    "pages.json (page model with line layout)"
   ],
   "generated_by": "book-structure-analyzer/scripts/engine.py",
   "config_file": "book_config.json",
