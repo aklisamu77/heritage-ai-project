@@ -9,17 +9,25 @@ text, with page order enforced. Pages that cannot be matched are interpolated an
 confidence. engine.py later snaps these boundaries to running headers / page numbers found
 in the TXT, and marks the ones it could not confirm.
 
+Line layout (PyMuPDF only): every PDF text line is kept with its bounding box, and every TXT
+line is matched to the PDF line it came from (letter-bigram containment, searched on the
+aligned page and its neighbours). engine.py uses these positions to tell the footnote zone
+at the bottom of a page from the main text — the information plain OCR text loses.
+Output: {"pages": [...each with "height" and "lines"...], "txt_lines": [...]}.
+
 Usage:
   python extract_pages.py --txt book.txt --pdf book-searchable.pdf --out pages.json
   python extract_pages.py --txt book.txt --pdf-text-json pages_text.json --out pages.json
-      (pages_text.json = [{"text": "..."} , ...] one entry per PDF page, in order)
+      (pages_text.json = [{"text": "...", "height"?: h, "lines"?: [{"bbox": [x0,y0,x1,y1], "text": "..."}]}, ...]
+       one entry per PDF page, in order)
 
-Needs PyMuPDF (pip install pymupdf) or pypdf (pip install pypdf) for --pdf.
+Needs PyMuPDF (pip install pymupdf) or pypdf (pip install pypdf, no line layout) for --pdf.
 """
 import argparse
 import json
 import re
 import sys
+from collections import Counter
 
 G = 5            # n-gram size
 SAMPLE = 3       # sampling step inside each page's packed text
@@ -37,9 +45,22 @@ def norm(s):
 
 def pdf_pages(path):
     try:
-        import fitz  # PyMuPDF
+        try:
+            import pymupdf as fitz
+        except ImportError:
+            import fitz  # PyMuPDF, older name
         doc = fitz.open(path)
-        return [{"text": p.get_text()} for p in doc]
+        out = []
+        for p in doc:
+            lines = []
+            for b in p.get_text("dict")["blocks"]:
+                for ln in b.get("lines", []):
+                    t = "".join(s["text"] for s in ln["spans"])
+                    if t.strip():
+                        lines.append({"bbox": [round(v, 1) for v in ln["bbox"]], "text": t})
+            lines.sort(key=lambda l: (l["bbox"][1], -l["bbox"][2]))
+            out.append({"text": p.get_text(), "height": round(p.rect.height, 1), "lines": lines})
+        return out
     except ImportError:
         pass
     try:
@@ -111,6 +132,71 @@ def align(txt, pages):
     return out
 
 
+LETTER_MAP = {"أ": "ا", "إ": "ا", "آ": "ا", "ٱ": "ا", "ى": "ي", "ة": "ه", "ی": "ي", "ک": "ك"}
+DIGIT_MAP = {c: str(i) for s in ("٠١٢٣٤٥٦٧٨٩", "۰۱۲۳۴۵۶۷۸۹", "0123456789") for i, c in enumerate(s)}
+
+
+def tokens(s, always_digits=False):
+    """Order-free fingerprint of a line: letter bigrams inside each word (the PDF text layer
+    may reverse word order, never the letters inside a word), a single-letter word as itself,
+    and — for lines without letters (or always, for PDF lines) — their digits."""
+    out = Counter()
+    for w in re.findall(r"[ء-يٱ-ۓ]+", strip_marks(s)):
+        w = "".join(LETTER_MAP.get(c, c) for c in w)
+        if len(w) == 1:
+            out["1" + w] += 1
+        for i in range(len(w) - 1):
+            out[w[i:i + 2]] += 1
+    if always_digits or not out:
+        for c in s:
+            if c in DIGIT_MAP:
+                out["#" + DIGIT_MAP[c]] += 1
+    return out
+
+
+def match_lines(txt, pages, res):
+    """Match every TXT line to the PDF line it was read from.
+    Returns [{char_start, char_end, page_index, line, score, cover, n}] (page_index/line null when unmatched):
+    score = share of the TXT line's tokens found in the PDF line, cover = share of the PDF line explained by it."""
+    fps = [[tokens(l["text"], True) for l in pg.get("lines", [])] for pg in pages]
+    starts = [p["char_start"] for p in res]
+    out, pos = [], 0
+    prev = (None, -1.0)   # (page, y0) of the previous matched line: ties go to the next line in reading order
+    for ln in txt.split("\n"):
+        s, e = pos, pos + len(ln)
+        pos = e + 1
+        rec = {"char_start": s, "char_end": e, "page_index": None, "line": None, "score": 0.0, "cover": 0.0, "n": 0}
+        out.append(rec)
+        t = tokens(ln, True)
+        n = sum(t.values())
+        rec["n"] = n
+        if not n:
+            continue
+        # page from the n-gram alignment, then its neighbours
+        p0 = max(0, sum(1 for st in starts if st <= s) - 1)
+        best = None
+        for p in (p0, p0 + 1, p0 - 1):
+            if not 0 <= p < len(pages):
+                continue
+            for k, fp in enumerate(fps[p]):
+                common = sum((t & fp).values())
+                if not common:
+                    continue
+                sc = common / n
+                cover = common / max(1, sum(fp.values()))   # prefer the PDF line this text fills
+                y0 = pages[p]["lines"][k]["bbox"][1]
+                after = (p, y0) >= prev if prev[0] is not None else True
+                key = (round(sc, 3), round(cover, 2), p == p0, after, -abs(p - p0), -y0 if after else y0)
+                if best is None or key > best[0]:
+                    best = (key, p, k, sc)
+        if best:
+            key, p, k, sc = best
+            rec.update(page_index=p + 1, line=k, score=round(sc, 3), cover=key[1])
+            if sc >= 0.6 and n >= 3:   # only well-identified lines steer the reading order
+                prev = (p, pages[p]["lines"][k]["bbox"][1])
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--txt", required=True)
@@ -122,10 +208,20 @@ def main():
     txt = open(a.txt, encoding="utf-8").read()
     pages = pdf_pages(a.pdf) if a.pdf else json.load(open(a.pdf_text_json, encoding="utf-8"))
     res = align(txt, pages)
+    out = res
+    if any(pg.get("lines") for pg in pages):
+        for r, pg in zip(res, pages):
+            r["height"] = pg.get("height")
+            r["lines"] = pg.get("lines", [])
+        tl = match_lines(txt, pages, res)
+        out = {"pages": res, "txt_lines": tl}
     with open(a.out, "w", encoding="utf-8", newline="\n") as f:
-        json.dump(res, f, ensure_ascii=False, indent=2)
+        json.dump(out, f, ensure_ascii=False, indent=1)
     m = sum(1 for p in res if p["evidence"] == "pdf_text_alignment")
     print(f"pages: {len(res)}  matched: {m}  interpolated: {len(res)-m}  -> {a.out}")
+    if out is not res:
+        ok = sum(1 for r in out["txt_lines"] if r["score"] >= 0.6)
+        print(f"line layout: {ok}/{sum(1 for r in out['txt_lines'] if r['n'])} text lines matched to a PDF line")
 
 
 if __name__ == "__main__":

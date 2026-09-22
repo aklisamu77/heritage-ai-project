@@ -79,7 +79,6 @@
           "char_start": 30584,
           "char_end": 30587,
           "marker": "(4)",
-          "footnote_id": "fn_004",
           "placement": "in_span",
           "page_index": 36,
           "confidence": 0.8
@@ -97,37 +96,28 @@
           "char_start": 30640,
           "char_end": 30643,
           "marker": "(ε)",
+          "footnote_id": "fn_004",
           "placement": "in_span",
           "page_index": 36,
           "confidence": 0.8
         },
         {
           "role": "text",
-          "char_start": 30644,
-          "char_end": 30920,
+          "char_start": 30910,
+          "char_end": 30912,
           "placement": "in_span",
           "page_index": 36,
           "confidence": 0.85
         },
         {
           "role": "footnote",
-          "char_start": 30921,
-          "char_end": 30930,
-          "footnote_id": "fn_001",
-          "footnote_marker": "(۱) من ط.",
+          "char_start": 30913,
+          "char_end": 30920,
+          "footnote_id": "fn_004",
+          "footnote_marker": "(٤) دلیله ما روى الإمام مسلم في صحيحه (٣٦/١ ـ ٣٧: ١ - کتاب",
           "placement": "in_span",
           "page_index": 36,
-          "confidence": 0.5
-        },
-        {
-          "role": "footnote",
-          "char_start": 30931,
-          "char_end": 30978,
-          "footnote_id": "fn_002",
-          "footnote_marker": "(۲) في ص كرر لفظ «قال». واختصر حدثنا وكذا في ظ.",
-          "placement": "in_span",
-          "page_index": 36,
-          "confidence": 0.5
+          "confidence": 0.75
         },
         {
           "role": "footnote",
@@ -142,7 +132,7 @@
         {
           "role": "footnote",
           "char_start": 31153,
-          "char_end": 31800,
+          "char_end": 31798,
           "footnote_id": "fn_004",
           "footnote_marker": "(٤) دلیله ما روى الإمام مسلم في صحيحه (٣٦/١ ـ ٣٧: ١ - کتاب",
           "placement": "in_span",
@@ -151,7 +141,7 @@
         },
         {
           "role": "text",
-          "char_start": 31801,
+          "char_start": 31799,
           "char_end": 31805,
           "placement": "in_span",
           "page_index": 36,
@@ -162,7 +152,7 @@
           "char_start": 31808,
           "char_end": 31821,
           "placement": "in_span",
-          "page_index": 36,
+          "page_index": 37,
           "confidence": 0.85
         },
         {
@@ -172,7 +162,7 @@
           "marker": "(۱)",
           "footnote_id": "fn_005",
           "placement": "in_span",
-          "page_index": 36,
+          "page_index": 37,
           "confidence": 0.8
         },
         {
@@ -180,13 +170,33 @@
           "char_start": 31826,
           "char_end": 31863,
           "placement": "in_span",
-          "page_index": 36,
+          "page_index": 37,
           "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 31931,
+          "char_end": 31934,
+          "marker": "(۲)",
+          "footnote_id": "fn_006",
+          "placement": "displaced",
+          "page_index": 37,
+          "confidence": 0.8
+        },
+        {
+          "role": "footnote",
+          "char_start": 31935,
+          "char_end": 32222,
+          "footnote_id": "fn_004",
+          "footnote_marker": "(٤) دلیله ما روى الإمام مسلم في صحيحه (٣٦/١ ـ ٣٧: ١ - کتاب",
+          "placement": "displaced",
+          "page_index": 37,
+          "confidence": 0.75
         },
         {
           "role": "footnote",
           "char_start": 32223,
-          "char_end": 32343,
+          "char_end": 32864,
           "footnote_id": "fn_005",
           "footnote_marker": "(1) يشهد له ما أخرجه الترمذي في جامعه (٥٧٥/٤ - ٥٧٦: ٣٨ ـ كتاب",
           "placement": "displaced",
@@ -194,8 +204,14 @@
           "confidence": 0.75
         },
         {
-          "role": "noise_ref",
-          "noise_id": "noise_0006"
+          "role": "footnote",
+          "char_start": 32865,
+          "char_end": 33238,
+          "footnote_id": "fn_006",
+          "footnote_marker": "(۲) لقوله تعالى : (قُل لَّن يُصِيبَنَا إِلَّا مَا كَتَبَ اللهُ لَنَا هُوَ مَوْلَمْنَا وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ",
+          "placement": "displaced",
+          "page_index": 37,
+          "confidence": 0.75
         },
         {
           "role": "noise_ref",
@@ -204,6 +220,10 @@
         {
           "role": "noise_ref",
           "noise_id": "noise_0008"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0009"
         }
       ],
       "foreign_spans": [],
@@ -211,10 +231,11 @@
         "issue_001",
         "issue_002",
         "issue_004",
+        "issue_005",
         "issue_008",
         "issue_011"
       ],
-      "confidence": 0.7
+      "confidence": 0.8
     },
     {
       "id": "unit_002",
@@ -283,50 +304,6 @@
           "confidence": 0.85
         },
         {
-          "role": "anchor",
-          "char_start": 31931,
-          "char_end": 31934,
-          "marker": "(۲)",
-          "footnote_id": "fn_006",
-          "placement": "in_span",
-          "page_index": 37,
-          "confidence": 0.8
-        },
-        {
-          "role": "text",
-          "char_start": 31935,
-          "char_end": 32222,
-          "placement": "in_span",
-          "page_index": 37,
-          "confidence": 0.85
-        },
-        {
-          "role": "text",
-          "char_start": 32344,
-          "char_end": 32864,
-          "placement": "in_span",
-          "page_index": 37,
-          "confidence": 0.85
-        },
-        {
-          "role": "footnote",
-          "char_start": 32865,
-          "char_end": 32982,
-          "footnote_id": "fn_006",
-          "footnote_marker": "(۲) لقوله تعالى : (قُل لَّن يُصِيبَنَا إِلَّا مَا كَتَبَ اللهُ لَنَا هُوَ مَوْلَمْنَا وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ",
-          "placement": "in_span",
-          "page_index": 37,
-          "confidence": 0.75
-        },
-        {
-          "role": "text",
-          "char_start": 32983,
-          "char_end": 33238,
-          "placement": "in_span",
-          "page_index": 37,
-          "confidence": 0.85
-        },
-        {
           "role": "footnote",
           "char_start": 33239,
           "char_end": 33317,
@@ -341,7 +318,7 @@
           "char_start": 33320,
           "char_end": 33339,
           "placement": "in_span",
-          "page_index": 37,
+          "page_index": 38,
           "confidence": 0.85
         },
         {
@@ -385,6 +362,7 @@
           "char_start": 33409,
           "char_end": 33412,
           "marker": "(۳)",
+          "footnote_id": "fn_010",
           "placement": "in_span",
           "page_index": 38,
           "confidence": 0.8
@@ -402,7 +380,7 @@
           "char_start": 33422,
           "char_end": 33425,
           "marker": "(٤)",
-          "footnote_id": "fn_010",
+          "footnote_id": "fn_011",
           "placement": "in_span",
           "page_index": 38,
           "confidence": 0.8
@@ -410,7 +388,7 @@
         {
           "role": "footnote",
           "char_start": 33515,
-          "char_end": 33579,
+          "char_end": 33890,
           "footnote_id": "fn_008",
           "footnote_marker": "(۱) المقصود : يزيد بالطاعات وينقص بالمعاصي. قال تعالى: ﴿إِنَّمَا",
           "placement": "displaced",
@@ -429,9 +407,19 @@
         },
         {
           "role": "footnote",
+          "char_start": 33911,
+          "char_end": 33934,
+          "footnote_id": "fn_010",
+          "footnote_marker": "(۳)",
+          "placement": "displaced",
+          "page_index": 38,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
           "char_start": 33935,
           "char_end": 34795,
-          "footnote_id": "fn_010",
+          "footnote_id": "fn_011",
           "footnote_marker": "(٤) تنوعت عبارات السلف في تفسير «الإيمان فمنهم من يقول : هو قول",
           "placement": "displaced",
           "page_index": 38,
@@ -439,23 +427,37 @@
         },
         {
           "role": "noise_ref",
-          "noise_id": "noise_0009"
+          "noise_id": "noise_0010"
         },
         {
           "role": "noise_ref",
-          "noise_id": "noise_0010"
+          "noise_id": "noise_0011"
         }
       ],
       "foreign_spans": [
         {
+          "char_start": 31931,
+          "char_end": 31934,
+          "belongs_to": "unit_001"
+        },
+        {
+          "char_start": 31935,
+          "char_end": 32222,
+          "belongs_to": "unit_001"
+        },
+        {
           "char_start": 32223,
-          "char_end": 32343,
+          "char_end": 32864,
+          "belongs_to": "unit_001"
+        },
+        {
+          "char_start": 32865,
+          "char_end": 33238,
           "belongs_to": "unit_001"
         }
       ],
       "issue_ids": [
         "issue_002",
-        "issue_004",
         "issue_008",
         "issue_011"
       ],
@@ -527,32 +529,6 @@
         },
         {
           "role": "text",
-          "char_start": 33580,
-          "char_end": 33890,
-          "placement": "in_span",
-          "page_index": 38,
-          "confidence": 0.85
-        },
-        {
-          "role": "anchor",
-          "char_start": 33911,
-          "char_end": 33914,
-          "marker": "(۳)",
-          "footnote_id": "fn_013",
-          "placement": "in_span",
-          "page_index": 38,
-          "confidence": 0.8
-        },
-        {
-          "role": "text",
-          "char_start": 33915,
-          "char_end": 33934,
-          "placement": "in_span",
-          "page_index": 38,
-          "confidence": 0.85
-        },
-        {
-          "role": "text",
           "char_start": 34799,
           "char_end": 34934,
           "placement": "in_span",
@@ -564,7 +540,7 @@
           "char_start": 34935,
           "char_end": 34938,
           "marker": "(۲)",
-          "footnote_id": "fn_012",
+          "footnote_id": "fn_013",
           "placement": "in_span",
           "page_index": 39,
           "confidence": 0.8
@@ -582,7 +558,7 @@
           "char_start": 35001,
           "char_end": 35004,
           "marker": "(۳)",
-          "footnote_id": "fn_019",
+          "footnote_id": "fn_014",
           "placement": "in_span",
           "page_index": 39,
           "confidence": 0.8
@@ -600,7 +576,7 @@
           "char_start": 35105,
           "char_end": 35108,
           "marker": "(٤)",
-          "footnote_id": "fn_014",
+          "footnote_id": "fn_015",
           "placement": "in_span",
           "page_index": 39,
           "confidence": 0.8
@@ -618,7 +594,7 @@
           "char_start": 35258,
           "char_end": 35261,
           "marker": "(٥)",
-          "footnote_id": "fn_015",
+          "footnote_id": "fn_016",
           "placement": "in_span",
           "page_index": 39,
           "confidence": 0.8
@@ -652,25 +628,27 @@
           "role": "footnote",
           "char_start": 35336,
           "char_end": 35524,
-          "footnote_id": "fn_011",
+          "footnote_id": "fn_012",
           "footnote_marker": "(۱) وتتمة الآية: ﴿وَلَا تَجْعَلْ فِي قُلُوبِنَا غِلا لِلَّذِينَ آمَنُوا رَبَّنَا إِنَّكَ رَءُوفٌ رَحِيمُ الله.",
           "placement": "in_span",
           "page_index": 39,
-          "confidence": 0.5
+          "confidence": 0.55
         },
         {
-          "role": "text",
+          "role": "footnote",
           "char_start": 35529,
           "char_end": 35537,
+          "footnote_id": "fn_014",
+          "footnote_marker": "(۳) لمخالفته الآية وقوله : «لا تسبوا أصحابي، لا تسبوا أصحابي،",
           "placement": "in_span",
           "page_index": 39,
-          "confidence": 0.85
+          "confidence": 0.75
         },
         {
           "role": "footnote",
           "char_start": 35540,
           "char_end": 35561,
-          "footnote_id": "fn_012",
+          "footnote_id": "fn_013",
           "footnote_marker": "(۲) في و ظ «فلم يؤمن.",
           "placement": "in_span",
           "page_index": 39,
@@ -680,7 +658,7 @@
           "role": "footnote",
           "char_start": 35562,
           "char_end": 36106,
-          "footnote_id": "fn_013",
+          "footnote_id": "fn_014",
           "footnote_marker": "(۳) لمخالفته الآية وقوله : «لا تسبوا أصحابي، لا تسبوا أصحابي،",
           "placement": "in_span",
           "page_index": 39,
@@ -690,7 +668,7 @@
           "role": "footnote",
           "char_start": 36107,
           "char_end": 36121,
-          "footnote_id": "fn_014",
+          "footnote_id": "fn_015",
           "footnote_marker": "(٤) ليست في ظ.",
           "placement": "in_span",
           "page_index": 39,
@@ -700,7 +678,7 @@
           "role": "footnote",
           "char_start": 36122,
           "char_end": 36157,
-          "footnote_id": "fn_015",
+          "footnote_id": "fn_016",
           "footnote_marker": "(٥) قوله وَلِإِخْوَانِنَا ليس في ظ.",
           "placement": "in_span",
           "page_index": 39,
@@ -710,25 +688,21 @@
           "role": "footnote",
           "char_start": 36158,
           "char_end": 36226,
-          "footnote_id": "fn_016",
+          "footnote_id": "fn_017",
           "footnote_marker": "(1) أخرجه اللالكائي في شرح أصول اعتقاد أهل السنة والجماعة» (١٢٦٨/٤ :",
           "placement": "in_span",
           "page_index": 39,
-          "confidence": 0.5
+          "confidence": 0.55
         },
         {
           "role": "footnote",
-          "char_start": 37050,
-          "char_end": 37543,
-          "footnote_id": "fn_019",
-          "footnote_marker": "(۳) أخرجه أبو نعيم في الحلية (۲۹٦/٧) في ترجمة سفيان بن عيينة) من",
+          "char_start": 36369,
+          "char_end": 36594,
+          "footnote_id": "fn_017",
+          "footnote_marker": "(1) أخرجه اللالكائي في شرح أصول اعتقاد أهل السنة والجماعة» (١٢٦٨/٤ :",
           "placement": "displaced",
           "page_index": 40,
-          "confidence": 0.75
-        },
-        {
-          "role": "noise_ref",
-          "noise_id": "noise_0011"
+          "confidence": 0.55
         },
         {
           "role": "noise_ref",
@@ -745,17 +719,26 @@
         {
           "role": "noise_ref",
           "noise_id": "noise_0015"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0016"
         }
       ],
       "foreign_spans": [
         {
           "char_start": 33515,
-          "char_end": 33579,
+          "char_end": 33890,
           "belongs_to": "unit_002"
         },
         {
           "char_start": 33891,
           "char_end": 33910,
+          "belongs_to": "unit_002"
+        },
+        {
+          "char_start": 33911,
+          "char_end": 33934,
           "belongs_to": "unit_002"
         },
         {
@@ -766,7 +749,7 @@
       ],
       "issue_ids": [
         "issue_001",
-        "issue_002",
+        "issue_003",
         "issue_004",
         "issue_008",
         "issue_010",
@@ -795,7 +778,7 @@
           "char_start": 36229,
           "char_end": 36251,
           "placement": "in_span",
-          "page_index": 39,
+          "page_index": 40,
           "confidence": 0.95
         },
         {
@@ -803,7 +786,7 @@
           "char_start": 36252,
           "char_end": 36253,
           "placement": "in_span",
-          "page_index": 39,
+          "page_index": 40,
           "confidence": 0.85
         },
         {
@@ -827,7 +810,7 @@
           "char_start": 36276,
           "char_end": 36279,
           "marker": "(۱)",
-          "footnote_id": "fn_017",
+          "footnote_id": "fn_018",
           "placement": "in_span",
           "page_index": 40,
           "confidence": 0.8
@@ -845,7 +828,7 @@
           "char_start": 36290,
           "char_end": 36293,
           "marker": "(٢)",
-          "footnote_id": "fn_018",
+          "footnote_id": "fn_019",
           "placement": "in_span",
           "page_index": 40,
           "confidence": 0.8
@@ -853,7 +836,7 @@
         {
           "role": "text",
           "char_start": 36294,
-          "char_end": 36594,
+          "char_end": 36368,
           "placement": "in_span",
           "page_index": 40,
           "confidence": 0.85
@@ -862,7 +845,7 @@
           "role": "footnote",
           "char_start": 36595,
           "char_end": 36760,
-          "footnote_id": "fn_017",
+          "footnote_id": "fn_018",
           "footnote_marker": "(۱) قال تعالى: ﴿وَإِنْ أَحَدٌ مِنَ الْمُشْرِكِينَ اسْتَجَارَكَ فَأَجِرْهُ حَتَّى يَسْمَعَ كَلم الله له",
           "placement": "in_span",
           "page_index": 40,
@@ -872,19 +855,21 @@
           "role": "footnote",
           "char_start": 36761,
           "char_end": 37049,
-          "footnote_id": "fn_018",
+          "footnote_id": "fn_019",
           "footnote_marker": "(۲) هو سفيان بن عيينة بن أبي عمران ميمون مولى محمد بن مزاحم،",
           "placement": "in_span",
           "page_index": 40,
           "confidence": 0.75
         },
         {
-          "role": "text",
-          "char_start": 37544,
+          "role": "footnote",
+          "char_start": 37050,
           "char_end": 37554,
+          "footnote_id": "fn_020",
+          "footnote_marker": "(۳) أخرجه أبو نعيم في الحلية (۲۹٦/٧) في ترجمة سفيان بن عيينة) من",
           "placement": "in_span",
           "page_index": 40,
-          "confidence": 0.85
+          "confidence": 0.55
         },
         {
           "role": "text",
@@ -899,7 +884,7 @@
           "char_start": 37662,
           "char_end": 37665,
           "marker": "(۱)",
-          "footnote_id": "fn_020",
+          "footnote_id": "fn_021",
           "placement": "in_span",
           "page_index": 41,
           "confidence": 0.8
@@ -917,7 +902,7 @@
           "char_start": 37689,
           "char_end": 37692,
           "marker": "(٢)",
-          "footnote_id": "fn_021",
+          "footnote_id": "fn_022",
           "placement": "in_span",
           "page_index": 41,
           "confidence": 0.8
@@ -935,7 +920,7 @@
           "char_start": 37727,
           "char_end": 37730,
           "marker": "(۳)",
-          "footnote_id": "fn_022",
+          "footnote_id": "fn_023",
           "placement": "in_span",
           "page_index": 41,
           "confidence": 0.8
@@ -953,7 +938,7 @@
           "char_start": 37752,
           "char_end": 37755,
           "marker": "(٤)",
-          "footnote_id": "fn_023",
+          "footnote_id": "fn_024",
           "placement": "in_span",
           "page_index": 41,
           "confidence": 0.8
@@ -970,7 +955,7 @@
           "role": "footnote",
           "char_start": 37828,
           "char_end": 37928,
-          "footnote_id": "fn_020",
+          "footnote_id": "fn_021",
           "footnote_marker": "(۱) هو أبو إسحاق (نحو ۱۲۰ - ۱۹۹ هـ)، محدث، إمامٌ خَيْرٌ» وليس",
           "placement": "displaced",
           "page_index": 41,
@@ -980,7 +965,7 @@
           "role": "footnote",
           "char_start": 37929,
           "char_end": 37947,
-          "footnote_id": "fn_021",
+          "footnote_id": "fn_022",
           "footnote_marker": "(۲) في ظ لا تقل»..",
           "placement": "displaced",
           "page_index": 41,
@@ -990,7 +975,7 @@
           "role": "footnote",
           "char_start": 37948,
           "char_end": 37963,
-          "footnote_id": "fn_022",
+          "footnote_id": "fn_023",
           "footnote_marker": "(۳) في ظ «بلی».",
           "placement": "displaced",
           "page_index": 41,
@@ -999,8 +984,8 @@
         {
           "role": "footnote",
           "char_start": 37964,
-          "char_end": 38075,
-          "footnote_id": "fn_023",
+          "char_end": 38224,
+          "footnote_id": "fn_024",
           "footnote_marker": "(٤) أخرجه الآجري في الشريعة) (ص ۱۱۷) من طريق خلف بن عمرو",
           "placement": "displaced",
           "page_index": 41,
@@ -1008,25 +993,26 @@
         },
         {
           "role": "noise_ref",
-          "noise_id": "noise_0016"
+          "noise_id": "noise_0017"
         },
         {
           "role": "noise_ref",
-          "noise_id": "noise_0017"
+          "noise_id": "noise_0018"
         }
       ],
       "foreign_spans": [
         {
-          "char_start": 37050,
-          "char_end": 37543,
+          "char_start": 36369,
+          "char_end": 36594,
           "belongs_to": "unit_003"
         }
       ],
       "issue_ids": [
         "issue_002",
+        "issue_003",
         "issue_008"
       ],
-      "confidence": 0.8
+      "confidence": 0.75
     },
     {
       "id": "unit_005",
@@ -1089,7 +1075,7 @@
           "char_start": 37822,
           "char_end": 37825,
           "marker": "(٥)",
-          "footnote_id": "fn_024",
+          "footnote_id": "fn_025",
           "placement": "in_span",
           "page_index": 41,
           "confidence": 0.8
@@ -1103,18 +1089,10 @@
           "confidence": 0.85
         },
         {
-          "role": "text",
-          "char_start": 38076,
-          "char_end": 38224,
-          "placement": "in_span",
-          "page_index": 41,
-          "confidence": 0.85
-        },
-        {
           "role": "footnote",
           "char_start": 38225,
           "char_end": 38610,
-          "footnote_id": "fn_024",
+          "footnote_id": "fn_025",
           "footnote_marker": "(٥) المراد من الإقرار بالرؤية : التصديق بنعمة نظر المؤمنين إلى ربهم - عز",
           "placement": "in_span",
           "page_index": 41,
@@ -1122,17 +1100,27 @@
         },
         {
           "role": "footnote",
-          "char_start": 40676,
-          "char_end": 40845,
-          "footnote_id": "fn_030",
-          "footnote_marker": "(1) الخوارج هم الذين خرجوا على الإمام علي ـ رضي الله عنه ـ،",
+          "char_start": 39007,
+          "char_end": 39110,
+          "footnote_id": "fn_025",
+          "footnote_marker": "(٥) المراد من الإقرار بالرؤية : التصديق بنعمة نظر المؤمنين إلى ربهم - عز",
           "placement": "displaced",
-          "page_index": 43,
-          "confidence": 0.55
+          "page_index": 42,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 39156,
+          "char_end": 39161,
+          "footnote_id": "fn_025",
+          "footnote_marker": "(٥) المراد من الإقرار بالرؤية : التصديق بنعمة نظر المؤمنين إلى ربهم - عز",
+          "placement": "displaced",
+          "page_index": 42,
+          "confidence": 0.75
         },
         {
           "role": "noise_ref",
-          "noise_id": "noise_0018"
+          "noise_id": "noise_0019"
         }
       ],
       "foreign_spans": [
@@ -1153,17 +1141,15 @@
         },
         {
           "char_start": 37964,
-          "char_end": 38075,
+          "char_end": 38224,
           "belongs_to": "unit_004"
         }
       ],
       "issue_ids": [
         "issue_001",
-        "issue_002",
-        "issue_003",
         "issue_008"
       ],
-      "confidence": 0.7
+      "confidence": 0.8
     },
     {
       "id": "unit_006",
@@ -1226,7 +1212,7 @@
           "char_start": 38796,
           "char_end": 38799,
           "marker": "(۱)",
-          "footnote_id": "fn_025",
+          "footnote_id": "fn_026",
           "placement": "in_span",
           "page_index": 42,
           "confidence": 0.8
@@ -1244,7 +1230,7 @@
           "char_start": 38948,
           "char_end": 38951,
           "marker": "(٢)",
-          "footnote_id": "fn_026",
+          "footnote_id": "fn_027",
           "placement": "in_span",
           "page_index": 42,
           "confidence": 0.8
@@ -1262,7 +1248,7 @@
           "char_start": 38989,
           "char_end": 38992,
           "marker": "(۳)",
-          "footnote_id": "fn_027",
+          "footnote_id": "fn_028",
           "placement": "in_span",
           "page_index": 42,
           "confidence": 0.8
@@ -1280,7 +1266,7 @@
           "char_start": 38998,
           "char_end": 39001,
           "marker": "(٤)",
-          "footnote_id": "fn_028",
+          "footnote_id": "fn_029",
           "placement": "in_span",
           "page_index": 42,
           "confidence": 0.8
@@ -1296,7 +1282,7 @@
         {
           "role": "text",
           "char_start": 39004,
-          "char_end": 39110,
+          "char_end": 39006,
           "placement": "in_span",
           "page_index": 42,
           "confidence": 0.85
@@ -1304,8 +1290,8 @@
         {
           "role": "footnote",
           "char_start": 39111,
-          "char_end": 39161,
-          "footnote_id": "fn_025",
+          "char_end": 39155,
+          "footnote_id": "fn_026",
           "footnote_marker": "(1) الواو الأولى من المصحف وليست في الأصل.",
           "placement": "in_span",
           "page_index": 42,
@@ -1314,82 +1300,65 @@
         {
           "role": "footnote",
           "char_start": 39162,
-          "char_end": 39282,
-          "footnote_id": "fn_026",
+          "char_end": 39719,
+          "footnote_id": "fn_027",
           "footnote_marker": "(۲) وهو توحيد الأسماء والصفات الذي قال عنه شيخ الإسلام -",
           "placement": "in_span",
           "page_index": 42,
           "confidence": 0.75
         },
         {
-          "role": "text",
-          "char_start": 39283,
-          "char_end": 39719,
-          "placement": "in_span",
-          "page_index": 42,
-          "confidence": 0.85
-        },
-        {
           "role": "footnote",
           "char_start": 39720,
-          "char_end": 39857,
-          "footnote_id": "fn_027",
+          "char_end": 39861,
+          "footnote_id": "fn_028",
           "footnote_marker": "(۳) التعطيل لغة : الإخلاء، يقال عطله أي أخلاه.",
           "placement": "in_span",
           "page_index": 42,
           "confidence": 0.75
         },
         {
-          "role": "text",
-          "char_start": 39858,
-          "char_end": 39861,
-          "placement": "in_span",
-          "page_index": 42,
-          "confidence": 0.85
-        },
-        {
           "role": "footnote",
           "char_start": 39862,
           "char_end": 40034,
-          "footnote_id": "fn_028",
+          "footnote_id": "fn_029",
           "footnote_marker": "(٤) الجهمية هم أتباع الجهم بن صفوان (ت ۱۲۸ هـ) وهو تلميذ",
           "placement": "in_span",
           "page_index": 42,
           "confidence": 0.75
         },
         {
-          "role": "anchor",
-          "char_start": 40070,
-          "char_end": 40073,
-          "marker": "(۲)",
-          "footnote_id": "fn_031",
-          "placement": "displaced",
-          "page_index": 43,
-          "confidence": 0.8
-        },
-        {
           "role": "footnote",
-          "char_start": 40846,
-          "char_end": 40986,
-          "footnote_id": "fn_031",
-          "footnote_marker": "(۲) ما لم يستحله ويستثنى من الذنوب الشرك؛ لقوله تعالى: ﴿إِنَّ الله",
+          "char_start": 40552,
+          "char_end": 40675,
+          "footnote_id": "fn_029",
+          "footnote_marker": "(٤) الجهمية هم أتباع الجهم بن صفوان (ت ۱۲۸ هـ) وهو تلميذ",
           "placement": "displaced",
           "page_index": 43,
           "confidence": 0.75
         },
         {
           "role": "noise_ref",
-          "noise_id": "noise_0019"
+          "noise_id": "noise_0020"
         }
       ],
-      "foreign_spans": [],
+      "foreign_spans": [
+        {
+          "char_start": 39007,
+          "char_end": 39110,
+          "belongs_to": "unit_005"
+        },
+        {
+          "char_start": 39156,
+          "char_end": 39161,
+          "belongs_to": "unit_005"
+        }
+      ],
       "issue_ids": [
-        "issue_002",
-        "issue_003",
-        "issue_005",
+        "issue_001",
         "issue_010"
       ],
-      "confidence": 0.75
+      "confidence": 0.8
     },
     {
       "id": "unit_007",
@@ -1412,7 +1381,7 @@
           "char_start": 40037,
           "char_end": 40038,
           "placement": "in_span",
-          "page_index": 42,
+          "page_index": 43,
           "confidence": 0.85
         },
         {
@@ -1420,7 +1389,7 @@
           "char_start": 40039,
           "char_end": 40067,
           "placement": "in_span",
-          "page_index": 42,
+          "page_index": 43,
           "confidence": 0.95
         },
         {
@@ -1428,22 +1397,32 @@
           "char_start": 40068,
           "char_end": 40069,
           "placement": "in_span",
-          "page_index": 42,
+          "page_index": 43,
           "confidence": 0.85
         },
         {
-          "role": "footnote",
-          "char_start": 40074,
-          "char_end": 40184,
-          "footnote_id": "fn_029",
-          "footnote_marker": "(۱): «من أصاب كبيرة",
+          "role": "anchor",
+          "char_start": 40070,
+          "char_end": 40073,
+          "marker": "(۲)",
+          "footnote_id": "fn_031",
           "placement": "in_span",
           "page_index": 43,
-          "confidence": 0.5
+          "confidence": 0.8
+        },
+        {
+          "role": "anchor",
+          "char_start": 40074,
+          "char_end": 40077,
+          "marker": "(۱)",
+          "footnote_id": "fn_030",
+          "placement": "in_span",
+          "page_index": 43,
+          "confidence": 0.8
         },
         {
           "role": "text",
-          "char_start": 40185,
+          "char_start": 40077,
           "char_end": 40338,
           "placement": "in_span",
           "page_index": 43,
@@ -1477,17 +1456,47 @@
         },
         {
           "role": "footnote",
+          "char_start": 40676,
+          "char_end": 40845,
+          "footnote_id": "fn_030",
+          "footnote_marker": "(1) الخوارج هم الذين خرجوا على الإمام علي ـ رضي الله عنه ـ،",
+          "placement": "displaced",
+          "page_index": 43,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 40846,
+          "char_end": 40986,
+          "footnote_id": "fn_031",
+          "footnote_marker": "(۲) ما لم يستحله ويستثنى من الذنوب الشرك؛ لقوله تعالى: ﴿إِنَّ الله",
+          "placement": "displaced",
+          "page_index": 43,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
           "char_start": 40987,
           "char_end": 41007,
           "footnote_id": "fn_032",
           "footnote_marker": "(۳) في ظ «ولا نكفر».",
           "placement": "displaced",
           "page_index": 43,
-          "confidence": 0.55
+          "confidence": 0.7
         },
         {
           "role": "footnote",
-          "char_start": 41024,
+          "char_start": 41008,
+          "char_end": 41017,
+          "footnote_id": "fn_033",
+          "footnote_marker": "(٤) من ظ.",
+          "placement": "displaced",
+          "page_index": 43,
+          "confidence": 0.7
+        },
+        {
+          "role": "footnote",
+          "char_start": 41020,
           "char_end": 41189,
           "footnote_id": "fn_034",
           "footnote_marker": "(٥) أخرجه البخاري في صحيحه (٢:٤٩/١ ـ كتاب الإيمان، ۲ -",
@@ -1496,24 +1505,29 @@
           "confidence": 0.75
         },
         {
-          "role": "noise_ref",
-          "noise_id": "noise_0020"
+          "role": "footnote",
+          "char_start": 41192,
+          "char_end": 41228,
+          "footnote_id": "fn_034",
+          "footnote_marker": "(٥) أخرجه البخاري في صحيحه (٢:٤٩/١ ـ كتاب الإيمان، ۲ -",
+          "placement": "displaced",
+          "page_index": 43,
+          "confidence": 0.75
         },
         {
           "role": "noise_ref",
           "noise_id": "noise_0021"
-        }
-      ],
-      "foreign_spans": [
+        },
         {
-          "char_start": 40070,
-          "char_end": 40073,
-          "belongs_to": "unit_006"
+          "role": "noise_ref",
+          "noise_id": "noise_0022"
         }
       ],
+      "foreign_spans": [],
       "issue_ids": [
         "issue_001",
         "issue_002",
+        "issue_003",
         "issue_008",
         "issue_010"
       ],
@@ -1574,33 +1588,7 @@
         {
           "role": "text",
           "char_start": 40459,
-          "char_end": 40675,
-          "placement": "in_span",
-          "page_index": 43,
-          "confidence": 0.85
-        },
-        {
-          "role": "footnote",
-          "char_start": 41008,
-          "char_end": 41017,
-          "footnote_id": "fn_033",
-          "footnote_marker": "(٤) من ظ.",
-          "placement": "in_span",
-          "page_index": 43,
-          "confidence": 0.5
-        },
-        {
-          "role": "text",
-          "char_start": 41020,
-          "char_end": 41023,
-          "placement": "in_span",
-          "page_index": 43,
-          "confidence": 0.85
-        },
-        {
-          "role": "text",
-          "char_start": 41192,
-          "char_end": 41228,
+          "char_end": 40551,
           "placement": "in_span",
           "page_index": 43,
           "confidence": 0.85
@@ -1628,6 +1616,7 @@
           "char_start": 41329,
           "char_end": 41332,
           "marker": "(1)",
+          "footnote_id": "fn_036",
           "placement": "in_span",
           "page_index": 44,
           "confidence": 0.8
@@ -1637,7 +1626,7 @@
           "char_start": 41333,
           "char_end": 41336,
           "marker": "(۲)",
-          "footnote_id": "fn_036",
+          "footnote_id": "fn_037",
           "placement": "in_span",
           "page_index": 44,
           "confidence": 0.8
@@ -1655,7 +1644,7 @@
           "char_start": 41791,
           "char_end": 41794,
           "marker": "(۳)",
-          "footnote_id": "fn_037",
+          "footnote_id": "fn_038",
           "placement": "in_span",
           "page_index": 44,
           "confidence": 0.8
@@ -1669,27 +1658,20 @@
           "confidence": 0.85
         },
         {
-          "role": "anchor",
+          "role": "footnote",
           "char_start": 41833,
-          "char_end": 41836,
-          "marker": "(۱)",
-          "placement": "in_span",
-          "page_index": 44,
-          "confidence": 0.8
-        },
-        {
-          "role": "text",
-          "char_start": 41837,
           "char_end": 41849,
+          "footnote_id": "fn_036",
+          "footnote_marker": "(۱)",
           "placement": "in_span",
           "page_index": 44,
-          "confidence": 0.85
+          "confidence": 0.75
         },
         {
           "role": "footnote",
           "char_start": 41850,
           "char_end": 41883,
-          "footnote_id": "fn_036",
+          "footnote_id": "fn_037",
           "footnote_marker": "(۲) كذا في ص وظ. وفي ط «المسلمي».",
           "placement": "in_span",
           "page_index": 44,
@@ -1698,24 +1680,12 @@
         {
           "role": "footnote",
           "char_start": 41884,
-          "char_end": 41949,
-          "footnote_id": "fn_037",
+          "char_end": 41959,
+          "footnote_id": "fn_038",
           "footnote_marker": "(۳) للاستزادة انظر: جامع العلوم والحكم لابن رجب شرح الحديث الثالث",
           "placement": "in_span",
           "page_index": 44,
           "confidence": 0.75
-        },
-        {
-          "role": "text",
-          "char_start": 41950,
-          "char_end": 41959,
-          "placement": "in_span",
-          "page_index": 44,
-          "confidence": 0.85
-        },
-        {
-          "role": "noise_ref",
-          "noise_id": "noise_0022"
         },
         {
           "role": "noise_ref",
@@ -1724,18 +1694,27 @@
         {
           "role": "noise_ref",
           "noise_id": "noise_0024"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0025"
         }
       ],
       "foreign_spans": [
         {
+          "char_start": 40552,
+          "char_end": 40675,
+          "belongs_to": "unit_006"
+        },
+        {
           "char_start": 40676,
           "char_end": 40845,
-          "belongs_to": "unit_005"
+          "belongs_to": "unit_007"
         },
         {
           "char_start": 40846,
           "char_end": 40986,
-          "belongs_to": "unit_006"
+          "belongs_to": "unit_007"
         },
         {
           "char_start": 40987,
@@ -1743,19 +1722,27 @@
           "belongs_to": "unit_007"
         },
         {
-          "char_start": 41024,
+          "char_start": 41008,
+          "char_end": 41017,
+          "belongs_to": "unit_007"
+        },
+        {
+          "char_start": 41020,
           "char_end": 41189,
+          "belongs_to": "unit_007"
+        },
+        {
+          "char_start": 41192,
+          "char_end": 41228,
           "belongs_to": "unit_007"
         }
       ],
       "issue_ids": [
-        "issue_001",
-        "issue_004",
         "issue_008",
         "issue_011",
         "issue_012"
       ],
-      "confidence": 0.75
+      "confidence": 0.8
     }
   ]
 }

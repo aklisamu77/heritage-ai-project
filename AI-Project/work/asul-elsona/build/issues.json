@@ -2,18 +2,318 @@
   "issues": [
     {
       "id": "issue_001",
+      "type": "footnote_continuation_joined",
+      "severity": "low",
+      "description": "Footnote-zone lines without a marker of their own (page layout), joined to the footnote they continue: at the top of the zone the previous page's last footnote, lower down the last footnote begun on the page. Check that the content fits.",
+      "occurrences": [
+        {
+          "char_start": 2812,
+          "char_end": 2815,
+          "note": "footnote (۱) لأنها سبق أن نشرت في آخر «المسند للمصنف كما سيأتي ص of عملي في تحقيق الرسالة continues here"
+        },
+        {
+          "char_start": 6114,
+          "char_end": 6119
+        },
+        {
+          "char_start": 6514,
+          "char_end": 6567
+        },
+        {
+          "char_start": 6568,
+          "char_end": 6603
+        },
+        {
+          "char_start": 7083,
+          "char_end": 7096,
+          "note": "footnote (٢) أي أيهم يحل محل الشافعي في التدريس. of دفع بعض التهم عنه continues here"
+        },
+        {
+          "char_start": 7075,
+          "char_end": 7076
+        },
+        {
+          "char_start": 7077,
+          "char_end": 7078
+        },
+        {
+          "char_start": 7079,
+          "char_end": 7082
+        },
+        {
+          "char_start": 7097,
+          "char_end": 7098
+        },
+        {
+          "char_start": 7099,
+          "char_end": 7147
+        },
+        {
+          "char_start": 7148,
+          "char_end": 7203
+        },
+        {
+          "char_start": 7204,
+          "char_end": 7234
+        },
+        {
+          "char_start": 7384,
+          "char_end": 7443
+        },
+        {
+          "char_start": 7444,
+          "char_end": 7508
+        },
+        {
+          "char_start": 7509,
+          "char_end": 7563
+        },
+        {
+          "char_start": 7564,
+          "char_end": 7618
+        },
+        {
+          "char_start": 7619,
+          "char_end": 7683
+        },
+        {
+          "char_start": 7684,
+          "char_end": 7738
+        },
+        {
+          "char_start": 9389,
+          "char_end": 9446,
+          "note": "footnote (۱) هو أبو عمرو بشر بن السَّرِي الأَفْوَه البَصْري (ت ١٩٥ أو ١٩٦ هـ)، of دفع بعض التهم عنه continues here"
+        },
+        {
+          "char_start": 9758,
+          "char_end": 9760,
+          "note": "footnote (٤) أي مذهب الاعتقاد وانظر حاشية رقم ١ ص of دفع بعض التهم عنه continues here"
+        },
+        {
+          "char_start": 9761,
+          "char_end": 9764,
+          "note": "footnote (٥) الكلام لا زال للأعظمي. of دفع بعض التهم عنه continues here"
+        },
+        {
+          "char_start": 14069,
+          "char_end": 14071,
+          "note": "footnote (٥)(٦) مقدمة محقق المسند»: (۷/۱) of الرد على هذا الاتهام continues here"
+        },
+        {
+          "char_start": 14982,
+          "char_end": 14984,
+          "note": "footnote (۱) (۲) كلمة لم أتمكن من قراءتها وانظرها في مصورة المخطوط of وصف النسخ continues here"
+        },
+        {
+          "char_start": 16688,
+          "char_end": 16696,
+          "note": "footnote (۱) مقدمة محقق «المسند للحميدي: ۳/۱. of وصف النسخ continues here"
+        },
+        {
+          "char_start": 30253,
+          "char_end": 30294
+        },
+        {
+          "char_start": 30295,
+          "char_end": 30306
+        },
+        {
+          "char_start": 30443,
+          "char_end": 30445
+        },
+        {
+          "char_start": 30446,
+          "char_end": 30456
+        },
+        {
+          "char_start": 30644,
+          "char_end": 30704
+        },
+        {
+          "char_start": 30705,
+          "char_end": 30721
+        },
+        {
+          "char_start": 30722,
+          "char_end": 30764
+        },
+        {
+          "char_start": 30765,
+          "char_end": 30824
+        },
+        {
+          "char_start": 30825,
+          "char_end": 30842
+        },
+        {
+          "char_start": 30843,
+          "char_end": 30909
+        },
+        {
+          "unit_id": "unit_001",
+          "char_start": 30913,
+          "char_end": 30920
+        },
+        {
+          "unit_id": "unit_001",
+          "char_start": 31935,
+          "char_end": 32222
+        },
+        {
+          "unit_id": "unit_003",
+          "char_start": 35529,
+          "char_end": 35537
+        },
+        {
+          "unit_id": "unit_003",
+          "char_start": 36369,
+          "char_end": 36594
+        },
+        {
+          "unit_id": "unit_005",
+          "char_start": 39007,
+          "char_end": 39110
+        },
+        {
+          "unit_id": "unit_005",
+          "char_start": 39156,
+          "char_end": 39161
+        },
+        {
+          "unit_id": "unit_006",
+          "char_start": 40552,
+          "char_end": 40675
+        },
+        {
+          "unit_id": "unit_007",
+          "char_start": 41020,
+          "char_end": 41189
+        },
+        {
+          "unit_id": "unit_007",
+          "char_start": 41192,
+          "char_end": 41228
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "issue_002",
+      "type": "displaced_footnote",
+      "severity": "medium",
+      "description": "Footnotes read by OCR inside another unit (usually the next one: page-bottom footnotes are read after the next page's heading). Each is assigned to its owner; see each occurrence's note for the evidence used.",
+      "occurrences": [
+        {
+          "char_start": 30921,
+          "char_end": 30930,
+          "note": "footnote (۱) من ط. read inside unit 1; assigned to نص الرسالة (anchor on the same page)"
+        },
+        {
+          "char_start": 30931,
+          "char_end": 30978,
+          "note": "footnote (۲) في ص كرر لفظ «قال». واختصر حدثنا وكذا في ظ. read inside unit 1; assigned to نص الرسالة (page order: next to footnote (۱) من ط. on the same page)"
+        },
+        {
+          "unit_id": "unit_001",
+          "char_start": 32223,
+          "char_end": 32864,
+          "note": "footnote (1) يشهد له ما أخرجه الترمذي في جامعه (٥٧٥/٤ - ٥٧٦: ٣٨ ـ كتاب read inside unit 2; assigned to unit 1 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_001",
+          "char_start": 32865,
+          "char_end": 33238,
+          "note": "footnote (۲) لقوله تعالى : (قُل لَّن يُصِيبَنَا إِلَّا مَا كَتَبَ اللهُ لَنَا هُوَ مَوْلَمْنَا وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ read inside unit 2; assigned to unit 1 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_002",
+          "char_start": 33515,
+          "char_end": 33890,
+          "note": "footnote (۱) المقصود : يزيد بالطاعات وينقص بالمعاصي. قال تعالى: ﴿إِنَّمَا read inside unit 3; assigned to unit 2 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_002",
+          "char_start": 33891,
+          "char_end": 33910,
+          "note": "footnote (۲) في ط «لا ينفع». read inside unit 3; assigned to unit 2 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_002",
+          "char_start": 33911,
+          "char_end": 33934,
+          "note": "footnote (۳) read inside unit 3; assigned to unit 2 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_002",
+          "char_start": 33935,
+          "char_end": 34795,
+          "note": "footnote (٤) تنوعت عبارات السلف في تفسير «الإيمان فمنهم من يقول : هو قول read inside unit 3; assigned to unit 2 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_004",
+          "char_start": 37828,
+          "char_end": 37928,
+          "note": "footnote (۱) هو أبو إسحاق (نحو ۱۲۰ - ۱۹۹ هـ)، محدث، إمامٌ خَيْرٌ» وليس read inside unit 5; assigned to unit 4 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_004",
+          "char_start": 37929,
+          "char_end": 37947,
+          "note": "footnote (۲) في ظ لا تقل».. read inside unit 5; assigned to unit 4 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_004",
+          "char_start": 37948,
+          "char_end": 37963,
+          "note": "footnote (۳) في ظ «بلی». read inside unit 5; assigned to unit 4 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_004",
+          "char_start": 37964,
+          "char_end": 38224,
+          "note": "footnote (٤) أخرجه الآجري في الشريعة) (ص ۱۱۷) من طريق خلف بن عمرو read inside unit 5; assigned to unit 4 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_007",
+          "char_start": 40676,
+          "char_end": 40845,
+          "note": "footnote (1) الخوارج هم الذين خرجوا على الإمام علي ـ رضي الله عنه ـ، read inside unit 8; assigned to unit 7 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_007",
+          "char_start": 40846,
+          "char_end": 40986,
+          "note": "footnote (۲) ما لم يستحله ويستثنى من الذنوب الشرك؛ لقوله تعالى: ﴿إِنَّ الله read inside unit 8; assigned to unit 7 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_007",
+          "char_start": 40987,
+          "char_end": 41007,
+          "note": "footnote (۳) في ظ «ولا نكفر». read inside unit 8; assigned to unit 7 (page order: between footnotes (۲) ما لم يستحله ويستثنى من الذنوب الشرك؛ لقوله تعالى: ﴿إِنَّ الله and (٥) أخرجه البخاري في صحيحه (٢:٤٩/١ ـ كتاب الإيمان، ۲ - of the same owner)"
+        },
+        {
+          "unit_id": "unit_007",
+          "char_start": 41008,
+          "char_end": 41017,
+          "note": "footnote (٤) من ظ. read inside unit 8; assigned to unit 7 (page order: between footnotes (۲) ما لم يستحله ويستثنى من الذنوب الشرك؛ لقوله تعالى: ﴿إِنَّ الله and (٥) أخرجه البخاري في صحيحه (٢:٤٩/١ ـ كتاب الإيمان، ۲ - of the same owner)"
+        },
+        {
+          "unit_id": "unit_007",
+          "char_start": 41020,
+          "char_end": 41189,
+          "note": "footnote (٥) أخرجه البخاري في صحيحه (٢:٤٩/١ ـ كتاب الإيمان، ۲ - read inside unit 8; assigned to unit 7 (anchor on the same page)"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "id": "issue_003",
       "type": "unanchored_footnote",
       "severity": "medium",
       "description": "Footnotes with no matching anchor marker before them in the owner unit (the marker may be lost in OCR). Ownership rests on content terms, block order or locality only.",
       "occurrences": [
         {
-          "unit_id": "unit_001",
-          "char_start": 30921,
-          "char_end": 30930,
-          "note": "footnote (۱) من ط. has no matching anchor marker nearby"
-        },
-        {
-          "unit_id": "unit_001",
           "char_start": 30931,
           "char_end": 30978,
           "note": "footnote (۲) في ص كرر لفظ «قال». واختصر حدثنا وكذا في ظ. has no matching anchor marker nearby"
@@ -31,16 +331,10 @@
           "note": "footnote (1) أخرجه اللالكائي في شرح أصول اعتقاد أهل السنة والجماعة» (١٢٦٨/٤ : has no matching anchor marker nearby"
         },
         {
-          "unit_id": "unit_007",
-          "char_start": 40074,
-          "char_end": 40184,
-          "note": "footnote (۱): «من أصاب كبيرة has no matching anchor marker nearby"
-        },
-        {
-          "unit_id": "unit_005",
-          "char_start": 40676,
-          "char_end": 40845,
-          "note": "footnote (1) الخوارج هم الذين خرجوا على الإمام علي ـ رضي الله عنه ـ، has no matching anchor marker nearby"
+          "unit_id": "unit_004",
+          "char_start": 37050,
+          "char_end": 37554,
+          "note": "footnote (۳) أخرجه أبو نعيم في الحلية (۲۹٦/٧) في ترجمة سفيان بن عيينة) من has no matching anchor marker nearby"
         },
         {
           "unit_id": "unit_007",
@@ -49,122 +343,13 @@
           "note": "footnote (۳) في ظ «ولا نكفر». has no matching anchor marker nearby"
         },
         {
-          "unit_id": "unit_008",
+          "unit_id": "unit_007",
           "char_start": 41008,
           "char_end": 41017,
           "note": "footnote (٤) من ظ. has no matching anchor marker nearby"
         }
       ],
       "confidence": 0.7
-    },
-    {
-      "id": "issue_002",
-      "type": "displaced_footnote",
-      "severity": "medium",
-      "description": "Footnotes read by OCR inside another unit (usually the next one: page-bottom footnotes are read after the next page's heading). Each is assigned to its owner; see each occurrence's note for the evidence used.",
-      "occurrences": [
-        {
-          "unit_id": "unit_001",
-          "char_start": 32223,
-          "char_end": 32343,
-          "note": "footnote (1) يشهد له ما أخرجه الترمذي في جامعه (٥٧٥/٤ - ٥٧٦: ٣٨ ـ كتاب read inside unit 2; assigned to unit 1 (anchor)"
-        },
-        {
-          "unit_id": "unit_002",
-          "char_start": 33515,
-          "char_end": 33579,
-          "note": "footnote (۱) المقصود : يزيد بالطاعات وينقص بالمعاصي. قال تعالى: ﴿إِنَّمَا read inside unit 3; assigned to unit 2 (anchor)"
-        },
-        {
-          "unit_id": "unit_002",
-          "char_start": 33891,
-          "char_end": 33910,
-          "note": "footnote (۲) في ط «لا ينفع». read inside unit 3; assigned to unit 2 (anchor)"
-        },
-        {
-          "unit_id": "unit_002",
-          "char_start": 33935,
-          "char_end": 34795,
-          "note": "footnote (٤) تنوعت عبارات السلف في تفسير «الإيمان فمنهم من يقول : هو قول read inside unit 3; assigned to unit 2 (anchor)"
-        },
-        {
-          "unit_id": "unit_003",
-          "char_start": 37050,
-          "char_end": 37543,
-          "note": "footnote (۳) أخرجه أبو نعيم في الحلية (۲۹٦/٧) في ترجمة سفيان بن عيينة) من read inside unit 4; assigned to unit 3 (anchor)"
-        },
-        {
-          "unit_id": "unit_004",
-          "char_start": 37828,
-          "char_end": 37928,
-          "note": "footnote (۱) هو أبو إسحاق (نحو ۱۲۰ - ۱۹۹ هـ)، محدث، إمامٌ خَيْرٌ» وليس read inside unit 5; assigned to unit 4 (anchor)"
-        },
-        {
-          "unit_id": "unit_004",
-          "char_start": 37929,
-          "char_end": 37947,
-          "note": "footnote (۲) في ظ لا تقل».. read inside unit 5; assigned to unit 4 (anchor)"
-        },
-        {
-          "unit_id": "unit_004",
-          "char_start": 37948,
-          "char_end": 37963,
-          "note": "footnote (۳) في ظ «بلی». read inside unit 5; assigned to unit 4 (anchor)"
-        },
-        {
-          "unit_id": "unit_004",
-          "char_start": 37964,
-          "char_end": 38075,
-          "note": "footnote (٤) أخرجه الآجري في الشريعة) (ص ۱۱۷) من طريق خلف بن عمرو read inside unit 5; assigned to unit 4 (anchor)"
-        },
-        {
-          "unit_id": "unit_005",
-          "char_start": 40676,
-          "char_end": 40845,
-          "note": "footnote (1) الخوارج هم الذين خرجوا على الإمام علي ـ رضي الله عنه ـ، read inside unit 8; assigned to unit 5 (block order: precedes footnote (۲) ما لم يستحله ويستثنى من الذنوب الشرك؛ لقوله تعالى: ﴿إِنَّ الله of unit 6)"
-        },
-        {
-          "unit_id": "unit_006",
-          "char_start": 40846,
-          "char_end": 40986,
-          "note": "footnote (۲) ما لم يستحله ويستثنى من الذنوب الشرك؛ لقوله تعالى: ﴿إِنَّ الله read inside unit 8; assigned to unit 6 (anchor, terms 100%)"
-        },
-        {
-          "unit_id": "unit_007",
-          "char_start": 40987,
-          "char_end": 41007,
-          "note": "footnote (۳) في ظ «ولا نكفر». read inside unit 8; assigned to unit 7 (block order: precedes footnote (٤) من ظ. of unit 8)"
-        },
-        {
-          "unit_id": "unit_007",
-          "char_start": 41024,
-          "char_end": 41189,
-          "note": "footnote (٥) أخرجه البخاري في صحيحه (٢:٤٩/١ ـ كتاب الإيمان، ۲ - read inside unit 8; assigned to unit 7 (anchor)"
-        }
-      ],
-      "confidence": 0.77
-    },
-    {
-      "id": "issue_003",
-      "type": "continued_footnote",
-      "severity": "medium",
-      "description": "Footnotes that end with the editor's continuation mark: the rest is on the next page and is probably read as main text somewhere after — check the page image.",
-      "occurrences": [
-        {
-          "unit_id": "unit_005",
-          "char_start": 38225,
-          "char_end": 38610,
-          "note": "footnote continues on the next page; its continuation is probably read as main text further on"
-        },
-        {
-          "unit_id": "unit_006",
-          "char_start": 39862,
-          "char_end": 40034,
-          "note": "footnote continues on the next page; its continuation is probably read as main text further on"
-        }
-      ],
-      "confidence": 0.8,
-      "needs_visual_check": true
     },
     {
       "id": "issue_004",
@@ -174,33 +359,15 @@
       "occurrences": [
         {
           "unit_id": "unit_001",
-          "char_start": 30640,
-          "char_end": 30643,
-          "note": "anchor (ε) has no footnote"
-        },
-        {
-          "unit_id": "unit_002",
-          "char_start": 33409,
-          "char_end": 33412,
-          "note": "anchor (۳) has no footnote"
+          "char_start": 30584,
+          "char_end": 30587,
+          "note": "anchor (4) has no footnote"
         },
         {
           "unit_id": "unit_003",
           "char_start": 35330,
           "char_end": 35333,
           "note": "anchor (٦) has no footnote"
-        },
-        {
-          "unit_id": "unit_008",
-          "char_start": 41329,
-          "char_end": 41332,
-          "note": "anchor (1) has no footnote"
-        },
-        {
-          "unit_id": "unit_008",
-          "char_start": 41833,
-          "char_end": 41836,
-          "note": "anchor (۱) has no footnote"
         }
       ],
       "confidence": 0.6
@@ -212,10 +379,10 @@
       "description": "Footnote anchor markers read inside another unit (e.g. right after the next unit's heading).",
       "occurrences": [
         {
-          "unit_id": "unit_006",
-          "char_start": 40070,
-          "char_end": 40073,
-          "note": "anchor (۲) read in unit 7, belongs to unit 6 (anchor precedes all text of its host unit)"
+          "unit_id": "unit_001",
+          "char_start": 31931,
+          "char_end": 31934,
+          "note": "anchor (۲) read in unit 2, belongs to unit 1 (layout: the marker is printed above the heading of its host unit)"
         }
       ],
       "confidence": 0.75
@@ -238,12 +405,8 @@
       "id": "issue_007",
       "type": "weak_page_boundary",
       "severity": "low",
-      "description": "45 page boundaries could not be confirmed by a running header or page number",
+      "description": "4 page boundaries could not be confirmed by a running header or page number",
       "occurrences": [
-        {
-          "char_start": 99,
-          "char_end": 100
-        },
         {
           "char_start": 147,
           "char_end": 148
@@ -253,172 +416,12 @@
           "char_end": 201
         },
         {
-          "char_start": 258,
-          "char_end": 259
-        },
-        {
-          "char_start": 1168,
-          "char_end": 1169
-        },
-        {
-          "char_start": 2109,
-          "char_end": 2110
-        },
-        {
-          "char_start": 3037,
-          "char_end": 3038
-        },
-        {
-          "char_start": 3623,
-          "char_end": 3624
-        },
-        {
-          "char_start": 4150,
-          "char_end": 4151
-        },
-        {
-          "char_start": 4936,
-          "char_end": 4937
-        },
-        {
-          "char_start": 5975,
-          "char_end": 5976
-        },
-        {
-          "char_start": 7289,
-          "char_end": 7290
-        },
-        {
-          "char_start": 8610,
-          "char_end": 8611
-        },
-        {
-          "char_start": 9735,
-          "char_end": 9736
-        },
-        {
-          "char_start": 10697,
-          "char_end": 10698
-        },
-        {
-          "char_start": 11768,
-          "char_end": 11769
-        },
-        {
-          "char_start": 13089,
-          "char_end": 13090
-        },
-        {
-          "char_start": 14025,
-          "char_end": 14026
-        },
-        {
-          "char_start": 14991,
-          "char_end": 14992
-        },
-        {
-          "char_start": 16078,
-          "char_end": 16079
-        },
-        {
-          "char_start": 17055,
-          "char_end": 17056
-        },
-        {
-          "char_start": 17933,
-          "char_end": 17934
-        },
-        {
-          "char_start": 19021,
-          "char_end": 19022
-        },
-        {
-          "char_start": 20118,
-          "char_end": 20119
-        },
-        {
-          "char_start": 20614,
-          "char_end": 20615
-        },
-        {
-          "char_start": 23034,
-          "char_end": 23035
-        },
-        {
-          "char_start": 24972,
-          "char_end": 24973
-        },
-        {
-          "char_start": 25017,
-          "char_end": 25018
-        },
-        {
-          "char_start": 27046,
-          "char_end": 27047
-        },
-        {
           "char_start": 27886,
           "char_end": 27887
         },
         {
           "char_start": 28722,
           "char_end": 28723
-        },
-        {
-          "char_start": 29557,
-          "char_end": 29558
-        },
-        {
-          "char_start": 30475,
-          "char_end": 30476
-        },
-        {
-          "char_start": 41963,
-          "char_end": 41964
-        },
-        {
-          "char_start": 42220,
-          "char_end": 42221
-        },
-        {
-          "char_start": 43053,
-          "char_end": 43054
-        },
-        {
-          "char_start": 43625,
-          "char_end": 43626
-        },
-        {
-          "char_start": 43969,
-          "char_end": 43970
-        },
-        {
-          "char_start": 44505,
-          "char_end": 44506
-        },
-        {
-          "char_start": 45121,
-          "char_end": 45122
-        },
-        {
-          "char_start": 46015,
-          "char_end": 46016
-        },
-        {
-          "char_start": 47599,
-          "char_end": 47600
-        },
-        {
-          "char_start": 48845,
-          "char_end": 48846
-        },
-        {
-          "char_start": 50132,
-          "char_end": 50133
-        },
-        {
-          "char_start": 50392,
-          "char_end": 50393
         }
       ],
       "confidence": 0.7
@@ -432,6 +435,10 @@
         {
           "char_start": 21077,
           "char_end": 21079
+        },
+        {
+          "char_start": 29554,
+          "char_end": 29556
         },
         {
           "unit_id": "unit_001",

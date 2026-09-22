@@ -9,14 +9,14 @@
     "nodes": 20,
     "units": 8,
     "issues": 12,
-    "noise_spans": 28,
+    "noise_spans": 29,
     "pages": 56,
     "segment_roles": {
-      "text": 72,
+      "text": 58,
       "heading": 8,
       "number": 6,
-      "anchor": 34,
-      "footnote": 37,
+      "anchor": 33,
+      "footnote": 44,
       "noise_ref": 19
     },
     "body_role_share": 0.0,

@@ -1,0 +1,15 @@
+{
+  "overrides": [
+    {
+      "op": "mark_noise_range",
+      "type": "facsimile",
+      "from": {
+        "text": "٢٦الموید"
+      },
+      "to": {
+        "text": "سن بنت عرة كان"
+      },
+      "reason": "OCR of the manuscript facsimile plates: unreadable machine output, not text of the book. The captions are inside the range too; the page images are the authority."
+    }
+  ]
+}
