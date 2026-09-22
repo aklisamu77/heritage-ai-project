@@ -1,1393 +1,1293 @@
 {
   "root": "node_000",
-  "pages": [],
+  "pages": [
+    {
+      "page_index": 1,
+      "printed_page_number": null,
+      "char_start": 0,
+      "char_end": 260,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 2,
+      "printed_page_number": null,
+      "char_start": 260,
+      "char_end": 1604,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 3,
+      "printed_page_number": null,
+      "char_start": 1604,
+      "char_end": 2022,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 4,
+      "printed_page_number": null,
+      "char_start": 2022,
+      "char_end": 3562,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 5,
+      "printed_page_number": null,
+      "char_start": 3562,
+      "char_end": 4385,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 6,
+      "printed_page_number": null,
+      "char_start": 4385,
+      "char_end": 5480,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 7,
+      "printed_page_number": null,
+      "char_start": 5480,
+      "char_end": 5833,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 8,
+      "printed_page_number": null,
+      "char_start": 5833,
+      "char_end": 6713,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 9,
+      "printed_page_number": null,
+      "char_start": 6713,
+      "char_end": 7952,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 10,
+      "printed_page_number": null,
+      "char_start": 7952,
+      "char_end": 8708,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 11,
+      "printed_page_number": null,
+      "char_start": 8708,
+      "char_end": 9615,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 12,
+      "printed_page_number": null,
+      "char_start": 9615,
+      "char_end": 10422,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 13,
+      "printed_page_number": null,
+      "char_start": 10422,
+      "char_end": 11271,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 14,
+      "printed_page_number": null,
+      "char_start": 11271,
+      "char_end": 11857,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 15,
+      "printed_page_number": null,
+      "char_start": 11857,
+      "char_end": 12747,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 16,
+      "printed_page_number": null,
+      "char_start": 12747,
+      "char_end": 13577,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 17,
+      "printed_page_number": null,
+      "char_start": 13577,
+      "char_end": 15102,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 18,
+      "printed_page_number": null,
+      "char_start": 15102,
+      "char_end": 16001,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 19,
+      "printed_page_number": null,
+      "char_start": 16001,
+      "char_end": 16690,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 20,
+      "printed_page_number": null,
+      "char_start": 16690,
+      "char_end": 18251,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 21,
+      "printed_page_number": null,
+      "char_start": 18251,
+      "char_end": 18867,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 22,
+      "printed_page_number": null,
+      "char_start": 18867,
+      "char_end": 20202,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 23,
+      "printed_page_number": null,
+      "char_start": 20202,
+      "char_end": 21117,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 24,
+      "printed_page_number": null,
+      "char_start": 21117,
+      "char_end": 22001,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 25,
+      "printed_page_number": null,
+      "char_start": 22001,
+      "char_end": 22390,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 26,
+      "printed_page_number": null,
+      "char_start": 22390,
+      "char_end": 23123,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 27,
+      "printed_page_number": null,
+      "char_start": 23123,
+      "char_end": 24211,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 28,
+      "printed_page_number": null,
+      "char_start": 24211,
+      "char_end": 25416,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 29,
+      "printed_page_number": null,
+      "char_start": 25416,
+      "char_end": 25888,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 30,
+      "printed_page_number": null,
+      "char_start": 25888,
+      "char_end": 26875,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 31,
+      "printed_page_number": null,
+      "char_start": 26875,
+      "char_end": 28003,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 32,
+      "printed_page_number": null,
+      "char_start": 28003,
+      "char_end": 28672,
+      "evidence": "searchable_pdf_text_layer_alignment",
+      "confidence": 0.9
+    }
+  ],
   "noise_spans": [
     {
       "id": "noise_001",
       "type": "displaced_fragment",
-      "cs": 1093,
-      "ce": 1112,
-      "unit_id": "unit_001",
+      "char_start": 1093,
+      "char_end": 1112,
       "note": "( + ۲۰۳ ) ٥٩٣٢٢٠٤ : residue before heading — edition/call-stamp artifact"
     },
     {
       "id": "noise_002",
       "type": "garbled_glyph",
-      "cs": 1149,
-      "ce": 1167,
-      "unit_id": "unit_001",
+      "char_start": 1149,
+      "char_end": 1167,
       "note": "\"الله الرحمن الرحيم\" — likely بسم الله الرحمن الرحيم with \"بسم\" ligature lost"
     },
     {
       "id": "noise_003",
       "type": "duplicate_fragment",
-      "cs": 1168,
-      "ce": 1183,
-      "unit_id": "unit_001",
+      "char_start": 1168,
+      "char_end": 1183,
       "note": "duplicate of unit heading"
     },
     {
       "id": "noise_006",
       "type": "garbled_glyph",
-      "cs": 1861,
-      "ce": 1909,
-      "unit_id": "unit_001",
+      "char_start": 1908,
+      "char_end": 1909,
       "note": "trailing M of \"الفعل\" is a garbled glyph"
     },
     {
       "id": "noise_004",
       "type": "running_header",
-      "cs": 1910,
-      "ce": 1926,
-      "unit_id": "unit_001"
+      "char_start": 1910,
+      "char_end": 1926
     },
     {
       "id": "noise_005",
       "type": "separator",
-      "cs": 1927,
-      "ce": 1928,
-      "unit_id": "unit_001",
+      "char_start": 1927,
+      "char_end": 1928,
       "note": "\"-\""
+    },
+    {
+      "id": "noise_144",
+      "type": "displaced_heading",
+      "char_start": 2862,
+      "char_end": 2875,
+      "note": "tail = heading of unit_003"
+    },
+    {
+      "id": "noise_007",
+      "type": "separator",
+      "char_start": 2949,
+      "char_end": 2952,
+      "note": "\"» :\" stray quote artifact"
     },
     {
       "id": "noise_008",
       "type": "separator",
-      "cs": 2949,
-      "ce": 2952,
-      "unit_id": "unit_002",
-      "note": "\"» :\" stray quote artifact"
+      "char_start": 3299,
+      "char_end": 3300,
+      "note": "stray quote artifact"
     },
     {
       "id": "noise_009",
       "type": "separator",
-      "cs": 3299,
-      "ce": 3300,
-      "unit_id": "unit_002",
-      "note": "\"\"«\" stray quote artifact"
+      "char_start": 3356,
+      "char_end": 3358,
+      "note": "\"((\" stray double-paren artifact"
     },
     {
       "id": "noise_010",
       "type": "separator",
-      "cs": 3356,
-      "ce": 3358,
-      "unit_id": "unit_002",
-      "note": "\"((\" stray double-paren artifact"
-    },
-    {
-      "id": "noise_007",
-      "type": "footnote_anchor",
-      "cs": 3371,
-      "ce": 3374,
-      "unit_id": "unit_002",
-      "note": "anchor for footnote f002 of this unit (text hosted at unit_003, lines 103-104)"
+      "char_start": 3375,
+      "char_end": 3376,
+      "note": "\"-\""
     },
     {
       "id": "noise_011",
       "type": "separator",
-      "cs": 3375,
-      "ce": 3376,
-      "unit_id": "unit_002",
-      "note": "\"-\""
+      "char_start": 3694,
+      "char_end": 3695,
+      "note": "bullet"
     },
     {
       "id": "noise_012",
       "type": "separator",
-      "cs": 3694,
-      "ce": 3695,
-      "unit_id": "unit_003",
-      "note": "bullet"
+      "char_start": 3852,
+      "char_end": 3853,
+      "note": "orphan quote mark"
     },
     {
       "id": "noise_013",
-      "type": "footnote_anchor",
-      "cs": 3696,
-      "ce": 3699,
-      "unit_id": "unit_003",
-      "note": "(۲) cross-page anchor"
+      "type": "separator",
+      "char_start": 3854,
+      "char_end": 3855,
+      "note": "orphan paren"
     },
     {
       "id": "noise_014",
-      "type": "separator",
-      "cs": 3852,
-      "ce": 3853,
-      "unit_id": "unit_003",
-      "note": "orphan quote mark"
+      "type": "displaced_fragment",
+      "char_start": 3911,
+      "char_end": 3915,
+      "note": "\".رضي\" stray isnad/reordering fragment"
     },
     {
       "id": "noise_015",
       "type": "separator",
-      "cs": 3854,
-      "ce": 3855,
-      "unit_id": "unit_003",
-      "note": "orphan paren"
+      "char_start": 3916,
+      "char_end": 3917,
+      "note": "\"-\""
     },
     {
       "id": "noise_016",
-      "type": "displaced_fragment",
-      "cs": 3911,
-      "ce": 3915,
-      "unit_id": "unit_004",
-      "note": "\".رضي\" stray isnad/reordering fragment"
+      "type": "page_number",
+      "char_start": 3918,
+      "char_end": 3919,
+      "note": "٤"
     },
     {
       "id": "noise_017",
       "type": "separator",
-      "cs": 3916,
-      "ce": 3917,
-      "unit_id": "unit_004",
+      "char_start": 3940,
+      "char_end": 3941,
       "note": "\"-\""
     },
     {
       "id": "noise_018",
-      "type": "page_number",
-      "cs": 3918,
-      "ce": 3919,
-      "unit_id": "unit_004",
-      "note": "٤"
+      "type": "running_header",
+      "char_start": 3942,
+      "char_end": 3958
     },
     {
       "id": "noise_019",
-      "type": "separator",
-      "cs": 3940,
-      "ce": 3941,
-      "unit_id": "unit_004",
-      "note": "\"-\""
+      "type": "displaced_heading",
+      "char_start": 4954,
+      "char_end": 4969,
+      "note": "line = heading of unit_006 (الورع والإخلاص) read in unit_004 span"
     },
     {
       "id": "noise_020",
-      "type": "running_header",
-      "cs": 3942,
-      "ce": 3958,
-      "unit_id": "unit_004"
+      "type": "separator",
+      "char_start": 5284,
+      "char_end": 5285,
+      "note": "\"-\""
     },
     {
       "id": "noise_021",
-      "type": "footnote_anchor",
-      "cs": 4815,
-      "ce": 4818,
-      "unit_id": "unit_004",
-      "note": "(1)"
+      "type": "separator",
+      "char_start": 5800,
+      "char_end": 5802,
+      "note": "\"(( \""
+    },
+    {
+      "id": "noise_024",
+      "type": "running_header",
+      "char_start": 5833,
+      "char_end": 5849
     },
     {
       "id": "noise_022",
       "type": "separator",
-      "cs": 5284,
-      "ce": 5285,
-      "unit_id": "unit_005",
-      "note": "\"-\""
+      "char_start": 5997,
+      "char_end": 5998,
+      "note": "\",\""
     },
     {
       "id": "noise_023",
       "type": "separator",
-      "cs": 5800,
-      "ce": 5802,
-      "unit_id": "unit_006",
-      "note": "\"(( \""
+      "char_start": 6125,
+      "char_end": 6126,
+      "note": "bullet"
     },
     {
       "id": "noise_026",
-      "type": "running_header",
-      "cs": 5803,
-      "ce": 5849,
-      "unit_id": "unit_006"
-    },
-    {
-      "id": "noise_024",
-      "type": "separator",
-      "cs": 5997,
-      "ce": 5998,
-      "unit_id": "unit_006",
-      "note": "\",\""
+      "type": "unmatched_anchor",
+      "char_start": 6149,
+      "char_end": 6152,
+      "note": "(1) anchor with NO footnote text anywhere — missing footnote"
     },
     {
       "id": "noise_025",
       "type": "separator",
-      "cs": 6125,
-      "ce": 6126,
-      "unit_id": "unit_006",
-      "note": "bullet"
+      "char_start": 6389,
+      "char_end": 6390,
+      "note": "\"-\""
     },
     {
       "id": "noise_027",
-      "type": "footnote_anchor",
-      "cs": 6149,
-      "ce": 6152,
-      "unit_id": "unit_007",
-      "note": "(1) anchor with NO footnote text anywhere — missing footnote"
+      "type": "displaced_heading",
+      "char_start": 6679,
+      "char_end": 6710,
+      "note": "tail = displaced heading of unit_010"
     },
     {
       "id": "noise_028",
       "type": "separator",
-      "cs": 6389,
-      "ce": 6390,
-      "unit_id": "unit_007",
+      "char_start": 7371,
+      "char_end": 7372,
       "note": "\"-\""
     },
     {
       "id": "noise_029",
-      "type": "footnote_anchor",
-      "cs": 6412,
-      "ce": 6415,
-      "unit_id": "unit_008",
-      "note": "(۲)"
+      "type": "separator",
+      "char_start": 7373,
+      "char_end": 7374,
+      "note": "\"-\""
     },
     {
       "id": "noise_030",
-      "type": "displaced_heading",
-      "cs": 6649,
-      "ce": 6710,
-      "unit_id": "unit_008",
-      "note": "tail = heading of unit_010"
+      "type": "separator",
+      "char_start": 7419,
+      "char_end": 7420,
+      "note": "bullet"
     },
     {
       "id": "noise_031",
-      "type": "footnote_anchor",
-      "cs": 7001,
-      "ce": 7004,
-      "unit_id": "unit_009",
-      "note": "(1)"
-    },
-    {
-      "id": "noise_032",
-      "type": "footnote_anchor",
-      "cs": 7337,
-      "ce": 7340,
-      "unit_id": "unit_009",
-      "note": "(۲)"
-    },
-    {
-      "id": "noise_033",
       "type": "separator",
-      "cs": 7371,
-      "ce": 7372,
-      "unit_id": "unit_010",
+      "char_start": 7421,
+      "char_end": 7422,
       "note": "\"-\""
     },
     {
       "id": "noise_034",
+      "type": "running_header",
+      "char_start": 7582,
+      "char_end": 7598
+    },
+    {
+      "id": "noise_032",
+      "type": "page_number",
+      "char_start": 8205,
+      "char_end": 8207,
+      "note": "۱۱"
+    },
+    {
+      "id": "noise_033",
       "type": "separator",
-      "cs": 7373,
-      "ce": 7374,
-      "unit_id": "unit_010",
+      "char_start": 8208,
+      "char_end": 8209,
       "note": "\"-\""
     },
     {
+      "id": "noise_037",
+      "type": "displaced_heading",
+      "char_start": 8423,
+      "char_end": 8444,
+      "note": "tail = heading of unit_013"
+    },
+    {
       "id": "noise_035",
-      "type": "separator",
-      "cs": 7419,
-      "ce": 7420,
-      "unit_id": "unit_010",
-      "note": "bullet"
+      "type": "page_number",
+      "char_start": 8550,
+      "char_end": 8552,
+      "note": "۱۲"
     },
     {
       "id": "noise_036",
       "type": "separator",
-      "cs": 7421,
-      "ce": 7422,
-      "unit_id": "unit_010",
+      "char_start": 8553,
+      "char_end": 8554,
+      "note": "\"-\""
+    },
+    {
+      "id": "noise_038",
+      "type": "page_number",
+      "char_start": 8768,
+      "char_end": 8770,
+      "note": "۱۳"
+    },
+    {
+      "id": "noise_039",
+      "type": "separator",
+      "char_start": 8771,
+      "char_end": 8772,
       "note": "\"-\""
     },
     {
       "id": "noise_040",
-      "type": "running_header",
-      "cs": 7541,
-      "ce": 7598,
-      "unit_id": "unit_010"
-    },
-    {
-      "id": "noise_037",
-      "type": "page_number",
-      "cs": 8205,
-      "ce": 8207,
-      "unit_id": "unit_010",
-      "note": "۱۱"
-    },
-    {
-      "id": "noise_038",
       "type": "separator",
-      "cs": 8208,
-      "ce": 8209,
-      "unit_id": "unit_010",
+      "char_start": 8795,
+      "char_end": 8796,
       "note": "\"-\""
-    },
-    {
-      "id": "noise_039",
-      "type": "footnote_anchor",
-      "cs": 8210,
-      "ce": 8213,
-      "unit_id": "unit_010",
-      "note": "(1)"
-    },
-    {
-      "id": "noise_043",
-      "type": "displaced_heading",
-      "cs": 8403,
-      "ce": 8444,
-      "unit_id": "unit_011",
-      "note": "tail = heading of unit_013"
     },
     {
       "id": "noise_041",
+      "type": "separator",
+      "char_start": 8974,
+      "char_end": 8975,
+      "note": "bullet"
+    },
+    {
+      "id": "noise_043",
       "type": "page_number",
-      "cs": 8550,
-      "ce": 8552,
-      "unit_id": "unit_011",
-      "note": "۱۲"
+      "char_start": 9192,
+      "char_end": 9195,
+      "note": "١٤"
     },
     {
       "id": "noise_042",
-      "type": "separator",
-      "cs": 8553,
-      "ce": 8554,
-      "unit_id": "unit_011",
-      "note": "\"-\""
+      "type": "running_header",
+      "char_start": 9196,
+      "char_end": 9212
     },
     {
       "id": "noise_044",
-      "type": "footnote_anchor",
-      "cs": 8677,
-      "ce": 8767,
-      "unit_id": "unit_012",
-      "note": "\"(۲)\" tail — anchor with no footnote text"
+      "type": "separator",
+      "char_start": 9240,
+      "char_end": 9241,
+      "note": "\"-\""
     },
     {
       "id": "noise_045",
-      "type": "page_number",
-      "cs": 8768,
-      "ce": 8770,
-      "unit_id": "unit_012",
-      "note": "۱۳"
+      "type": "separator",
+      "char_start": 9282,
+      "char_end": 9283,
+      "note": "\"-\""
     },
     {
       "id": "noise_046",
       "type": "separator",
-      "cs": 8771,
-      "ce": 8772,
-      "unit_id": "unit_012",
-      "note": "\"-\""
+      "char_start": 9492,
+      "char_end": 9494,
+      "note": "trailing \" )\""
     },
     {
       "id": "noise_047",
-      "type": "separator",
-      "cs": 8795,
-      "ce": 8796,
-      "unit_id": "unit_013",
-      "note": "\"-\""
+      "type": "displaced_fragment",
+      "char_start": 9826,
+      "char_end": 9838,
+      "note": "\"القسامة (٢٥)\" — marginal fragment about unit_014 (القسامة/الديات)"
     },
     {
       "id": "noise_048",
       "type": "separator",
-      "cs": 8974,
-      "ce": 8975,
-      "unit_id": "unit_013",
+      "char_start": 9999,
+      "char_end": 10000,
       "note": "bullet"
     },
     {
-      "id": "noise_050",
-      "type": "page_number",
-      "cs": 9136,
-      "ce": 9195,
-      "unit_id": "unit_013",
-      "note": "١٤"
+      "id": "noise_049",
+      "type": "displaced_heading",
+      "char_start": 10096,
+      "char_end": 10117,
+      "note": "\"تقوى الله وحسن الخلق\" — orphan heading read mid-unit, no corresponding unit"
     },
     {
-      "id": "noise_049",
-      "type": "running_header",
-      "cs": 9196,
-      "ce": 9212,
-      "unit_id": "unit_013"
+      "id": "noise_050",
+      "type": "separator",
+      "char_start": 10242,
+      "char_end": 10245,
+      "note": "\"» :\""
     },
     {
       "id": "noise_051",
       "type": "separator",
-      "cs": 9240,
-      "ce": 9241,
-      "unit_id": "unit_014",
+      "char_start": 10316,
+      "char_end": 10317,
       "note": "\"-\""
     },
     {
       "id": "noise_052",
-      "type": "separator",
-      "cs": 9282,
-      "ce": 9283,
-      "unit_id": "unit_014",
-      "note": "\"-\""
+      "type": "page_number",
+      "char_start": 10318,
+      "char_end": 10320,
+      "note": "۱۷"
     },
     {
       "id": "noise_053",
       "type": "separator",
-      "cs": 9492,
-      "ce": 9494,
-      "unit_id": "unit_014",
-      "note": "trailing \" )\""
+      "char_start": 10365,
+      "char_end": 10366,
+      "note": "bullet"
     },
     {
       "id": "noise_054",
-      "type": "footnote_anchor",
-      "cs": 9822,
-      "ce": 9825,
-      "unit_id": "unit_015",
-      "note": "(۲)"
+      "type": "separator",
+      "char_start": 10420,
+      "char_end": 10421,
+      "note": "stray quote"
     },
     {
       "id": "noise_055",
-      "type": "displaced_fragment",
-      "cs": 9826,
-      "ce": 9838,
-      "unit_id": "unit_015",
-      "note": "\"القسامة (٢٥)\" — marginal fragment about unit_014 (القسامة/الديات)"
+      "type": "page_number",
+      "char_start": 10646,
+      "char_end": 10648,
+      "note": "۱۸"
     },
     {
       "id": "noise_056",
       "type": "separator",
-      "cs": 9999,
-      "ce": 10000,
-      "unit_id": "unit_015",
-      "note": "bullet"
-    },
-    {
-      "id": "noise_057",
-      "type": "separator",
-      "cs": 10242,
-      "ce": 10245,
-      "unit_id": "unit_016",
-      "note": "\"» :\""
-    },
-    {
-      "id": "noise_058",
-      "type": "footnote_anchor",
-      "cs": 10246,
-      "ce": 10315,
-      "unit_id": "unit_016",
-      "note": "(۱)"
-    },
-    {
-      "id": "noise_059",
-      "type": "separator",
-      "cs": 10316,
-      "ce": 10317,
-      "unit_id": "unit_016",
+      "char_start": 10649,
+      "char_end": 10650,
       "note": "\"-\""
     },
     {
-      "id": "noise_060",
+      "id": "noise_058",
       "type": "page_number",
-      "cs": 10318,
-      "ce": 10320,
-      "unit_id": "unit_016",
-      "note": "۱۷"
+      "char_start": 10775,
+      "char_end": 10778,
+      "note": "١٤"
+    },
+    {
+      "id": "noise_057",
+      "type": "running_header",
+      "char_start": 10794,
+      "char_end": 10810
+    },
+    {
+      "id": "noise_059",
+      "type": "page_number",
+      "char_start": 11063,
+      "char_end": 11065,
+      "note": "۱۹"
+    },
+    {
+      "id": "noise_060",
+      "type": "separator",
+      "char_start": 11066,
+      "char_end": 11067,
+      "note": "\"-\""
+    },
+    {
+      "id": "noise_064",
+      "type": "displaced_heading",
+      "char_start": 11712,
+      "char_end": 11724,
+      "note": "tail = heading of unit_020"
     },
     {
       "id": "noise_061",
       "type": "separator",
-      "cs": 10365,
-      "ce": 10366,
-      "unit_id": "unit_017",
-      "note": "bullet"
+      "char_start": 11725,
+      "char_end": 11726,
+      "note": "stray bullet artifact"
     },
     {
       "id": "noise_062",
       "type": "separator",
-      "cs": 10420,
-      "ce": 10421,
-      "unit_id": "unit_017",
-      "note": "\"«\""
+      "char_start": 11727,
+      "char_end": 11782,
+      "note": "stray \"[\" fragment"
     },
     {
       "id": "noise_063",
-      "type": "footnote_anchor",
-      "cs": 10621,
-      "ce": 10624,
-      "unit_id": "unit_017",
-      "note": "(۲)"
-    },
-    {
-      "id": "noise_064",
-      "type": "page_number",
-      "cs": 10646,
-      "ce": 10648,
-      "unit_id": "unit_018",
-      "note": "۱۸"
-    },
-    {
-      "id": "noise_065",
       "type": "separator",
-      "cs": 10649,
-      "ce": 10650,
-      "unit_id": "unit_018",
+      "char_start": 12132,
+      "char_end": 12133,
       "note": "\"-\""
     },
     {
-      "id": "noise_067",
-      "type": "page_number",
-      "cs": 10737,
-      "ce": 10778,
-      "unit_id": "unit_018",
-      "note": "١٤"
+      "id": "noise_066",
+      "type": "garbled_glyph",
+      "char_start": 12585,
+      "char_end": 12586,
+      "note": "trailing glyph ܙ"
     },
     {
-      "id": "noise_066",
+      "id": "noise_065",
+      "type": "page_number",
+      "char_start": 12587,
+      "char_end": 12589,
+      "note": "۲۱"
+    },
+    {
+      "id": "noise_067",
       "type": "running_header",
-      "cs": 10794,
-      "ce": 10810,
-      "unit_id": "unit_018"
+      "char_start": 12611,
+      "char_end": 12627
     },
     {
       "id": "noise_068",
-      "type": "page_number",
-      "cs": 11063,
-      "ce": 11065,
-      "unit_id": "unit_018",
-      "note": "۱۹"
+      "type": "separator",
+      "char_start": 12628,
+      "char_end": 12629,
+      "note": "\"-\""
     },
     {
       "id": "noise_069",
       "type": "separator",
-      "cs": 11066,
-      "ce": 11067,
-      "unit_id": "unit_018",
+      "char_start": 12915,
+      "char_end": 12916,
       "note": "\"-\""
     },
     {
       "id": "noise_070",
-      "type": "footnote_anchor",
-      "cs": 11122,
-      "ce": 11125,
-      "unit_id": "unit_019",
-      "note": "(1)"
+      "type": "displaced_heading",
+      "char_start": 13432,
+      "char_end": 13444,
+      "note": "tail = heading of unit_024"
     },
     {
-      "id": "noise_074",
-      "type": "displaced_heading",
-      "cs": 11703,
-      "ce": 11724,
-      "unit_id": "unit_019",
-      "note": "tail = heading of unit_020"
+      "id": "noise_073",
+      "type": "ambiguous_number",
+      "char_start": 13445,
+      "char_end": 13447,
+      "note": "۲۳ — page-top token, interpreted as unit_023 number"
     },
     {
       "id": "noise_071",
       "type": "separator",
-      "cs": 11725,
-      "ce": 11726,
-      "unit_id": "unit_019",
-      "note": "stray bullet artifact"
+      "char_start": 13448,
+      "char_end": 13449,
+      "note": "\"-\""
     },
     {
       "id": "noise_072",
-      "type": "footnote_anchor",
-      "cs": 11783,
-      "ce": 11788,
-      "unit_id": "unit_019",
-      "note": "(١)"
+      "type": "separator",
+      "char_start": 13450,
+      "char_end": 13451,
+      "note": "\"-\""
     },
     {
-      "id": "noise_073",
-      "type": "separator",
-      "cs": 12132,
-      "ce": 12133,
-      "unit_id": "unit_019",
-      "note": "\"-\""
+      "id": "noise_074",
+      "type": "page_number",
+      "char_start": 13464,
+      "char_end": 13466,
+      "note": "۱۷"
     },
     {
       "id": "noise_075",
-      "type": "footnote_anchor",
-      "cs": 12375,
-      "ce": 12378,
-      "unit_id": "unit_020",
-      "note": "(۳)"
-    },
-    {
-      "id": "noise_077",
-      "type": "garbled_glyph",
-      "cs": 12563,
-      "ce": 12586,
-      "unit_id": "unit_020",
-      "note": "trailing glyph ܙ"
+      "type": "separator",
+      "char_start": 13510,
+      "char_end": 13511,
+      "note": "\"-\""
     },
     {
       "id": "noise_076",
-      "type": "page_number",
-      "cs": 12587,
-      "ce": 12589,
-      "unit_id": "unit_020",
-      "note": "۲۱"
+      "type": "separator",
+      "char_start": 13703,
+      "char_end": 13704,
+      "note": "\"-\""
+    },
+    {
+      "id": "noise_077",
+      "type": "separator",
+      "char_start": 13945,
+      "char_end": 13946,
+      "note": "\"-\""
     },
     {
       "id": "noise_078",
-      "type": "running_header",
-      "cs": 12611,
-      "ce": 12627,
-      "unit_id": "unit_021"
-    },
-    {
-      "id": "noise_079",
-      "type": "separator",
-      "cs": 12628,
-      "ce": 12629,
-      "unit_id": "unit_021",
-      "note": "\"-\""
+      "type": "ambiguous_number",
+      "char_start": 13947,
+      "char_end": 13949,
+      "note": "٢٤ — page-top token, interpreted as unit number"
     },
     {
       "id": "noise_080",
-      "type": "separator",
-      "cs": 12915,
-      "ce": 12916,
-      "unit_id": "unit_021",
-      "note": "\"-\""
+      "type": "page_number",
+      "char_start": 14342,
+      "char_end": 14345,
+      "note": "•۱۸"
     },
     {
-      "id": "noise_081",
-      "type": "footnote_anchor",
-      "cs": 12928,
-      "ce": 12931,
-      "unit_id": "unit_022",
-      "note": "(1)"
+      "id": "noise_079",
+      "type": "running_header",
+      "char_start": 14346,
+      "char_end": 14362
     },
     {
       "id": "noise_082",
-      "type": "footnote_anchor",
-      "cs": 13251,
-      "ce": 13329,
-      "unit_id": "unit_022",
-      "note": "(۲)"
+      "type": "displaced_heading",
+      "char_start": 15643,
+      "char_end": 15657,
+      "note": "tail = heading of unit_026"
+    },
+    {
+      "id": "noise_081",
+      "type": "page_number",
+      "char_start": 15658,
+      "char_end": 15660,
+      "note": "۲۰"
     },
     {
       "id": "noise_083",
-      "type": "displaced_heading",
-      "cs": 13422,
-      "ce": 13444,
-      "unit_id": "unit_022",
-      "note": "tail = heading of unit_024"
-    },
-    {
-      "id": "noise_086",
-      "type": "ambiguous_number",
-      "cs": 13445,
-      "ce": 13447,
-      "unit_id": "unit_022",
-      "note": "۲۳ — page-top token, interpreted as unit_023 number"
+      "type": "page_number",
+      "char_start": 15693,
+      "char_end": 15695,
+      "note": "۱۹"
     },
     {
       "id": "noise_084",
-      "type": "separator",
-      "cs": 13448,
-      "ce": 13449,
-      "unit_id": "unit_022",
-      "note": "\"-\""
+      "type": "running_header",
+      "char_start": 16565,
+      "char_end": 16582,
+      "note": "running header with residue prefix \"-\""
     },
     {
       "id": "noise_085",
       "type": "separator",
-      "cs": 13450,
-      "ce": 13451,
-      "unit_id": "unit_022",
-      "note": "\"-\""
+      "char_start": 17189,
+      "char_end": 17190,
+      "note": "stray \"]\" closing the first report attribution"
+    },
+    {
+      "id": "noise_090",
+      "type": "displaced_heading",
+      "char_start": 17500,
+      "char_end": 17520,
+      "note": "tail = heading of unit_028"
+    },
+    {
+      "id": "noise_086",
+      "type": "page_number",
+      "char_start": 17521,
+      "char_end": 17523,
+      "note": "۲۱"
     },
     {
       "id": "noise_087",
-      "type": "page_number",
-      "cs": 13464,
-      "ce": 13466,
-      "unit_id": "unit_023",
-      "note": "۱۷"
+      "type": "separator",
+      "char_start": 17524,
+      "char_end": 17526,
+      "note": "\"(( \""
     },
     {
       "id": "noise_088",
       "type": "separator",
-      "cs": 13510,
-      "ce": 13511,
-      "unit_id": "unit_023",
+      "char_start": 17846,
+      "char_end": 17847,
       "note": "\"-\""
     },
     {
       "id": "noise_089",
-      "type": "separator",
-      "cs": 13703,
-      "ce": 13704,
-      "unit_id": "unit_023",
-      "note": "\"-\""
-    },
-    {
-      "id": "noise_090",
-      "type": "separator",
-      "cs": 13945,
-      "ce": 13946,
-      "unit_id": "unit_024",
-      "note": "\"-\""
+      "type": "ambiguous_number",
+      "char_start": 17848,
+      "char_end": 17850,
+      "note": "۲۸ — page-top token, interpreted as unit_028 number"
     },
     {
       "id": "noise_091",
-      "type": "ambiguous_number",
-      "cs": 13947,
-      "ce": 13949,
-      "unit_id": "unit_024",
-      "note": "٢٤ — page-top token, interpreted as unit number"
-    },
-    {
-      "id": "noise_092",
-      "type": "footnote_anchor",
-      "cs": 13950,
-      "ce": 13953,
-      "unit_id": "unit_024",
-      "note": "(1)"
-    },
-    {
-      "id": "noise_094",
-      "type": "page_number",
-      "cs": 14342,
-      "ce": 14345,
-      "unit_id": "unit_024",
-      "note": "•۱۸"
+      "type": "separator",
+      "char_start": 18405,
+      "char_end": 18407,
+      "note": "\")) \""
     },
     {
       "id": "noise_093",
+      "type": "page_number",
+      "char_start": 18487,
+      "char_end": 18489,
+      "note": "۲۲"
+    },
+    {
+      "id": "noise_092",
       "type": "running_header",
-      "cs": 14346,
-      "ce": 14362,
-      "unit_id": "unit_024"
+      "char_start": 18490,
+      "char_end": 18506
+    },
+    {
+      "id": "noise_094",
+      "type": "displaced_heading",
+      "char_start": 19494,
+      "char_end": 19515,
+      "note": "tail = heading of unit_030"
     },
     {
       "id": "noise_095",
-      "type": "footnote_anchor",
-      "cs": 15531,
-      "ce": 15534,
-      "unit_id": "unit_024",
-      "note": "(1)"
-    },
-    {
-      "id": "noise_097",
-      "type": "displaced_heading",
-      "cs": 15596,
-      "ce": 15657,
-      "unit_id": "unit_024",
-      "note": "tail = heading of unit_026"
+      "type": "separator",
+      "char_start": 19516,
+      "char_end": 19518,
+      "note": "\"(( \""
     },
     {
       "id": "noise_096",
-      "type": "page_number",
-      "cs": 15658,
-      "ce": 15660,
-      "unit_id": "unit_024",
-      "note": "۲۰"
+      "type": "displaced_fragment",
+      "char_start": 20006,
+      "char_end": 20018,
+      "note": "\"السِنَتِهِمْ\" stray fragment"
+    },
+    {
+      "id": "noise_097",
+      "type": "displaced_fragment",
+      "char_start": 20019,
+      "char_end": 20022,
+      "note": "\"رضی\" stray fragment"
     },
     {
       "id": "noise_098",
-      "type": "page_number",
-      "cs": 15693,
-      "ce": 15695,
-      "unit_id": "unit_025",
-      "note": "۱۹"
+      "type": "separator",
+      "char_start": 20023,
+      "char_end": 20025,
+      "note": "\"(( \""
     },
     {
       "id": "noise_099",
-      "type": "footnote_anchor",
-      "cs": 16462,
-      "ce": 16465,
-      "unit_id": "unit_026",
-      "note": "(۱)"
+      "type": "separator",
+      "char_start": 20026,
+      "char_end": 20027,
+      "note": "\"-\""
     },
     {
       "id": "noise_100",
-      "type": "running_header",
-      "cs": 16565,
-      "ce": 16582,
-      "unit_id": "unit_026",
-      "note": "\"-\" prefix junk is OCR residue of running header"
+      "type": "separator",
+      "char_start": 20028,
+      "char_end": 20029,
+      "note": "\"-\""
     },
     {
       "id": "noise_101",
-      "type": "footnote_anchor",
-      "cs": 16995,
-      "ce": 16998,
-      "unit_id": "unit_027",
-      "note": "(1)"
+      "type": "page_number",
+      "char_start": 20515,
+      "char_end": 20517,
+      "note": "٢٤"
     },
     {
       "id": "noise_102",
-      "type": "separator",
-      "cs": 17189,
-      "ce": 17190,
-      "unit_id": "unit_027",
-      "note": "stray \"]\" closing the first report attribution"
-    },
-    {
-      "id": "noise_108",
-      "type": "displaced_heading",
-      "cs": 17493,
-      "ce": 17520,
-      "unit_id": "unit_027",
-      "note": "tail = heading of unit_028"
+      "type": "running_header",
+      "char_start": 20518,
+      "char_end": 20534
     },
     {
       "id": "noise_103",
-      "type": "page_number",
-      "cs": 17521,
-      "ce": 17523,
-      "unit_id": "unit_027",
-      "note": "۲۱"
+      "type": "ambiguous_number",
+      "char_start": 20585,
+      "char_end": 20587,
+      "note": "۳۱ — page-top token, interpreted as unit_031 number"
     },
     {
       "id": "noise_104",
       "type": "separator",
-      "cs": 17524,
-      "ce": 17526,
-      "unit_id": "unit_027",
-      "note": "\"(( \""
+      "char_start": 20588,
+      "char_end": 20589,
+      "note": "\"-\""
     },
     {
       "id": "noise_105",
       "type": "separator",
-      "cs": 17846,
-      "ce": 17847,
-      "unit_id": "unit_027",
+      "char_start": 20621,
+      "char_end": 20622,
       "note": "\"-\""
     },
     {
       "id": "noise_106",
-      "type": "ambiguous_number",
-      "cs": 17848,
-      "ce": 17850,
-      "unit_id": "unit_027",
-      "note": "۲۸ — page-top token, interpreted as unit_028 number"
+      "type": "separator",
+      "char_start": 20988,
+      "char_end": 20989,
+      "note": "\"-\""
     },
     {
       "id": "noise_107",
-      "type": "footnote_anchor",
-      "cs": 17851,
-      "ce": 17854,
-      "unit_id": "unit_027",
-      "note": "(۱) — anchor for unit_028 footnote"
+      "type": "separator",
+      "char_start": 21262,
+      "char_end": 21263,
+      "note": "bullet"
+    },
+    {
+      "id": "noise_110",
+      "type": "displaced_heading",
+      "char_start": 21330,
+      "char_end": 21362,
+      "note": "tail = heading of unit_034"
+    },
+    {
+      "id": "noise_108",
+      "type": "page_number",
+      "char_start": 21363,
+      "char_end": 21365,
+      "note": "۲۵"
     },
     {
       "id": "noise_109",
       "type": "separator",
-      "cs": 18405,
-      "ce": 18407,
-      "unit_id": "unit_028",
-      "note": "\")) \""
+      "char_start": 21521,
+      "char_end": 21522,
+      "note": "bullet"
     },
     {
       "id": "noise_111",
-      "type": "page_number",
-      "cs": 18475,
-      "ce": 18489,
-      "unit_id": "unit_028",
-      "note": "۲۲"
-    },
-    {
-      "id": "noise_110",
-      "type": "running_header",
-      "cs": 18490,
-      "ce": 18506,
-      "unit_id": "unit_028"
-    },
-    {
-      "id": "noise_112",
-      "type": "footnote_anchor",
-      "cs": 18583,
-      "ce": 18586,
-      "unit_id": "unit_028",
-      "note": "(1) — anchor for unit_029 footnote 1"
-    },
-    {
-      "id": "noise_113",
-      "type": "displaced_heading",
-      "cs": 19463,
-      "ce": 19515,
-      "unit_id": "unit_029",
-      "note": "tail = heading of unit_030"
-    },
-    {
-      "id": "noise_114",
       "type": "separator",
-      "cs": 19516,
-      "ce": 19518,
-      "unit_id": "unit_029",
+      "char_start": 21853,
+      "char_end": 21855,
       "note": "\"(( \""
     },
     {
+      "id": "noise_114",
+      "type": "page_number",
+      "char_start": 22192,
+      "char_end": 22195,
+      "note": "٢٦"
+    },
+    {
+      "id": "noise_112",
+      "type": "running_header",
+      "char_start": 22196,
+      "char_end": 22212
+    },
+    {
+      "id": "noise_113",
+      "type": "ambiguous_number",
+      "char_start": 22255,
+      "char_end": 22257,
+      "note": "۳۵ — page-top token, interpreted as unit_035 number"
+    },
+    {
       "id": "noise_115",
-      "type": "displaced_fragment",
-      "cs": 20006,
-      "ce": 20018,
-      "unit_id": "unit_029",
-      "note": "\"السِنَتِهِمْ\" stray fragment"
+      "type": "separator",
+      "char_start": 22388,
+      "char_end": 22389,
+      "note": "stray quote"
     },
     {
       "id": "noise_116",
-      "type": "displaced_fragment",
-      "cs": 20019,
-      "ce": 20022,
-      "unit_id": "unit_029",
-      "note": "\"رضی\" stray fragment"
+      "type": "ambiguous_number",
+      "char_start": 22820,
+      "char_end": 22822,
+      "note": "٣٦ — page-top token, interpreted as unit_036 number"
     },
     {
       "id": "noise_117",
       "type": "separator",
-      "cs": 20023,
-      "ce": 20025,
-      "unit_id": "unit_029",
-      "note": "\"(( \""
+      "char_start": 22823,
+      "char_end": 22824,
+      "note": "\"-\""
     },
     {
       "id": "noise_118",
       "type": "separator",
-      "cs": 20026,
-      "ce": 20027,
-      "unit_id": "unit_029",
+      "char_start": 22847,
+      "char_end": 22848,
       "note": "\"-\""
     },
     {
       "id": "noise_119",
       "type": "separator",
-      "cs": 20028,
-      "ce": 20029,
-      "unit_id": "unit_029",
-      "note": "\"-\""
-    },
-    {
-      "id": "noise_120",
-      "type": "footnote_anchor",
-      "cs": 20097,
-      "ce": 20100,
-      "unit_id": "unit_030",
-      "note": "(1)"
-    },
-    {
-      "id": "noise_121",
-      "type": "page_number",
-      "cs": 20461,
-      "ce": 20517,
-      "unit_id": "unit_030",
-      "note": "٢٤"
-    },
-    {
-      "id": "noise_122",
-      "type": "running_header",
-      "cs": 20518,
-      "ce": 20534,
-      "unit_id": "unit_030"
+      "char_start": 22930,
+      "char_end": 22931,
+      "note": "bullet"
     },
     {
       "id": "noise_123",
-      "type": "ambiguous_number",
-      "cs": 20585,
-      "ce": 20587,
-      "unit_id": "unit_030",
-      "note": "۳۱ — page-top token, interpreted as unit_031 number"
+      "type": "displaced_heading",
+      "char_start": 23078,
+      "char_end": 23097,
+      "note": "tail = heading of unit_037"
+    },
+    {
+      "id": "noise_120",
+      "type": "separator",
+      "char_start": 23098,
+      "char_end": 23099,
+      "note": "\",\""
+    },
+    {
+      "id": "noise_122",
+      "type": "page_number",
+      "char_start": 23100,
+      "char_end": 23102,
+      "note": "۲۷"
+    },
+    {
+      "id": "noise_121",
+      "type": "separator",
+      "char_start": 23248,
+      "char_end": 23249,
+      "note": "stray \"؛\""
     },
     {
       "id": "noise_124",
       "type": "separator",
-      "cs": 20588,
-      "ce": 20589,
-      "unit_id": "unit_030",
-      "note": "\"-\""
+      "char_start": 24167,
+      "char_end": 24168,
+      "note": "\":\""
     },
     {
       "id": "noise_125",
-      "type": "footnote_anchor",
-      "cs": 20590,
-      "ce": 20593,
-      "unit_id": "unit_030",
-      "note": "(1)"
+      "type": "page_number",
+      "char_start": 24169,
+      "char_end": 24172,
+      "note": "(۲۸"
     },
     {
       "id": "noise_126",
-      "type": "separator",
-      "cs": 20621,
-      "ce": 20622,
-      "unit_id": "unit_031",
-      "note": "\"-\""
+      "type": "running_header",
+      "char_start": 24173,
+      "char_end": 24189
     },
     {
       "id": "noise_127",
-      "type": "footnote_anchor",
-      "cs": 20984,
-      "ce": 20987,
-      "unit_id": "unit_032",
-      "note": "(۲)"
+      "type": "separator",
+      "char_start": 24583,
+      "char_end": 24584,
+      "note": "\".\""
     },
     {
       "id": "noise_128",
-      "type": "separator",
-      "cs": 20988,
-      "ce": 20989,
-      "unit_id": "unit_032",
-      "note": "\"-\""
+      "type": "displaced_fragment",
+      "char_start": 24585,
+      "char_end": 24588,
+      "note": "\"لطف\" stray fragment"
     },
     {
       "id": "noise_129",
       "type": "separator",
-      "cs": 21262,
-      "ce": 21263,
-      "unit_id": "unit_032",
-      "note": "bullet"
+      "char_start": 25150,
+      "char_end": 25152,
+      "note": "\"(( \""
     },
     {
       "id": "noise_130",
-      "type": "footnote_anchor",
-      "cs": 21264,
-      "ce": 21267,
-      "unit_id": "unit_032",
-      "note": "(۳)"
-    },
-    {
-      "id": "noise_133",
       "type": "displaced_heading",
-      "cs": 21268,
-      "ce": 21362,
-      "unit_id": "unit_032",
-      "note": "tail = heading of unit_034"
+      "char_start": 25224,
+      "char_end": 25244,
+      "note": "tail = heading of unit_039"
     },
     {
       "id": "noise_131",
-      "type": "page_number",
-      "cs": 21363,
-      "ce": 21365,
-      "unit_id": "unit_032",
-      "note": "۲۵"
+      "type": "ambiguous_number",
+      "char_start": 25284,
+      "char_end": 25286,
+      "note": "٣٨ — page-top token, interpreted as unit_038 number"
     },
     {
       "id": "noise_132",
       "type": "separator",
-      "cs": 21521,
-      "ce": 21522,
-      "unit_id": "unit_032",
-      "note": "bullet"
+      "char_start": 25287,
+      "char_end": 25288,
+      "note": "\"-\""
+    },
+    {
+      "id": "noise_133",
+      "type": "separator",
+      "char_start": 25331,
+      "char_end": 25332,
+      "note": "\"-\""
     },
     {
       "id": "noise_134",
-      "type": "separator",
-      "cs": 21853,
-      "ce": 21855,
-      "unit_id": "unit_033",
-      "note": "\"(( \""
-    },
-    {
-      "id": "noise_135",
-      "type": "footnote_anchor",
-      "cs": 21856,
-      "ce": 21859,
-      "unit_id": "unit_033",
-      "note": "(1) — anchor with no visible footnote text"
-    },
-    {
-      "id": "noise_139",
       "type": "page_number",
-      "cs": 22130,
-      "ce": 22195,
-      "unit_id": "unit_034",
-      "note": "٢٦"
+      "char_start": 25333,
+      "char_end": 25335,
+      "note": "۲۹"
     },
     {
       "id": "noise_136",
       "type": "running_header",
-      "cs": 22196,
-      "ce": 22212,
-      "unit_id": "unit_034"
+      "char_start": 26064,
+      "char_end": 26080
+    },
+    {
+      "id": "noise_135",
+      "type": "separator",
+      "char_start": 26181,
+      "char_end": 26182,
+      "note": "bullet"
     },
     {
       "id": "noise_137",
-      "type": "ambiguous_number",
-      "cs": 22255,
-      "ce": 22257,
-      "unit_id": "unit_034",
-      "note": "۳۵ — page-top token, interpreted as unit_035 number"
+      "type": "displaced_fragment",
+      "char_start": 26574,
+      "char_end": 26579,
+      "note": "\"رَضِي\" stray fragment"
     },
     {
       "id": "noise_138",
-      "type": "footnote_anchor",
-      "cs": 22258,
-      "ce": 22261,
-      "unit_id": "unit_034",
-      "note": "(1) — anchor for unit_035 footnote 1"
+      "type": "separator",
+      "char_start": 26616,
+      "char_end": 26617,
+      "note": "\"-\""
+    },
+    {
+      "id": "noise_139",
+      "type": "garbled_glyph",
+      "char_start": 26618,
+      "char_end": 26619,
+      "note": "\"6\" stray digit/glyph"
+    },
+    {
+      "id": "noise_142",
+      "type": "displaced_heading",
+      "char_start": 26875,
+      "char_end": 26892,
+      "note": "tail = heading of unit_042"
     },
     {
       "id": "noise_140",
       "type": "separator",
-      "cs": 22388,
-      "ce": 22389,
-      "unit_id": "unit_035",
-      "note": "\"«\""
+      "char_start": 27034,
+      "char_end": 27035,
+      "note": "\"-\""
     },
     {
       "id": "noise_141",
-      "type": "footnote_anchor",
-      "cs": 22742,
-      "ce": 22819,
-      "unit_id": "unit_035",
-      "note": "(۲)"
-    },
-    {
-      "id": "noise_142",
       "type": "ambiguous_number",
-      "cs": 22820,
-      "ce": 22822,
-      "unit_id": "unit_035",
-      "note": "٣٦ — page-top token, interpreted as unit_036 number"
-    },
-    {
-      "id": "noise_143",
-      "type": "separator",
-      "cs": 22823,
-      "ce": 22824,
-      "unit_id": "unit_035",
-      "note": "\"-\""
-    },
-    {
-      "id": "noise_144",
-      "type": "separator",
-      "cs": 22847,
-      "ce": 22848,
-      "unit_id": "unit_036",
-      "note": "\"-\""
-    },
-    {
-      "id": "noise_145",
-      "type": "separator",
-      "cs": 22930,
-      "ce": 22931,
-      "unit_id": "unit_036",
-      "note": "bullet"
-    },
-    {
-      "id": "noise_149",
-      "type": "displaced_heading",
-      "cs": 23005,
-      "ce": 23097,
-      "unit_id": "unit_036",
-      "note": "tail = heading of unit_037"
-    },
-    {
-      "id": "noise_146",
-      "type": "separator",
-      "cs": 23098,
-      "ce": 23099,
-      "unit_id": "unit_036",
-      "note": "\",\""
-    },
-    {
-      "id": "noise_148",
-      "type": "page_number",
-      "cs": 23100,
-      "ce": 23102,
-      "unit_id": "unit_036",
-      "note": "۲۷"
-    },
-    {
-      "id": "noise_147",
-      "type": "separator",
-      "cs": 23248,
-      "ce": 23249,
-      "unit_id": "unit_036",
-      "note": "stray \"؛\""
-    },
-    {
-      "id": "noise_150",
-      "type": "footnote_anchor",
-      "cs": 23890,
-      "ce": 23893,
-      "unit_id": "unit_037",
-      "note": "(1)"
-    },
-    {
-      "id": "noise_151",
-      "type": "separator",
-      "cs": 24167,
-      "ce": 24168,
-      "unit_id": "unit_037",
-      "note": "\":\""
-    },
-    {
-      "id": "noise_152",
-      "type": "page_number",
-      "cs": 24169,
-      "ce": 24172,
-      "unit_id": "unit_037",
-      "note": "(۲۸"
-    },
-    {
-      "id": "noise_153",
-      "type": "running_header",
-      "cs": 24173,
-      "ce": 24189,
-      "unit_id": "unit_037"
-    },
-    {
-      "id": "noise_154",
-      "type": "separator",
-      "cs": 24583,
-      "ce": 24584,
-      "unit_id": "unit_037",
-      "note": "\".\""
-    },
-    {
-      "id": "noise_155",
-      "type": "displaced_fragment",
-      "cs": 24585,
-      "ce": 24588,
-      "unit_id": "unit_037",
-      "note": "\"لطف\" stray fragment"
-    },
-    {
-      "id": "noise_156",
-      "type": "footnote_anchor",
-      "cs": 24589,
-      "ce": 24656,
-      "unit_id": "unit_037",
-      "note": "(١)"
-    },
-    {
-      "id": "noise_157",
-      "type": "separator",
-      "cs": 25150,
-      "ce": 25152,
-      "unit_id": "unit_037",
-      "note": "\"(( \""
-    },
-    {
-      "id": "noise_158",
-      "type": "displaced_heading",
-      "cs": 25210,
-      "ce": 25244,
-      "unit_id": "unit_037",
-      "note": "tail = heading of unit_039"
-    },
-    {
-      "id": "noise_159",
-      "type": "ambiguous_number",
-      "cs": 25284,
-      "ce": 25286,
-      "unit_id": "unit_037",
-      "note": "٣٨ — page-top token, interpreted as unit_038 number"
-    },
-    {
-      "id": "noise_160",
-      "type": "separator",
-      "cs": 25287,
-      "ce": 25288,
-      "unit_id": "unit_037",
-      "note": "\"-\""
-    },
-    {
-      "id": "noise_161",
-      "type": "separator",
-      "cs": 25331,
-      "ce": 25332,
-      "unit_id": "unit_038",
-      "note": "\"-\""
-    },
-    {
-      "id": "noise_162",
-      "type": "page_number",
-      "cs": 25333,
-      "ce": 25335,
-      "unit_id": "unit_038",
-      "note": "۲۹"
-    },
-    {
-      "id": "noise_163",
-      "type": "footnote_anchor",
-      "cs": 25860,
-      "ce": 25863,
-      "unit_id": "unit_039",
-      "note": "(1)"
-    },
-    {
-      "id": "noise_165",
-      "type": "running_header",
-      "cs": 26034,
-      "ce": 26080,
-      "unit_id": "unit_039"
-    },
-    {
-      "id": "noise_164",
-      "type": "separator",
-      "cs": 26181,
-      "ce": 26182,
-      "unit_id": "unit_039",
-      "note": "bullet"
-    },
-    {
-      "id": "noise_166",
-      "type": "displaced_fragment",
-      "cs": 26574,
-      "ce": 26579,
-      "unit_id": "unit_040",
-      "note": "\"رَضِي\" stray fragment"
-    },
-    {
-      "id": "noise_167",
-      "type": "footnote_anchor",
-      "cs": 26580,
-      "ce": 26583,
-      "unit_id": "unit_040",
-      "note": "(۲) — anchor for footnote hosted at unit_041 lines 678-679"
-    },
-    {
-      "id": "noise_168",
-      "type": "separator",
-      "cs": 26616,
-      "ce": 26617,
-      "unit_id": "unit_041",
-      "note": "\"-\""
-    },
-    {
-      "id": "noise_169",
-      "type": "garbled_glyph",
-      "cs": 26618,
-      "ce": 26619,
-      "unit_id": "unit_041",
-      "note": "\"6\" stray digit/glyph"
-    },
-    {
-      "id": "noise_172",
-      "type": "displaced_heading",
-      "cs": 26853,
-      "ce": 26892,
-      "unit_id": "unit_041",
-      "note": "tail = heading of unit_042"
-    },
-    {
-      "id": "noise_170",
-      "type": "separator",
-      "cs": 27034,
-      "ce": 27035,
-      "unit_id": "unit_041",
-      "note": "\"-\""
-    },
-    {
-      "id": "noise_171",
-      "type": "ambiguous_number",
-      "cs": 27036,
-      "ce": 27038,
-      "unit_id": "unit_041",
+      "char_start": 27036,
+      "char_end": 27038,
       "note": "٤٢ — page-top token, interpreted as unit_042 number"
     },
     {
-      "id": "noise_173",
-      "type": "footnote_anchor",
-      "cs": 27057,
-      "ce": 27060,
-      "unit_id": "unit_042",
-      "note": "(1)"
-    },
-    {
-      "id": "noise_174",
-      "type": "footnote_anchor",
-      "cs": 27533,
-      "ce": 27536,
-      "unit_id": "unit_042",
-      "note": "(۲)"
-    },
-    {
-      "id": "noise_175",
+      "id": "noise_143",
       "type": "page_number",
-      "cs": 27751,
-      "ce": 27754,
-      "unit_id": "unit_042",
+      "char_start": 27751,
+      "char_end": 27754,
       "note": "•۳۲"
+    },
+    {
+      "id": "noise_145",
+      "type": "garbled_glyph",
+      "char_start": 27876,
+      "char_end": 27877,
+      "note": "index garbled glyphs"
+    },
+    {
+      "id": "noise_146",
+      "type": "garbled_glyph",
+      "char_start": 27878,
+      "char_end": 27879,
+      "note": "index garbled glyphs"
+    },
+    {
+      "id": "noise_147",
+      "type": "garbled_glyph",
+      "char_start": 27880,
+      "char_end": 27881,
+      "note": "index garbled glyphs"
+    },
+    {
+      "id": "noise_148",
+      "type": "garbled_glyph",
+      "char_start": 28080,
+      "char_end": 28081,
+      "note": "index garbled glyphs"
+    },
+    {
+      "id": "noise_149",
+      "type": "garbled_glyph",
+      "char_start": 28633,
+      "char_end": 28635,
+      "note": "index garbled glyphs"
     }
   ],
   "nodes": [
@@ -1404,10 +1304,10 @@
       "source": {
         "char_start": 0,
         "char_end": 28672,
-        "page_start": null,
-        "page_end": null
+        "page_start": 1,
+        "page_end": 32
       },
-      "evidence": "title page + running headers + TOC",
+      "evidence": "title page + running headers + TOC + 42 numbered units",
       "confidence": 0.95
     },
     {
@@ -1419,18 +1319,27 @@
       "source": {
         "char_start": 0,
         "char_end": 1093,
-        "page_start": null,
-        "page_end": null
+        "page_start": 1,
+        "page_end": 2
       },
-      "evidence": "title page (1-36)",
+      "evidence": "title page (lines 1-6) + publication data (7-36)",
       "confidence": 0.95,
       "segments": [
         {
-          "role": "body",
-          "cs": 0,
-          "ce": 1093,
+          "role": "title_page",
+          "char_start": 0,
+          "char_end": 159,
+          "page_index": 1,
           "placement": "in_span",
           "confidence": 0.95
+        },
+        {
+          "role": "publication_data",
+          "char_start": 159,
+          "char_end": 1093,
+          "page_index": 2,
+          "placement": "in_span",
+          "confidence": 0.8
         }
       ]
     },
@@ -1486,8 +1395,8 @@
       "source": {
         "char_start": 1093,
         "char_end": 27755,
-        "page_start": null,
-        "page_end": null
+        "page_start": 2,
+        "page_end": 31
       },
       "evidence": "42 numbered hadith units with headings + isnaads",
       "confidence": 0.95,
@@ -1502,16 +1411,41 @@
       "source": {
         "char_start": 27755,
         "char_end": 28672,
-        "page_start": null,
-        "page_end": null
+        "page_start": 31,
+        "page_end": 32
       },
-      "evidence": "index/TOC table (701-790)",
+      "evidence": "index/TOC table (lines 701-790)",
       "confidence": 0.6,
       "segments": [
         {
-          "role": "body",
-          "cs": 27755,
-          "ce": 28672,
+          "role": "toc_entry",
+          "char_start": 27755,
+          "char_end": 27875,
+          "page_index": 31,
+          "placement": "in_span",
+          "confidence": 0.6
+        },
+        {
+          "role": "toc_entry",
+          "char_start": 27882,
+          "char_end": 28079,
+          "page_index": 31,
+          "placement": "in_span",
+          "confidence": 0.6
+        },
+        {
+          "role": "toc_entry",
+          "char_start": 28082,
+          "char_end": 28632,
+          "page_index": 32,
+          "placement": "in_span",
+          "confidence": 0.6
+        },
+        {
+          "role": "toc_entry",
+          "char_start": 28636,
+          "char_end": 28672,
+          "page_index": 32,
           "placement": "in_span",
           "confidence": 0.6
         }

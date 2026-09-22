@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": {},
+  "warnings": {},
+  "stats": {
+    "source_length_chars": 28672,
+    "nodes": 4,
+    "units": 42,
+    "issues": 17,
+    "noise_spans": 149,
+    "pages": 32,
+    "segment_roles": {
+      "noise_ref": 144,
+      "heading": 43,
+      "matn": 331,
+      "isnad": 28,
+      "source_attribution": 53,
+      "takhrij": 46,
+      "anchor": 33,
+      "editorial_note": 14
+    },
+    "body_role_share": 0.0,
+    "covered_non_whitespace_chars": 23640,
+    "non_whitespace_chars": 23640
+  }
+}

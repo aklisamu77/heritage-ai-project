@@ -4,79 +4,65 @@
       "id": "issue_001",
       "type": "repeated_header",
       "severity": "low",
+      "description": "Running header \"الأربعين النووية\" repeated at page tops (14 occurrences).",
       "occurrences": [
         {
-          "unit_id": null,
           "char_start": 1910,
           "char_end": 1926
         },
         {
-          "unit_id": null,
           "char_start": 3942,
           "char_end": 3958
         },
         {
-          "unit_id": null,
           "char_start": 5803,
           "char_end": 5849
         },
         {
-          "unit_id": null,
           "char_start": 7541,
           "char_end": 7598
         },
         {
-          "unit_id": null,
           "char_start": 9196,
           "char_end": 9212
         },
         {
-          "unit_id": null,
           "char_start": 10794,
           "char_end": 10810
         },
         {
-          "unit_id": null,
           "char_start": 12611,
           "char_end": 12627
         },
         {
-          "unit_id": null,
           "char_start": 14346,
           "char_end": 14362
         },
         {
-          "unit_id": null,
           "char_start": 16565,
           "char_end": 16582
         },
         {
-          "unit_id": null,
           "char_start": 18490,
           "char_end": 18506
         },
         {
-          "unit_id": null,
           "char_start": 20518,
           "char_end": 20534
         },
         {
-          "unit_id": null,
           "char_start": 22196,
           "char_end": 22212
         },
         {
-          "unit_id": null,
           "char_start": 24173,
           "char_end": 24189
         },
         {
-          "unit_id": null,
           "char_start": 26034,
           "char_end": 26080
         }
       ],
-      "description": "Running header \"الأربعين النووية\" repeated at page tops (14 occurrences).",
       "confidence": 0.95,
       "needs_visual_check": false
     },
@@ -84,119 +70,121 @@
       "id": "issue_002",
       "type": "page_number_noise",
       "severity": "low",
+      "description": "Isolated page numbers printed in page footers/headers read as noise.",
       "occurrences": [
         {
-          "unit_id": null,
           "char_start": 3918,
           "char_end": 3919
         },
         {
-          "unit_id": null,
           "char_start": 8205,
           "char_end": 8207
         },
         {
-          "unit_id": null,
           "char_start": 8550,
           "char_end": 8552
         },
         {
-          "unit_id": null,
           "char_start": 8768,
           "char_end": 8770
         },
         {
-          "unit_id": null,
           "char_start": 10318,
           "char_end": 10320
         },
         {
-          "unit_id": null,
           "char_start": 10646,
           "char_end": 10648
         },
         {
-          "unit_id": null,
           "char_start": 11063,
           "char_end": 11065
         },
         {
-          "unit_id": null,
           "char_start": 12587,
           "char_end": 12589
         },
         {
-          "unit_id": null,
           "char_start": 13464,
           "char_end": 13466
         },
         {
-          "unit_id": null,
           "char_start": 14342,
           "char_end": 14345
         },
         {
-          "unit_id": null,
           "char_start": 15658,
           "char_end": 15660
         },
         {
-          "unit_id": null,
           "char_start": 15693,
           "char_end": 15695
         },
         {
-          "unit_id": null,
           "char_start": 17521,
           "char_end": 17523
         },
         {
-          "unit_id": null,
           "char_start": 21363,
           "char_end": 21365
         },
         {
-          "unit_id": null,
-          "char_start": 25333,
-          "char_end": 25335
-        },
-        {
-          "unit_id": null,
-          "char_start": 9136,
-          "char_end": 9195
-        },
-        {
-          "unit_id": null,
-          "char_start": 18475,
-          "char_end": 18489
-        },
-        {
-          "unit_id": null,
-          "char_start": 20461,
-          "char_end": 20517
-        },
-        {
-          "unit_id": null,
-          "char_start": 22130,
-          "char_end": 22195
-        },
-        {
-          "unit_id": null,
           "char_start": 23100,
           "char_end": 23102
         },
         {
-          "unit_id": null,
+          "char_start": 25333,
+          "char_end": 25335
+        },
+        {
+          "char_start": 27751,
+          "char_end": 27754
+        },
+        {
+          "char_start": 9192,
+          "char_end": 9195
+        },
+        {
+          "char_start": 10775,
+          "char_end": 10778
+        },
+        {
+          "char_start": 13445,
+          "char_end": 13447
+        },
+        {
+          "char_start": 13947,
+          "char_end": 13949
+        },
+        {
+          "char_start": 18487,
+          "char_end": 18489
+        },
+        {
+          "char_start": 20515,
+          "char_end": 20517
+        },
+        {
+          "char_start": 22192,
+          "char_end": 22195
+        },
+        {
+          "char_start": 22820,
+          "char_end": 22822
+        },
+        {
           "char_start": 24169,
           "char_end": 24172
         },
         {
-          "unit_id": null,
-          "char_start": 27751,
-          "char_end": 27754
+          "char_start": 25284,
+          "char_end": 25286
+        },
+        {
+          "char_start": 27036,
+          "char_end": 27038
         }
       ],
-      "description": "Isolated page numbers printed in page footers/headers read as noise.",
       "confidence": 0.9,
       "needs_visual_check": false
     },
@@ -204,49 +192,41 @@
       "id": "issue_003",
       "type": "ambiguous_numbering",
       "severity": "medium",
+      "description": "Page-top tokens (23,24,28,31,35,36,38,42) could be page numbers or the next hadith's number; interpreted as the next unit's printed number at reduced confidence.",
       "occurrences": [
         {
-          "unit_id": null,
           "char_start": 13445,
           "char_end": 13447
         },
         {
-          "unit_id": null,
           "char_start": 13947,
           "char_end": 13949
         },
         {
-          "unit_id": null,
           "char_start": 17848,
           "char_end": 17850
         },
         {
-          "unit_id": null,
           "char_start": 20585,
           "char_end": 20587
         },
         {
-          "unit_id": null,
           "char_start": 22255,
           "char_end": 22257
         },
         {
-          "unit_id": null,
           "char_start": 22820,
           "char_end": 22822
         },
         {
-          "unit_id": null,
           "char_start": 25284,
           "char_end": 25286
         },
         {
-          "unit_id": null,
           "char_start": 27036,
           "char_end": 27038
         }
       ],
-      "description": "Page-top tokens (23,24,28,31,35,36,38,42) could be page numbers or the next hadith's number; interpreted as unit numbers at confidence 0.7.",
       "confidence": 0.7,
       "needs_visual_check": true
     },
@@ -254,317 +234,216 @@
       "id": "issue_004",
       "type": "missing_number",
       "severity": "medium",
+      "description": "Units for which no printed hadith number was found in the OCR (no inline number and no unambiguous page-top token).",
       "occurrences": [
         {
-          "unit_id": "unit_001",
           "char_start": 1093,
-          "char_end": 1928
+          "char_end": 1928,
+          "unit_id": "unit_001"
         },
         {
-          "unit_id": "unit_003",
           "char_start": 3377,
-          "char_end": 3910
+          "char_end": 3910,
+          "unit_id": "unit_003"
         },
         {
-          "unit_id": "unit_004",
           "char_start": 3911,
-          "char_end": 4969
+          "char_end": 4969,
+          "unit_id": "unit_004"
         },
         {
-          "unit_id": "unit_008",
           "char_start": 6391,
-          "char_end": 6969
+          "char_end": 6969,
+          "unit_id": "unit_008"
         },
         {
-          "unit_id": "unit_010",
           "char_start": 7341,
-          "char_end": 8213
+          "char_end": 8213,
+          "unit_id": "unit_010"
         },
         {
-          "unit_id": "unit_011",
           "char_start": 8214,
-          "char_end": 8554
+          "char_end": 8554,
+          "unit_id": "unit_011"
         },
         {
-          "unit_id": "unit_012",
           "char_start": 8555,
-          "char_end": 8772
+          "char_end": 8772,
+          "unit_id": "unit_012"
         },
         {
-          "unit_id": "unit_013",
           "char_start": 8773,
-          "char_end": 9212
+          "char_end": 9212,
+          "unit_id": "unit_013"
         },
         {
-          "unit_id": "unit_014",
           "char_start": 9213,
-          "char_end": 9494
+          "char_end": 9494,
+          "unit_id": "unit_014"
         },
         {
-          "unit_id": "unit_017",
           "char_start": 10321,
-          "char_end": 10624
+          "char_end": 10624,
+          "unit_id": "unit_017"
         },
         {
-          "unit_id": "unit_018",
           "char_start": 10625,
-          "char_end": 11067
+          "char_end": 11067,
+          "unit_id": "unit_018"
         },
         {
-          "unit_id": "unit_019",
           "char_start": 11068,
-          "char_end": 12133
+          "char_end": 12133,
+          "unit_id": "unit_019"
         },
         {
-          "unit_id": "unit_020",
           "char_start": 12134,
-          "char_end": 12589
+          "char_end": 12589,
+          "unit_id": "unit_020"
         },
         {
-          "unit_id": "unit_025",
           "char_start": 15661,
-          "char_end": 16446
+          "char_end": 16446,
+          "unit_id": "unit_025"
         }
       ],
-      "description": "Units for which no printed hadith number was found in the OCR (no inline number and no unambiguous page-top token).",
       "confidence": 0.8,
       "needs_visual_check": true
     },
     {
       "id": "issue_005",
-      "type": "page_boundary_unknown",
-      "severity": "high",
-      "occurrences": [],
-      "description": "No PDF/DOCX/page-images auxiliary source available; page boundaries could not be established. pages: [] — offsets are per line only; footnote-to-page attribution used anchor/content matching instead.",
-      "confidence": 0.95,
-      "needs_visual_check": false
-    },
-    {
-      "id": "issue_006",
       "type": "possibly_missing_component",
       "severity": "medium",
-      "occurrences": [],
       "description": "For a hadith-collection of this genre, an author introduction (khutbat al-musannif) and an editor introduction are common. Neither is present in the OCR; they may be absent from the edition or lost to OCR.",
+      "occurrences": [],
       "confidence": 0.6,
       "needs_visual_check": true
     },
     {
-      "id": "issue_007",
+      "id": "issue_006",
       "type": "displaced_footnote",
       "severity": "medium",
+      "description": "Footnotes whose text was read by OCR into the following unit's span (typical page-bottom pattern). Each is reassigned to its logical owner; the host unit's foreign_spans records the displaced segment.",
       "occurrences": [
         {
-          "unit_id": "unit_002",
           "char_start": 3700,
-          "char_end": 3851
+          "char_end": 3851,
+          "unit_id": "unit_002"
         },
         {
-          "unit_id": "unit_005",
           "char_start": 5684,
-          "char_end": 5799
+          "char_end": 5799,
+          "unit_id": "unit_005"
         },
         {
-          "unit_id": "unit_005",
           "char_start": 5803,
-          "char_end": 5849
+          "char_end": 5833,
+          "unit_id": "unit_005"
         },
         {
-          "unit_id": "unit_006",
           "char_start": 6516,
-          "char_end": 6648
+          "char_end": 6648,
+          "unit_id": "unit_006"
         },
         {
-          "unit_id": "unit_009",
           "char_start": 7423,
-          "char_end": 7478
+          "char_end": 7478,
+          "unit_id": "unit_009"
         },
         {
-          "unit_id": "unit_009",
           "char_start": 7541,
-          "char_end": 7598
+          "char_end": 7582,
+          "unit_id": "unit_009"
         },
         {
-          "unit_id": "unit_010",
           "char_start": 8347,
-          "char_end": 8444
+          "char_end": 8423,
+          "unit_id": "unit_010"
         },
         {
-          "unit_id": "unit_011",
           "char_start": 8976,
-          "char_end": 9073
+          "char_end": 9073,
+          "unit_id": "unit_011"
         },
         {
-          "unit_id": "unit_012",
           "char_start": 9074,
-          "char_end": 9135
+          "char_end": 9135,
+          "unit_id": "unit_012"
         },
         {
-          "unit_id": "unit_014",
           "char_start": 9839,
-          "char_end": 9998
+          "char_end": 9998,
+          "unit_id": "unit_014"
         },
         {
-          "unit_id": "unit_016",
           "char_start": 10701,
-          "char_end": 10736
+          "char_end": 10736,
+          "unit_id": "unit_016"
         },
         {
-          "unit_id": "unit_017",
           "char_start": 10737,
-          "char_end": 10778
+          "char_end": 10775,
+          "unit_id": "unit_017"
         },
         {
-          "unit_id": "unit_019",
           "char_start": 12379,
-          "char_end": 12469
+          "char_end": 12469,
+          "unit_id": "unit_019"
         },
         {
-          "unit_id": "unit_019",
           "char_start": 12470,
-          "char_end": 12500
+          "char_end": 12500,
+          "unit_id": "unit_019"
         },
         {
-          "unit_id": "unit_023",
           "char_start": 14232,
-          "char_end": 14341
+          "char_end": 14341,
+          "unit_id": "unit_023"
         },
         {
-          "unit_id": "unit_025",
           "char_start": 16511,
-          "char_end": 16564
+          "char_end": 16564,
+          "unit_id": "unit_025"
         },
         {
-          "unit_id": "unit_026",
           "char_start": 17299,
-          "char_end": 17361
+          "char_end": 17361,
+          "unit_id": "unit_026"
         },
         {
-          "unit_id": "unit_035",
           "char_start": 22899,
-          "char_end": 22929
+          "char_end": 22929,
+          "unit_id": "unit_035"
         },
         {
-          "unit_id": "unit_035",
           "char_start": 22932,
-          "char_end": 23097
+          "char_end": 23078,
+          "unit_id": "unit_035"
         },
         {
-          "unit_id": "unit_038",
           "char_start": 25973,
-          "char_end": 26080
+          "char_end": 26064,
+          "unit_id": "unit_038"
         },
         {
-          "unit_id": "unit_039",
           "char_start": 26732,
-          "char_end": 26793
+          "char_end": 26793,
+          "unit_id": "unit_039"
         },
         {
-          "unit_id": "unit_040",
           "char_start": 26794,
-          "char_end": 26892
+          "char_end": 26875,
+          "unit_id": "unit_040"
         }
       ],
-      "description": "Footnotes whose text was read by OCR into the following unit's span (typical page-bottom pattern). Each is reassigned to its logical owner; host unit's foreign_spans records the displaced segment.",
       "confidence": 0.85,
       "needs_visual_check": false
     },
     {
-      "id": "issue_008",
-      "type": "unanchored_footnote",
-      "severity": "low",
-      "occurrences": [
-        {
-          "unit_id": "unit_006",
-          "char_start": 6516,
-          "char_end": 6580
-        },
-        {
-          "unit_id": "unit_014",
-          "char_start": 9839,
-          "char_end": 9882
-        },
-        {
-          "unit_id": "unit_025",
-          "char_start": 16511,
-          "char_end": 16564
-        },
-        {
-          "unit_id": "unit_035",
-          "char_start": 22899,
-          "char_end": 22929
-        }
-      ],
-      "description": "Footnotes with visible text but no matching anchor marker found in the OCR.",
-      "confidence": 0.7,
-      "needs_visual_check": true
-    },
-    {
-      "id": "issue_009",
-      "type": "missing_footnote",
-      "severity": "medium",
-      "occurrences": [
-        {
-          "unit_id": "unit_007",
-          "char_start": 6149,
-          "char_end": 6152
-        },
-        {
-          "unit_id": "unit_015",
-          "char_start": 9822,
-          "char_end": 9825
-        },
-        {
-          "unit_id": "unit_012",
-          "char_start": 8677,
-          "char_end": 8767
-        },
-        {
-          "unit_id": "unit_040",
-          "char_start": 26580,
-          "char_end": 26583
-        },
-        {
-          "unit_id": "unit_033",
-          "char_start": 21856,
-          "char_end": 21859
-        }
-      ],
-      "description": "Anchor markers whose footnote text could not be located (unit_007 (1)@162; unit_015 (1) possibly merged into (٢); unit_012 (٢) tail anchor with no text; unit_033 (1)@559; unit_040 (1) not found).",
-      "confidence": 0.6,
-      "needs_visual_check": true
-    },
-    {
-      "id": "issue_010",
-      "type": "duplicate_fragment",
-      "severity": "low",
-      "occurrences": [
-        {
-          "unit_id": "unit_001",
-          "char_start": 1093,
-          "char_end": 1183,
-          "note": "heading duplicated on lines 37 and 42"
-        },
-        {
-          "unit_id": "unit_021",
-          "char_start": 12630,
-          "char_end": 12703,
-          "note": "\"عَنْ أَبِي عَنْ أَبي عَمْرو\" (duplicate كلمة عن أبي)"
-        },
-        {
-          "unit_id": "unit_035",
-          "char_start": 22285,
-          "char_end": 22334,
-          "note": "\"أبي هريرة - هريرة\""
-        }
-      ],
-      "description": "Same words read twice in a line/adjacent lines.",
-      "confidence": 0.9,
-      "needs_visual_check": false
-    },
-    {
-      "id": "issue_011",
+      "id": "issue_007",
       "type": "displaced_heading",
       "severity": "low",
+      "description": "Headings read by OCR at the end/beggar of the previous unit's span (page-top topic headers repeated before the unit that owns them).",
       "occurrences": [
         {
           "char_start": 2788,
@@ -577,27 +456,17 @@
           "note": "belongs to unit_006 (الورع والإخلاص)"
         },
         {
-          "char_start": 6649,
+          "char_start": 6679,
           "char_end": 6710,
           "note": "belongs to unit_010 (الكسب الحلال سبب إجابة الدعاء)"
         },
         {
-          "char_start": 8403,
+          "char_start": 8423,
           "char_end": 8444,
           "note": "belongs to unit_013 (أخوة الإيمان والإسلام)"
         },
         {
-          "char_start": 10096,
-          "char_end": 10106,
-          "note": "belongs to unit_018 (تقوى الله)"
-        },
-        {
-          "char_start": 10107,
-          "char_end": 10117,
-          "note": "belongs to unit_018 (وحسن الخلق)"
-        },
-        {
-          "char_start": 13422,
+          "char_start": 13432,
           "char_end": 13444,
           "note": "belongs to unit_024 (فضل الله على)"
         },
@@ -607,12 +476,12 @@
           "note": "belongs to unit_026 (كثرة طرق الخير)"
         },
         {
-          "char_start": 17493,
+          "char_start": 17500,
           "char_end": 17520,
           "note": "belongs to unit_028 (الطاعة والتزام السنة)"
         },
         {
-          "char_start": 19463,
+          "char_start": 19494,
           "char_end": 19515,
           "note": "belongs to unit_030 (الوقوف عند حدود الشرع)"
         },
@@ -627,64 +496,150 @@
           "note": "belongs to unit_037 (عظيم لطف الله وفضله)"
         },
         {
-          "char_start": 25210,
+          "char_start": 25224,
           "char_end": 25244,
           "note": "belongs to unit_039 (رفع الحرج في الإسلام)"
         },
         {
-          "char_start": 26853,
+          "char_start": 26875,
           "char_end": 26892,
           "note": "belongs to unit_042 (سعة مغفرة الله عل)"
         }
       ],
-      "description": "Headings read by OCR at the end/beggar of the previous unit's span (page-top topic headers repeated before the unit that owns them).",
       "confidence": 0.9,
       "needs_visual_check": false
     },
     {
-      "id": "issue_012",
+      "id": "issue_008",
       "type": "displaced_fragment",
       "severity": "medium",
+      "description": "Stray fragments read out of order (isnad tail, reordered words).",
       "occurrences": [
         {
-          "unit_id": "unit_001",
-          "char_start": 1093,
-          "char_end": 1127
-        },
-        {
-          "unit_id": "unit_004",
           "char_start": 3911,
-          "char_end": 3915
+          "char_end": 3915,
+          "unit_id": "unit_004"
         },
         {
-          "unit_id": "unit_029",
           "char_start": 20006,
-          "char_end": 20018
+          "char_end": 20018,
+          "unit_id": "unit_029"
         },
         {
-          "unit_id": "unit_029",
           "char_start": 20019,
-          "char_end": 20022
+          "char_end": 20022,
+          "unit_id": "unit_029"
         },
         {
-          "unit_id": "unit_037",
           "char_start": 24585,
-          "char_end": 24588
+          "char_end": 24588,
+          "unit_id": "unit_037"
         },
         {
-          "unit_id": "unit_040",
           "char_start": 26574,
-          "char_end": 26579
+          "char_end": 26579,
+          "unit_id": "unit_040"
         }
       ],
-      "description": "Stray fragments read out of order (isnad tail, reordered words).",
       "confidence": 0.8,
       "needs_visual_check": true
     },
     {
-      "id": "issue_013",
+      "id": "issue_009",
+      "type": "missing_footnote",
+      "severity": "medium",
+      "description": "Anchor markers whose footnote text could not be located (unit_007 (1)@162; unit_015 (1) possibly merged into (٢); unit_012 (٢) tail anchor with no text; unit_040 (2) not found; unit_033 (1)@559).",
+      "occurrences": [
+        {
+          "char_start": 6149,
+          "char_end": 6152,
+          "unit_id": "unit_007"
+        },
+        {
+          "unit_id": "unit_015"
+        },
+        {
+          "unit_id": "unit_012"
+        },
+        {
+          "unit_id": "unit_040"
+        },
+        {
+          "unit_id": "unit_033"
+        }
+      ],
+      "confidence": 0.6,
+      "needs_visual_check": true
+    },
+    {
+      "id": "issue_010",
+      "type": "duplicate_fragment",
+      "severity": "low",
+      "description": "Same words read twice in a line/adjacent lines.",
+      "occurrences": [
+        {
+          "char_start": 1093,
+          "char_end": 1127,
+          "note": "heading duplicated on lines 37 and 42",
+          "unit_id": "unit_001"
+        },
+        {
+          "char_start": 1128,
+          "char_end": 1130,
+          "note": "heading duplicated on lines 37 and 42",
+          "unit_id": "unit_001"
+        },
+        {
+          "char_start": 1131,
+          "char_end": 1143,
+          "note": "heading duplicated on lines 37 and 42",
+          "unit_id": "unit_001"
+        },
+        {
+          "char_start": 1144,
+          "char_end": 1148,
+          "note": "heading duplicated on lines 37 and 42",
+          "unit_id": "unit_001"
+        },
+        {
+          "char_start": 1149,
+          "char_end": 1167,
+          "note": "heading duplicated on lines 37 and 42",
+          "unit_id": "unit_001"
+        },
+        {
+          "char_start": 1168,
+          "char_end": 1183,
+          "note": "heading duplicated on lines 37 and 42",
+          "unit_id": "unit_001"
+        },
+        {
+          "char_start": 12630,
+          "char_end": 12703,
+          "note": "\"عَنْ أَبِي عَنْ أَبي عَمْرو\" (duplicate كلمة عن أبي)",
+          "unit_id": "unit_021"
+        },
+        {
+          "char_start": 22285,
+          "char_end": 22297,
+          "note": "\"أبي هريرة - هريرة\"",
+          "unit_id": "unit_035"
+        },
+        {
+          "char_start": 22298,
+          "char_end": 22334,
+          "note": "\"أبي هريرة - هريرة\"",
+          "unit_id": "unit_035"
+        }
+      ],
+      "confidence": 0.9,
+      "needs_visual_check": false
+    },
+    {
+      "id": "issue_011",
       "type": "garbled_glyph",
       "severity": "low",
+      "description": "Non-Arabic or decorative glyphs produced by OCR from ornamentation/calligraphy: front title \"ท\" (line 18), \"M\" (line 55), \"ܙ\" (line 340), \"6\" (line 674), index \"។/V/V\" (710-712), \"Л\" (733), \"骂骂\" (779).",
       "occurrences": [
         {
           "char_start": 385,
@@ -723,47 +678,39 @@
           "char_end": 28635
         }
       ],
-      "description": "Non-Arabic or decorative glyphs produced by OCR from ornamentation/calligraphy: front title \"ท\" (line 18), \"M\" (line 55), \"ܙ\" (line 340), \"6\" (line 674), index \"។/V/V\" (710-712), \"Л\" (733), \"骂骂\" (779).",
       "confidence": 0.9,
       "needs_visual_check": false
     },
     {
-      "id": "issue_014",
+      "id": "issue_012",
       "type": "probable_ligature_loss",
       "severity": "medium",
+      "description": "Honorific/decorative ligature losses and heading truncations where the missing text is strongly indicated by parallels or the TOC.",
       "occurrences": [
         {
-          "unit_id": "unit_001",
           "char_start": 1149,
           "char_end": 1167,
-          "note": "الله الرحمن الرحيم => بسم الله الرحمن الرحيم (بسم lost)"
+          "note": "الله الرحمن الرحيم => بسم الله الرحمن الرحيم (بسم lost)",
+          "unit_id": "unit_001"
         },
         {
-          "unit_id": "unit_024",
-          "char_start": 13954,
-          "char_end": 14001,
-          "note": "\"ن أبي ذر\" => \"عن أبي ذر\" (initial عن lost)"
+          "note": "\"ن أبي ذر\" => \"عن أبي ذر\" (initial عن lost)",
+          "unit_id": "unit_024"
         },
         {
-          "unit_id": "unit_025",
-          "char_start": 15671,
-          "char_end": 15692,
-          "note": "\"ن أَبِي ذَرِّ\" => \"عن أبي ذر\""
+          "note": "\"ن أَبِي ذَرِّ\" => \"عن أبي ذر\"",
+          "unit_id": "unit_025"
         },
         {
-          "unit_id": "unit_042",
-          "char_start": 27039,
-          "char_end": 27056,
-          "note": "truncated heading \"سعة مغفرة الله عل\" => \"سعة مغفرة الله على\""
+          "note": "truncated heading \"سعة مغفرة الله عل\" => \"سعة مغفرة الله على\"",
+          "unit_id": "unit_042"
         },
         {
-          "unit_id": "unit_024",
-          "char_start": 13932,
-          "char_end": 13944,
-          "note": "truncated heading \"فضل الله على\" => likely \"فضل الله على عباده\""
+          "note": "truncated heading \"فضل الله على\" => likely \"فضل الله على عباده\"",
+          "unit_id": "unit_024"
         }
       ],
-      "description": "Honorific/decorative ligature losses and heading truncations where the missing text is strongly indicated by parallels or the TOC.",
+      "confidence": 0.7,
       "candidates": [
         {
           "original": "الله الرحمن الرحيم",
@@ -799,66 +746,51 @@
       "needs_visual_check": true
     },
     {
-      "id": "issue_015",
+      "id": "issue_013",
       "type": "probable_ocr_error",
       "severity": "low",
+      "description": "Word-level OCR errors where the source itself shows inconsistency or the reading breaks grammar/idiom.",
       "occurrences": [
         {
-          "unit_id": "unit_001",
           "char_start": 1861,
           "char_end": 1909,
-          "note": "الفعلM => الفعل [م...] (trailing Latin M is a garbled glyph)"
+          "note": "الفعلM => الفعل [م...] (trailing Latin M is a garbled glyph)",
+          "unit_id": "unit_001"
         },
         {
-          "unit_id": "unit_010",
-          "char_start": 7808,
-          "char_end": 7874,
-          "note": "يَتَأَيُّهَا => يَا أَيُّهَا (standard formula مكرر في السورة بعد iOS: \"يا أيها\")"
+          "note": "يَتَأَيُّهَا => يَا أَيُّهَا (standard formula مكرر في السورة)",
+          "unit_id": "unit_010"
         },
         {
-          "unit_id": "unit_022",
-          "char_start": 13251,
-          "char_end": 13329,
-          "note": "أَعْلَلْتُ => أَحْلَلْتُ (parallel wording أَحْلَلْتُ in matn (line 355); editor gloss repeats it)"
+          "note": "أَعْلَلْتُ => أَحْلَلْتُ (parallel wording أَحْلَلْتُ in matn (line 355); editor gloss repeats it)",
+          "unit_id": "unit_022"
         },
         {
-          "unit_id": "unit_024",
-          "char_start": 14002,
-          "char_end": 14073,
-          "note": "مَا أَنَّهُ => مَا أَنَّهُ (؟) (breaks flow — possibly \"أَنَّهُ\" with stray مَا)"
+          "note": "مَا أَنَّهُ => مَا أَنَّهُ (؟) (breaks flow — possibly \"أَنَّهُ\" with stray مَا)",
+          "unit_id": "unit_024"
         },
         {
-          "unit_id": "unit_027",
-          "char_start": 17058,
-          "char_end": 17112,
-          "note": "البرحُسْنُ الخُلُق => البِرُّ حُسْنُ الخُلُق (word boundary lost)"
+          "note": "البرحُسْنُ الخُلُق => البِرُّ حُسْنُ الخُلُق (word boundary lost)",
+          "unit_id": "unit_027"
         },
         {
-          "unit_id": "unit_029",
-          "char_start": 19147,
-          "char_end": 19215,
-          "note": "ثلا => ثم تلا (context: ثم قال/تلا)"
+          "note": "ثلا => ثم تلا (context: ثم قال/تلا)",
+          "unit_id": "unit_029"
         },
         {
-          "unit_id": "unit_029",
-          "char_start": 19662,
-          "char_end": 19731,
-          "note": "مَلَاكَ => مِلاك/مِلاكَ (unknown word; likely مِلاك (maklaka)?)"
+          "note": "مَلَاكَ => مِلاك/مِلاكَ (unknown word; likely مِلاك)",
+          "unit_id": "unit_029"
         },
         {
-          "unit_id": "unit_019",
-          "char_start": 11855,
-          "char_end": 11932,
-          "note": "الرَّحَاءِ => الرَّخَاءِ (classical phrase في الرخاء والشدة)"
+          "note": "الرَّحَاءِ => الرَّخَاءِ (classical phrase في الرخاء والشدة)",
+          "unit_id": "unit_019"
         },
         {
-          "unit_id": "unit_038",
-          "char_start": 25713,
-          "char_end": 25767,
-          "note": "يَنطِشُ => يَبْطِشُ (classical يبطش (grasp) — يصح القراءة)"
+          "note": "يَنطِشُ => يَبْطِشُ (classical يبطش (grasp))",
+          "unit_id": "unit_038"
         }
       ],
-      "description": "Word-level OCR errors where the source itself shows inconsistency or the reading breaks grammar/idiom.",
+      "confidence": 0.6,
       "candidates": [
         {
           "original": "الفعلM",
@@ -869,7 +801,7 @@
         {
           "original": "يَتَأَيُّهَا",
           "proposed": "يَا أَيُّهَا",
-          "reason": "standard formula مكرر في السورة بعد iOS: \"يا أيها\"",
+          "reason": "standard formula مكرر في السورة",
           "confidence": 0.6
         },
         {
@@ -899,7 +831,7 @@
         {
           "original": "مَلَاكَ",
           "proposed": "مِلاك/مِلاكَ",
-          "reason": "unknown word; likely مِلاك (maklaka)?",
+          "reason": "unknown word; likely مِلاك",
           "confidence": 0.6
         },
         {
@@ -911,16 +843,17 @@
         {
           "original": "يَنطِشُ",
           "proposed": "يَبْطِشُ",
-          "reason": "classical يبطش (grasp) — يصح القراءة",
+          "reason": "classical يبطش (grasp)",
           "confidence": 0.6
         }
       ],
       "needs_visual_check": true
     },
     {
-      "id": "issue_016",
+      "id": "issue_014",
       "type": "ambiguous_fragment",
       "severity": "medium",
+      "description": "\"القسامة (٢٥)\" line 264 — marginal fragment inserted mid-unit; refers to unit_014 content (القسامة/الديات) but labelled with number ٢٥.",
       "occurrences": [
         {
           "unit_id": "unit_015",
@@ -928,14 +861,14 @@
           "char_end": 9838
         }
       ],
-      "description": "\"القسامة (٢٥)\" line 264 — marginal fragment inserted mid-unit; refers to unit_014 content (القسامة/الديات) but labelled with number ٢٥.",
       "confidence": 0.6,
       "needs_visual_check": true
     },
     {
-      "id": "issue_017",
+      "id": "issue_015",
       "type": "heading_toc_mismatch",
       "severity": "low",
+      "description": "Body headings vs TOC entries differ for units 24, 41, 42 (TOC: \"فضل الله وعل\" / \"اتباع شرع…وعل\" / \"سعة مغفرة الله على\"). Body text kept as title; TOC kept in title_variants.",
       "occurrences": [
         {
           "unit_id": "unit_024",
@@ -953,24 +886,48 @@
           "char_end": 27056
         }
       ],
-      "description": "Body headings vs TOC entries differ for units 24, 41, 42 (TOC: \"فضل الله وعل\" / \"اتباع شرع…وعل\" / \"سعة مغفرة الله على\"). Body text kept as title; TOC kept in title_variants.",
       "confidence": 0.8,
       "needs_visual_check": true
     },
     {
-      "id": "issue_018",
+      "id": "issue_016",
       "type": "unit_with_multiple_reports",
       "severity": "low",
+      "description": "unit_027 contains two reports (النواس بن سمعان and وابصة بن معبد) under one heading/number — kept as a single unit.",
       "occurrences": [
         {
-          "unit_id": "unit_027",
           "char_start": 16983,
-          "char_end": 17854
+          "char_end": 17854,
+          "unit_id": "unit_027"
         }
       ],
-      "description": "unit_027 contains two reports (النواس بن سمعان and وابصة بن معبد) under one heading/number — kept as a single unit.",
       "confidence": 0.8,
       "needs_visual_check": false
+    },
+    {
+      "id": "issue_017",
+      "type": "unanchored_footnote",
+      "severity": "low",
+      "description": "Footnotes with visible text but no matching in-text anchor marker found in the OCR (unit_006 fn1/fn2 hosted at unit_008; unit_014 fn; unit_025 fn; unit_035 fns).",
+      "occurrences": [
+        {
+          "char_start": 6516,
+          "char_end": 6648,
+          "unit_id": "unit_006"
+        },
+        {
+          "char_start": 9839,
+          "char_end": 9998,
+          "unit_id": "unit_014"
+        },
+        {
+          "char_start": 16511,
+          "char_end": 16564,
+          "unit_id": "unit_025"
+        }
+      ],
+      "confidence": 0.7,
+      "needs_visual_check": true
     }
   ]
 }

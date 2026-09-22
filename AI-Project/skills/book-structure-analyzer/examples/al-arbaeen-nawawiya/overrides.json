@@ -1,0 +1,22 @@
+{
+  "overrides": [
+    {
+      "op": "set_unit_start",
+      "ordinal": 1,
+      "at": {
+        "text": "عن\nالخطاب - رضي",
+        "occurrence": 1
+      },
+      "reason": "The first hadith's isnad fragments (عن / الخطاب - رضي / الله) were read before its heading; they belong to hadith 1, not to the publisher page."
+    },
+    {
+      "op": "mark_noise",
+      "type": "decorative",
+      "at": {
+        "text": "الله الرحمن الرحيم",
+        "occurrence": 1
+      },
+      "reason": "Decorative basmala between the isnad fragments; بسم was lost (ligature). Not part of the hadith text."
+    }
+  ]
+}

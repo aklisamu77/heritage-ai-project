@@ -1,7 +1,7 @@
 {
   "title": "الأربعين النووية",
   "author": "أبو زكريا يحيى بن شرف النووي",
-  "editor_commentator": "أحمد عبد الرازق البكري",
+  "editor_commentator": "أحمد عبد الرازق البكري (تخريج أحاديثه وشرح غريبه)",
   "publisher": "دار السلام",
   "edition": "الطبعة الرابعة",
   "publication_year": "١٤٢٨هـ / ٢٠٠٧م",
@@ -13,18 +13,19 @@
   "source_length_chars": 28672,
   "line_endings": "LF",
   "sources_used": [
-    "the-40-ocr-fastocr.txt"
+    "the-40-ocr-fastocr.txt",
+    "the-40-searchable-fastocr.pdf (page boundaries only; its text layer is RTL-scrambled, so page ranges were aligned by fuzzy n-gram matching)"
   ],
   "expected_components": [
     {
       "component": "author_introduction",
       "status": "absent_or_undetermined",
-      "issue_id": "issue_006"
+      "issue_id": "issue_005"
     },
     {
       "component": "editor_introduction",
       "status": "absent_or_undetermined",
-      "issue_id": "issue_006"
+      "issue_id": "issue_005"
     },
     {
       "component": "toc",
@@ -41,16 +42,21 @@
   ],
   "segment_roles_used": [
     "heading",
-    "body",
-    "attribution",
-    "editorial_note",
+    "isnad",
+    "matn",
+    "source_attribution",
+    "anchor",
+    "takhrij",
+    "gharib",
     "footnote",
+    "editorial_note",
     "noise_ref"
   ],
-  "structure_summary": "flat collection: front matter (title page, lines 1-36) → 42 numbered hadith units (lines 37-700) → back-matter index (الفهرس, lines 701-790). No chapters or sections. Each unit: heading + body (isnad+matn) + attribution (رواه…) + editor footnotes (takhrij/gharib). Unit numbers read from inline isnad markers (0.95) or page-top tokens (0.7). Page boundaries unknown (no auxiliary source). OCR noise: running headers, page numbers, displaced headings/footnotes, garbled glyphs.",
+  "structure_summary": "flat collection: front matter (title page + publication data, lines 1-36) → 42 numbered hadith units (lines 37-700) → back-matter index (الفهرس, lines 701-790). No chapters or sections. Each unit: heading + body (isnad+matn) + attribution (رواه…) + editor footnotes (takhrij/gharib). Page model derived from the searchable PDF by fuzzy text alignment (32 pages; printed page numbers not present in the PDF text layer — null). OCR noise: running headers, page numbers, displaced headings/footnotes, garbled glyphs.",
   "notes": [
-    "No auxiliary input (PDF/DOCX/images) available; page model empty and recorded as issue_005.",
-    "Numbering systems mixed in source: Arabic-Indic (٢٤٥), Persian (۲۴۵), ASCII (34). Treated as equivalent; original digits preserved.",
-    "Footnotes frequently read by the OCR after the next unit's heading; each reassigned to its logical owner and cross-referenced via foreign_spans (issue_007)."
+    "Page model built from the searchable PDF text layer by stripped n-gram alignment (extract_pages.py); printed_page_number null because the searchable layer does not contain isolated printed numbers. Pages 3-32 cover the hadith collection and index; pages 1-2 cover title/publication data.",
+    "Numbering systems mixed in source: Arabic-Indic (٢٤٥), Persian (۲۴۵), ASCII (34). Treated as equivalent; original digits preserved in number_raw.",
+    "Footnotes are frequently read by the OCR after the next unit's heading; each is reassigned to its logical owner and cross-referenced via foreign_spans (issue_006).",
+    "isnad/matn boundaries inside scrambled OCR lines are approximate (isnad segments at lower confidence); the role assignment is best-effort per-line classification."
   ]
 }

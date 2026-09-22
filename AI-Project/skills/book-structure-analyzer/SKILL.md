@@ -1,578 +1,242 @@
 ---
 name: book-structure-analyzer
-description: Analyze an OCR-extracted Arabic heritage book (hadith, tafsir, fiqh, history, biography, poetry, adab, etc.) and discover its real internal structure, producing book_profile.json, structure.json, units.json and issues.json with exact source provenance. Use this skill whenever a book's OCR text must be split into structural nodes and content units, whenever OCR output of a turath book needs structural analysis, or when re-running/validating a previous structure analysis.
+description: Discover the real structure of an OCR-extracted Arabic heritage book (hadith, tafsir, fiqh, history, biography, poetry, adab…) and produce book_profile.json, structure.json, units.json, issues.json with exact character provenance, using the bundled engine, a per-book config, and a validator. Use whenever a turath book's OCR text must be split into structural nodes and content units, when re-running or checking such an analysis, or when the user says to analyze / structure / segment a book for the heritage project.
 ---
 
 # Book Structure Analyzer
 
 ## Purpose
 
-Analyze an OCR-extracted Arabic heritage book and discover its internal structure from the source itself.
+Turn the OCR text of an Arabic heritage book into a reliable structural map: which text is front matter, which is each unit (hadith, biography, poem, mas'ala…), which part of a unit is its heading, main text, attribution, editor's footnotes, and which characters are OCR noise — every piece pointing to exact offsets in the source.
 
-The book's structure is not known in advance. The analyzer must infer it from the document rather than assume that every book is built from the same kinds of units.
+Later stages (entity extraction, knowledge graph, search, citation, content generation) trust this map. An error here propagates everywhere, so honesty about uncertainty matters more than looking complete.
 
-The output feeds later pipeline stages: entity extraction, relationship extraction, knowledge-graph construction, search, citation, and content generation. Those stages will trust this output, so an error here (a footnote attached to the wrong unit, a missing isnad, an inflated confidence) propagates into everything built on top of it. Precision and honesty about uncertainty matter more than looking complete.
+---
+
+## How this skill is built — read first
+
+The work is split between **code that never changes per book** and **two small files you write per book**:
+
+```
+book-structure-analyzer/
+├── SKILL.md
+├── scripts/
+│   ├── engine.py          generic rules: regions, headings, numbers, footnotes, anchors,
+│   │                      attribution, noise, pages, confidence, issues  (same for every book)
+│   ├── extract_pages.py   page model from the searchable PDF
+│   └── validate.py        mandatory consistency checks
+├── templates/
+│   ├── book_config.template.json
+│   └── overrides.template.json
+└── examples/
+    ├── al-arbaeen-nawawiya/   hadith collection: 42 headed units, editor footnotes (takhrij/gharib)
+    └── asul-elsona/           creed treatise in a critical edition: introduction + multi-level study
+                               (sections), treatise preamble, 8 numbered paragraphs, facsimile noise range
+```
+
+**Your job (the AI):** read the book, understand it, and express that understanding as
+- `book_config.json` — what this book looks like (its headings in order, running header, patterns, back matter…);
+- `overrides.json` — the few individual judgment calls the rules cannot make, each with a reason.
+
+**The engine's job:** apply the same rules to every book and label every character exactly once.
+
+### Hard rules
+
+1. **Never write a new builder or per-book script.** No code that hard-codes line numbers, unit ranges, footnote assignments or confidence values for a specific book. That is the failure this design exists to prevent: it produces output that looks validated but is really a hand annotation that cannot be reused or trusted.
+2. **Never edit the output JSON by hand.** Change the config or the overrides and rebuild.
+3. **Never edit `validate.py`** to make a check pass, and never delete or relabel real text to make coverage pass.
+4. **If the engine cannot handle something in a new book**, stop and tell the user. The fix is a *generic* rule added to `engine.py`, controlled by a config key, that would apply to any book with the same pattern — and it must be approved by the user and re-tested on `examples/`. Book-specific exceptions go in `overrides.json`, never in the engine.
 
 ---
 
 ## Core Principles
 
-1. **Discover, don't impose.** The hierarchy and the unit type come from the book.
-2. **The raw source is sacred.** Never rewrite, reorder, or correct the source text. Every correction, relocation, or reinterpretation is recorded *beside* the source, never *instead of* it.
-3. **Reading order ≠ logical order.** OCR serializes a two-dimensional page into one line of text. Footnotes, marginal headings, running headers, and page numbers end up wherever the OCR engine happened to read them. A piece of text belongs to the unit it *logically* belongs to, not to the unit it happens to sit next to in the file.
-4. **Confidence must be honest.** A unit whose text is known to be incomplete or contaminated cannot carry high confidence.
-5. **Everything is locatable.** Every node, unit, segment, and issue points to exact character offsets in the source file.
-6. **Characters, not lines.** The unit of classification is the character range, not the OCR line. One OCR line often mixes things that belong to different places (the end of a footnote glued to the next heading, the last words of a matn followed by a page header). Split the line at the exact boundary; never classify a whole line by its most visible part.
-7. **Exactly once.** Every non-whitespace character of the source is claimed by exactly one owner: a unit segment, a noise span, or a front/back-matter node segment. No character is left unclaimed and none is claimed twice. `scripts/validate.py` enforces this.
-
-Example structures (illustrative only, NOT a taxonomy):
-
-- Hadith collection → books, chapters, hadiths
-- History → periods, years, events
-- Biographical dictionary → tabaqat, biographies
-- Tafsir → surahs, verse groups, commentary
-- Fiqh → kitab, bab, masa'il, opinions
-- Poetry → diwan sections, poems, verses
-- Adab / literature → chapters, stories, anecdotes
-- Rihla → journeys, locations, episodes
+1. **Discover, don't impose.** Hierarchy, unit type and roles come from the book.
+2. **The raw source is sacred.** Nothing is rewritten, reordered or corrected. Corrections are recorded beside the source.
+3. **Reading order ≠ logical order.** OCR flattens the page: page-bottom footnotes land after the next heading, marginal headings land mid-text, anchors land after the next heading. Text belongs to the unit it logically belongs to.
+4. **Characters, not lines.** One OCR line often mixes roles; boundaries fall at the exact characters.
+5. **Exactly once.** Every non-whitespace character has exactly one owner: a unit segment, a noise span, or a front/back-matter node segment.
+6. **Honest confidence.** Displaced or uncertain content lowers confidence; the engine computes it from rules, never by hand.
+7. **Structure, not interpretation.** Splitting a hadith into isnad and matn, identifying narrators, grading — all belong to later stages. Here a hadith's main text is one role (`hadith_text`).
 
 ---
 
-# Input
+## Workflow
 
-## Primary input
+### Phase A — Understand the book and write the config (then stop)
 
-An OCR-extracted text file (e.g. `book-ocr.txt`). This is the authoritative text for this stage.
+1. Copy `templates/book_config.template.json` to the project (e.g. `work/<book>/book_config.json`). Look at `examples/` for a finished one.
+2. Run discovery (changes nothing):
+   ```bash
+   python scripts/engine.py discover --source <book.txt>
+   ```
+   It lists repeated lines (running-header candidates), heading candidates (short undiacritized lines followed by diacritized text), footnote and marker counts.
+3. **Read the book** — front matter, several units from the beginning, middle and end, the TOC/index. Decide:
+   - metadata stated in the source;
+   - the unit type and the body role name;
+   - the running header(s);
+   - the ordered list of unit headings **as spelled in the body** (use the TOC to check order and completeness; record TOC spellings as `variants`);
+   - subtitles, back-matter start lines, expected components (e.g. author introduction present or not);
+   - **sections outside the units** — the editor's introduction, the study, the author's biography and its sub-parts, manuscript descriptions — with their levels (use the book's TOC). Each becomes a node, so its text is not lost in one "front matter" block;
+   - **where the main text starts** (`main_start_at`) if something of the author precedes unit 1 (a chain of transmission of the whole book, the author's khutba);
+   - **OCR digit look-alikes** seen in markers/numbers (`ه` for ٥, `V` for ٧, `Ʌ` for ٨, `ε` for ٤) — only those you actually see used as digits.
+4. Fill `book_config.json`. Every value must be supported by the source.
+5. Run `python scripts/engine.py discover --source <book.txt> --config book_config.json` — `config_headings_not_found` must be empty.
+6. **Report to the user and stop:** metadata, genre, unit type, number of units, how headings were found, the running header, known problems (scattered isnad before headings, glued headings, missing TOC entries…), and the overrides you expect to need. Wait for approval.
 
-## Optional auxiliary inputs
+### Phase B — Build, validate, review, refine
 
-If present in the project, use them — they solve problems the plain text cannot:
+1. **Page model** (if a searchable PDF exists):
+   ```bash
+   python scripts/extract_pages.py --txt <book.txt> --pdf <book-searchable.pdf> --out pages.json
+   ```
+2. **Build:**
+   ```bash
+   python scripts/engine.py build --source <book.txt> --config book_config.json \
+          --overrides overrides.json --pages pages.json --out <output_dir>
+   ```
+3. **Validate:**
+   ```bash
+   python scripts/validate.py --source <book.txt> --out <output_dir>
+   ```
+   Must end with `status: pass`. Review every warning.
+4. **Review what the validator cannot see** (checklist below). For each problem decide:
+   - a pattern that affects several units → fix `book_config.json`;
+   - a single local case → add an entry to `overrides.json` with a reason;
+   - a pattern the engine has no rule for → stop and tell the user (Hard rule 4).
+5. Rebuild and re-validate until clean. Report to the user: validation summary, unit count, issue summary by type, overrides used (with reasons), and anything left for human visual check.
 
-- **Searchable PDF** (PDF with OCR text layer): its text is already split per page. Use it to establish page boundaries and to decide which footnotes belong to which page. Use it as a *reference*, not as a replacement for the primary text.
-- **DOCX export**: may preserve heading styles and page breaks.
-- **Page images**: the final authority when OCR is ambiguous.
+### Review checklist (after every build)
 
-If an auxiliary input is used, record which one and how in `book_profile.json` → `sources_used`.
-
-If no auxiliary input exists, say so, and record the resulting limitations as issues rather than guessing.
-
----
-
-# Workflow: Two Phases
-
-## Phase A — Proposal (default when run on a new book)
-
-Analyze the book and **report** — do not write output files yet:
-
-- metadata found in the source
-- apparent genre
-- discovered hierarchy levels and how each was detected
-- the unit type and the internal segment roles found inside units (see Stage 6)
-- how pages, footnotes, and headers are laid out in this OCR
-- the main OCR/structural problems
-- 2–3 sample units, including at least one *difficult* one (e.g. a unit spanning a page break or with displaced footnotes), shown with their segments
-
-Then stop and wait for approval.
-
-## Phase B — Generation
-
-After approval (or if explicitly told to generate directly):
-
-1. Build the outputs **with a script** that computes every offset from the source text (Stage 7).
-2. Run `scripts/validate.py` (Stage 11).
-3. Fix and re-run until the status is `pass`.
-4. Report the final validation summary to the user.
-
-The run is not finished until `validation_report.json` exists and says `pass`.
-
----
-
-# Processing Pipeline
-
-## Stage 1 — Document Profiling
-
-Inspect the whole document (or as much as practical, then sample systematically from beginning, middle and end).
-
-Determine, from the source only:
-
-- title, author, editor / muhaqqiq / commentator / translator if stated
-- publisher, edition, year, ISBN if stated
-- apparent genre
-- language(s)
-- numbering systems (Western digits, Arabic-Indic digits ٠-٩, Persian digits ۰-۹ — OCR often mixes them; treat them as equivalent for numbering but keep the original characters in the text)
-- recurring patterns: running headers, page-number formats, footnote markers, heading formats
-- front matter, main content, back matter (indexes, TOC, bibliography, colophon)
-
-**Do not invent metadata.** Use `null` when not supported by the source. Do not identify an author from outside knowledge.
-
-### Expected-component check
-
-For the apparent genre, list components such books *commonly* contain (e.g. author's introduction / khutbat al-kitab, editor's introduction, TOC, index) and check whether each is **present, absent, or undetermined** in the source. Record absences as issues of type `possibly_missing_component` — never create a node for a component that is not in the text. The absence may be real (the edition omits it) or an OCR loss; the reviewer decides.
+- **Headings:** the 5 lowest-confidence units — is the chosen heading the real one? Any `glued_heading` / `heading_not_found` issues?
+- **Footnotes:** read every occurrence of `displaced_footnote` and `unanchored_footnote`. Does the footnote's content (the words it explains, the source it cites) match the unit it was assigned to?
+- **Trailing fragments:** each `trailing_fragment` is either legitimate (second narration, author's comment, continued attribution) or a displaced fragment → override if displaced.
+- **Noise:** skim `noise_spans`; no real word of the author or editor may be noise.
+- **First and last unit, and units around front/back matter** — the most error-prone places.
+- **Front matter:** does the first unit start where its text really starts (isnad fragments are often read before the heading)?
 
 ---
 
-## Stage 2 — Page Model
+## Config keys beyond the basics
 
-Before splitting anything, establish page boundaries, because footnote attribution and noise detection depend on them.
-
-Evidence for page boundaries, strongest first:
-
-1. Per-page text from a searchable PDF / DOCX page breaks
-2. Form-feed characters or explicit page markers in the TXT
-3. Running headers (repeated book/chapter title) and page numbers
-4. Footnote blocks (`(1) أخرجه ...`) — they usually close a page
-
-Produce a page list:
-
-```json
-{ "page_index": 17, "printed_page_number": "١٨", "char_start": 15020, "char_end": 15980, "evidence": "running_header+page_number", "confidence": 0.85 }
-```
-
-`printed_page_number` is the number printed in the book (may differ from `page_index`). If boundaries cannot be established, use `null` and record an issue — **never invent page numbers.**
-
-Store the page list in `structure.json` → `pages`.
-
----
-
-## Stage 3 — Artifact & Noise Detection
-
-Classify spans that are not part of the author's/editor's text flow:
-
-| Kind | Examples |
+| key | use |
 |---|---|
-| `running_header` | book title repeated at the top of pages |
-| `page_number` | isolated `١٨`, `•۱۸`, `- 18 -` |
-| `decorative` | ornaments, garbled glyphs from calligraphy (e.g. non-Arabic characters produced from a decorated basmala) |
-| `duplicate_fragment` | OCR reading the same words twice (`عن أبي عن أبي`) |
-| `displaced_heading` | a heading or marginal title read at the wrong position |
-| `displaced_fragment` | text read out of order (e.g. the start of an isnad appearing before the heading) |
-| `separator` | stray `-`, `«` alone on a line |
+| `sections` | ordered list `{title, level, type, start_at:{text, occurrence?}, heading: true/false}`. Located in order before the main text; a section runs to the next section of the same or higher level. `heading: false` = the start text is not a heading line (e.g. a parent like «الدراسة» that starts where its first child starts, or an introduction without a heading). `occurrence` counts over the whole front region; without it the first match after the previous section is used. |
+| `main_start_at` | `{text, occurrence, heading}` — the main text starts here (before unit 1). Text between it and unit 1 becomes the main node's `preamble`, with its own footnotes/anchors. |
+| `digit_lookalikes` | `{"ه": "5", …}` — letters OCR produced for digits; used in number prefixes and footnote markers only. |
+| `footnote_continued_mark` | default `=`; footnotes ending with it get a `continued_footnote` issue (their continuation on the next page is usually read as main text — check it). |
 
-Record each as a **noise span** with offsets. Do not delete it from the source. Noise spans are later referenced by segments (Stage 6) so that a clean view can be built without losing the raw text.
+Footnotes inside sections and the preamble are labeled as the node's `footnote`/`anchor` segments (no ownership search). Page numbers glued to a heading or to the first word of a main-text line (`٣٦لم يكن`) become `page_number` noise; if the glued number equals the unit's ordinal it becomes the unit's `number`.
 
-### Noise must be minimal
+## Known limit: footnote continuations
 
-A noise span covers **only the noise characters** — never a word of the author's or editor's text.
+Plain OCR text loses the page layout. When a footnote continues on the next page, its continuation is usually read as main text and the rules cannot reliably tell them apart (especially in undiacritized books). The engine flags each such case (`continued_footnote`, `unanchored_footnote`, `trailing_fragment`); fix confirmed cases with `assign` / `set_role` overrides. A layout-aware page model (block positions from the PDF) is the planned fix.
 
-- Garbled `M` at the end of a gharib line → the noise span is the one character `M`; the rest of the line is a `gharib` segment.
-- `(٢) أخرجه مسلم في الإيمان (٩٥)الكسب الحلال` → takhrij segment `(٢) أخرجه مسلم في الإيمان (٩٥)` + displaced-heading span `الكسب الحلال`. Not one noise span.
-- `…ما لا يعنيه » . [ رواه الترمذي ] (۲)` followed by a running header → matn / attribution / anchor segments, then a `running_header` noise span for the header only.
+## What the engine does (so you know what to configure)
 
-Why: later stages build the reading text by *removing* noise. Any real text inside a noise span is silently deleted from the book.
+In order, over a per-character label array:
 
-A displaced heading is noise at the place it was misread; the unit's real heading remains its `heading` segment. A duplicate of real text is noise only for the duplicate copy.
+1. **Regions** — front matter = text before the first unit; back matter from each `back_matter.start_at`.
+2. **Headings** — every occurrence of each configured heading; the real one is the latest standalone occurrence before the next unit's heading (earlier copies are marginal/displaced). Units run from heading to next heading (or an override start).
+3. **Numbers** — `N -` at a line start, or a standalone number equal to this or the next unit's ordinal; other standalone numbers are page numbers.
+4. **Footnotes** — a line starting with a marker `(N)` + text; continuation lines while they look like footnote text (low diacritics, no body markers, no page break).
+   **Ownership** among the host unit and up to `footnote_lookback` units before it:
+   - an anchor with the same marker **before** the footnote in the text (+2);
+   - the words the footnote explains (`قوله : « … »`) found in the unit's main text (+4 × share);
+   - locality (+0.5).
+   Then **block order**: an unanchored footnote followed in the same block by a higher-numbered footnote of unit U goes to the nearest unit before U that lacks that marker.
+5. **Anchors** — inline `(N)`; an anchor that precedes all text of its unit (right after the heading) belongs to the previous unit.
+6. **Footnote roles** — split at `footnote_split.takhrij_until` words into `takhrij` / `gharib` (or whatever roles the config names).
+7. **Attribution** — `[ رواه … ]` / `( رواه … ]` or a line starting with a keyword.
+8. **Noise** — running headers, non-chosen heading copies (only when undiacritized and at a line edge), separator lines, garbled glyphs. Noise covers only noise characters.
+9. **Overrides** — applied last; each becomes a `manual_decision` issue.
+10. **Pages** — PDF-aligned boundaries snapped to a nearby running header / page number; unconfirmed ones flagged.
+11. **Assembly** — runs of identical labels become segments; displaced segments are mirrored as `foreign_spans` of their host unit; issues are grouped by type; confidence computed.
 
-A repeated pattern may be recorded once with all occurrence offsets.
+### Confidence (computed)
 
----
+- heading found standalone 0.95, only glued 0.8; node 0.95
+- any displaced / foreign content caps the unit at 0.8
+- −0.05 per occurrence of a medium issue, −0.15 per high, −0.03 per trailing fragment in the unit
+- units touched by an override ≤ 0.85
+- footnote segments carry their ownership confidence: 0.9 anchor + content terms, 0.8 anchor only, 0.65 terms only, 0.55 block order, 0.5 locality only
 
-## Stage 4 — Structure Discovery
+### Overrides (ops)
 
-Discover the hierarchy used by the author/editor from evidence such as:
-
-- explicit headings and structural words (كتاب، باب، فصل، جزء، مسألة، ذكر، ترجمة…)
-- numbered entries
-- repeated title patterns
-- opening/closing formulas (`عن…قال`، `حدثنا`، `قال المصنف`، `رواه…`)
-- the book's own TOC/index
-
-Do not assume a word such as "باب" or "كتاب" always means the same level; infer levels from context.
-
-### Heading verification
-
-Cross-check every heading found in the body against the book's TOC/index (if present), in **both directions**:
-
-- body heading with no TOC entry → issue
-- TOC entry with no body heading → issue (possible lost unit)
-- body and TOC disagree → keep the body text as `title`, record the TOC version in `title_variants`, raise an issue
-
-### Truncated headings and honorific ligatures
-
-OCR frequently fails on ligatures and decorative honorifics: ﷺ، ﷻ، عز وجل، جل وعلا، رضي الله عنه، رحمه الله، ﷿. A heading or sentence that ends abruptly (`فضل الله عل`، `رسول الله` with nothing after it where ﷺ is expected) is likely a ligature failure, not a genuinely shorter text.
-
-- Keep the OCR text as-is.
-- Record an issue of type `probable_ligature_loss` with the plausible reading(s) as *candidates*, marked `needs_visual_check: true`.
-- Do not pick one candidate as fact.
-
----
-
-## Stage 5 — Structure Model
-
-Represent the hierarchy as a tree. Each node:
-
-```json
-{
-  "id": "node_012",
-  "type": "chapter",
-  "title": "…",
-  "title_variants": [],
-  "ordinal": 5,
-  "number_raw": "٥",
-  "parent_id": "node_002",
-  "children": ["node_013"],
-  "source": { "char_start": 1250, "char_end": 5420, "page_start": 3, "page_end": 5 },
-  "evidence": "explicit heading + numbered entry",
-  "confidence": 0.95
-}
-```
-
-`type` is descriptive, not a fixed vocabulary.
-
-### Ordinal vs. printed number
-
-- **`ordinal`** — the logical position of the node/unit among its siblings of the same type (1, 2, 3…). Always an integer, never `null`, whenever the order is established by the text, the headings, or the TOC. Use the book's own numbering scheme when it exists (if the book numbers hadiths 1–42, ordinals are 1–42).
-- **`number_raw`** — the number as printed in the OCR, exactly as written (`"٢٤"`, `"۲۴"`, `"24"`), or `null` if no printed number was found near this unit.
-
-A missing printed number is a textual observation (`number_raw: null`, low-severity issue if useful). It does not make the order unknown. Only when the order itself is genuinely uncertain does the ordinal get low confidence and an issue — it is still filled in.
-
-Nodes that hold text directly rather than units (front matter, TOC/index, colophon) carry `segments` (e.g. roles `title_page`, `publication_data`, `toc_entry`) so that their characters are claimed too (Principle 7).
-
-Units are **not** duplicated as nodes. A leaf node may *contain* units, or units may hang directly from a chapter-level node — whichever reflects the book. If each unit already has its own heading (e.g. each hadith has a topic title), the unit carries that title; do not also create a node per unit unless the node adds real structure.
-
----
-
-## Stage 6 — Units and Internal Segments
-
-### Units
-
-A unit is a coherent, citable piece of source material: one hadith, one biography, one poem, one event, one legal issue, one Q&A.
-
-- Do not split on paragraph breaks alone.
-- Do not merge independent units because they share a chapter.
-
-### Unit extent vs. unit content
-
-Distinguish two things:
-
-- **`span`** — the contiguous character range in the OCR where the unit mainly lives (from its heading/opening to the start of the next unit).
-- **`segments`** — the pieces of text that *logically belong* to the unit. Segments may lie **outside** the span (a footnote printed on the next page, an isnad fragment displaced before the heading), and some text inside the span may belong to **another** unit or be noise.
-
-This distinction is the heart of correct provenance. Never assume that everything inside the span belongs to the unit.
-
-### Segment roles
-
-Inside each unit, classify text into roles. Roles are discovered per book; common ones:
-
-| Genre | Typical roles |
+| op | effect |
 |---|---|
-| Hadith | `heading`, `number`, `isnad`, `matn`, `source_attribution` (رواه…), `takhrij` (editor footnote), `gharib` (word explanation), `sharh` |
-| Tafsir | `ayah`, `tafsir`, `qira'at`, `footnote` |
-| Poetry | `verse`, `sharh`, `occasion` |
-| History / biography | `heading`, `narrative`, `quotation`, `footnote` |
-| Fiqh | `mas'ala`, `opinion`, `evidence`, `tarjih`, `footnote` |
+| `set_unit_start` | unit `ordinal` starts at `at` (e.g. scattered isnad read before the heading) |
+| `mark_noise` | the text at `at` is noise of `type` |
+| `assign` | the text at `at` belongs to unit `to_ordinal` with `role` |
+| `set_role` | change the role of the text at `at` within its unit |
+| `mark_noise_range` | everything from `from` to the end of `to` is noise of `type` (e.g. OCR of facsimile plates) |
 
-Also always available: `editorial_note`, `footnote`, `noise_ref` (pointer to a noise span).
-
-Each segment:
-
-```json
-{
-  "role": "takhrij",
-  "char_start": 14210,
-  "char_end": 14268,
-  "page_index": 17,
-  "footnote_marker": "(1)",
-  "placement": "displaced",
-  "confidence": 0.85
-}
-```
-
-`placement` is `in_span` (inside the owner unit's span) or `displaced` (outside it). Displaced segments must have an explanation in the related issue.
-
-### Segment rules
-
-- **Character-level boundaries.** A segment starts and ends at the exact characters where the role changes, even in the middle of an OCR line.
-- **One segment per contiguous role run.** Consecutive lines with the same role form one segment, not one segment per line. (Exception: a run interrupted by noise or foreign text is split around it.)
-- **No duplicates.** The same role + offsets appears once.
-- **Mirroring.** Every `displaced` segment lies inside some other unit's span (or in front/back matter). That host unit must list a `foreign_spans` entry with **exactly the same offsets** and `belongs_to` = the owner unit. Conversely, every foreign span that names a unit must correspond to a segment of that unit with the same offsets. Foreign spans of one unit never overlap each other.
-- **Specific roles first.** Use the genre's specific roles (for hadith: `isnad`, `matn`, `source_attribution`, `anchor`, `takhrij`, `gharib`). Where the boundary is uncertain, still use the specific role with lower confidence (e.g. 0.6) and let the issue explain. Use the generic `body` only when you cannot even guess — if most segments of a book end up as `body`, the analysis has not been done.
-- Footnote anchor markers inside the text (`(1)`, `(٢)`) are their own `anchor` segments, so that the marker can be matched to its footnote.
-
-### Footnote attribution rules (all genres)
-
-Footnotes are the most common source of misattribution. Apply these rules:
-
-1. A footnote belongs to the **anchor** carrying the same marker `(1)`, `(٢)`, `*` on the **same page**. Match by marker within the page, never by linear proximity in the text.
-2. Footnotes printed at the bottom of a page are frequently read by OCR *after* the next page's heading, so they appear inside the **following** unit. Expect this pattern and check for it explicitly.
-3. Content check: if a footnote explains a word or cites a source that does not appear in the unit's text but does appear in the previous unit, it belongs to the previous unit.
-4. If the anchor cannot be determined, attach the footnote to the most probable unit with confidence ≤ 0.5 and raise an issue — do not silently attach it with high confidence.
-5. **Marker inventory for every unit — including the first and the last.** For each unit, list its anchors and its footnotes. A footnote whose marker has no anchor in the host unit, while an unmatched anchor with that marker exists in the previous unit, belongs to the previous unit. Apply this to every unit; edge units (first, last, before/after front or back matter) are where the pattern is most often missed.
-
-### Completeness check per unit
-
-For each unit, check whether its expected parts are present (for a hadith: opening of isnad, matn, attribution). If a part appears to be missing or displaced, look for it nearby (before the heading, in the previous unit, after the page's footnotes) and either link it as a displaced segment or raise an issue of type `incomplete_unit`.
+`at = {"text": "...", "occurrence": 1 | "last"}` — matched ignoring diacritics and whitespace differences. Always include `reason`. If an override fails to match, the build reports an `override_failed` issue.
 
 ---
 
-## Stage 7 — Source Preservation and Offsets
+## Output files
 
-Every node, unit, segment, noise span, and issue carries exact offsets.
+Written by the engine (UTF-8 without BOM, LF). Plus `validation_report.json` from the validator.
 
-**Offset definition (mandatory):**
+### `book_profile.json`
+Metadata from the config; `source_file`, `source_sha256`, `source_length_chars`, `line_endings`; `sources_used`; `config_file`, `overrides_file`, `overrides_applied`; `expected_components`; `segment_roles_used`.
 
-- Offsets are **Unicode code-point indices** into the source file decoded as UTF-8, with its line endings exactly as they are on disk (do not convert CRLF ↔ LF before indexing).
-- `char_end` is exclusive: the text of a span is `source[char_start:char_end]`.
-- Record in `book_profile.json`: `source_file`, `source_sha256`, `source_length_chars`, `line_endings`.
-
-**Offsets must be computed by code, not estimated.** Locate spans by searching the actual text in a script and check that `source[char_start:char_end]` equals the stored text exactly. Never write offsets by hand or by estimation.
-
-Never use line numbers as the primary locator. Line numbers may be added as a convenience but offsets are authoritative.
-
-**Canonical field names.** Offsets are always named `char_start` / `char_end` — in nodes, units, spans, segments, noise spans, foreign spans, pages, and issue occurrences. Never abbreviate (`cs`, `ce`, `start`, `end`). When an issue points at an object that also exists as a segment/foreign span/noise span, it uses **the same offsets** as that object.
-
----
-
-## Stage 8 — Confidence
-
-Confidence (0.0–1.0) measures confidence in the **structural interpretation**, not historical truth.
-
-| Value | Meaning |
-|---|---|
-| 0.95 | explicit heading/numbering, verified against TOC, clean boundaries |
-| 0.80 | strong contextual evidence |
-| 0.60 | plausible but uncertain |
-| 0.35 | weak inference |
-
-### Propagation rules
-
-- A unit's confidence **≤** the confidence of the node it belongs to.
-- Every open issue of severity `medium` or `high` attached to a unit lowers its confidence (suggested: −0.05 per medium, −0.15 per high), and the unit lists those issue IDs in `issue_ids`.
-- A unit with a displaced/unattributed part, a missing part, or foreign content inside its span may not exceed 0.80.
-- Units must not all share the same confidence value by default; if they do, re-check.
-
-### Issue confidence
-
-For issues, `confidence` means **"probability that this issue is real"**. Do not raise issues you believe are probably not real (confidence < 0.4) unless they have high impact; a valid classical word is not an OCR error just because it is uncommon. Before flagging a word as an OCR error, state why (not a known word, breaks the grammar, contradicts the same word elsewhere, etc.).
-
----
-
-## Stage 9 — Issues
-
-Every issue has a location and is actionable.
-
-```json
-{
-  "id": "issue_014",
-  "type": "misattributed_footnote",
-  "severity": "high",
-  "location": { "unit_id": "unit_024", "char_start": 14210, "char_end": 14268, "page_index": 17 },
-  "related_unit_ids": ["unit_023"],
-  "text": "(1) أخرجه …",
-  "description": "Footnote found inside unit_024's span; its content refers to unit_023.",
-  "proposed_action": { "kind": "reassign_segment", "to_unit_id": "unit_023" },
-  "candidates": [],
-  "needs_visual_check": false,
-  "confidence": 0.85
-}
-```
-
-Suggested types (extend as needed): `repeated_header`, `page_number_noise`, `garbled_glyph`, `duplicate_fragment`, `displaced_fragment`, `displaced_heading`, `misattributed_footnote`, `unanchored_footnote`, `incomplete_unit`, `probable_ligature_loss`, `truncated_heading`, `heading_toc_mismatch`, `probable_ocr_error`, `ambiguous_level`, `page_boundary_unknown`, `possibly_missing_component`.
-
-Severity guide:
-
-- `high` — affects which unit text belongs to, or loses text
-- `medium` — affects a title, a boundary, or a structural level
-- `low` — cosmetic or single-character OCR problem
-
-Group issues that are the same pattern repeated many times into one issue with a list of `occurrences` (each with offsets), instead of dozens of separate issues.
-
-### OCR corrections
-
-When a correction is highly likely, keep the original and record the proposal:
-
-```json
-{ "original": "أعللت", "proposed": "أحللت", "reason": "context and parallel wording in the unit", "confidence": 0.8 }
-```
-
----
-
-## Stage 10 — Scope Separation
-
-This skill performs **structure discovery only**. Do NOT:
-
-- extract entities or relationships
-- summarize or interpret content
-- fact-check or grade hadiths
-- enrich from external sources or general knowledge (do not expand `قال فلان` to a full name that is not in the source)
-
-Segment roles (isnad, matn, takhrij…) are structural, not semantic extraction, and are in scope.
-
----
-
-## Stage 11 — Validation (mandatory before finishing Phase B)
-
-Validation is done by the bundled script, not by self-assessment:
-
-```bash
-python scripts/validate.py --source <book-ocr.txt> --out <output_dir>
-```
-
-(`scripts/` is inside this skill's folder. Standard-library Python 3, no installs needed.)
-
-It writes `<output_dir>/validation_report.json` and exits `0` on pass, `1` on errors. It checks:
-
-1. encoding (UTF-8, no BOM, LF), JSON validity, canonical field names
-2. `source_sha256`, `source_length_chars`, `line_endings` against the real source
-3. `raw_text == source[span]` and any stored `text` against its offsets
-4. **coverage**: every non-whitespace character claimed exactly once (gaps and double claims are listed with the text)
-5. duplicate segments, overlapping unit spans, overlapping foreign spans
-6. displaced segment ↔ foreign span mirroring (exact offsets both ways)
-7. `placement` consistent with the span
-8. references: parents, children, issue ids, `belongs_to`, noise ids, occurrence unit ids
-9. `ordinal` present, unique and consecutive within each sibling group
-10. confidence rules (Stage 8) and issue confidence present and in [0, 1]
-11. issue occurrences touch their unit and reuse the exact offsets of the object they point to
-12. warnings for over-long noise spans and a high share of the generic `body` role
-
-### Rules
-
-- Loop: fix the outputs → re-run → until `status: pass`. Fix the **data**, i.e. the script that produced it; do not hand-patch JSON.
-- **Never edit `validate.py`** to make a check pass, and never delete content to make coverage pass. If a check seems wrong for this book, stop and report it to the user with the example.
-- Review the warnings too. Each remaining warning should be either fixed or explained in the final report.
-- Also do, by reasoning (the script cannot): the TOC cross-check in both directions (Stage 4) and the marker inventory (Stage 6).
-- Deliver `validation_report.json` together with the four output files, and show the user its summary (status, error/warning counts, stats).
-
----
-
-# Output Files
-
-Five files are delivered: the four below plus `validation_report.json` (Stage 11).
-
-Write all files with a script (e.g. Python `json.dump(..., ensure_ascii=False, indent=2)`), **UTF-8 without BOM, LF line endings**. Do not use tools that add a BOM or change encoding (e.g. PowerShell `Out-File`/`Set-Content` default encodings). Re-open each file after writing and parse it to confirm it is valid.
-
-## 1. `book_profile.json`
-
-```json
-{
-  "title": "…",
-  "author": "…",
-  "editor_commentator": null,
-  "publisher": null,
-  "edition": null,
-  "publication_year": null,
-  "isbn": null,
-  "genre": "…",
-  "language": "ar",
-  "source_file": "book-ocr.txt",
-  "source_sha256": "…",
-  "source_length_chars": 0,
-  "line_endings": "CRLF",
-  "sources_used": ["book-ocr.txt", "book-searchable.pdf (page boundaries only)"],
-  "expected_components": [
-    { "component": "author_introduction", "status": "absent_or_undetermined", "issue_id": "issue_003" }
-  ],
-  "segment_roles_used": ["heading", "isnad", "matn", "takhrij"],
-  "structure_summary": "…",
-  "notes": []
-}
-```
-
-Only values supported by the source.
-
-## 2. `structure.json`
-
+### `structure.json`
 ```json
 {
   "root": "node_000",
-  "pages": [ /* Stage 2 page list, or [] if unknown */ ],
-  "noise_spans": [ /* Stage 3 */ ],
-  "nodes": [ /* Stage 5 */ ]
+  "pages": [{ "page_index": 3, "printed_page_number": null, "char_start": 1604, "char_end": 2022,
+              "evidence": "snapped_to_header", "confidence": 0.85 }],
+  "noise_spans": [{ "id": "noise_0004", "type": "running_header", "char_start": 1910, "char_end": 1926 }],
+  "nodes": [ { "id": "node_000", "type": "book", "children": ["node_001", "node_002", "node_003"], "...": "..." },
+             { "id": "node_001", "type": "front_matter", "segments": [ { "role": "front_matter", "char_start": 0, "char_end": 1043 } ] } ]
 }
 ```
 
-## 3. `units.json`
-
+### `units.json`
 ```json
 {
-  "units": [
-    {
-      "id": "unit_001",
-      "type": "hadith",
-      "ordinal": 1,
-      "number_raw": "١",
-      "title": "…",
-      "title_variants": [],
-      "parent_id": "node_002",
-      "span": { "char_start": 1168, "char_end": 1929, "page_start": 1, "page_end": 2 },
-      "raw_text": "source[span.char_start:span.char_end], unchanged",
-      "segments": [
-        { "role": "isnad", "char_start": 1050, "char_end": 1080, "placement": "displaced", "confidence": 0.7 },
-        { "role": "heading", "char_start": 1168, "char_end": 1183, "placement": "in_span", "confidence": 0.95 },
-        { "role": "isnad", "char_start": 1184, "char_end": 1262, "placement": "in_span", "confidence": 0.75 },
-        { "role": "matn", "char_start": 1263, "char_end": 1541, "placement": "in_span", "confidence": 0.8 },
-        { "role": "source_attribution", "char_start": 1542, "char_end": 1790, "placement": "in_span", "confidence": 0.85 },
-        { "role": "anchor", "char_start": 1791, "char_end": 1794, "placement": "in_span", "confidence": 0.9 },
-        { "role": "takhrij", "char_start": 1803, "char_end": 1850, "footnote_marker": "(1)", "placement": "in_span", "confidence": 0.85 },
-        { "role": "noise_ref", "noise_id": "noise_004" }
-      ],
-      "foreign_spans": [
-        { "char_start": 1850, "char_end": 1900, "belongs_to": "unit_002", "issue_id": "issue_012" }
-      ],
-      "issue_ids": ["issue_002"],
-      "confidence": 0.8
-    }
-  ]
+  "id": "unit_024", "type": "hadith", "ordinal": 24, "number_raw": "٢٤",
+  "title": "فضل الله على", "title_variants": ["فضل الله وعل (TOC)"], "parent_id": "node_002",
+  "span": { "char_start": 13932, "char_end": 15660, "page_start": 17, "page_end": 18 },
+  "raw_text": "exactly source[span]",
+  "segments": [
+    { "role": "heading", "char_start": 13932, "char_end": 13944, "placement": "in_span", "confidence": 0.95 },
+    { "role": "hadith_text", "...": "..." },
+    { "role": "source_attribution", "...": "..." },
+    { "role": "anchor", "marker": "(1)", "footnote_id": "fn_027", "...": "..." },
+    { "role": "takhrij", "footnote_id": "fn_027", "footnote_marker": "(1)", "...": "..." },
+    { "role": "noise_ref", "noise_id": "noise_0041" }
+  ],
+  "foreign_spans": [ { "char_start": 14232, "char_end": 14268, "belongs_to": "unit_023" } ],
+  "issue_ids": ["issue_003"], "confidence": 0.8
 }
 ```
+- `ordinal` = logical position (always set); `number_raw` = printed number or `null`.
+- `placement`: `in_span` / `displaced` (segment lies in another unit's span, mirrored there as a `foreign_span`).
+- A footnote's `takhrij`/`gharib` segments and its `anchor` share one `footnote_id`.
 
-- `raw_text` is exactly the span, never cleaned.
-- A clean/reading view is **derived** later from the segments; do not store cleaned text as if it were the source.
-- `foreign_spans` lists text inside the span that belongs to **another unit** (use the exact offsets of that unit's displaced segment). Noise inside the span is not listed here; it is a noise span referenced by `noise_ref`.
-- `segments` are listed in source order.
-
-## 4. `issues.json`
-
-```json
-{ "issues": [ /* Stage 9 */ ] }
-```
-
-Every issue has a numeric `confidence`. Grouped issues use `occurrences: [{ "unit_id", "char_start", "char_end", "note" }]`; single issues may use `location` with the same fields.
+### `issues.json`
+Grouped by type; every occurrence has `char_start`/`char_end` and, when inside a unit, `unit_id` (and a `note` with the evidence for grouped types). `confidence` = probability the issue is real. `needs_visual_check: true` where only the page image can decide.
 
 ---
 
-# Rules for Arabic Text
+## Rules for Arabic text
 
-1. Preserve Arabic text exactly: spelling, diacritics, classical vocabulary, digits as written.
-2. Do not normalize unless explicitly asked; normalized forms go in separate fields.
-3. Do not silently correct OCR.
-4. Treat honorific ligatures and decorative formulas with care (Stage 4).
-5. Distinguish **structural certainty** from **textual uncertainty**: a unit can be structurally certain while containing uncertain OCR, and vice versa.
+1. Preserve the text exactly: spelling, diacritics, classical vocabulary, digits as written.
+2. Do not normalize or correct in the output; matching inside the engine ignores diacritics but offsets always point to the original.
+3. Honorific ligatures (ﷺ، عز وجل، جل وعلا، رضي الله عنه) are often lost by OCR; a heading ending abruptly (`… الله عل`) is probably a lost ligature. Keep the OCR text as `title`, put the TOC form in `variants`, and let the reviewer check the page.
+4. A rare classical word is not an OCR error. Flag an error only with a reason.
 
----
+## No hallucination
 
-# No Hallucination Rule
+Nothing from general knowledge goes into titles, text, metadata or the config. What general knowledge suggests (a probable full title, a likely missing introduction) may appear only as an issue candidate flagged for human review.
 
-Never add information from general knowledge. The source-first principle is mandatory. When general knowledge suggests something (e.g. what a truncated title probably was, or that a book normally has an introduction), it may appear only as a *candidate* inside an issue, flagged for human review — never in titles, text, or metadata.
+## Scalability
 
----
+The engine works on the whole text in one pass (label array, linear scans), so it does not depend on chunking. For very large books the heading list in the config is the main effort: build it from the TOC and `discover` candidates, then let `config_headings_not_found` and the order checks tell you what is missing.
 
-# Scalability
+## Final principle
 
-The same skill must work from 20 pages to 1,000+ pages.
-
-For large books:
-
-- Build the page model and the global heading list first, across the whole book.
-- Process in chunks aligned to **page or structural boundaries**, never arbitrary character counts.
-- Handle footnotes and displaced fragments that cross chunk boundaries by looking one page ahead/behind.
-- Keep IDs global and stable; the final structure must not depend on chunk boundaries.
-
----
-
-# Future Compatibility
-
-Consumers: entity extractor, relationship/event extractor, knowledge-graph builder, semantic search indexer, citation/provenance layer, content generator.
-
-Therefore:
-
-- IDs are stable across re-runs of the same source (derive them from order in the book, not from processing order).
-- Offsets are exact and verified.
-- Downstream stages should consume **segments** (e.g. only `matn` for indexing hadith text, `takhrij` for sources), not raw spans.
-
----
-
-# Final Principle
-
-The goal is not to make the book look like a database.
-
-The goal is to make the database **reflect the book's own structure** — and to say clearly where the OCR makes that structure uncertain.
+The database should reflect the book's own structure — and say clearly where the OCR makes that structure uncertain. Your understanding goes into the config and the overrides, where a human can read and check it; the code stays the same for every book.

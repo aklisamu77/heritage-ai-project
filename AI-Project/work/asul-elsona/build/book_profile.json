@@ -1,0 +1,42 @@
+{
+  "title": "أصول السنة",
+  "author": "الإمام أبو بكر عبد الله بن الزبير الحميدي",
+  "editor_commentator": "مشعل محمد الحداري المطيري (دراسة وتحقيق)",
+  "publisher": "دار ابن الأثير",
+  "edition": "الطبعة الأولى",
+  "publication_year": "١٤١٨هـ - ١٩٩٧م",
+  "isbn": null,
+  "genre": "aqeedah",
+  "language": "ar",
+  "source_file": "asul-elsona-ocr-fastocr.txt",
+  "source_sha256": "9f9806d6f8edae25768989f4bbe90480793686e88385a2caff0b4475122bb184",
+  "source_length_chars": 50884,
+  "line_endings": "LF",
+  "sources_used": [
+    "asul-elsona-ocr-fastocr.txt",
+    "pages.json (page model)"
+  ],
+  "generated_by": "book-structure-analyzer/scripts/engine.py",
+  "config_file": "book_config.json",
+  "overrides_file": "overrides.json",
+  "overrides_applied": 1,
+  "expected_components": [
+    {
+      "component": "toc",
+      "status": "present"
+    }
+  ],
+  "segment_roles_used": [
+    "anchor",
+    "footnote",
+    "heading",
+    "noise_ref",
+    "number",
+    "text"
+  ],
+  "structure_summary": "Editor's introduction and study (biography of al-Humaydi, manuscripts, attribution, facsimiles) → the treatise: chain of transmission + 8 numbered paragraphs with the editor's bracketed headings → five indexes.",
+  "notes": [
+    "Title page OCR reads «صول السنة»; publisher OCR reads «دارابت الأثير» / «دار ابن الأثيرة» — publisher kept as the clean form found in the text; check the title page image.",
+    "The editor states he divided the treatise into numbered paragraphs with bracketed headings (مقدمة المحقق)."
+  ]
+}

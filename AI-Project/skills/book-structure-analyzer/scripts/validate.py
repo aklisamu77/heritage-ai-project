@@ -19,6 +19,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import sys
 from collections import Counter, defaultdict
 
@@ -227,7 +228,7 @@ def validate(source_path, out_dir):
         if "text" in z and z["text"] != src[sp[0]:sp[1]]:
             rep.err("offset_text", f"noise {z['id']}: stored text != source slice")
         claim(*sp, f"noise:{z['id']}")
-        if sp[1] - sp[0] > LONG_NOISE_WARN:
+        if sp[1] - sp[0] > LONG_NOISE_WARN and z.get("source") != "override":
             rep.warn("noise_too_long",
                      f"noise {z['id']} ({z.get('type')}) is {sp[1]-sp[0]} chars — noise must cover only the noise characters: «{snippet(src,*sp)}»")
 
@@ -322,8 +323,9 @@ def validate(source_path, out_dir):
             if sp in seen:
                 rep.err("duplicate_segment", f"{uid}: foreign span [{sp[0]},{sp[1]}) listed twice")
             seen.add(sp)
-            if fs.get("belongs_to") not in all_owner_ids and fs.get("belongs_to") != "noise":
-                rep.err("refs", f"{uid}.foreign_spans[{k}]: belongs_to {fs.get('belongs_to')} does not exist")
+            if fs.get("belongs_to") not in unit_by:
+                rep.err("refs", f"{uid}.foreign_spans[{k}]: belongs_to {fs.get('belongs_to')} is not a unit "
+                                f"(noise inside a span is a noise span + noise_ref, not a foreign span)")
             foreign_index[uid].append((sp[0], sp[1], fs.get("belongs_to")))
         # overlap between foreign spans of the same unit
         fl = sorted(foreign_index[uid])
@@ -471,6 +473,81 @@ def validate(source_path, out_dir):
         occ_units = {l.get("unit_id") for l in (i.get("occurrences") or []) if l.get("unit_id")}
         if occ_units and i["id"] not in linked:
             rep.warn("refs", f"{i['id']} has occurrences in units but no unit lists it in issue_ids")
+
+    # --- footnote <-> anchor pairing (engine output carries footnote_id on both)
+    issue_occ = defaultdict(list)  # type -> list of (unit_id, s, e)
+    for i in issues:
+        for o in (i.get("occurrences") or []) + ([i["location"]] if i.get("location") else []):
+            sp = span_of(o)
+            if sp:
+                issue_occ[i.get("type")].append((o.get("unit_id"), sp[0], sp[1]))
+
+    def flagged(typ, uid, sp):
+        return any(u == uid and not (sp[1] <= s or sp[0] >= e) for u, s, e in issue_occ.get(typ, []))
+
+    fn_roles = {"takhrij", "gharib", "footnote"}
+    any_fid = False
+    for u in units:
+        uid = u["id"]
+        fsegs = [s for s in u.get("segments", []) if s.get("role") in fn_roles and span_of(s)]
+        anchors = [s for s in u.get("segments", []) if s.get("role") == "anchor" and span_of(s)]
+        if fsegs and not any("footnote_id" in s for s in fsegs):
+            rep.warn("footnote_ids", f"{uid}: footnote segments carry no footnote_id; anchor pairing cannot be checked")
+            continue
+        any_fid = any_fid or bool(fsegs)
+        a_fids = Counter(a.get("footnote_id") for a in anchors if a.get("footnote_id"))
+        for f, c in a_fids.items():
+            if c > 1:
+                rep.err("footnote_pairing", f"{uid}: {c} anchors point to the same footnote {f}")
+        seen_f = set()
+        for s in fsegs:
+            f = s.get("footnote_id")
+            if f in seen_f:
+                continue
+            seen_f.add(f)
+            if f not in a_fids and not flagged("unanchored_footnote", uid, span_of(s)):
+                rep.err("footnote_pairing", f"{uid}: footnote {f} ({s.get('footnote_marker')}) has no anchor in its unit "
+                                            f"and no unanchored_footnote issue")
+        for a in anchors:
+            if not a.get("footnote_id") and not flagged("orphan_anchor", uid, span_of(a)):
+                rep.warn("footnote_pairing", f"{uid}: anchor {a.get('marker')} [{a['char_start']},{a['char_end']}) has no footnote and no orphan_anchor issue")
+
+    # --- noise must not look like main text
+    for z in noise:
+        sp = span_of(z)
+        if not sp or z.get("type") in ("displaced_heading", "running_header") or z.get("source") == "override":
+            continue
+        t = src[sp[0]:sp[1]]
+        if any(k in t for k in ("«", "»", "رواه", "رَوَاهُ", "ﷺ")) or len(re.findall(r"[\u0621-\u064A]{2,}", t)) >= 4:
+            rep.warn("noise_content", f"noise {z['id']} ({z.get('type')}) looks like real text: «{snippet(src,*sp)}»")
+
+    # --- fragmentation: same role split into pieces separated only by whitespace
+    for u in units:
+        segs = sorted([s for s in u.get("segments", []) if span_of(s)], key=lambda s: s["char_start"])
+        for a, b in zip(segs, segs[1:]):
+            if a.get("role") == b.get("role") and a.get("footnote_id") == b.get("footnote_id") \
+                    and a.get("placement") == b.get("placement") and src[a["char_end"]:b["char_start"]].strip() == "":
+                rep.warn("fragmented_segments", f"{u['id']}: two '{a['role']}' segments separated only by whitespace "
+                                                f"at [{a['char_end']},{b['char_start']}) — merge them")
+
+    # --- page confidence honesty: a confident page boundary should sit at a header / after a page number
+    if pages and noise:
+        marks = []
+        for z in noise:
+            sp = span_of(z)
+            if not sp:
+                continue
+            if z.get("type") == "running_header":
+                marks.append(sp[0])
+            elif z.get("type") == "page_number":
+                marks.append(sp[1])
+        for p in pages[1:]:
+            sp = span_of(p)
+            if sp and (p.get("confidence") or 0) >= 0.8 and marks:
+                d = min(abs(m - sp[0]) for m in marks)
+                if d > 80:
+                    rep.warn("page_confidence", f"page {p.get('page_index')} has confidence {p.get('confidence')} but its start "
+                                                f"is {d} chars from any running header / page number")
 
     # --- stats
     role_counts = Counter(sg.get("role") for u in units for sg in u.get("segments", []))

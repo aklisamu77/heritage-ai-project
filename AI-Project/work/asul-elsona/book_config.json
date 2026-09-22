@@ -1,0 +1,114 @@
+{
+  "_about": "Book-specific configuration for scripts/engine.py. Written by the AI after reading the book (Phase A). Every value is supported by the source (asul-elsona-ocr-fastocr.txt).",
+  "metadata": {
+    "title": "أصول السنة",
+    "author": "الإمام أبو بكر عبد الله بن الزبير الحميدي",
+    "editor_commentator": "مشعل محمد الحداري المطيري (دراسة وتحقيق)",
+    "publisher": "دار ابن الأثيرة (OCR also reads «دارابت الأثير»)",
+    "edition": "الطبعة الأولى",
+    "publication_year": "١٤١٨هـ - ١٩٩٧م",
+    "isbn": null,
+    "genre": "aqeedah",
+    "language": "ar",
+    "structure_summary": "Achievement of a short creed treatise by al-Humaydi: front matter (title page, editor's muqaddima, a study/biography of the author with manuscript descriptions and illegible facsimile plates) then نص الرسالة = 8 numbered فقرات, each with a bracketed editorial heading, then five فهارس.",
+    "notes": [
+      "Title page OCR reads «صول السنة» (dropped initial alef); the treatise itself (line 832) and the whole text carry «أصول السنة».",
+      "وضع المحقق قسماً الرسالة إلى فقرات مرقمة وعنواناً معكوفاً لكل فقرة (مقدمة المحقق: «قسمت الرسالة إلى فقرات وجعلت لكل فقرة رقماً... وضعت لكل فقرة عنواناً مناسباً وجعلته بين معكوفين»).",
+      "الفقرات المرقمة الظاهرة في OCR: ١ ٢ ٣ ٤ (الرؤية مكتوبة «ه -») ٦؛ رقم فقرة «الفرق بين أهل السنة والخوارج» (٧) مفقود (بقيت الشَّرطة فقط «- وأن لا نقول...»)، ورقم «متى تقوم الحجة» (٨) مفقود كلياً.",
+      "عنوان فهرس المواضيع «قول سفيان بن عيينة في القرآن» لا يوجد له مقابل في نص الرسالة بالOCR؛ الـ OCR فيه «[ قول سفيان في الإيمان ]» بلا رقم بين فقرة ٤ و٥ — على الأرجح عنوانان فرعيان داخل فقرة ٤.",
+      "صفحات صور المخطوط (الدراسة، سطر ٦٠٧–٨٣١) OCR غير المقروءة (خربشة)؛ لن تُقسَّم، ستبقى نصاً في المقدمة.",
+      "أرقام الصحف في نص الرسالة ملتصقة أحياناً بالنص («٣٦لم يكن ليصيبه»، «٤٠وينقص»، «٤٢[ الفرق...»، «۳۹القرآن كلام الله»)، وستبقى ضمن نص الوحدة (لا توجد قاعدة عامة للفصل).",
+      "بعض علامات الحواشي قرأت بأحرف/رموز (V, Y, ε, †, Ʌ, ص) لا تُطابق regex الأرقام؛ تلك الحواشي لن تُكتشف.",
+      "لا يوجد running header ثابت في ملف النص (تكرارات «ص»، «بن»، «بيروت.» هي أعمدة فهارس وإحالات)."
+    ]
+  },
+  "unit_type": "mas'ala",
+  "body_role": "text",
+  "main_type": "creed_treatise",
+  "main_title": "أصول السنة (نص الرسالة)",
+  "front_matter": {
+    "title": "صفحة العنوان، مقدمة المحقق، دراسة المؤلف (ترجمته، وصف النسخ، إثبات النسبة، صور المخطوط)، وسند الرسالة",
+    "role": "front_matter"
+  },
+  "back_matter": [
+    {
+      "type": "index",
+      "title": "الفهارس",
+      "role": "toc",
+      "start_at": {
+        "text": "الفهارس",
+        "occurrence": 1
+      }
+    }
+  ],
+  "running_headers": [],
+  "unit_headings": [
+    {
+      "text": "الإيمان بالقدر"
+    },
+    {
+      "text": "الإيمان قول وعمل يزيد وينقص"
+    },
+    {
+      "text": "الثناء على الصحابة رضوان الله عليهم"
+    },
+    {
+      "text": "القرآن كلام الله تعالى"
+    },
+    {
+      "text": "رؤية المؤمنين ربهم يوم القيامة"
+    },
+    {
+      "text": "إثبات الصفات"
+    },
+    {
+      "text": "الفرق بين أهل السنة والخوارج"
+    },
+    {
+      "text": "متى تقوم الحجة على تارك أركان الإسلام أو بعضها ؟"
+    }
+  ],
+  "unit_number_prefix_regex": "^\\s*([0-9٠-٩۰-۹]{1,3})\\s*[-–—]\\s*",
+  "footnote_marker_regex": "\\(\\s*([0-9٠-٩۰-۹]{1,2})\\s*\\)",
+  "footnote_split": {
+    "takhrij_until": [
+      "قوله",
+      "وقوله",
+      "ومعنى",
+      "معنى"
+    ],
+    "first_role": "takhrij",
+    "second_role": "gharib"
+  },
+  "attribution": {
+    "keywords": [
+      "رواه",
+      "ورواه",
+      "رويناه",
+      "متفق عليه",
+      "حديث حسن",
+      "حديث صحيح"
+    ],
+    "role": "source_attribution"
+  },
+  "anchors_come_after_text": true,
+  "footnote_lookback": 2,
+  "body_line_markers": [
+    "ﷺ",
+    "قال رسول الله",
+    "عن النبي",
+    "سمعت رسول الله"
+  ],
+  "expected_components": [
+    {
+      "component": "author_introduction",
+      "status": "absent_or_undetermined",
+      "note": "نص الرسالة يفتح مباشرة بالسند («أصول السنة (١) حدثنا بشر بن موسى...») ثم فقرة ١؛ لا خطبة للمصنف مستقلة عن نصه. مقدمة المحقق موجودة قبل نص الرسالة.",
+      "confidence": 0.7
+    },
+    {
+      "component": "toc",
+      "status": "present"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": {},
+  "warnings": {},
+  "stats": {
+    "source_length_chars": 28672,
+    "nodes": 4,
+    "units": 42,
+    "issues": 19,
+    "noise_spans": 95,
+    "pages": 32,
+    "segment_roles": {
+      "hadith_text": 84,
+      "heading": 42,
+      "source_attribution": 45,
+      "anchor": 41,
+      "takhrij": 48,
+      "gharib": 26,
+      "noise_ref": 90,
+      "subtitle": 1,
+      "number": 36
+    },
+    "body_role_share": 0.0,
+    "covered_non_whitespace_chars": 23640,
+    "non_whitespace_chars": 23640
+  }
+}

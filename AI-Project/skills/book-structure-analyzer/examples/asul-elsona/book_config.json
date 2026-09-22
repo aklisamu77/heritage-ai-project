@@ -1,0 +1,231 @@
+{
+  "_about": "Book-specific configuration for engine.py (أصول السنة للحميدي، تحقيق مشعل الحداري). Values from the source.",
+  "metadata": {
+    "title": "أصول السنة",
+    "author": "الإمام أبو بكر عبد الله بن الزبير الحميدي",
+    "editor_commentator": "مشعل محمد الحداري المطيري (دراسة وتحقيق)",
+    "publisher": "دار ابن الأثير",
+    "edition": "الطبعة الأولى",
+    "publication_year": "١٤١٨هـ - ١٩٩٧م",
+    "isbn": null,
+    "genre": "aqeedah",
+    "language": "ar",
+    "structure_summary": "Editor's introduction and study (biography of al-Humaydi, manuscripts, attribution, facsimiles) → the treatise: chain of transmission + 8 numbered paragraphs with the editor's bracketed headings → five indexes.",
+    "notes": [
+      "Title page OCR reads «صول السنة»; publisher OCR reads «دارابت الأثير» / «دار ابن الأثيرة» — publisher kept as the clean form found in the text; check the title page image.",
+      "The editor states he divided the treatise into numbered paragraphs with bracketed headings (مقدمة المحقق)."
+    ]
+  },
+  "unit_type": "mas'ala",
+  "body_role": "text",
+  "main_type": "creed_treatise",
+  "main_title": "نص الرسالة",
+  "main_start_at": {
+    "text": "نص الرسالة",
+    "occurrence": 1,
+    "heading": true
+  },
+  "front_matter": {
+    "title": "صفحة العنوان وبيانات النشر",
+    "role": "front_matter"
+  },
+  "sections": [
+    {
+      "title": "المقدمة",
+      "level": 1,
+      "type": "editor_introduction",
+      "start_at": {
+        "text": "الحمد لله نحمده"
+      },
+      "heading": false
+    },
+    {
+      "title": "أهمية الرسالة",
+      "level": 2,
+      "type": "section",
+      "start_at": {
+        "text": "أهمية الرسالة:"
+      }
+    },
+    {
+      "title": "عملي في تحقيق الرسالة",
+      "level": 2,
+      "type": "section",
+      "start_at": {
+        "text": "عملي في تحقيق الرسالة"
+      }
+    },
+    {
+      "title": "الدراسة",
+      "level": 1,
+      "type": "study",
+      "start_at": {
+        "text": "ترجمة الإمام الحميدي",
+        "occurrence": 1
+      },
+      "heading": false
+    },
+    {
+      "title": "ترجمة الإمام الحميدي",
+      "level": 2,
+      "type": "biography",
+      "start_at": {
+        "text": "ترجمة الإمام الحميدي"
+      }
+    },
+    {
+      "title": "اسمه ونسبه",
+      "level": 3,
+      "type": "section",
+      "start_at": {
+        "text": "اسمه ونسبه"
+      }
+    },
+    {
+      "title": "شيوخه",
+      "level": 3,
+      "type": "section",
+      "start_at": {
+        "text": "شيوخه:"
+      }
+    },
+    {
+      "title": "تلاميذه",
+      "level": 3,
+      "type": "section",
+      "start_at": {
+        "text": "تلاميذه:"
+      }
+    },
+    {
+      "title": "ثناء العلماء عليه",
+      "level": 3,
+      "type": "section",
+      "start_at": {
+        "text": "ثناء العلماء عليه:"
+      }
+    },
+    {
+      "title": "مؤلفاته",
+      "level": 3,
+      "type": "section",
+      "start_at": {
+        "text": "مؤلفاته:"
+      }
+    },
+    {
+      "title": "دفع بعض التهم عنه",
+      "level": 3,
+      "type": "section",
+      "start_at": {
+        "text": "دفع بعض التهم عنه:"
+      }
+    },
+    {
+      "title": "الرد على هذا الاتهام",
+      "level": 4,
+      "type": "section",
+      "start_at": {
+        "text": "الرد على هذا الاتهام"
+      }
+    },
+    {
+      "title": "الخلاصة",
+      "level": 3,
+      "type": "section",
+      "start_at": {
+        "text": "الخلاصة:"
+      }
+    },
+    {
+      "title": "وصف النسخ",
+      "level": 2,
+      "type": "manuscripts",
+      "start_at": {
+        "text": "وصف النسخ:"
+      }
+    },
+    {
+      "title": "إثبات نسبة الرسالة للمؤلف",
+      "level": 2,
+      "type": "attribution_study",
+      "start_at": {
+        "text": "إثبات نسبة الرسالة للمؤلف"
+      }
+    },
+    {
+      "title": "صور النسخ",
+      "level": 2,
+      "type": "facsimiles",
+      "start_at": {
+        "text": "صور المخطوط"
+      }
+    }
+  ],
+  "back_matter": [
+    {
+      "type": "index",
+      "title": "الفهارس",
+      "role": "toc",
+      "start_at": {
+        "text": "الفهارس",
+        "occurrence": 1
+      }
+    }
+  ],
+  "running_headers": [],
+  "unit_headings": [
+    {
+      "text": "الإيمان بالقدر"
+    },
+    {
+      "text": "الإيمان قول وعمل يزيد وينقص"
+    },
+    {
+      "text": "الثناء على الصحابة رضوان الله عليهم"
+    },
+    {
+      "text": "القرآن كلام الله تعالى"
+    },
+    {
+      "text": "رؤية المؤمنين ربهم يوم القيامة"
+    },
+    {
+      "text": "إثبات الصفات"
+    },
+    {
+      "text": "الفرق بين أهل السنة والخوارج"
+    },
+    {
+      "text": "متى تقوم الحجة على تارك أركان الإسلام أو بعضها ؟",
+      "variants": [
+        "متى تقوم الحجة على تارك أركان الإسلام أو بعضها؟ (TOC)"
+      ]
+    }
+  ],
+  "digit_lookalikes": {
+    "ه": "5",
+    "ε": "4",
+    "Ʌ": "8",
+    "V": "7"
+  },
+  "footnote_split": {
+    "takhrij_until": [],
+    "first_role": "footnote",
+    "second_role": "footnote"
+  },
+  "attribution": {
+    "keywords": [
+      "رواه",
+      "ورواه"
+    ],
+    "role": "source_attribution"
+  },
+  "body_line_markers": [],
+  "expected_components": [
+    {
+      "component": "toc",
+      "status": "present"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "_help": "Judgment calls the engine rules cannot make. Every entry needs a reason; each becomes a manual_decision issue. 'at' finds text in the OCR (diacritics/whitespace-insensitive); occurrence = 1-based or 'last'. Prefer fixing book_config.json; use overrides only for single, local cases.",
+  "overrides": [
+    {
+      "op": "set_unit_start",
+      "ordinal": 1,
+      "at": {
+        "text": "exact OCR text where unit 1 really starts",
+        "occurrence": 1
+      },
+      "reason": "why"
+    },
+    {
+      "op": "mark_noise",
+      "type": "decorative",
+      "at": {
+        "text": "text that is not part of the book's content",
+        "occurrence": 1
+      },
+      "reason": "why"
+    },
+    {
+      "op": "assign",
+      "to_ordinal": 5,
+      "role": "hadith_text",
+      "at": {
+        "text": "fragment that belongs to unit 5",
+        "occurrence": 1
+      },
+      "reason": "why"
+    },
+    {
+      "op": "set_role",
+      "role": "gharib",
+      "at": {
+        "text": "text whose role is wrong",
+        "occurrence": 1
+      },
+      "reason": "why"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "_help": "Book-specific settings for scripts/engine.py. Fill every value FROM THE SOURCE (Phase A). Keys starting with _help are ignored. Omit any key to use the engine default.",
+  "metadata": {
+    "_help": "Only what the source states. null when not stated. Never from outside knowledge.",
+    "title": null,
+    "author": null,
+    "editor_commentator": null,
+    "publisher": null,
+    "edition": null,
+    "publication_year": null,
+    "isbn": null,
+    "genre": "e.g. hadith_collection | tafsir | fiqh | history | biography | poetry | adab",
+    "language": "ar",
+    "structure_summary": "one sentence describing the discovered structure",
+    "notes": []
+  },
+  "unit_type": "e.g. hadith | biography | poem | mas'ala | event",
+  "body_role": "role name for the unit's main text, e.g. hadith_text | narrative | verse | text",
+  "main_type": "type of the node holding the units, e.g. hadith_collection",
+  "main_title": null,
+  "front_matter": {
+    "title": "e.g. title page and publication data",
+    "role": "front_matter"
+  },
+  "main_start_at": {
+    "_help": "optional: where the main text starts if something of the author precedes unit 1; delete if not needed",
+    "text": "نص الرسالة",
+    "occurrence": 1,
+    "heading": true
+  },
+  "sections": [
+    {
+      "_help": "optional: headed sections before the main text, in book order, with levels (see SKILL.md)",
+      "title": "مقدمة المحقق",
+      "level": 1,
+      "type": "editor_introduction",
+      "start_at": {
+        "text": "text of the heading line"
+      },
+      "heading": true
+    }
+  ],
+  "back_matter": [
+    {
+      "_help": "one entry per back-matter block (index, bibliography, colophon); start_at = text of its first line, as in the OCR",
+      "type": "index",
+      "title": "الفهرس",
+      "role": "toc",
+      "start_at": {
+        "text": "الفهرس",
+        "occurrence": 1
+      }
+    }
+  ],
+  "running_headers": [
+    "_help: exact text of repeated page headers, as the OCR shows them (see engine.py discover)"
+  ],
+  "unit_headings": [
+    "_help: the unit headings IN BOOK ORDER, spelled exactly as in the BODY (not the TOC). Use an object when needed:",
+    {
+      "text": "heading as in the body",
+      "variants": [
+        "TOC spelling if different"
+      ],
+      "subtitle": "second heading line, if any"
+    }
+  ],
+  "unit_number_prefix_regex": "^\\s*([0-9٠-٩۰-۹]{1,3})\\s*[-–—]\\s*",
+  "footnote_marker_regex": "\\(\\s*([0-9٠-٩۰-۹]{1,2})\\s*\\)",
+  "footnote_split": {
+    "_help": "where the editor's footnote switches from one role to another (e.g. takhrij → gharib)",
+    "takhrij_until": [
+      "قوله",
+      "وقوله",
+      "ومعنى",
+      "معنى"
+    ],
+    "first_role": "takhrij",
+    "second_role": "gharib"
+  },
+  "attribution": {
+    "_help": "phrases that open a source attribution after the main text",
+    "keywords": [
+      "رواه",
+      "ورواه",
+      "رويناه",
+      "متفق عليه",
+      "حديث حسن",
+      "حديث صحيح"
+    ],
+    "role": "source_attribution"
+  },
+  "anchors_come_after_text": true,
+  "footnote_lookback": 2,
+  "body_line_markers": [
+    "ﷺ",
+    "قال رسول الله",
+    "عن النبي",
+    "سمعت رسول الله"
+  ],
+  "expected_components": [
+    {
+      "_help": "components this genre usually has; status present | absent_or_undetermined",
+      "component": "author_introduction",
+      "status": "absent_or_undetermined",
+      "note": "why",
+      "confidence": 0.6
+    }
+  ],
+  "digit_lookalikes": {
+    "_help": "optional: OCR letters used for digits in markers/numbers, only if seen in this book"
+  },
+  "footnote_continued_mark": "="
+}
