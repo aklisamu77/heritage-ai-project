@@ -1,0 +1,187 @@
+{
+  "_about": "Book-specific configuration for engine.py. Written by the AI after reading the book (Phase A). Every value must be supported by the source.",
+  "metadata": {
+    "title": "الأربعين النووية",
+    "author": "أبو زكريا يحيى بن شرف النووي",
+    "editor_commentator": "أحمد عبد الرازق البكري (خرج أحاديثه وشرح غريبه)",
+    "publisher": "دار السلام للطباعة والنشر والتوزيع والترجمة",
+    "edition": "الطبعة الرابعة",
+    "publication_year": "١٤٢٨هـ - ٢٠٠٧م",
+    "isbn": "977-342-075-2",
+    "genre": "hadith_collection",
+    "language": "ar",
+    "structure_summary": "Flat collection: front matter (title page + publisher data) → 42 hadith units, each with a topic heading → index (الفهرس)."
+  },
+  "unit_type": "hadith",
+  "body_role": "hadith_text",
+  "main_type": "hadith_collection",
+  "main_title": "متن الأربعين النووية",
+  "front_matter": {
+    "title": "صفحة العنوان وبيانات النشر",
+    "role": "front_matter"
+  },
+  "back_matter": [
+    {
+      "type": "index",
+      "title": "الفهرس",
+      "role": "toc",
+      "start_at": {
+        "text": "الموضوع",
+        "occurrence": 1
+      }
+    }
+  ],
+  "running_headers": [
+    "الأربعين النووية"
+  ],
+  "unit_headings": [
+    {
+      "text": "لا عمل إلا بنية"
+    },
+    {
+      "text": "مراتب الدين",
+      "subtitle": "الإسلام والإيمان والإحسان"
+    },
+    {
+      "text": "أركان الإسلام"
+    },
+    {
+      "text": "الخلق والأجل والرزق"
+    },
+    {
+      "text": "إنكار البدع"
+    },
+    {
+      "text": "الورع والإخلاص"
+    },
+    {
+      "text": "النصح من أصول الإسلام"
+    },
+    {
+      "text": "حرمة دم المسلم وماله"
+    },
+    {
+      "text": "الطاعة وعدم التعنت سبيل النجاة"
+    },
+    {
+      "text": "الكسب الحلال سبب إجابة الدعاء"
+    },
+    {
+      "text": "البعد عن الشبهات"
+    },
+    {
+      "text": "الاشتغال بما يفيد"
+    },
+    {
+      "text": "أخوة الإيمان والإسلام"
+    },
+    {
+      "text": "حرمة دم المسلم ومتى تهدر ؟"
+    },
+    {
+      "text": "حق الضيف والجار"
+    },
+    {
+      "text": "لا تغضب ولك الجنة"
+    },
+    {
+      "text": "الإحسان"
+    },
+    {
+      "text": "تقوى الله وحسن الخلق"
+    },
+    {
+      "text": "عون الله تعالى وحفظه"
+    },
+    {
+      "text": "فضيلة الحياء"
+    },
+    {
+      "text": "الاستقامة لب الإسلام"
+    },
+    {
+      "text": "طريق الجنة"
+    },
+    {
+      "text": "جوامع الخير"
+    },
+    {
+      "text": "فضل الله على",
+      "variants": [
+        "فضل الله وعل (TOC)"
+      ]
+    },
+    {
+      "text": "فضل الذكر"
+    },
+    {
+      "text": "كثرة طرق الخير"
+    },
+    {
+      "text": "البر والإثم"
+    },
+    {
+      "text": "الطاعة والتزام السنة"
+    },
+    {
+      "text": "ذروة الإسلام وعموده"
+    },
+    {
+      "text": "الوقوف عند حدود الشرع"
+    },
+    {
+      "text": "الزهد وثمرته"
+    },
+    {
+      "text": "لا ضرر ولا ضرار"
+    },
+    {
+      "text": "أسس القضاء في الإسلام"
+    },
+    {
+      "text": "إزالة المنكر فريضة إسلامية محكمة"
+    },
+    {
+      "text": "حقوق الأخوة في الإسلام"
+    },
+    {
+      "text": "التعاون والعلم والعمل"
+    },
+    {
+      "text": "عظيم لطف الله وفضله"
+    },
+    {
+      "text": "محبة الله تعالى لأوليائه"
+    },
+    {
+      "text": "رفع الحرج في الإسلام"
+    },
+    {
+      "text": "كن في الدنيا غريبا"
+    },
+    {
+      "text": "اتباع شرع الله على عماد الإيمان",
+      "variants": [
+        "اتباع شرع الله وعل (TOC, split over lines)"
+      ]
+    },
+    {
+      "text": "سعة مغفرة الله عل",
+      "variants": [
+        "سعة مغفرة الله على (TOC)"
+      ]
+    }
+  ],
+  "expected_components": [
+    {
+      "component": "author_introduction",
+      "status": "absent_or_undetermined",
+      "note": "no khutbat al-kitab found between the publisher page and hadith 1; the edition may omit it or OCR may have lost it",
+      "confidence": 0.6
+    },
+    {
+      "component": "toc",
+      "status": "present"
+    }
+  ]
+}

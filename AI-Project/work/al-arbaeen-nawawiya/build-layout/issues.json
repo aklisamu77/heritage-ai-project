@@ -1,0 +1,1146 @@
+{
+  "issues": [
+    {
+      "id": "issue_001",
+      "type": "displaced_number",
+      "severity": "low",
+      "description": "Unit numbers read inside the previous unit.",
+      "occurrences": [
+        {
+          "unit_id": "unit_004",
+          "char_start": 3918,
+          "char_end": 3919,
+          "note": "number '٤' of unit 4 read inside the previous unit"
+        },
+        {
+          "unit_id": "unit_011",
+          "char_start": 8205,
+          "char_end": 8207,
+          "note": "number '۱۱' of unit 11 read inside the previous unit"
+        },
+        {
+          "unit_id": "unit_012",
+          "char_start": 8550,
+          "char_end": 8552,
+          "note": "number '۱۲' of unit 12 read inside the previous unit"
+        },
+        {
+          "unit_id": "unit_013",
+          "char_start": 8768,
+          "char_end": 8770,
+          "note": "number '۱۳' of unit 13 read inside the previous unit"
+        },
+        {
+          "unit_id": "unit_017",
+          "char_start": 10318,
+          "char_end": 10320,
+          "note": "number '۱۷' of unit 17 read inside the previous unit"
+        },
+        {
+          "unit_id": "unit_019",
+          "char_start": 11063,
+          "char_end": 11065,
+          "note": "number '۱۹' of unit 19 read inside the previous unit"
+        },
+        {
+          "unit_id": "unit_021",
+          "char_start": 12587,
+          "char_end": 12589,
+          "note": "number '۲۱' of unit 21 read inside the previous unit"
+        },
+        {
+          "unit_id": "unit_023",
+          "char_start": 13445,
+          "char_end": 13447,
+          "note": "number '۲۳' of unit 23 read inside the previous unit"
+        },
+        {
+          "unit_id": "unit_028",
+          "char_start": 17848,
+          "char_end": 17850,
+          "note": "number '۲۸' of unit 28 read inside the previous unit"
+        },
+        {
+          "unit_id": "unit_031",
+          "char_start": 20585,
+          "char_end": 20587,
+          "note": "number '۳۱' of unit 31 read inside the previous unit"
+        },
+        {
+          "unit_id": "unit_035",
+          "char_start": 22255,
+          "char_end": 22257,
+          "note": "number '۳۵' of unit 35 read inside the previous unit"
+        },
+        {
+          "unit_id": "unit_036",
+          "char_start": 22820,
+          "char_end": 22822,
+          "note": "number '٣٦' of unit 36 read inside the previous unit"
+        },
+        {
+          "unit_id": "unit_038",
+          "char_start": 25284,
+          "char_end": 25286,
+          "note": "number '٣٨' of unit 38 read inside the previous unit"
+        },
+        {
+          "unit_id": "unit_042",
+          "char_start": 27036,
+          "char_end": 27038,
+          "note": "number '٤٢' of unit 42 read inside the previous unit"
+        }
+      ],
+      "confidence": 0.6
+    },
+    {
+      "id": "issue_002",
+      "type": "ambiguous_number",
+      "severity": "low",
+      "description": "Standalone numbers read as unit numbers; they could be page numbers.",
+      "occurrences": [
+        {
+          "unit_id": "unit_018",
+          "char_start": 10646,
+          "char_end": 10648,
+          "note": "standalone '۱۸' read as the number of unit 18 (could be a page number)"
+        },
+        {
+          "unit_id": "unit_024",
+          "char_start": 13947,
+          "char_end": 13949,
+          "note": "standalone '٢٤' read as the number of unit 24 (could be a page number)"
+        }
+      ],
+      "confidence": 0.6
+    },
+    {
+      "id": "issue_003",
+      "type": "displaced_footnote",
+      "severity": "medium",
+      "description": "Footnotes read by OCR inside another unit (usually the next one: page-bottom footnotes are read after the next page's heading). Each is assigned to its owner; see each occurrence's note for the evidence used.",
+      "occurrences": [
+        {
+          "unit_id": "unit_002",
+          "char_start": 3700,
+          "char_end": 3729,
+          "note": "footnote (1) أخرجه مسلم في الإيمان (۱) قوله : ( أماراتها » أي علاماتها ، قوله : read inside unit 3; assigned to unit 2 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_005",
+          "char_start": 5684,
+          "char_end": 5741,
+          "note": "footnote (1) أخرجه البخاري في الصلح (٢٤۹۹) ومسلم في الأقضية (١٧) ، read inside unit 6; assigned to unit 5 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_005",
+          "char_start": 5803,
+          "char_end": 5833,
+          "note": "footnote (٢) أخرجه مسلم في الأقضية (۱۸)الأربعين النووية read inside unit 6; assigned to unit 5 (anchor)"
+        },
+        {
+          "unit_id": "unit_006",
+          "char_start": 6516,
+          "char_end": 6573,
+          "note": "footnote (1) أخرجه البخاري في الإيمان (٥۰) ومسلم في المساقاة (۱۰۷) قوله : read inside unit 8; assigned to unit 6 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_007",
+          "char_start": 6649,
+          "char_end": 6679,
+          "note": "footnote (٢) أخرجه مسلم في الإيمان (٩٥)الكسب الحلال سبب إجابة الدعاء . read inside unit 8; assigned to unit 7 (anchor)"
+        },
+        {
+          "unit_id": "unit_008",
+          "char_start": 7423,
+          "char_end": 7478,
+          "note": "footnote (1) أخرجه البخاري في الإيمان (٢٤) ومسلم في الإيمان (٣٤) read inside unit 10; assigned to unit 8 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_009",
+          "char_start": 7479,
+          "char_end": 7582,
+          "note": "footnote (٢) أخرجه مسلم في الفضائل (۱۳۰) بلفظه إلا أنه قال : « فافعلوا read inside unit 10; assigned to unit 9 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_010",
+          "char_start": 8347,
+          "char_end": 8376,
+          "note": "footnote (1) أخرجه مسلم في الزكاة (٦٥) قوله : « أشعث » الذي يكون read inside unit 11; assigned to unit 10 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_011",
+          "char_start": 8976,
+          "char_end": 9039,
+          "note": "footnote (1) أخرجه الترمذي صفة القيامة (٢٤٤٢) والنسائي في الأشربة read inside unit 13; assigned to unit 11 (page order: unit 11 is the unit on this page without a footnote of its own)"
+        },
+        {
+          "unit_id": "unit_012",
+          "char_start": 9074,
+          "char_end": 9135,
+          "note": "footnote (٢) أخرجه الترمذي في الزهد (۲۲۳۹) وابن ماجه في الفتن (٣٩٦٦) . read inside unit 13; assigned to unit 12 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_014",
+          "char_start": 9839,
+          "char_end": 9960,
+          "note": "footnote (1) أخرجه البخاري في الديات (٦٣٧٠) ومسلم في read inside unit 15; assigned to unit 14 (terms 100%)"
+        },
+        {
+          "unit_id": "unit_016",
+          "char_start": 10701,
+          "char_end": 10736,
+          "note": "footnote (1) أخرجه البخاري في الأدب (٥٦٥١) . read inside unit 18; assigned to unit 16 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_017",
+          "char_start": 10737,
+          "char_end": 10778,
+          "note": "footnote (۲) أخرجه مسلم في الصيد والذبائح (٥٧) .١٤ read inside unit 18; assigned to unit 17 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_018",
+          "char_start": 11644,
+          "char_end": 11685,
+          "note": "footnote (1) أخرجه الترمذي في البر والصلة (۱۹۱۰) ، قوله : « تمحها » read inside unit 19; assigned to unit 18 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_019",
+          "char_start": 12379,
+          "char_end": 12418,
+          "note": "footnote (1) أخرجه الترمذي في صفة القيامة (٢٤٤٠) قوله : « رفعت الأقلام » read inside unit 20; assigned to unit 19 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_019",
+          "char_start": 12470,
+          "char_end": 12500,
+          "note": "footnote (٢) أخرجه أحمد في مسنده (٢٥٣٧) read inside unit 20; assigned to unit 19 (page order: next to footnote (1) أخرجه الترمذي في صفة القيامة (٢٤٤٠) قوله : « رفعت الأقلام » on the same page)"
+        },
+        {
+          "unit_id": "unit_021",
+          "char_start": 13330,
+          "char_end": 13360,
+          "note": "footnote (1) أخرجه مسلم في الإيمان (٦٢) read inside unit 22; assigned to unit 21 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_023",
+          "char_start": 14232,
+          "char_end": 14261,
+          "note": "footnote (1) أخرجه مسلم في الطهارة (۱) قوله : « شطر » أي نصف قوله : read inside unit 24; assigned to unit 23 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_025",
+          "char_start": 16511,
+          "char_end": 16542,
+          "note": "footnote (1) أخرجه مسلم في الزكاة (١٦٧٤) قوله : ( بضع » أي فرج read inside unit 26; assigned to unit 25 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_026",
+          "char_start": 17299,
+          "char_end": 17361,
+          "note": "footnote (1) أخرجه البخاري في الجهاد والسير (٢٧٦٧) ومسلم في البر والصلة read inside unit 27; assigned to unit 26 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_026",
+          "char_start": 17362,
+          "char_end": 17368,
+          "note": "footnote ( ١٤ ) قوله : « سلامى ) هي مفاصل العظام ، وقوله : « يميط » أي يزيل . read inside unit 27; assigned to unit 26 (terms 50%)"
+        },
+        {
+          "unit_id": "unit_027",
+          "char_start": 18408,
+          "char_end": 18489,
+          "note": "footnote (۱) أخرجه أحمد في مسنده (۱۷۳۱۳) والدارمي في البيوع (٢٤٢١) read inside unit 28; assigned to unit 27 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_028",
+          "char_start": 19293,
+          "char_end": 19352,
+          "note": "footnote (1) أخرجه أبو داود في السنة (۳۹۹۱) والترمذي في العلم (٢٦٠٠) read inside unit 29; assigned to unit 28 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_029",
+          "char_start": 20401,
+          "char_end": 20436,
+          "note": "footnote (1) أخرجه الترمذي في الإيمان (٢٥٤١) قوله : ( جنة » أي وقاية read inside unit 30; assigned to unit 29 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_030",
+          "char_start": 21190,
+          "char_end": 21226,
+          "note": "footnote (١) أخرجه البيهقي في السنن (١٣/١٠) . read inside unit 32; assigned to unit 30 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_031",
+          "char_start": 21227,
+          "char_end": 21261,
+          "note": "footnote (٢) أخرجه ابن ماجه في الزهد (٤٠٩٢) read inside unit 32; assigned to unit 31 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_033",
+          "char_start": 22130,
+          "char_end": 22195,
+          "note": "footnote (1) أخرجه البيهقي في السنن (۲٥٢/١) وبنحوه مسلم في الأقضية (۱) .٢٦ read inside unit 34; assigned to unit 33 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_034",
+          "char_start": 22899,
+          "char_end": 22929,
+          "note": "footnote (1) أخرجه مسلم في الإيمان (۷۸) read inside unit 36; assigned to unit 34 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_035",
+          "char_start": 22932,
+          "char_end": 22966,
+          "note": "footnote (۲) أخرجه مسلم في البر والصلة (۲۳) قوله : « تناجشوا» أي لا تزيدوا في ثمن read inside unit 36; assigned to unit 35 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_036",
+          "char_start": 24048,
+          "char_end": 24086,
+          "note": "footnote (1) أخرجه مسلم في الذكر والدعاء (٤٨٦٧) قوله : ( نفس » أي read inside unit 37; assigned to unit 36 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_038",
+          "char_start": 25973,
+          "char_end": 26033,
+          "note": "footnote (1) أخرجه البخاري في الرقاق (٦٥٠۲) والبيهقي في السنن (٣٤٦/٣) read inside unit 39; assigned to unit 38 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_039",
+          "char_start": 26732,
+          "char_end": 26793,
+          "note": "footnote (1) أخرجه ابن ماجه في الطلاق (۲۰۳۳) والبيهقي في السنن (٣٥٦/٧) read inside unit 41; assigned to unit 39 (page order: unit 39 is the unit on this page without a footnote of its own)"
+        },
+        {
+          "unit_id": "unit_040",
+          "char_start": 26794,
+          "char_end": 26828,
+          "note": "footnote (٢) أخرجه البخاري في الرقاق (٥۹۳۷) قوله : « عابر سبيل » هو read inside unit 41; assigned to unit 40 (anchor on the same page)"
+        },
+        {
+          "unit_id": "unit_041",
+          "char_start": 27537,
+          "char_end": 27608,
+          "note": "footnote (1) أخرجه البغوي في شرح السنة (٢٣١/١) والتبريزي في مشكاة read inside unit 42; assigned to unit 41 (anchor on the same page)"
+        }
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "issue_004",
+      "type": "unanchored_footnote",
+      "severity": "medium",
+      "description": "Footnotes with no matching anchor marker before them in the owner unit (the marker may be lost in OCR). Ownership rests on content terms, block order or locality only.",
+      "occurrences": [
+        {
+          "unit_id": "unit_011",
+          "char_start": 8976,
+          "char_end": 9039,
+          "note": "footnote (1) أخرجه الترمذي صفة القيامة (٢٤٤٢) والنسائي في الأشربة has no matching anchor marker nearby"
+        },
+        {
+          "unit_id": "unit_013",
+          "char_start": 9136,
+          "char_end": 9195,
+          "note": "footnote (۳) أخرجه البخاري في الإيمان (۱۲) ومسلم في الإيمان (۷۱) .١٤ has no matching anchor marker nearby"
+        },
+        {
+          "unit_id": "unit_014",
+          "char_start": 9839,
+          "char_end": 9960,
+          "note": "footnote (1) أخرجه البخاري في الديات (٦٣٧٠) ومسلم في has no matching anchor marker nearby"
+        },
+        {
+          "unit_id": "unit_019",
+          "char_start": 12470,
+          "char_end": 12500,
+          "note": "footnote (٢) أخرجه أحمد في مسنده (٢٥٣٧) has no matching anchor marker nearby"
+        },
+        {
+          "unit_id": "unit_026",
+          "char_start": 17362,
+          "char_end": 17368,
+          "note": "footnote ( ١٤ ) قوله : « سلامى ) هي مفاصل العظام ، وقوله : « يميط » أي يزيل . has no matching anchor marker nearby"
+        },
+        {
+          "unit_id": "unit_039",
+          "char_start": 26732,
+          "char_end": 26793,
+          "note": "footnote (1) أخرجه ابن ماجه في الطلاق (۲۰۳۳) والبيهقي في السنن (٣٥٦/٧) has no matching anchor marker nearby"
+        }
+      ],
+      "confidence": 0.7
+    },
+    {
+      "id": "issue_005",
+      "type": "displaced_anchor",
+      "severity": "medium",
+      "description": "Footnote anchor markers read inside another unit (e.g. right after the next unit's heading).",
+      "occurrences": [
+        {
+          "unit_id": "unit_006",
+          "char_start": 6149,
+          "char_end": 6152,
+          "note": "anchor (1) read in unit 7, belongs to unit 6 (anchor precedes all text of its host unit)"
+        },
+        {
+          "unit_id": "unit_007",
+          "char_start": 6412,
+          "char_end": 6415,
+          "note": "anchor (۲) read in unit 8, belongs to unit 7 (anchor precedes all text of its host unit)"
+        },
+        {
+          "unit_id": "unit_008",
+          "char_start": 7001,
+          "char_end": 7004,
+          "note": "anchor (1) read in unit 9, belongs to unit 8 (anchor precedes all text of its host unit)"
+        },
+        {
+          "unit_id": "unit_018",
+          "char_start": 11122,
+          "char_end": 11125,
+          "note": "anchor (1) read in unit 19, belongs to unit 18 (layout: the marker is printed above the heading of its host unit)"
+        },
+        {
+          "unit_id": "unit_021",
+          "char_start": 12928,
+          "char_end": 12931,
+          "note": "anchor (1) read in unit 22, belongs to unit 21 (layout: the marker is printed above the heading of its host unit)"
+        },
+        {
+          "unit_id": "unit_023",
+          "char_start": 13950,
+          "char_end": 13953,
+          "note": "anchor (1) read in unit 24, belongs to unit 23 (layout: the marker is printed above the heading of its host unit)"
+        },
+        {
+          "unit_id": "unit_025",
+          "char_start": 16462,
+          "char_end": 16465,
+          "note": "anchor (۱) read in unit 26, belongs to unit 25 (layout: the marker is printed above the heading of its host unit)"
+        },
+        {
+          "unit_id": "unit_026",
+          "char_start": 16995,
+          "char_end": 16998,
+          "note": "anchor (1) read in unit 27, belongs to unit 26 (layout: the marker is printed above the heading of its host unit)"
+        },
+        {
+          "unit_id": "unit_029",
+          "char_start": 20097,
+          "char_end": 20100,
+          "note": "anchor (1) read in unit 30, belongs to unit 29 (anchor precedes all text of its host unit)"
+        },
+        {
+          "unit_id": "unit_031",
+          "char_start": 20984,
+          "char_end": 20987,
+          "note": "anchor (۲) read in unit 32, belongs to unit 31 (anchor precedes all text of its host unit)"
+        },
+        {
+          "unit_id": "unit_036",
+          "char_start": 23890,
+          "char_end": 23893,
+          "note": "anchor (1) read in unit 37, belongs to unit 36 (anchor precedes all text of its host unit)"
+        },
+        {
+          "unit_id": "unit_038",
+          "char_start": 25860,
+          "char_end": 25863,
+          "note": "anchor (1) read in unit 39, belongs to unit 38 (anchor precedes all text of its host unit)"
+        },
+        {
+          "unit_id": "unit_041",
+          "char_start": 27057,
+          "char_end": 27060,
+          "note": "anchor (1) read in unit 42, belongs to unit 41 (layout: the marker is printed above the heading of its host unit)"
+        }
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "issue_006",
+      "type": "orphan_anchor",
+      "severity": "low",
+      "description": "Anchor markers with no footnote found.",
+      "occurrences": [
+        {
+          "unit_id": "unit_015",
+          "char_start": 9834,
+          "char_end": 9838,
+          "note": "anchor (٢٥) has no footnote"
+        }
+      ],
+      "confidence": 0.6
+    },
+    {
+      "id": "issue_007",
+      "type": "manual_decision",
+      "severity": "low",
+      "description": "Judgment calls applied from overrides.json (each occurrence carries its reason).",
+      "occurrences": [
+        {
+          "unit_id": "unit_001",
+          "char_start": 1149,
+          "char_end": 1167,
+          "note": "mark_noise: Decorative basmala between the isnad fragments; بسم was lost (ligature). Not part of the hadith text."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "issue_008",
+      "type": "garbled_glyph",
+      "severity": "low",
+      "description": "Non-Arabic glyphs produced by OCR from ornaments or calligraphy.",
+      "occurrences": [
+        {
+          "char_start": 385,
+          "char_end": 386
+        },
+        {
+          "unit_id": "unit_001",
+          "char_start": 1908,
+          "char_end": 1909
+        },
+        {
+          "unit_id": "unit_020",
+          "char_start": 12585,
+          "char_end": 12586
+        },
+        {
+          "char_start": 27876,
+          "char_end": 27881
+        },
+        {
+          "char_start": 28080,
+          "char_end": 28081
+        },
+        {
+          "char_start": 28633,
+          "char_end": 28635
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "issue_009",
+      "type": "displaced_heading",
+      "severity": "low",
+      "description": "A unit heading read a second time at the wrong position (the real heading is kept on its unit).",
+      "occurrences": [
+        {
+          "char_start": 1112,
+          "char_end": 1127
+        },
+        {
+          "unit_id": "unit_002",
+          "char_start": 2862,
+          "char_end": 2875
+        },
+        {
+          "unit_id": "unit_004",
+          "char_start": 4955,
+          "char_end": 4969
+        },
+        {
+          "unit_id": "unit_008",
+          "char_start": 6679,
+          "char_end": 6708
+        },
+        {
+          "unit_id": "unit_011",
+          "char_start": 8423,
+          "char_end": 8444
+        },
+        {
+          "unit_id": "unit_015",
+          "char_start": 10097,
+          "char_end": 10117
+        },
+        {
+          "unit_id": "unit_019",
+          "char_start": 11712,
+          "char_end": 11724
+        },
+        {
+          "unit_id": "unit_022",
+          "char_start": 13432,
+          "char_end": 13444
+        },
+        {
+          "unit_id": "unit_024",
+          "char_start": 15643,
+          "char_end": 15657
+        },
+        {
+          "unit_id": "unit_027",
+          "char_start": 17500,
+          "char_end": 17520
+        },
+        {
+          "unit_id": "unit_029",
+          "char_start": 19494,
+          "char_end": 19515
+        },
+        {
+          "unit_id": "unit_032",
+          "char_start": 21330,
+          "char_end": 21362
+        },
+        {
+          "unit_id": "unit_036",
+          "char_start": 23078,
+          "char_end": 23097
+        },
+        {
+          "unit_id": "unit_037",
+          "char_start": 25224,
+          "char_end": 25244
+        },
+        {
+          "unit_id": "unit_041",
+          "char_start": 26875,
+          "char_end": 26892
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "issue_010",
+      "type": "decorative",
+      "severity": "low",
+      "description": "noise of type decorative",
+      "occurrences": [
+        {
+          "unit_id": "unit_001",
+          "char_start": 1149,
+          "char_end": 1167
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "issue_011",
+      "type": "running_header",
+      "severity": "low",
+      "description": "Running header read into the text flow.",
+      "occurrences": [
+        {
+          "unit_id": "unit_001",
+          "char_start": 1910,
+          "char_end": 1926
+        },
+        {
+          "unit_id": "unit_004",
+          "char_start": 3942,
+          "char_end": 3958
+        },
+        {
+          "unit_id": "unit_006",
+          "char_start": 5833,
+          "char_end": 5849
+        },
+        {
+          "unit_id": "unit_010",
+          "char_start": 7582,
+          "char_end": 7598
+        },
+        {
+          "unit_id": "unit_013",
+          "char_start": 9196,
+          "char_end": 9212
+        },
+        {
+          "unit_id": "unit_018",
+          "char_start": 10794,
+          "char_end": 10810
+        },
+        {
+          "unit_id": "unit_021",
+          "char_start": 12611,
+          "char_end": 12627
+        },
+        {
+          "unit_id": "unit_024",
+          "char_start": 14346,
+          "char_end": 14362
+        },
+        {
+          "unit_id": "unit_026",
+          "char_start": 16566,
+          "char_end": 16582
+        },
+        {
+          "unit_id": "unit_028",
+          "char_start": 18490,
+          "char_end": 18506
+        },
+        {
+          "unit_id": "unit_030",
+          "char_start": 20518,
+          "char_end": 20534
+        },
+        {
+          "unit_id": "unit_034",
+          "char_start": 22196,
+          "char_end": 22212
+        },
+        {
+          "unit_id": "unit_037",
+          "char_start": 24173,
+          "char_end": 24189
+        },
+        {
+          "unit_id": "unit_039",
+          "char_start": 26064,
+          "char_end": 26080
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "issue_012",
+      "type": "separator",
+      "severity": "low",
+      "description": "Stray separator lines.",
+      "occurrences": [
+        {
+          "unit_id": "unit_001",
+          "char_start": 1927,
+          "char_end": 1928
+        },
+        {
+          "unit_id": "unit_002",
+          "char_start": 3375,
+          "char_end": 3376
+        },
+        {
+          "unit_id": "unit_003",
+          "char_start": 3406,
+          "char_end": 3407
+        },
+        {
+          "unit_id": "unit_003",
+          "char_start": 3694,
+          "char_end": 3695
+        },
+        {
+          "unit_id": "unit_003",
+          "char_start": 3916,
+          "char_end": 3917
+        },
+        {
+          "unit_id": "unit_004",
+          "char_start": 3940,
+          "char_end": 3941
+        },
+        {
+          "unit_id": "unit_005",
+          "char_start": 5284,
+          "char_end": 5285
+        },
+        {
+          "unit_id": "unit_006",
+          "char_start": 6125,
+          "char_end": 6126
+        },
+        {
+          "unit_id": "unit_007",
+          "char_start": 6389,
+          "char_end": 6390
+        },
+        {
+          "unit_id": "unit_009",
+          "char_start": 7058,
+          "char_end": 7059
+        },
+        {
+          "unit_id": "unit_010",
+          "char_start": 7371,
+          "char_end": 7374
+        },
+        {
+          "unit_id": "unit_010",
+          "char_start": 7419,
+          "char_end": 7422
+        },
+        {
+          "unit_id": "unit_010",
+          "char_start": 8208,
+          "char_end": 8209
+        },
+        {
+          "unit_id": "unit_011",
+          "char_start": 8553,
+          "char_end": 8554
+        },
+        {
+          "unit_id": "unit_012",
+          "char_start": 8771,
+          "char_end": 8772
+        },
+        {
+          "unit_id": "unit_013",
+          "char_start": 8795,
+          "char_end": 8796
+        },
+        {
+          "unit_id": "unit_013",
+          "char_start": 8974,
+          "char_end": 8975
+        },
+        {
+          "unit_id": "unit_014",
+          "char_start": 9240,
+          "char_end": 9241
+        },
+        {
+          "unit_id": "unit_014",
+          "char_start": 9282,
+          "char_end": 9283
+        },
+        {
+          "unit_id": "unit_015",
+          "char_start": 9999,
+          "char_end": 10000
+        },
+        {
+          "unit_id": "unit_016",
+          "char_start": 10316,
+          "char_end": 10317
+        },
+        {
+          "unit_id": "unit_017",
+          "char_start": 10365,
+          "char_end": 10366
+        },
+        {
+          "unit_id": "unit_018",
+          "char_start": 10649,
+          "char_end": 10650
+        },
+        {
+          "unit_id": "unit_018",
+          "char_start": 11066,
+          "char_end": 11067
+        },
+        {
+          "unit_id": "unit_019",
+          "char_start": 11725,
+          "char_end": 11726
+        },
+        {
+          "unit_id": "unit_019",
+          "char_start": 12132,
+          "char_end": 12133
+        },
+        {
+          "unit_id": "unit_021",
+          "char_start": 12628,
+          "char_end": 12629
+        },
+        {
+          "unit_id": "unit_021",
+          "char_start": 12915,
+          "char_end": 12916
+        },
+        {
+          "unit_id": "unit_022",
+          "char_start": 13448,
+          "char_end": 13451
+        },
+        {
+          "unit_id": "unit_023",
+          "char_start": 13510,
+          "char_end": 13511
+        },
+        {
+          "unit_id": "unit_023",
+          "char_start": 13703,
+          "char_end": 13704
+        },
+        {
+          "unit_id": "unit_024",
+          "char_start": 13945,
+          "char_end": 13946
+        },
+        {
+          "unit_id": "unit_027",
+          "char_start": 17846,
+          "char_end": 17847
+        },
+        {
+          "unit_id": "unit_029",
+          "char_start": 20026,
+          "char_end": 20029
+        },
+        {
+          "unit_id": "unit_030",
+          "char_start": 20588,
+          "char_end": 20589
+        },
+        {
+          "unit_id": "unit_031",
+          "char_start": 20621,
+          "char_end": 20622
+        },
+        {
+          "unit_id": "unit_032",
+          "char_start": 20988,
+          "char_end": 20989
+        },
+        {
+          "unit_id": "unit_032",
+          "char_start": 21262,
+          "char_end": 21263
+        },
+        {
+          "unit_id": "unit_032",
+          "char_start": 21521,
+          "char_end": 21522
+        },
+        {
+          "unit_id": "unit_034",
+          "char_start": 21928,
+          "char_end": 21929
+        },
+        {
+          "unit_id": "unit_035",
+          "char_start": 22823,
+          "char_end": 22824
+        },
+        {
+          "unit_id": "unit_036",
+          "char_start": 22847,
+          "char_end": 22848
+        },
+        {
+          "unit_id": "unit_036",
+          "char_start": 22930,
+          "char_end": 22931
+        },
+        {
+          "unit_id": "unit_037",
+          "char_start": 25287,
+          "char_end": 25288
+        },
+        {
+          "unit_id": "unit_038",
+          "char_start": 25331,
+          "char_end": 25332
+        },
+        {
+          "unit_id": "unit_039",
+          "char_start": 26181,
+          "char_end": 26182
+        },
+        {
+          "unit_id": "unit_040",
+          "char_start": 26508,
+          "char_end": 26509
+        },
+        {
+          "unit_id": "unit_041",
+          "char_start": 26616,
+          "char_end": 26617
+        },
+        {
+          "unit_id": "unit_041",
+          "char_start": 27034,
+          "char_end": 27035
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "issue_013",
+      "type": "page_number_noise",
+      "severity": "low",
+      "description": "Printed page numbers read into the text flow.",
+      "occurrences": [
+        {
+          "unit_id": "unit_023",
+          "char_start": 13464,
+          "char_end": 13466
+        },
+        {
+          "unit_id": "unit_024",
+          "char_start": 14342,
+          "char_end": 14345
+        },
+        {
+          "unit_id": "unit_024",
+          "char_start": 15658,
+          "char_end": 15660
+        },
+        {
+          "unit_id": "unit_025",
+          "char_start": 15693,
+          "char_end": 15695
+        },
+        {
+          "unit_id": "unit_027",
+          "char_start": 17521,
+          "char_end": 17523
+        },
+        {
+          "unit_id": "unit_032",
+          "char_start": 21363,
+          "char_end": 21365
+        },
+        {
+          "unit_id": "unit_036",
+          "char_start": 23100,
+          "char_end": 23102
+        },
+        {
+          "unit_id": "unit_038",
+          "char_start": 25333,
+          "char_end": 25335
+        },
+        {
+          "unit_id": "unit_041",
+          "char_start": 26618,
+          "char_end": 26619
+        },
+        {
+          "unit_id": "unit_042",
+          "char_start": 27751,
+          "char_end": 27754
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "issue_014",
+      "type": "heading_toc_mismatch",
+      "severity": "low",
+      "description": "body heading differs from TOC: ['فضل الله وعل (TOC)']",
+      "occurrences": [
+        {
+          "unit_id": "unit_024",
+          "char_start": 13932,
+          "char_end": 13944
+        }
+      ],
+      "confidence": 0.8,
+      "needs_visual_check": true
+    },
+    {
+      "id": "issue_015",
+      "type": "heading_toc_mismatch",
+      "severity": "low",
+      "description": "body heading differs from TOC: ['اتباع شرع الله وعل (TOC, split over lines)']",
+      "occurrences": [
+        {
+          "unit_id": "unit_041",
+          "char_start": 26584,
+          "char_end": 26615
+        }
+      ],
+      "confidence": 0.8,
+      "needs_visual_check": true
+    },
+    {
+      "id": "issue_016",
+      "type": "heading_toc_mismatch",
+      "severity": "low",
+      "description": "body heading differs from TOC: ['سعة مغفرة الله على (TOC)']",
+      "occurrences": [
+        {
+          "unit_id": "unit_042",
+          "char_start": 27039,
+          "char_end": 27056
+        }
+      ],
+      "confidence": 0.8,
+      "needs_visual_check": true
+    },
+    {
+      "id": "issue_017",
+      "type": "possibly_missing_component",
+      "severity": "medium",
+      "description": "author_introduction: no khutbat al-kitab found between the publisher page and hadith 1; the edition may omit it or OCR may have lost it",
+      "occurrences": [],
+      "confidence": 0.6
+    },
+    {
+      "id": "issue_018",
+      "type": "trailing_fragment",
+      "severity": "low",
+      "description": "Main text after the unit's attribution. Either legitimate (a second narration, the author's comment, a continued attribution) or a fragment displaced from a neighbouring unit — review each.",
+      "occurrences": [
+        {
+          "unit_id": "unit_003",
+          "char_start": 3911,
+          "char_end": 3915,
+          "note": "text after the unit's attribution: second narration / author's comment / displaced fragment?"
+        },
+        {
+          "unit_id": "unit_004",
+          "char_start": 4954,
+          "char_end": 4955,
+          "note": "text after the unit's attribution: second narration / author's comment / displaced fragment?"
+        },
+        {
+          "unit_id": "unit_005",
+          "char_start": 5191,
+          "char_end": 5279,
+          "note": "text after the unit's attribution: second narration / author's comment / displaced fragment?"
+        },
+        {
+          "unit_id": "unit_014",
+          "char_start": 9493,
+          "char_end": 9494,
+          "note": "text after the unit's attribution: second narration / author's comment / displaced fragment?"
+        },
+        {
+          "unit_id": "unit_015",
+          "char_start": 9826,
+          "char_end": 9833,
+          "note": "text after the unit's attribution: second narration / author's comment / displaced fragment?"
+        },
+        {
+          "unit_id": "unit_019",
+          "char_start": 11855,
+          "char_end": 12131,
+          "note": "text after the unit's attribution: second narration / author's comment / displaced fragment?"
+        },
+        {
+          "unit_id": "unit_022",
+          "char_start": 13262,
+          "char_end": 13325,
+          "note": "text after the unit's attribution: second narration / author's comment / displaced fragment?"
+        },
+        {
+          "unit_id": "unit_033",
+          "char_start": 21853,
+          "char_end": 21855,
+          "note": "text after the unit's attribution: second narration / author's comment / displaced fragment?"
+        },
+        {
+          "unit_id": "unit_037",
+          "char_start": 24657,
+          "char_end": 25152,
+          "note": "text after the unit's attribution: second narration / author's comment / displaced fragment?"
+        },
+        {
+          "unit_id": "unit_037",
+          "char_start": 25245,
+          "char_end": 25283,
+          "note": "text after the unit's attribution: second narration / author's comment / displaced fragment?"
+        },
+        {
+          "unit_id": "unit_040",
+          "char_start": 26574,
+          "char_end": 26579,
+          "note": "text after the unit's attribution: second narration / author's comment / displaced fragment?"
+        }
+      ],
+      "confidence": 0.6,
+      "needs_visual_check": true
+    }
+  ]
+}

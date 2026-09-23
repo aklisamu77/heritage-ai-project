@@ -49,6 +49,7 @@ for i, ch in enumerate("۰۱۲۳۴۵۶۷۸۹"):
 LETTER_MAP = {"أ": "ا", "إ": "ا", "آ": "ا", "ٱ": "ا", "ى": "ي", "ة": "ه", "ی": "ي", "ک": "ك"}
 DIGITS = "0-9٠-٩۰-۹"
 ARABIC_LETTER = re.compile(r"[\u0621-\u064A\u0671-\u06D3]")
+ARABIC_LETTER_RUN = re.compile(r"[\u0621-\u064A\u0671-\u06D3]+")
 PUNCT_ONLY = re.compile(r"^[\s\-–—•·*_|.:،؛,;!?؟«»()\[\]{}\"'/\\]*$")
 
 
@@ -110,6 +111,19 @@ def arabic_words(s):
     return [w for w in re.split(r"\s+", s) if ARABIC_LETTER.search(w)]
 
 
+def letter_pairs(s):
+    """letter bigrams inside words (diacritics removed, letters unified) — the order-free fingerprint
+    extract_pages.py uses to match TXT lines to PDF lines"""
+    out = Counter()
+    for w in ARABIC_LETTER_RUN.findall("".join(ch for ch in s if not is_diacritic(ch))):
+        w = "".join(LETTER_MAP.get(c, c) for c in w)
+        if len(w) == 1:
+            out["1" + w] += 1
+        for i in range(len(w) - 1):
+            out[w[i:i + 2]] += 1
+    return out
+
+
 # --------------------------------------------------------------------------- config defaults
 
 DEFAULTS = {
@@ -150,7 +164,7 @@ DEFAULTS = {
         "min_match": 0.6,                # a TXT line takes a PDF line's position if this share of its letter bigrams matches
         "min_tokens": 3,                 # shorter lines are placed by their neighbours when these agree, or by their own
         "fragment_cover": 0.8,           # match when they make up this share of a PDF line (a fragment such as "(2)")
-        "zone_gap": 1.6,                 # footnote zone starts below a vertical gap >= zone_gap x median line pitch …
+        "zone_gap": 1.3,                 # footnote zone starts below the largest vertical gap (>= zone_gap x median line pitch) …
         "max_continuation_lines": 12,    # … found at most this many lines above the page's first footnote marker line
         "min_zone_top": 0.25,            # the footnote zone never starts in the top quarter of the page
     },
@@ -483,9 +497,11 @@ class Engine:
                     and r["line"] is not None and r["line"] < len(pages[r["page_index"]].get("lines") or []):
                 placed[li] = (r["page_index"], r["line"])
                 # well placed: enough tokens, and a near-exact match unless the line is long
-                if r.get("n", 0) >= lay["min_tokens"] and (r["score"] >= 0.9 or r.get("n", 0) >= 10):
+                # (a line glued across two pages, e.g. a footnote's last line + the next page's header, is neither)
+                # (nor is a short line that is only a sliver of a long PDF line: it could come from anywhere)
+                if r.get("n", 0) >= lay["min_tokens"] and r["score"] >= 0.9 and (r.get("n", 0) >= 6 or r.get("cover", 1.0) >= 0.5):
                     self.strong.add(li)
-                elif r.get("cover", 1.0) >= lay["fragment_cover"]:
+                elif r.get("n", 0) < lay["min_tokens"] and r.get("cover", 1.0) >= lay["fragment_cover"]:
                     exact.add(li)
 
         # rows: PDF lines on the same visual line (small fragments such as a lone "(2)" join the nearest row)
@@ -513,7 +529,7 @@ class Engine:
                     row_of[k] = min(range(len(rows)), key=lambda r: abs(rows[r]["c"] - c))
             rows_of[pi] = (rows, row_of)
 
-        fn_rows = defaultdict(dict)     # page -> row -> lowest footnote marker starting a line in that row
+        fn_rows = {}                    # page -> row -> lowest footnote marker starting a line in that row
         head_rows = defaultdict(set)    # rows holding a unit or section heading: never in the footnote zone
         for li, (pi, k) in placed.items():
             if pi not in rows_of:
@@ -522,7 +538,8 @@ class Engine:
             m = start_re.match(self.line_text(li))
             if m and len(arabic_words(m.group(2))) >= self.cfg["footnote_min_words"]:
                 v = self.to_int(m.group(1))
-                fn_rows[pi][r] = min(fn_rows[pi].get(r, v), v) if v is not None else fn_rows[pi].get(r)
+                fr = fn_rows.setdefault(pi, {})
+                fr[r] = min(fr.get(r, v), v) if v is not None else fr.get(r)
             ls, le = self.lines[li]
             if any(self.label[x] and self.label[x][0] in ("unit", "node") and self.label[x][2] == "heading"
                    for x in range(ls, le)):
@@ -542,13 +559,19 @@ class Engine:
                 # than one printed below it is a marker read at the start of a main-text line
                 if fr[R] is not None and any(v is not None and v < fr[R] for r2, v in fr.items() if r2 > R):
                     continue
-                for r in range(R, max(0, R - lay["max_continuation_lines"]) - 1, -1):
-                    if r in head_rows[pi]:
-                        break           # a heading is never inside the footnote zone
-                    if r >= 1 and rows[r]["top"] - rows[r - 1]["top"] >= lay["zone_gap"] * pitch:
-                        found = (r, R)
+                # the separator above the footnotes is the largest gap between R and the text above it
+                # (a heading and the gap under it are never part of the footnote zone); lines between
+                # that gap and R continue a footnote, so they need footnotes on the previous page
+                best = None
+                lowest = R if (pi - 1) not in fn_rows else max(0, R - lay["max_continuation_lines"])
+                for r in range(R, lowest - 1, -1):
+                    if r < 1 or r in head_rows[pi] or (r - 1) in head_rows[pi]:
                         break
-                if found:
+                    g = rows[r]["top"] - rows[r - 1]["top"]
+                    if best is None or g > best[1]:
+                        best = (r, g)
+                if best and best[1] >= lay["zone_gap"] * pitch:
+                    found = (best[0], R)
                     break
             if found:
                 zt, R = found
@@ -763,14 +786,42 @@ class Engine:
                 return ref if p == pg else None
             return None
 
+        def text_continues(j):
+            """text rules: does line j continue the footnote above it? (used where the layout is silent)"""
+            js, je = self.lines[j]
+            t = self.src[js:je]
+            if j in unit_start_lines or j in head_lines or start_re.match(t):
+                return False
+            if self.label[js] and self.label[js][0] == "noise":
+                return False
+            if re.match(cfg["standalone_number_regex"], t) and t.strip():
+                return False
+            if re.match(f"^\\s*[{DIGITS}]{{1,3}}[\u0621-\u064A]", t):
+                return False   # a page number glued to a first line: a new page starts here
+            if PUNCT_ONLY.match(t):
+                return True
+            if "ﷺ" in t or diacritic_ratio(t) > cfg["footnote_max_diacritic_ratio"] \
+                    or any(norm(mk_) in norm(t) for mk_ in cfg["body_line_markers"]):
+                return False
+            return len(arabic_words(t)) >= 2 or bool(re.search(f"[{DIGITS}]", t))
+
         def zone_end(li):
             """end of a footnote that starts on line li inside the footnote zone: it runs over the following
-            footnote-zone lines of the same page up to the next marker line (text features are not used)"""
+            footnote-zone lines of the same page up to the next marker line (text features are not used);
+            a line the layout could not place is judged by the text rules"""
             fe, j = self.lines[li][1], li + 1
             while j < L:
                 js, je = self.lines[j]
                 t = self.src[js:je]
-                if Z.get(j) != "footnote" or PG.get(j) != PG.get(li) or j in self.cont_top or js >= self.main_end:
+                if js >= self.main_end:
+                    break
+                if Z.get(j) is None and PG.get(j) is None:
+                    if not text_continues(j):
+                        break
+                    fe = je if t.strip() else fe
+                    j += 1
+                    continue
+                if Z.get(j) != "footnote" or PG.get(j) != PG.get(li) or j in self.cont_top:
                     break
                 if start_re.match(t) or (self.label[js] and self.label[js][0] == "noise"):
                     break
@@ -803,7 +854,8 @@ class Engine:
                 # footnote zone, no marker: continuation of an open footnote (page numbers, separators stay noise)
                 real = [x for x in range(ls, le) if not self.src[x].isspace() and not
                         (self.label[x] and self.label[x][0] == "noise")]
-                if real and not self.sep_re.match(text):
+                if real and not self.sep_re.match(text) and not (
+                        re.match(cfg["standalone_number_regex"], text)):   # a page number is not footnote text
                     pending_extra.append((li, len(chain), real, bool(in_node)))
                 li += 1
                 continue
@@ -967,6 +1019,12 @@ class Engine:
                     pending.append(f)
                     continue
                 kind, a = min(cands, key=lambda c: (c[1]["s"] > f["s"], abs(c[1]["s"] - f["s"])))
+                if kind == "u" and f["terms"]:
+                    hits = {c: sum(tm in body_norm[c] for tm in f["terms"]) / len(f["terms"])
+                            for c in range(max(0, f["host"] - look), f["host"] + 1)}
+                    if hits.get(a["owner"], 0) == 0 and max(hits.values(), default=0) >= 0.5:
+                        pending.append(f)   # the explained words are in another unit: let the evidence decide
+                        continue
                 f["decided"] = "anchor"
                 if kind == "u":
                     used.add(a["aid"])
@@ -977,13 +1035,37 @@ class Engine:
                     used_n.add(a["nid"])
                     f["owner"], f["node_owner"], f["anchor_node"] = None, a["key"], a["nid"]
                     f["conf"], f["why"] = 0.85, ["anchor on the same page"]
-            # no anchor on the page: footnotes of one page are printed in anchor order, so an unanchored
-            # footnote goes with its anchored neighbours on the same page
-            for f in pending:
+            # no anchor on the page: if the words the footnote explains are found in a unit's text, the text
+            # rules decide (below); otherwise footnotes of one page are printed in anchor order, so an
+            # unanchored footnote goes with its anchored neighbours on the same page
+            unit_pages = defaultdict(set)      # unit -> pages holding its main text
+            for li, (ls, le) in enumerate(self.lines):
+                if PG.get(li) is not None:
+                    for x in range(ls, le):
+                        lab = self.label[x]
+                        if lab and lab[0] == "unit" and lab[2] == body:
+                            unit_pages[lab[1]].add(PG[li])
+            pend = [f for f in pending if not (f["terms"] and any(
+                tm in body_norm[c] for tm in f["terms"] for c in range(max(0, f["host"] - look), f["host"] + 1)))]
+            for f in pend:
                 same = [g for g in fn_list if g.get("decided") == "anchor" and g["page"] == f["page"]]
                 lo = max((g for g in same if g["marker"] < f["marker"]), key=lambda g: g["marker"], default=None)
                 hi = min((g for g in same if g["marker"] > f["marker"]), key=lambda g: g["marker"], default=None)
                 own = lambda g: (g["node_owner"], g["owner"])
+                # the units of this page between the anchored neighbours that have no footnote of their own
+                # take the unanchored footnotes between them, in order
+                A = -1 if lo is None or lo["node_owner"] else lo["owner"]
+                B = len(self.units) if hi is None else -1 if hi["node_owner"] else hi["owner"]
+                owned = {g["owner"] for g in same if not g["node_owner"]}
+                free = sorted(u for u, ps in unit_pages.items() if f["page"] in ps and A <= u <= B and u not in owned)
+                group = sorted((g for g in pend if g["page"] == f["page"] and (lo is None or g["marker"] > lo["marker"])
+                                and (hi is None or g["marker"] < hi["marker"])), key=lambda g: g["marker"])
+                if free:
+                    u = free[min(group.index(f), len(free) - 1)]
+                    f["node_owner"], f["owner"] = None, u
+                    f["decided"], f["conf"] = "page", 0.65
+                    f["why"] = [f"page order: unit {u+1} is the unit on this page without a footnote of its own"]
+                    continue
                 if lo and hi and own(lo) == own(hi):
                     g, conf = lo, 0.7
                     why = f"page order: between footnotes {lo['marker_raw']} and {hi['marker_raw']} of the same owner"
@@ -1302,6 +1384,21 @@ class Engine:
             nxt = self.line_page.get(strong[n + 1]) if n + 1 < len(strong) else None
             if pg is not None and pg > last and (nxt is None or nxt >= pg):
                 lay_start[pg], last = self.lines[li][0], pg
+                # OCR often glues the previous page's last words to this page's first line
+                # ("ص . ب (١٣٠٦)ترجمة الإمام الحميدي"): the page then starts inside that line, where its
+                # longest tail that the page's PDF line fully contains begins
+                prv = li - 1
+                page = next((p for p in self.pages_in if p.get("page_index") == pg), None)
+                if prv >= 0 and page and self.line_page.get(prv) in (None, pg):
+                    fps = [letter_pairs(l["text"]) for l in page.get("lines") or []]
+                    ls, le = self.lines[prv]
+                    for i in range(ls + 1, le):     # a proper tail only: the line's head is the previous page's
+                        if not ARABIC_LETTER.match(self.src[i]):
+                            continue
+                        tail = letter_pairs(self.src[i:le])
+                        if sum(tail.values()) >= 3 and any(not (tail - fp) for fp in fps):
+                            lay_start[pg] = i
+                            break
 
         def is_noise(i, kind):
             return self.label[i] and self.label[i][0] == "noise" and self.label[i][1] == kind

@@ -132,7 +132,7 @@
         {
           "role": "footnote",
           "char_start": 31153,
-          "char_end": 31798,
+          "char_end": 31800,
           "footnote_id": "fn_004",
           "footnote_marker": "(٤) دلیله ما روى الإمام مسلم في صحيحه (٣٦/١ ـ ٣٧: ١ - کتاب",
           "placement": "in_span",
@@ -141,7 +141,7 @@
         },
         {
           "role": "text",
-          "char_start": 31799,
+          "char_start": 31801,
           "char_end": 31805,
           "placement": "in_span",
           "page_index": 36,
@@ -876,7 +876,7 @@
           "char_start": 37557,
           "char_end": 37661,
           "placement": "in_span",
-          "page_index": 40,
+          "page_index": 41,
           "confidence": 0.85
         },
         {
@@ -1608,7 +1608,7 @@
           "char_start": 41266,
           "char_end": 41328,
           "placement": "in_span",
-          "page_index": 43,
+          "page_index": 44,
           "confidence": 0.85
         },
         {

@@ -136,29 +136,29 @@ LETTER_MAP = {"أ": "ا", "إ": "ا", "آ": "ا", "ٱ": "ا", "ى": "ي", "ة": 
 DIGIT_MAP = {c: str(i) for s in ("٠١٢٣٤٥٦٧٨٩", "۰۱۲۳۴۵۶۷۸۹", "0123456789") for i, c in enumerate(s)}
 
 
-def tokens(s, always_digits=False):
-    """Order-free fingerprint of a line: letter bigrams inside each word (the PDF text layer
-    may reverse word order, never the letters inside a word), a single-letter word as itself,
-    and — for lines without letters (or always, for PDF lines) — their digits."""
-    out = Counter()
+def tokens(s):
+    """Order-free fingerprint of a line: (letters, digits). Letters = bigrams inside each word (the PDF
+    text layer may reverse word order, never the letters inside a word), a single-letter word as itself.
+    Digits are kept apart: they decide between equally good letter matches, but a page number that OCR
+    glued to a line must not lower its score."""
+    out, dig = Counter(), Counter()
     for w in re.findall(r"[ء-يٱ-ۓ]+", strip_marks(s)):
         w = "".join(LETTER_MAP.get(c, c) for c in w)
         if len(w) == 1:
             out["1" + w] += 1
         for i in range(len(w) - 1):
             out[w[i:i + 2]] += 1
-    if always_digits or not out:
-        for c in s:
-            if c in DIGIT_MAP:
-                out["#" + DIGIT_MAP[c]] += 1
-    return out
+    for c in s:
+        if c in DIGIT_MAP:
+            dig["#" + DIGIT_MAP[c]] += 1
+    return out, dig
 
 
 def match_lines(txt, pages, res):
     """Match every TXT line to the PDF line it was read from.
     Returns [{char_start, char_end, page_index, line, score, cover, n}] (page_index/line null when unmatched):
     score = share of the TXT line's tokens found in the PDF line, cover = share of the PDF line explained by it."""
-    fps = [[tokens(l["text"], True) for l in pg.get("lines", [])] for pg in pages]
+    fps = [[tokens(l["text"]) for l in pg.get("lines", [])] for pg in pages]
     starts = [p["char_start"] for p in res]
     out, pos = [], 0
     prev = (None, -1.0)   # (page, y0) of the previous matched line: ties go to the next line in reading order
@@ -167,7 +167,8 @@ def match_lines(txt, pages, res):
         pos = e + 1
         rec = {"char_start": s, "char_end": e, "page_index": None, "line": None, "score": 0.0, "cover": 0.0, "n": 0}
         out.append(rec)
-        t = tokens(ln, True)
+        tl, td = tokens(ln)
+        t = tl or td                  # a line without letters ("(2)", "٣٦") is matched on its digits
         n = sum(t.values())
         rec["n"] = n
         if not n:
@@ -178,20 +179,29 @@ def match_lines(txt, pages, res):
         for p in (p0, p0 + 1, p0 - 1):
             if not 0 <= p < len(pages):
                 continue
-            for k, fp in enumerate(fps[p]):
-                common = sum((t & fp).values())
+            for k, (fl, fd) in enumerate(fps[p]):
+                common = sum((t & (fl if tl else fd)).values())
                 if not common:
                     continue
                 sc = common / n
-                cover = common / max(1, sum(fp.values()))   # prefer the PDF line this text fills
+                cover = common / max(1, sum(fl.values()) + (0 if tl else sum(fd.values())))  # the PDF line this text fills
+                dsc = round(sum((td & fd).values()) / sum(td.values()), 2) if tl and td else 1.0
                 y0 = pages[p]["lines"][k]["bbox"][1]
                 after = (p, y0) >= prev if prev[0] is not None else True
-                key = (round(sc, 3), round(cover, 2), p == p0, after, -abs(p - p0), -y0 if after else y0)
+                # a short fragment ("(2)", "في") is best identified by the PDF fragment it fills exactly;
+                # a real line by reading order (identical lines recur: running headers, repeated phrases)
+                # identical lines (running headers) recur on every page: the one nearest the previous line wins
+                near = -abs(p - prev[0]) if prev[0] is not None else 0
+                if n < 3:
+                    first = (round(sc, 3), dsc, round(cover, 2), near, after)
+                else:
+                    first = (round(sc, 3), dsc, after, round(cover, 2), near)
+                key = first + (p == p0, -abs(p - p0), -y0 if after else y0)
                 if best is None or key > best[0]:
-                    best = (key, p, k, sc)
+                    best = (key, p, k, sc, cover)
         if best:
-            key, p, k, sc = best
-            rec.update(page_index=p + 1, line=k, score=round(sc, 3), cover=key[1])
+            key, p, k, sc, _ = best
+            rec.update(page_index=p + 1, line=k, score=round(sc, 3), cover=round(best[4], 2))
             if sc >= 0.6 and n >= 3:   # only well-identified lines steer the reading order
                 prev = (p, pages[p]["lines"][k]["bbox"][1])
     return out

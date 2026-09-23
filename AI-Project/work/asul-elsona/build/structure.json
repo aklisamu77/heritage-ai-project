@@ -5,14 +5,14 @@
       "page_index": 1,
       "printed_page_number": null,
       "char_start": 0,
-      "char_end": 113,
+      "char_end": 119,
       "evidence": "document_start",
       "confidence": 0.9
     },
     {
       "page_index": 2,
       "printed_page_number": null,
-      "char_start": 113,
+      "char_start": 119,
       "char_end": 147,
       "evidence": "pdf_line_layout",
       "confidence": 0.75
@@ -29,14 +29,14 @@
       "page_index": 4,
       "printed_page_number": null,
       "char_start": 200,
-      "char_end": 312,
+      "char_end": 257,
       "evidence": "pdf_alignment_only",
       "confidence": 0.6
     },
     {
       "page_index": 5,
       "printed_page_number": null,
-      "char_start": 312,
+      "char_start": 257,
       "char_end": 1183,
       "evidence": "pdf_line_layout",
       "confidence": 0.75
@@ -47,7 +47,12 @@
       "char_start": 1183,
       "char_end": 2129,
       "evidence": "pdf_line_layout",
-      "confidence": 0.75
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 551.3,
+        "continuation_lines": 0,
+        "line_pitch": 25.8
+      }
     },
     {
       "page_index": 7,
@@ -66,14 +71,14 @@
       "page_index": 8,
       "printed_page_number": null,
       "char_start": 3051,
-      "char_end": 3611,
+      "char_end": 3623,
       "evidence": "pdf_line_layout",
       "confidence": 0.75
     },
     {
       "page_index": 9,
       "printed_page_number": null,
-      "char_start": 3611,
+      "char_start": 3623,
       "char_end": 4201,
       "evidence": "pdf_line_layout",
       "confidence": 0.75
@@ -82,7 +87,7 @@
       "page_index": 10,
       "printed_page_number": null,
       "char_start": 4201,
-      "char_end": 5023,
+      "char_end": 5009,
       "evidence": "pdf_line_layout",
       "confidence": 0.75,
       "footnote_zone": {
@@ -94,8 +99,8 @@
     {
       "page_index": 11,
       "printed_page_number": null,
-      "char_start": 5023,
-      "char_end": 6114,
+      "char_start": 5009,
+      "char_end": 6122,
       "evidence": "pdf_line_layout",
       "confidence": 0.75,
       "footnote_zone": {
@@ -107,7 +112,7 @@
     {
       "page_index": 12,
       "printed_page_number": null,
-      "char_start": 6114,
+      "char_start": 6122,
       "char_end": 7352,
       "evidence": "pdf_line_layout",
       "confidence": 0.75,
@@ -422,7 +427,7 @@
       "page_index": 40,
       "printed_page_number": null,
       "char_start": 36229,
-      "char_end": 37565,
+      "char_end": 37557,
       "evidence": "pdf_line_layout+page_number",
       "confidence": 0.85,
       "footnote_zone": {
@@ -434,10 +439,10 @@
     {
       "page_index": 41,
       "printed_page_number": null,
-      "char_start": 37565,
+      "char_start": 37557,
       "char_end": 38615,
-      "evidence": "pdf_line_layout",
-      "confidence": 0.75,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85,
       "footnote_zone": {
         "footnote_zone_top_y": 288.3,
         "continuation_lines": 0,
@@ -461,7 +466,7 @@
       "page_index": 43,
       "printed_page_number": null,
       "char_start": 40037,
-      "char_end": 41278,
+      "char_end": 41266,
       "evidence": "pdf_line_layout+page_number",
       "confidence": 0.85,
       "footnote_zone": {
@@ -473,10 +478,10 @@
     {
       "page_index": 44,
       "printed_page_number": null,
-      "char_start": 41278,
+      "char_start": 41266,
       "char_end": 41960,
-      "evidence": "pdf_line_layout",
-      "confidence": 0.75,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85,
       "footnote_zone": {
         "footnote_zone_top_y": 514.3,
         "continuation_lines": 0,
@@ -487,14 +492,14 @@
       "page_index": 45,
       "printed_page_number": null,
       "char_start": 41960,
-      "char_end": 42250,
+      "char_end": 42221,
       "evidence": "pdf_line_layout",
       "confidence": 0.75
     },
     {
       "page_index": 46,
       "printed_page_number": null,
-      "char_start": 42250,
+      "char_start": 42221,
       "char_end": 43051,
       "evidence": "pdf_line_layout",
       "confidence": 0.75
@@ -511,22 +516,22 @@
       "page_index": 48,
       "printed_page_number": null,
       "char_start": 43623,
-      "char_end": 43978,
+      "char_end": 44078,
       "evidence": "pdf_line_layout",
       "confidence": 0.75
     },
     {
       "page_index": 49,
       "printed_page_number": null,
-      "char_start": 43978,
-      "char_end": 44633,
+      "char_start": 44078,
+      "char_end": 44671,
       "evidence": "pdf_line_layout",
       "confidence": 0.75
     },
     {
       "page_index": 50,
       "printed_page_number": null,
-      "char_start": 44633,
+      "char_start": 44671,
       "char_end": 45106,
       "evidence": "pdf_line_layout",
       "confidence": 0.75
@@ -567,14 +572,14 @@
       "page_index": 55,
       "printed_page_number": null,
       "char_start": 50119,
-      "char_end": 50441,
+      "char_end": 50132,
       "evidence": "pdf_line_layout",
       "confidence": 0.75
     },
     {
       "page_index": 56,
       "printed_page_number": null,
-      "char_start": 50441,
+      "char_start": 50132,
       "char_end": 50884,
       "evidence": "pdf_line_layout",
       "confidence": 0.75
@@ -815,8 +820,8 @@
       "source": {
         "char_start": 261,
         "char_end": 3623,
-        "page_start": 4,
-        "page_end": 9
+        "page_start": 5,
+        "page_end": 8
       },
       "evidence": "section start from book_config (no heading line)",
       "confidence": 0.75,
@@ -892,11 +897,11 @@
         {
           "role": "footnote",
           "char_start": 2044,
-          "char_end": 2121
+          "char_end": 2123
         },
         {
           "role": "text",
-          "char_start": 2122,
+          "char_start": 2124,
           "char_end": 2166
         },
         {
@@ -932,7 +937,7 @@
         "char_start": 2287,
         "char_end": 3623,
         "page_start": 7,
-        "page_end": 9
+        "page_end": 8
       },
       "evidence": "section heading from book_config",
       "confidence": 0.9,
@@ -960,11 +965,11 @@
         {
           "role": "footnote",
           "char_start": 2812,
-          "char_end": 3044
+          "char_end": 3046
         },
         {
           "role": "text",
-          "char_start": 3045,
+          "char_start": 3047,
           "char_end": 3623
         }
       ]
@@ -1195,7 +1200,7 @@
         "char_start": 4570,
         "char_end": 5023,
         "page_start": 10,
-        "page_end": 10
+        "page_end": 11
       },
       "evidence": "section heading from book_config",
       "confidence": 0.9,
@@ -1313,11 +1318,11 @@
         {
           "role": "footnote",
           "char_start": 5464,
-          "char_end": 6119
+          "char_end": 6121
         },
         {
           "role": "text",
-          "char_start": 6120,
+          "char_start": 6122,
           "char_end": 6373
         },
         {
@@ -1343,6 +1348,26 @@
         {
           "role": "footnote",
           "char_start": 6514,
+          "char_end": 7074
+        },
+        {
+          "role": "text",
+          "char_start": 7075,
+          "char_end": 7076
+        },
+        {
+          "role": "footnote",
+          "char_start": 7077,
+          "char_end": 7078
+        },
+        {
+          "role": "text",
+          "char_start": 7079,
+          "char_end": 7082
+        },
+        {
+          "role": "footnote",
+          "char_start": 7083,
           "char_end": 7351
         },
         {
@@ -1408,6 +1433,16 @@
         {
           "role": "footnote",
           "char_start": 9389,
+          "char_end": 9757
+        },
+        {
+          "role": "text",
+          "char_start": 9758,
+          "char_end": 9760
+        },
+        {
+          "role": "footnote",
+          "char_start": 9761,
           "char_end": 9764
         }
       ]
@@ -1631,6 +1666,11 @@
         {
           "role": "footnote",
           "char_start": 13905,
+          "char_end": 14068
+        },
+        {
+          "role": "text",
+          "char_start": 14069,
           "char_end": 14071
         }
       ]
@@ -1722,21 +1762,21 @@
         {
           "role": "footnote",
           "char_start": 14922,
-          "char_end": 14979
-        },
-        {
-          "role": "text",
-          "char_start": 14980,
           "char_end": 14981
         },
         {
-          "role": "footnote",
+          "role": "text",
           "char_start": 14982,
           "char_end": 14984
         },
         {
-          "role": "text",
+          "role": "footnote",
           "char_start": 14985,
+          "char_end": 14986
+        },
+        {
+          "role": "text",
+          "char_start": 14987,
           "char_end": 15246
         },
         {
@@ -1777,16 +1817,6 @@
         {
           "role": "text",
           "char_start": 15967,
-          "char_end": 16687
-        },
-        {
-          "role": "footnote",
-          "char_start": 16688,
-          "char_end": 16696
-        },
-        {
-          "role": "text",
-          "char_start": 16697,
           "char_end": 17979
         },
         {
@@ -2094,6 +2124,16 @@
         {
           "role": "footnote",
           "char_start": 30253,
+          "char_end": 30442
+        },
+        {
+          "role": "preamble",
+          "char_start": 30443,
+          "char_end": 30445
+        },
+        {
+          "role": "footnote",
+          "char_start": 30446,
           "char_end": 30456
         },
         {

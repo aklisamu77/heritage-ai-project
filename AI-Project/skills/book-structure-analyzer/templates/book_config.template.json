@@ -113,7 +113,7 @@
   "footnote_continued_mark": "=",
   "layout": {
     "_help": "optional: page-layout rules used when pages.json has the line layout (extract_pages.py + PyMuPDF). Defaults suit printed editions; change a value only with evidence from the page images. See SKILL.md, Page layout.",
-    "zone_gap": 1.6,
+    "zone_gap": 1.3,
     "max_continuation_lines": 12,
     "min_zone_top": 0.25
   }
