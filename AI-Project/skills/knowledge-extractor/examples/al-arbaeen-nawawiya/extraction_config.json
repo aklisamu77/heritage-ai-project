@@ -1,0 +1,21 @@
+{
+  "_about": "الأربعون النووية — a collection of 42 hadith, each with a heading, the hadith text, al-Nawawi's attribution and the editor's footnotes (takhrij + gharib).",
+  "book": "al-arbaeen-nawawiya",
+  "heading_by": "editor",
+  "_heading_by_note": "the headings (مراتب الدين، الأعمال بالنيات …) are not al-Nawawi's wording; they belong to this edition",
+  "main_text_by": "author",
+  "footnote_roles": {"gharib": "include", "takhrij": "exclude", "footnote": "include"},
+  "types": [
+    {"id": "belief", "label": "عقيدة", "description": "what a Muslim believes: God, His attributes, the unseen, the pillars of faith", "example": "الإيمان أن تؤمن بالله وملائكته وكتبه ورسله واليوم الآخر والقدر"},
+    {"id": "worship", "label": "عبادة", "description": "acts of worship and how they are done: prayer, fasting, zakat, hajj, dhikr", "example": "من أركان الإسلام إقامة الصلاة وإيتاء الزكاة"},
+    {"id": "ruling", "label": "حكم", "description": "a ruling: what is lawful, unlawful, obligatory, and in which case", "example": "لا يحل دم امرئ مسلم إلا في ثلاث حالات"},
+    {"id": "manners", "label": "أدب وخلق", "description": "conduct, character and dealings with people", "example": "من حسن إسلام المرء تركه ما لا يعنيه"},
+    {"id": "encouragement", "label": "ترغيب", "description": "a reward or virtue promised for an action", "example": "من نفّس عن مؤمن كربة نفّس الله عنه كربة من كرب يوم القيامة"},
+    {"id": "warning", "label": "ترهيب", "description": "a punishment or harm warned of for an action", "example": "كل بدعة ضلالة"},
+    {"id": "principle", "label": "قاعدة كلية", "description": "a general rule that governs many cases", "example": "إنما الأعمال بالنيات"},
+    {"id": "word_meaning", "label": "معنى كلمة أو مصطلح", "description": "the meaning of a word or term, as the editor's footnote explains it (said_by editor)", "example": "أماراتها: علاماتها"}
+  ],
+  "max_objects_per_unit": 8,
+  "min_quote_letters": 8,
+  "max_statement_chars": 300
+}

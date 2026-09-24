@@ -1,0 +1,23 @@
+{
+  "_about": "Test books. Input = the approved book-structure-analyzer snapshots (same data both skills are tested on). Paths are relative to this folder.",
+  "books": [
+    {
+      "name": "al-arbaeen-nawawiya",
+      "source": "../../book-structure-analyzer/tests/books/al-arbaeen-nawawiya/the-40-ocr-fastocr.txt",
+      "build": "../../book-structure-analyzer/tests/expected/al-arbaeen-nawawiya-layout",
+      "config": "../examples/al-arbaeen-nawawiya/extraction_config.json",
+      "units": ["unit_002"],
+      "good": "fixtures/al-arbaeen-nawawiya/good",
+      "bad": "fixtures/al-arbaeen-nawawiya/bad.json"
+    },
+    {
+      "name": "asul-elsona",
+      "source": "../../book-structure-analyzer/tests/books/asul-elsona/asul-elsona-ocr-fastocr.txt",
+      "build": "../../book-structure-analyzer/tests/expected/asul-elsona-layout",
+      "config": "../examples/asul-elsona/extraction_config.json",
+      "units": ["unit_004"],
+      "good": "fixtures/asul-elsona/good",
+      "bad": "fixtures/asul-elsona/bad.json"
+    }
+  ]
+}

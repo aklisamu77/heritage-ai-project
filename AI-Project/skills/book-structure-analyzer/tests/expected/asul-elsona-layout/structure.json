@@ -1,0 +1,2214 @@
+{
+  "root": "node_000",
+  "pages": [
+    {
+      "page_index": 1,
+      "printed_page_number": null,
+      "char_start": 0,
+      "char_end": 119,
+      "evidence": "document_start",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 2,
+      "printed_page_number": null,
+      "char_start": 119,
+      "char_end": 147,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 3,
+      "printed_page_number": null,
+      "char_start": 147,
+      "char_end": 200,
+      "evidence": "pdf_alignment_only",
+      "confidence": 0.6
+    },
+    {
+      "page_index": 4,
+      "printed_page_number": null,
+      "char_start": 200,
+      "char_end": 257,
+      "evidence": "pdf_alignment_only",
+      "confidence": 0.6
+    },
+    {
+      "page_index": 5,
+      "printed_page_number": null,
+      "char_start": 257,
+      "char_end": 1183,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 6,
+      "printed_page_number": null,
+      "char_start": 1183,
+      "char_end": 2129,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 551.3,
+        "continuation_lines": 0,
+        "line_pitch": 25.8
+      }
+    },
+    {
+      "page_index": 7,
+      "printed_page_number": null,
+      "char_start": 2129,
+      "char_end": 3051,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 501.9,
+        "continuation_lines": 0,
+        "line_pitch": 24.1
+      }
+    },
+    {
+      "page_index": 8,
+      "printed_page_number": null,
+      "char_start": 3051,
+      "char_end": 3623,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 9,
+      "printed_page_number": null,
+      "char_start": 3623,
+      "char_end": 4201,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 10,
+      "printed_page_number": null,
+      "char_start": 4201,
+      "char_end": 5009,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 435.2,
+        "continuation_lines": 0,
+        "line_pitch": 22.2
+      }
+    },
+    {
+      "page_index": 11,
+      "printed_page_number": null,
+      "char_start": 5009,
+      "char_end": 6122,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 341.0,
+        "continuation_lines": 0,
+        "line_pitch": 21.8
+      }
+    },
+    {
+      "page_index": 12,
+      "printed_page_number": null,
+      "char_start": 6122,
+      "char_end": 7352,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 280.0,
+        "continuation_lines": 2,
+        "line_pitch": 20.0
+      }
+    },
+    {
+      "page_index": 13,
+      "printed_page_number": null,
+      "char_start": 7352,
+      "char_end": 8692,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 93.0,
+        "continuation_lines": 6,
+        "line_pitch": 19.3
+      }
+    },
+    {
+      "page_index": 14,
+      "printed_page_number": null,
+      "char_start": 8692,
+      "char_end": 9765,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 414.9,
+        "continuation_lines": 1,
+        "line_pitch": 22.0
+      }
+    },
+    {
+      "page_index": 15,
+      "printed_page_number": null,
+      "char_start": 9765,
+      "char_end": 10760,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 519.9,
+        "continuation_lines": 0,
+        "line_pitch": 23.9
+      }
+    },
+    {
+      "page_index": 16,
+      "printed_page_number": null,
+      "char_start": 10760,
+      "char_end": 11894,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 475.5,
+        "continuation_lines": 0,
+        "line_pitch": 22.9
+      }
+    },
+    {
+      "page_index": 17,
+      "printed_page_number": null,
+      "char_start": 11894,
+      "char_end": 13086,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 401.7,
+        "continuation_lines": 0,
+        "line_pitch": 21.2
+      }
+    },
+    {
+      "page_index": 18,
+      "printed_page_number": null,
+      "char_start": 13086,
+      "char_end": 14072,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 490.8,
+        "continuation_lines": 0,
+        "line_pitch": 23.0
+      }
+    },
+    {
+      "page_index": 19,
+      "printed_page_number": null,
+      "char_start": 14072,
+      "char_end": 14987,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 575.7,
+        "continuation_lines": 0,
+        "line_pitch": 23.3
+      }
+    },
+    {
+      "page_index": 20,
+      "printed_page_number": null,
+      "char_start": 14987,
+      "char_end": 15967,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 472.4,
+        "continuation_lines": 0,
+        "line_pitch": 22.7
+      }
+    },
+    {
+      "page_index": 21,
+      "printed_page_number": null,
+      "char_start": 15967,
+      "char_end": 17061,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 22,
+      "printed_page_number": null,
+      "char_start": 17061,
+      "char_end": 18046,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 573.0,
+        "continuation_lines": 0,
+        "line_pitch": 22.7
+      }
+    },
+    {
+      "page_index": 23,
+      "printed_page_number": null,
+      "char_start": 18046,
+      "char_end": 19020,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 519.2,
+        "continuation_lines": 0,
+        "line_pitch": 24.8
+      }
+    },
+    {
+      "page_index": 24,
+      "printed_page_number": null,
+      "char_start": 19020,
+      "char_end": 20209,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 550.9,
+        "continuation_lines": 0,
+        "line_pitch": 21.4
+      }
+    },
+    {
+      "page_index": 25,
+      "printed_page_number": null,
+      "char_start": 20209,
+      "char_end": 21079,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 488.8,
+        "continuation_lines": 0,
+        "line_pitch": 24.0
+      }
+    },
+    {
+      "page_index": 26,
+      "printed_page_number": null,
+      "char_start": 21079,
+      "char_end": 21091,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85
+    },
+    {
+      "page_index": 27,
+      "printed_page_number": null,
+      "char_start": 21091,
+      "char_end": 21494,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 28,
+      "printed_page_number": null,
+      "char_start": 21494,
+      "char_end": 23169,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 29,
+      "printed_page_number": null,
+      "char_start": 23169,
+      "char_end": 24972,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 30,
+      "printed_page_number": null,
+      "char_start": 24972,
+      "char_end": 25049,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 31,
+      "printed_page_number": null,
+      "char_start": 25049,
+      "char_end": 27237,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 32,
+      "printed_page_number": null,
+      "char_start": 27237,
+      "char_end": 27886,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 33,
+      "printed_page_number": null,
+      "char_start": 27886,
+      "char_end": 28722,
+      "evidence": "pdf_alignment_only",
+      "confidence": 0.6
+    },
+    {
+      "page_index": 34,
+      "printed_page_number": null,
+      "char_start": 28722,
+      "char_end": 29556,
+      "evidence": "pdf_alignment_only",
+      "confidence": 0.6
+    },
+    {
+      "page_index": 35,
+      "printed_page_number": null,
+      "char_start": 29556,
+      "char_end": 30465,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 243.2,
+        "continuation_lines": 0,
+        "line_pitch": 19.4
+      }
+    },
+    {
+      "page_index": 36,
+      "printed_page_number": null,
+      "char_start": 30465,
+      "char_end": 31808,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 180.9,
+        "continuation_lines": 6,
+        "line_pitch": 19.4
+      }
+    },
+    {
+      "page_index": 37,
+      "printed_page_number": null,
+      "char_start": 31808,
+      "char_end": 33320,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 149.5,
+        "continuation_lines": 5,
+        "line_pitch": 19.2
+      }
+    },
+    {
+      "page_index": 38,
+      "printed_page_number": null,
+      "char_start": 33320,
+      "char_end": 34799,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 176.6,
+        "continuation_lines": 0,
+        "line_pitch": 19.1
+      }
+    },
+    {
+      "page_index": 39,
+      "printed_page_number": null,
+      "char_start": 34799,
+      "char_end": 36229,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 259.1,
+        "continuation_lines": 0,
+        "line_pitch": 20.6
+      }
+    },
+    {
+      "page_index": 40,
+      "printed_page_number": null,
+      "char_start": 36229,
+      "char_end": 37557,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 184.7,
+        "continuation_lines": 4,
+        "line_pitch": 19.6
+      }
+    },
+    {
+      "page_index": 41,
+      "printed_page_number": null,
+      "char_start": 37557,
+      "char_end": 38615,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 288.3,
+        "continuation_lines": 0,
+        "line_pitch": 20.3
+      }
+    },
+    {
+      "page_index": 42,
+      "printed_page_number": null,
+      "char_start": 38615,
+      "char_end": 40037,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 219.4,
+        "continuation_lines": 2,
+        "line_pitch": 20.1
+      }
+    },
+    {
+      "page_index": 43,
+      "printed_page_number": null,
+      "char_start": 40037,
+      "char_end": 41266,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 307.1,
+        "continuation_lines": 3,
+        "line_pitch": 21.0
+      }
+    },
+    {
+      "page_index": 44,
+      "printed_page_number": null,
+      "char_start": 41266,
+      "char_end": 41960,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 514.3,
+        "continuation_lines": 0,
+        "line_pitch": 21.8
+      }
+    },
+    {
+      "page_index": 45,
+      "printed_page_number": null,
+      "char_start": 41960,
+      "char_end": 42221,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 46,
+      "printed_page_number": null,
+      "char_start": 42221,
+      "char_end": 43051,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 47,
+      "printed_page_number": null,
+      "char_start": 43051,
+      "char_end": 43623,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 48,
+      "printed_page_number": null,
+      "char_start": 43623,
+      "char_end": 44078,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 49,
+      "printed_page_number": null,
+      "char_start": 44078,
+      "char_end": 44671,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 50,
+      "printed_page_number": null,
+      "char_start": 44671,
+      "char_end": 45106,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 51,
+      "printed_page_number": null,
+      "char_start": 45106,
+      "char_end": 46178,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 52,
+      "printed_page_number": null,
+      "char_start": 46178,
+      "char_end": 47597,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 53,
+      "printed_page_number": null,
+      "char_start": 47597,
+      "char_end": 48969,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 54,
+      "printed_page_number": null,
+      "char_start": 48969,
+      "char_end": 50119,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 55,
+      "printed_page_number": null,
+      "char_start": 50119,
+      "char_end": 50132,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 56,
+      "printed_page_number": null,
+      "char_start": 50132,
+      "char_end": 50884,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    }
+  ],
+  "noise_spans": [
+    {
+      "id": "noise_0001",
+      "type": "page_number",
+      "char_start": 21077,
+      "char_end": 21079
+    },
+    {
+      "id": "noise_0002",
+      "type": "facsimile",
+      "char_start": 21091,
+      "char_end": 29543,
+      "source": "override"
+    },
+    {
+      "id": "noise_0003",
+      "type": "page_number",
+      "char_start": 29554,
+      "char_end": 29556
+    },
+    {
+      "id": "noise_0004",
+      "type": "garbled_glyph",
+      "char_start": 29556,
+      "char_end": 29557
+    },
+    {
+      "id": "noise_0005",
+      "type": "separator",
+      "char_start": 30251,
+      "char_end": 30252
+    },
+    {
+      "id": "noise_0006",
+      "type": "garbled_glyph",
+      "char_start": 30462,
+      "char_end": 30463
+    },
+    {
+      "id": "noise_0007",
+      "type": "separator",
+      "char_start": 30638,
+      "char_end": 30639
+    },
+    {
+      "id": "noise_0008",
+      "type": "page_number",
+      "char_start": 31806,
+      "char_end": 31808
+    },
+    {
+      "id": "noise_0009",
+      "type": "separator",
+      "char_start": 31864,
+      "char_end": 31869
+    },
+    {
+      "id": "noise_0010",
+      "type": "separator",
+      "char_start": 31929,
+      "char_end": 31930
+    },
+    {
+      "id": "noise_0011",
+      "type": "page_number",
+      "char_start": 33318,
+      "char_end": 33320
+    },
+    {
+      "id": "noise_0012",
+      "type": "separator",
+      "char_start": 33510,
+      "char_end": 33511
+    },
+    {
+      "id": "noise_0013",
+      "type": "page_number",
+      "char_start": 34796,
+      "char_end": 34798
+    },
+    {
+      "id": "noise_0014",
+      "type": "garbled_glyph",
+      "char_start": 35525,
+      "char_end": 35526
+    },
+    {
+      "id": "noise_0015",
+      "type": "separator",
+      "char_start": 35527,
+      "char_end": 35528
+    },
+    {
+      "id": "noise_0016",
+      "type": "separator",
+      "char_start": 35538,
+      "char_end": 35539
+    },
+    {
+      "id": "noise_0017",
+      "type": "page_number",
+      "char_start": 36227,
+      "char_end": 36229
+    },
+    {
+      "id": "noise_0018",
+      "type": "page_number",
+      "char_start": 37555,
+      "char_end": 37557
+    },
+    {
+      "id": "noise_0019",
+      "type": "page_number",
+      "char_start": 38611,
+      "char_end": 38614
+    },
+    {
+      "id": "noise_0020",
+      "type": "garbled_glyph",
+      "char_start": 39003,
+      "char_end": 39004
+    },
+    {
+      "id": "noise_0021",
+      "type": "page_number",
+      "char_start": 40035,
+      "char_end": 40037
+    },
+    {
+      "id": "noise_0022",
+      "type": "garbled_glyph",
+      "char_start": 40346,
+      "char_end": 40347
+    },
+    {
+      "id": "noise_0023",
+      "type": "separator",
+      "char_start": 41018,
+      "char_end": 41019
+    },
+    {
+      "id": "noise_0024",
+      "type": "separator",
+      "char_start": 41190,
+      "char_end": 41191
+    },
+    {
+      "id": "noise_0025",
+      "type": "page_number",
+      "char_start": 41264,
+      "char_end": 41266
+    },
+    {
+      "id": "noise_0026",
+      "type": "garbled_glyph",
+      "char_start": 43114,
+      "char_end": 43115
+    },
+    {
+      "id": "noise_0027",
+      "type": "garbled_glyph",
+      "char_start": 43606,
+      "char_end": 43607
+    },
+    {
+      "id": "noise_0028",
+      "type": "garbled_glyph",
+      "char_start": 46167,
+      "char_end": 46168
+    },
+    {
+      "id": "noise_0029",
+      "type": "garbled_glyph",
+      "char_start": 50123,
+      "char_end": 50124
+    }
+  ],
+  "nodes": [
+    {
+      "id": "node_000",
+      "type": "book",
+      "title": "أصول السنة",
+      "parent_id": null,
+      "children": [
+        "node_001",
+        "node_002",
+        "node_003"
+      ],
+      "source": {
+        "char_start": 0,
+        "char_end": 50884,
+        "page_start": 1,
+        "page_end": 56
+      },
+      "evidence": "whole source",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_001",
+      "type": "front_matter",
+      "title": "صفحة العنوان وبيانات النشر",
+      "parent_id": "node_000",
+      "children": [
+        "node_s001",
+        "node_s004"
+      ],
+      "source": {
+        "char_start": 0,
+        "char_end": 29543,
+        "page_start": 1,
+        "page_end": 34
+      },
+      "evidence": "text before the main text",
+      "confidence": 0.9,
+      "segments": [
+        {
+          "role": "front_matter",
+          "char_start": 0,
+          "char_end": 260
+        }
+      ]
+    },
+    {
+      "id": "node_s001",
+      "type": "editor_introduction",
+      "title": "المقدمة",
+      "level": 1,
+      "parent_id": "node_001",
+      "children": [
+        "node_s002",
+        "node_s003"
+      ],
+      "source": {
+        "char_start": 261,
+        "char_end": 3623,
+        "page_start": 5,
+        "page_end": 8
+      },
+      "evidence": "section start from book_config (no heading line)",
+      "confidence": 0.75,
+      "segments": [
+        {
+          "role": "text",
+          "char_start": 261,
+          "char_end": 1453
+        }
+      ]
+    },
+    {
+      "id": "node_s002",
+      "type": "section",
+      "title": "أهمية الرسالة",
+      "level": 2,
+      "parent_id": "node_s001",
+      "children": [],
+      "source": {
+        "char_start": 1454,
+        "char_end": 2287,
+        "page_start": 6,
+        "page_end": 7
+      },
+      "evidence": "section heading from book_config",
+      "confidence": 0.9,
+      "segments": [
+        {
+          "role": "text",
+          "char_start": 1454,
+          "char_end": 1455
+        },
+        {
+          "role": "heading",
+          "char_start": 1456,
+          "char_end": 1470
+        },
+        {
+          "role": "text",
+          "char_start": 1471,
+          "char_end": 1681
+        },
+        {
+          "role": "anchor",
+          "char_start": 1682,
+          "char_end": 1685
+        },
+        {
+          "role": "text",
+          "char_start": 1686,
+          "char_end": 1800
+        },
+        {
+          "role": "anchor",
+          "char_start": 1801,
+          "char_end": 1804
+        },
+        {
+          "role": "text",
+          "char_start": 1805,
+          "char_end": 1813
+        },
+        {
+          "role": "anchor",
+          "char_start": 1814,
+          "char_end": 1817
+        },
+        {
+          "role": "text",
+          "char_start": 1818,
+          "char_end": 2043
+        },
+        {
+          "role": "footnote",
+          "char_start": 2044,
+          "char_end": 2123
+        },
+        {
+          "role": "text",
+          "char_start": 2124,
+          "char_end": 2166
+        },
+        {
+          "role": "anchor",
+          "char_start": 2166,
+          "char_end": 2169
+        },
+        {
+          "role": "text",
+          "char_start": 2170,
+          "char_end": 2282
+        },
+        {
+          "role": "anchor",
+          "char_start": 2282,
+          "char_end": 2285
+        },
+        {
+          "role": "text",
+          "char_start": 2285,
+          "char_end": 2286
+        }
+      ]
+    },
+    {
+      "id": "node_s003",
+      "type": "section",
+      "title": "عملي في تحقيق الرسالة",
+      "level": 2,
+      "parent_id": "node_s001",
+      "children": [],
+      "source": {
+        "char_start": 2287,
+        "char_end": 3623,
+        "page_start": 7,
+        "page_end": 8
+      },
+      "evidence": "section heading from book_config",
+      "confidence": 0.9,
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 2287,
+          "char_end": 2308
+        },
+        {
+          "role": "text",
+          "char_start": 2309,
+          "char_end": 2357
+        },
+        {
+          "role": "anchor",
+          "char_start": 2358,
+          "char_end": 2361
+        },
+        {
+          "role": "text",
+          "char_start": 2362,
+          "char_end": 2811
+        },
+        {
+          "role": "footnote",
+          "char_start": 2812,
+          "char_end": 3046
+        },
+        {
+          "role": "text",
+          "char_start": 3047,
+          "char_end": 3623
+        }
+      ]
+    },
+    {
+      "id": "node_s004",
+      "type": "study",
+      "title": "الدراسة",
+      "level": 1,
+      "parent_id": "node_001",
+      "children": [
+        "node_s005",
+        "node_s014",
+        "node_s015",
+        "node_s016"
+      ],
+      "source": {
+        "char_start": 3623,
+        "char_end": 29543,
+        "page_start": 9,
+        "page_end": 34
+      },
+      "evidence": "section start from book_config (no heading line)",
+      "confidence": 0.75,
+      "segments": []
+    },
+    {
+      "id": "node_s005",
+      "type": "biography",
+      "title": "ترجمة الإمام الحميدي",
+      "level": 2,
+      "parent_id": "node_s004",
+      "children": [
+        "node_s006",
+        "node_s007",
+        "node_s008",
+        "node_s009",
+        "node_s010",
+        "node_s011",
+        "node_s013"
+      ],
+      "source": {
+        "char_start": 3623,
+        "char_end": 14301,
+        "page_start": 9,
+        "page_end": 19
+      },
+      "evidence": "section heading from book_config",
+      "confidence": 0.9,
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 3623,
+          "char_end": 3643
+        }
+      ]
+    },
+    {
+      "id": "node_s006",
+      "type": "section",
+      "title": "اسمه ونسبه",
+      "level": 3,
+      "parent_id": "node_s005",
+      "children": [],
+      "source": {
+        "char_start": 3644,
+        "char_end": 3788,
+        "page_start": 9,
+        "page_end": 9
+      },
+      "evidence": "section heading from book_config",
+      "confidence": 0.9,
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 3644,
+          "char_end": 3654
+        },
+        {
+          "role": "text",
+          "char_start": 3655,
+          "char_end": 3787
+        }
+      ]
+    },
+    {
+      "id": "node_s007",
+      "type": "section",
+      "title": "شيوخه",
+      "level": 3,
+      "parent_id": "node_s005",
+      "children": [],
+      "source": {
+        "char_start": 3788,
+        "char_end": 3887,
+        "page_start": 9,
+        "page_end": 9
+      },
+      "evidence": "section heading from book_config",
+      "confidence": 0.9,
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 3788,
+          "char_end": 3794
+        },
+        {
+          "role": "text",
+          "char_start": 3795,
+          "char_end": 3886
+        }
+      ]
+    },
+    {
+      "id": "node_s008",
+      "type": "section",
+      "title": "تلاميذه",
+      "level": 3,
+      "parent_id": "node_s005",
+      "children": [],
+      "source": {
+        "char_start": 3887,
+        "char_end": 4046,
+        "page_start": 9,
+        "page_end": 9
+      },
+      "evidence": "section heading from book_config",
+      "confidence": 0.9,
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 3887,
+          "char_end": 3895
+        },
+        {
+          "role": "text",
+          "char_start": 3896,
+          "char_end": 4045
+        }
+      ]
+    },
+    {
+      "id": "node_s009",
+      "type": "section",
+      "title": "ثناء العلماء عليه",
+      "level": 3,
+      "parent_id": "node_s005",
+      "children": [],
+      "source": {
+        "char_start": 4046,
+        "char_end": 4570,
+        "page_start": 9,
+        "page_end": 10
+      },
+      "evidence": "section heading from book_config",
+      "confidence": 0.9,
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 4046,
+          "char_end": 4064
+        },
+        {
+          "role": "text",
+          "char_start": 4065,
+          "char_end": 4390
+        },
+        {
+          "role": "anchor",
+          "char_start": 4391,
+          "char_end": 4394
+        },
+        {
+          "role": "text",
+          "char_start": 4394,
+          "char_end": 4477
+        },
+        {
+          "role": "anchor",
+          "char_start": 4478,
+          "char_end": 4481
+        },
+        {
+          "role": "text",
+          "char_start": 4482,
+          "char_end": 4483
+        },
+        {
+          "role": "anchor",
+          "char_start": 4484,
+          "char_end": 4487
+        },
+        {
+          "role": "text",
+          "char_start": 4488,
+          "char_end": 4526
+        },
+        {
+          "role": "anchor",
+          "char_start": 4526,
+          "char_end": 4529
+        },
+        {
+          "role": "text",
+          "char_start": 4529,
+          "char_end": 4541
+        },
+        {
+          "role": "anchor",
+          "char_start": 4541,
+          "char_end": 4544
+        },
+        {
+          "role": "text",
+          "char_start": 4545,
+          "char_end": 4569
+        }
+      ]
+    },
+    {
+      "id": "node_s010",
+      "type": "section",
+      "title": "مؤلفاته",
+      "level": 3,
+      "parent_id": "node_s005",
+      "children": [],
+      "source": {
+        "char_start": 4570,
+        "char_end": 5023,
+        "page_start": 10,
+        "page_end": 11
+      },
+      "evidence": "section heading from book_config",
+      "confidence": 0.9,
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 4570,
+          "char_end": 4578
+        },
+        {
+          "role": "text",
+          "char_start": 4579,
+          "char_end": 4672
+        },
+        {
+          "role": "anchor",
+          "char_start": 4673,
+          "char_end": 4676
+        },
+        {
+          "role": "text",
+          "char_start": 4677,
+          "char_end": 4699
+        },
+        {
+          "role": "anchor",
+          "char_start": 4700,
+          "char_end": 4703
+        },
+        {
+          "role": "text",
+          "char_start": 4704,
+          "char_end": 4717
+        },
+        {
+          "role": "anchor",
+          "char_start": 4718,
+          "char_end": 4721
+        },
+        {
+          "role": "footnote",
+          "char_start": 4722,
+          "char_end": 5022
+        }
+      ]
+    },
+    {
+      "id": "node_s011",
+      "type": "section",
+      "title": "دفع بعض التهم عنه",
+      "level": 3,
+      "parent_id": "node_s005",
+      "children": [
+        "node_s012"
+      ],
+      "source": {
+        "char_start": 5023,
+        "char_end": 14072,
+        "page_start": 11,
+        "page_end": 18
+      },
+      "evidence": "section heading from book_config",
+      "confidence": 0.9,
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 5023,
+          "char_end": 5041
+        },
+        {
+          "role": "anchor",
+          "char_start": 5042,
+          "char_end": 5045
+        },
+        {
+          "role": "text",
+          "char_start": 5046,
+          "char_end": 5142
+        },
+        {
+          "role": "anchor",
+          "char_start": 5143,
+          "char_end": 5146
+        },
+        {
+          "role": "text",
+          "char_start": 5147,
+          "char_end": 5158
+        },
+        {
+          "role": "anchor",
+          "char_start": 5158,
+          "char_end": 5161
+        },
+        {
+          "role": "text",
+          "char_start": 5162,
+          "char_end": 5415
+        },
+        {
+          "role": "anchor",
+          "char_start": 5416,
+          "char_end": 5419
+        },
+        {
+          "role": "text",
+          "char_start": 5420,
+          "char_end": 5459
+        },
+        {
+          "role": "anchor",
+          "char_start": 5460,
+          "char_end": 5463
+        },
+        {
+          "role": "footnote",
+          "char_start": 5464,
+          "char_end": 6121
+        },
+        {
+          "role": "text",
+          "char_start": 6122,
+          "char_end": 6373
+        },
+        {
+          "role": "anchor",
+          "char_start": 6374,
+          "char_end": 6377
+        },
+        {
+          "role": "text",
+          "char_start": 6378,
+          "char_end": 6503
+        },
+        {
+          "role": "anchor",
+          "char_start": 6504,
+          "char_end": 6507
+        },
+        {
+          "role": "text",
+          "char_start": 6508,
+          "char_end": 6513
+        },
+        {
+          "role": "footnote",
+          "char_start": 6514,
+          "char_end": 7074
+        },
+        {
+          "role": "text",
+          "char_start": 7075,
+          "char_end": 7076
+        },
+        {
+          "role": "footnote",
+          "char_start": 7077,
+          "char_end": 7078
+        },
+        {
+          "role": "text",
+          "char_start": 7079,
+          "char_end": 7082
+        },
+        {
+          "role": "footnote",
+          "char_start": 7083,
+          "char_end": 7351
+        },
+        {
+          "role": "text",
+          "char_start": 7352,
+          "char_end": 7380
+        },
+        {
+          "role": "anchor",
+          "char_start": 7380,
+          "char_end": 7383
+        },
+        {
+          "role": "footnote",
+          "char_start": 7384,
+          "char_end": 8691
+        },
+        {
+          "role": "text",
+          "char_start": 8692,
+          "char_end": 8702
+        },
+        {
+          "role": "anchor",
+          "char_start": 8703,
+          "char_end": 8706
+        },
+        {
+          "role": "text",
+          "char_start": 8706,
+          "char_end": 8842
+        },
+        {
+          "role": "anchor",
+          "char_start": 8843,
+          "char_end": 8850
+        },
+        {
+          "role": "text",
+          "char_start": 8851,
+          "char_end": 8912
+        },
+        {
+          "role": "anchor",
+          "char_start": 8913,
+          "char_end": 8916
+        },
+        {
+          "role": "text",
+          "char_start": 8917,
+          "char_end": 8927
+        },
+        {
+          "role": "anchor",
+          "char_start": 8928,
+          "char_end": 8931
+        },
+        {
+          "role": "text",
+          "char_start": 8932,
+          "char_end": 9388
+        },
+        {
+          "role": "footnote",
+          "char_start": 9389,
+          "char_end": 9757
+        },
+        {
+          "role": "text",
+          "char_start": 9758,
+          "char_end": 9760
+        },
+        {
+          "role": "footnote",
+          "char_start": 9761,
+          "char_end": 9764
+        }
+      ]
+    },
+    {
+      "id": "node_s012",
+      "type": "section",
+      "title": "الرد على هذا الاتهام",
+      "level": 4,
+      "parent_id": "node_s011",
+      "children": [],
+      "source": {
+        "char_start": 9765,
+        "char_end": 14072,
+        "page_start": 15,
+        "page_end": 18
+      },
+      "evidence": "section heading from book_config",
+      "confidence": 0.9,
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 9765,
+          "char_end": 9785
+        },
+        {
+          "role": "text",
+          "char_start": 9786,
+          "char_end": 10171
+        },
+        {
+          "role": "anchor",
+          "char_start": 10172,
+          "char_end": 10175
+        },
+        {
+          "role": "text",
+          "char_start": 10175,
+          "char_end": 10462
+        },
+        {
+          "role": "anchor",
+          "char_start": 10462,
+          "char_end": 10465
+        },
+        {
+          "role": "text",
+          "char_start": 10465,
+          "char_end": 10519
+        },
+        {
+          "role": "anchor",
+          "char_start": 10520,
+          "char_end": 10523
+        },
+        {
+          "role": "text",
+          "char_start": 10524,
+          "char_end": 10525
+        },
+        {
+          "role": "anchor",
+          "char_start": 10526,
+          "char_end": 10529
+        },
+        {
+          "role": "text",
+          "char_start": 10530,
+          "char_end": 10575
+        },
+        {
+          "role": "footnote",
+          "char_start": 10576,
+          "char_end": 10759
+        },
+        {
+          "role": "text",
+          "char_start": 10760,
+          "char_end": 10769
+        },
+        {
+          "role": "anchor",
+          "char_start": 10770,
+          "char_end": 10773
+        },
+        {
+          "role": "text",
+          "char_start": 10774,
+          "char_end": 11000
+        },
+        {
+          "role": "anchor",
+          "char_start": 11001,
+          "char_end": 11004
+        },
+        {
+          "role": "text",
+          "char_start": 11005,
+          "char_end": 11168
+        },
+        {
+          "role": "anchor",
+          "char_start": 11169,
+          "char_end": 11175
+        },
+        {
+          "role": "text",
+          "char_start": 11176,
+          "char_end": 11633
+        },
+        {
+          "role": "footnote",
+          "char_start": 11634,
+          "char_end": 11893
+        },
+        {
+          "role": "text",
+          "char_start": 11894,
+          "char_end": 12215
+        },
+        {
+          "role": "anchor",
+          "char_start": 12216,
+          "char_end": 12219
+        },
+        {
+          "role": "text",
+          "char_start": 12220,
+          "char_end": 12349
+        },
+        {
+          "role": "anchor",
+          "char_start": 12350,
+          "char_end": 12353
+        },
+        {
+          "role": "text",
+          "char_start": 12354,
+          "char_end": 12498
+        },
+        {
+          "role": "footnote",
+          "char_start": 12499,
+          "char_end": 13085
+        },
+        {
+          "role": "text",
+          "char_start": 13086,
+          "char_end": 13098
+        },
+        {
+          "role": "anchor",
+          "char_start": 13098,
+          "char_end": 13101
+        },
+        {
+          "role": "text",
+          "char_start": 13102,
+          "char_end": 13176
+        },
+        {
+          "role": "anchor",
+          "char_start": 13177,
+          "char_end": 13180
+        },
+        {
+          "role": "text",
+          "char_start": 13181,
+          "char_end": 13278
+        },
+        {
+          "role": "anchor",
+          "char_start": 13278,
+          "char_end": 13281
+        },
+        {
+          "role": "text",
+          "char_start": 13281,
+          "char_end": 13471
+        },
+        {
+          "role": "anchor",
+          "char_start": 13472,
+          "char_end": 13477
+        },
+        {
+          "role": "text",
+          "char_start": 13478,
+          "char_end": 13523
+        },
+        {
+          "role": "anchor",
+          "char_start": 13524,
+          "char_end": 13527
+        },
+        {
+          "role": "text",
+          "char_start": 13527,
+          "char_end": 13667
+        },
+        {
+          "role": "anchor",
+          "char_start": 13667,
+          "char_end": 13670
+        },
+        {
+          "role": "text",
+          "char_start": 13670,
+          "char_end": 13899
+        },
+        {
+          "role": "anchor",
+          "char_start": 13900,
+          "char_end": 13903
+        },
+        {
+          "role": "text",
+          "char_start": 13903,
+          "char_end": 13904
+        },
+        {
+          "role": "footnote",
+          "char_start": 13905,
+          "char_end": 14068
+        },
+        {
+          "role": "text",
+          "char_start": 14069,
+          "char_end": 14071
+        }
+      ]
+    },
+    {
+      "id": "node_s013",
+      "type": "section",
+      "title": "الخلاصة",
+      "level": 3,
+      "parent_id": "node_s005",
+      "children": [],
+      "source": {
+        "char_start": 14072,
+        "char_end": 14301,
+        "page_start": 19,
+        "page_end": 19
+      },
+      "evidence": "section heading from book_config",
+      "confidence": 0.9,
+      "segments": [
+        {
+          "role": "text",
+          "char_start": 14072,
+          "char_end": 14073
+        },
+        {
+          "role": "heading",
+          "char_start": 14074,
+          "char_end": 14082
+        },
+        {
+          "role": "text",
+          "char_start": 14083,
+          "char_end": 14300
+        }
+      ]
+    },
+    {
+      "id": "node_s014",
+      "type": "manuscripts",
+      "title": "وصف النسخ",
+      "level": 2,
+      "parent_id": "node_s004",
+      "children": [],
+      "source": {
+        "char_start": 14301,
+        "char_end": 18546,
+        "page_start": 19,
+        "page_end": 23
+      },
+      "evidence": "section heading from book_config",
+      "confidence": 0.9,
+      "segments": [
+        {
+          "role": "text",
+          "char_start": 14301,
+          "char_end": 14302
+        },
+        {
+          "role": "heading",
+          "char_start": 14303,
+          "char_end": 14313
+        },
+        {
+          "role": "text",
+          "char_start": 14314,
+          "char_end": 14796
+        },
+        {
+          "role": "anchor",
+          "char_start": 14797,
+          "char_end": 14800
+        },
+        {
+          "role": "text",
+          "char_start": 14801,
+          "char_end": 14898
+        },
+        {
+          "role": "anchor",
+          "char_start": 14899,
+          "char_end": 14902
+        },
+        {
+          "role": "text",
+          "char_start": 14903,
+          "char_end": 14921
+        },
+        {
+          "role": "footnote",
+          "char_start": 14922,
+          "char_end": 14981
+        },
+        {
+          "role": "text",
+          "char_start": 14982,
+          "char_end": 14984
+        },
+        {
+          "role": "footnote",
+          "char_start": 14985,
+          "char_end": 14986
+        },
+        {
+          "role": "text",
+          "char_start": 14987,
+          "char_end": 15246
+        },
+        {
+          "role": "anchor",
+          "char_start": 15247,
+          "char_end": 15250
+        },
+        {
+          "role": "text",
+          "char_start": 15251,
+          "char_end": 15631
+        },
+        {
+          "role": "anchor",
+          "char_start": 15632,
+          "char_end": 15635
+        },
+        {
+          "role": "text",
+          "char_start": 15636,
+          "char_end": 15651
+        },
+        {
+          "role": "anchor",
+          "char_start": 15652,
+          "char_end": 15655
+        },
+        {
+          "role": "text",
+          "char_start": 15656,
+          "char_end": 15782
+        },
+        {
+          "role": "footnote",
+          "char_start": 15783,
+          "char_end": 15966
+        },
+        {
+          "role": "text",
+          "char_start": 15967,
+          "char_end": 17979
+        },
+        {
+          "role": "anchor",
+          "char_start": 17980,
+          "char_end": 17983
+        },
+        {
+          "role": "text",
+          "char_start": 17983,
+          "char_end": 18004
+        },
+        {
+          "role": "footnote",
+          "char_start": 18005,
+          "char_end": 18041
+        },
+        {
+          "role": "anchor",
+          "char_start": 18042,
+          "char_end": 18045
+        },
+        {
+          "role": "text",
+          "char_start": 18046,
+          "char_end": 18167
+        },
+        {
+          "role": "anchor",
+          "char_start": 18168,
+          "char_end": 18171
+        },
+        {
+          "role": "text",
+          "char_start": 18172,
+          "char_end": 18355
+        },
+        {
+          "role": "anchor",
+          "char_start": 18356,
+          "char_end": 18359
+        },
+        {
+          "role": "text",
+          "char_start": 18359,
+          "char_end": 18451
+        },
+        {
+          "role": "anchor",
+          "char_start": 18452,
+          "char_end": 18455
+        },
+        {
+          "role": "text",
+          "char_start": 18456,
+          "char_end": 18459
+        },
+        {
+          "role": "anchor",
+          "char_start": 18460,
+          "char_end": 18463
+        },
+        {
+          "role": "text",
+          "char_start": 18464,
+          "char_end": 18545
+        }
+      ]
+    },
+    {
+      "id": "node_s015",
+      "type": "attribution_study",
+      "title": "إثبات نسبة الرسالة للمؤلف",
+      "level": 2,
+      "parent_id": "node_s004",
+      "children": [],
+      "source": {
+        "char_start": 18546,
+        "char_end": 21077,
+        "page_start": 23,
+        "page_end": 25
+      },
+      "evidence": "section heading from book_config",
+      "confidence": 0.9,
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 18546,
+          "char_end": 18571
+        },
+        {
+          "role": "text",
+          "char_start": 18572,
+          "char_end": 18826
+        },
+        {
+          "role": "footnote",
+          "char_start": 18827,
+          "char_end": 19009
+        },
+        {
+          "role": "text",
+          "char_start": 19010,
+          "char_end": 19059
+        },
+        {
+          "role": "anchor",
+          "char_start": 19059,
+          "char_end": 19062
+        },
+        {
+          "role": "text",
+          "char_start": 19063,
+          "char_end": 19599
+        },
+        {
+          "role": "anchor",
+          "char_start": 19600,
+          "char_end": 19603
+        },
+        {
+          "role": "text",
+          "char_start": 19603,
+          "char_end": 20057
+        },
+        {
+          "role": "anchor",
+          "char_start": 20058,
+          "char_end": 20061
+        },
+        {
+          "role": "text",
+          "char_start": 20062,
+          "char_end": 20063
+        },
+        {
+          "role": "anchor",
+          "char_start": 20064,
+          "char_end": 20071
+        },
+        {
+          "role": "text",
+          "char_start": 20072,
+          "char_end": 20133
+        },
+        {
+          "role": "footnote",
+          "char_start": 20134,
+          "char_end": 20208
+        },
+        {
+          "role": "text",
+          "char_start": 20209,
+          "char_end": 20402
+        },
+        {
+          "role": "anchor",
+          "char_start": 20402,
+          "char_end": 20405
+        },
+        {
+          "role": "text",
+          "char_start": 20405,
+          "char_end": 20557
+        },
+        {
+          "role": "anchor",
+          "char_start": 20558,
+          "char_end": 20561
+        },
+        {
+          "role": "text",
+          "char_start": 20562,
+          "char_end": 20579
+        },
+        {
+          "role": "anchor",
+          "char_start": 20580,
+          "char_end": 20583
+        },
+        {
+          "role": "text",
+          "char_start": 20584,
+          "char_end": 20605
+        },
+        {
+          "role": "anchor",
+          "char_start": 20605,
+          "char_end": 20608
+        },
+        {
+          "role": "text",
+          "char_start": 20608,
+          "char_end": 20753
+        },
+        {
+          "role": "anchor",
+          "char_start": 20754,
+          "char_end": 20757
+        },
+        {
+          "role": "text",
+          "char_start": 20758,
+          "char_end": 20793
+        },
+        {
+          "role": "anchor",
+          "char_start": 20794,
+          "char_end": 20797
+        },
+        {
+          "role": "text",
+          "char_start": 20798,
+          "char_end": 20874
+        },
+        {
+          "role": "anchor",
+          "char_start": 20875,
+          "char_end": 20878
+        },
+        {
+          "role": "text",
+          "char_start": 20878,
+          "char_end": 20884
+        },
+        {
+          "role": "anchor",
+          "char_start": 20884,
+          "char_end": 20887
+        },
+        {
+          "role": "footnote",
+          "char_start": 20888,
+          "char_end": 21076
+        }
+      ]
+    },
+    {
+      "id": "node_s016",
+      "type": "facsimiles",
+      "title": "صور النسخ",
+      "level": 2,
+      "parent_id": "node_s004",
+      "children": [],
+      "source": {
+        "char_start": 21077,
+        "char_end": 29543,
+        "page_start": 25,
+        "page_end": 34
+      },
+      "evidence": "section heading from book_config",
+      "confidence": 0.9,
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 21079,
+          "char_end": 21090
+        }
+      ]
+    },
+    {
+      "id": "node_002",
+      "type": "creed_treatise",
+      "title": "نص الرسالة",
+      "parent_id": "node_000",
+      "children": [
+        "unit_001",
+        "unit_002",
+        "unit_003",
+        "unit_004",
+        "unit_005",
+        "unit_006",
+        "unit_007",
+        "unit_008"
+      ],
+      "source": {
+        "char_start": 29543,
+        "char_end": 41960,
+        "page_start": 34,
+        "page_end": 44
+      },
+      "evidence": "8 unit headings from book_config, located in order",
+      "confidence": 0.95,
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 29543,
+          "char_end": 29553
+        },
+        {
+          "role": "preamble",
+          "char_start": 29557,
+          "char_end": 29589
+        },
+        {
+          "role": "anchor",
+          "char_start": 29590,
+          "char_end": 29593
+        },
+        {
+          "role": "footnote",
+          "char_start": 29594,
+          "char_end": 30250
+        },
+        {
+          "role": "footnote",
+          "char_start": 30253,
+          "char_end": 30442
+        },
+        {
+          "role": "preamble",
+          "char_start": 30443,
+          "char_end": 30445
+        },
+        {
+          "role": "footnote",
+          "char_start": 30446,
+          "char_end": 30456
+        },
+        {
+          "role": "preamble",
+          "char_start": 30457,
+          "char_end": 30462
+        },
+        {
+          "role": "preamble",
+          "char_start": 30463,
+          "char_end": 30472
+        },
+        {
+          "role": "anchor",
+          "char_start": 30473,
+          "char_end": 30476
+        },
+        {
+          "role": "preamble",
+          "char_start": 30477,
+          "char_end": 30496
+        },
+        {
+          "role": "footnote",
+          "char_start": 30644,
+          "char_end": 30909
+        },
+        {
+          "role": "footnote",
+          "char_start": 30921,
+          "char_end": 30978
+        }
+      ]
+    },
+    {
+      "id": "node_003",
+      "type": "index",
+      "title": "الفهارس",
+      "parent_id": "node_000",
+      "children": [],
+      "source": {
+        "char_start": 41960,
+        "char_end": 50884,
+        "page_start": 45,
+        "page_end": 56
+      },
+      "evidence": "starts at 'الفهارس'",
+      "confidence": 0.8,
+      "segments": [
+        {
+          "role": "toc",
+          "char_start": 41960,
+          "char_end": 43113
+        },
+        {
+          "role": "toc",
+          "char_start": 43115,
+          "char_end": 43605
+        },
+        {
+          "role": "toc",
+          "char_start": 43608,
+          "char_end": 46166
+        },
+        {
+          "role": "toc",
+          "char_start": 46169,
+          "char_end": 50122
+        },
+        {
+          "role": "toc",
+          "char_start": 50125,
+          "char_end": 50884
+        }
+      ]
+    }
+  ]
+}

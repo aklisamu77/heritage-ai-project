@@ -1,0 +1,50 @@
+{
+  "unit_id": "unit_002",
+  "model_used": "test-fixture",
+  "prompt_version": "ke-v1",
+  "no_knowledge_reason": null,
+  "objects": [
+    {
+      "type": "worship",
+      "statement": "الإسلام: أن تشهد أن لا إله إلا الله وأن محمدًا رسول الله، وتقيم الصلاة، وتؤتي الزكاة، وتصوم رمضان، وتحج البيت إن استطعت إليه سبيلًا.",
+      "said_by": {"kind": "prophet", "name_in_text": "رسول الله"},
+      "basis": "explicit",
+      "evidence": [{"piece": "p02", "quote": "الإسلام أن تشهد أن لا إله إلا الله وأن محمدا رسول الله وتقيم الصلاة وتؤتي الزكاة وتصوم رمضان وتحج البيت إن استطعت إليه سبيلا"}]
+    },
+    {
+      "type": "belief",
+      "statement": "الإيمان: أن تؤمن بالله وملائكته وكتبه ورسله واليوم الآخر، وتؤمن بالقدر خيره وشره.",
+      "said_by": {"kind": "prophet", "name_in_text": "رسول الله"},
+      "basis": "explicit",
+      "evidence": [{"piece": "p02", "quote": "أن تؤمن بالله وملائكته وكتبه ورسله واليوم الآخر وتؤمن بالقدر خيره وشره"}]
+    },
+    {
+      "type": "worship",
+      "statement": "الإحسان: أن تعبد الله كأنك تراه، فإن لم تكن تراه فإنه يراك.",
+      "said_by": {"kind": "prophet", "name_in_text": "رسول الله"},
+      "basis": "explicit",
+      "evidence": [{"piece": "p02", "quote": "أن تعبد الله كأنك تراه فإن لم تكن تراه فإنه يراك"}]
+    },
+    {
+      "type": "belief",
+      "statement": "وقت الساعة لا يعلمه المسؤول عنه أكثر من السائل.",
+      "said_by": {"kind": "prophet", "name_in_text": "رسول الله"},
+      "basis": "explicit",
+      "evidence": [{"piece": "p02", "quote": "ما المسؤول عنها بأعلم من السائل"}]
+    },
+    {
+      "type": "belief",
+      "statement": "من علامات الساعة أن تلد الأمة سيدتها، وأن يتطاول الفقراء الحفاة العراة رعاة الغنم في البنيان.",
+      "said_by": {"kind": "prophet", "name_in_text": "رسول الله"},
+      "basis": "explicit",
+      "evidence": [{"piece": "p02", "quote": "أن تلد الأمة ربتها وأن ترى الحفاة العراة العالة رعاء الشاء يتطاولون في البنيان"}]
+    },
+    {
+      "type": "word_meaning",
+      "statement": "«أماراتها» أي علاماتها، و«ربتها» أي سيدتها، و«العالة» أي الفقراء.",
+      "said_by": {"kind": "editor"},
+      "basis": "explicit",
+      "evidence": [{"piece": "p04", "quote": "أماراتها أي علاماتها قوله ربتها أي سيدتها قوله العالة أي الفقراء"}]
+    }
+  ]
+}

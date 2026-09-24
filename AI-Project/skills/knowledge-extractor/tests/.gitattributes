@@ -1,0 +1,4 @@
+# Test inputs and snapshots must stay byte-exact (offsets depend on every byte).
+fixtures/** -text
+expected/** -text
+cases.json -text

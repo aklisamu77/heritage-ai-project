@@ -1,0 +1,4717 @@
+{
+  "units": [
+    {
+      "id": "unit_001",
+      "type": "hadith",
+      "ordinal": 1,
+      "number_raw": null,
+      "title": "لا عمل إلا بنية",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 1128,
+        "char_end": 1928,
+        "page_start": 3,
+        "page_end": 4
+      },
+      "raw_text": "عن\nالخطاب - رضي\nالله\nالله الرحمن الرحيم\nلا عمل إلا بنية\nالمؤمِنِين أَبِي حَفْصٍ عُمَرَ بنِ\nلله\nالله تعالى عنه - قال : سَمِعْتُ رَسُولَ\nيقولُ : « إِنَّمَا الْأَعْمَالُ بالنِّيَّاتِ ، وإِنَّما لِكُلِّ\nامْرِيُّ ما نَوَى . فَمَنْ كانَتْ هِجْرَتُهُ إلى الله ورَسُولِه ؛\nفَهَجْرَتُهُ إلى الله ورَسُولِهِ ، ومَنْ كانَتْ هِجْرَتُهُ لِدُنْيَا\nيُصِيبُهَا أَو امْرَأَةِ يَنْكِحُهَا ، فَهَجْرَتُهُ إِلَى مَا هَاجَرَ إِليه ) .\nرواه إماما المُحَدِّثِين : أَبو عَبْد الله محمدُ بنُ إسماعيلَ\nابنُ إِبْراهِيمَ بَن المغيرةِ بنِ بَرْدِزْبَهُ البُخَارِيُّ ، وأَبُو الْحُسَينِ\nمُسْلِمُ بنُ الحَجاج بن مُسْلِم القُشَيرِيُّ النَّيسابوري في\nصَحِيحَيهما اللذين هُمَا أَصَحُ الكُتُب المُصَنَّفَةِ (١)\n(1) أخرجه البخاري في بدء الوحي (۱) ومسلم في الإمارة (١٥٥)\nقوله : ( النيات ( أي القصد وعزم القلب على الفعلM\nالأربعين النووية\n-",
+      "segments": [
+        {
+          "role": "hadith_text",
+          "char_start": 1128,
+          "char_end": 1148,
+          "placement": "in_span",
+          "page_index": 3,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 1168,
+          "char_end": 1183,
+          "placement": "in_span",
+          "page_index": 3,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 1184,
+          "char_end": 1541,
+          "placement": "in_span",
+          "page_index": 3,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 1542,
+          "char_end": 1798,
+          "placement": "in_span",
+          "page_index": 3,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 1799,
+          "char_end": 1802,
+          "marker": "(١)",
+          "footnote_id": "fn_001",
+          "placement": "in_span",
+          "page_index": 3,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 1803,
+          "char_end": 1860,
+          "footnote_id": "fn_001",
+          "footnote_marker": "(1) أخرجه البخاري في بدء الوحي (۱) ومسلم في الإمارة (١٥٥)",
+          "placement": "in_span",
+          "page_index": 3,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 1861,
+          "char_end": 1908,
+          "footnote_id": "fn_001",
+          "footnote_marker": "(1) أخرجه البخاري في بدء الوحي (۱) ومسلم في الإمارة (١٥٥)",
+          "placement": "in_span",
+          "page_index": 3,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0003"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0004"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0005"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0006"
+        }
+      ],
+      "foreign_spans": [],
+      "issue_ids": [
+        "issue_007",
+        "issue_008",
+        "issue_010",
+        "issue_011",
+        "issue_012"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "unit_002",
+      "type": "hadith",
+      "ordinal": 2,
+      "number_raw": "۲",
+      "title": "مراتب الدين",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 1929,
+        "char_end": 3376,
+        "page_start": 4,
+        "page_end": 5
+      },
+      "raw_text": "مراتب الدين\nالإسلام والإيمان والإحسان\n۲ - عَن عُمَر له أَيضًا قَال : بَينَمَا نَحْنُ جُلُوسٌ\nعِنْدَ رَسُول الله ﷺ ذاتَ يومٍ إِذ طَلَعَ عَلَينا رَجُلٌ شَدِيدُ\nبَياضِ الثّيابِ شَدِيدُ سَوَادِ الشَّعْرِ ، لا يُرى عليه أثر\nالسَّفَرِ ، وَلا يَعْرِفُهُ مِنَّا أَحَدٌ ، حتى جَلَسَ إلى النبي ﷺ\nفأسند رُكبتيه إلى ركبتيه ووضعَ كَفَّيه على فَخِذَيهِ\nوقال : يا محمد ، أَخْبِرْنِي عَن الإسلام ، فقال رَسُولُ\nالله\nﷺ : « الإِسْلامُ أَنْ تَشْهَدَ أَنْ لا إِلَهَ إِلا اللَّه وأَنَّ\nمحمَّدًا رسولُ الله ، وتقيمَ الصَّلاةَ ، وتُؤْتِي الزَّكَاةَ ،\nوتَصُومَ رَمَضَانَ ، وتَحُجَّ البَيتَ إِن اسْتَطَعْتَ إليه سَبِيلًا )\nقالَ : صَدَقْتَ ، فَعَجِبْنَا لَهُ يَسْأَلُهُ ويُصَدِّقُهُ . قال :\nفَأَخْبِرْنِي عَنِ الإيمان . قال : « أَنْ تُؤْمِنَ بالله ،\nومَلائِكَتِه ، وكُتُبِهِ ، ورُسُلِه ، واليوم الآخِرِ ، وتُؤمِنَ بالقَدَرِ\nخَيرِهِ وشَرِّهِ » قال : صَدَقْتَ . قال : فَأَخْبِرْنِي عَنِ\nالإِحْسَانِ . قال : « أَنْ تَعْبُدَ اللَّهَ كَأَنَّكَ تَرَاهُ ، فَإِن لَمْأركان الإسلام\nتَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ ، قال : فَأَخْبِرْنِي عَنِ السَّاعَةِ .\n» :\nقال : « ما المَسْؤُولُ عنها بأَعْلَمَ مِنَ السَّائِل » قال :\nفأَخْبِرْنِي عَنْ أَمَارَتِها . قال : « أَنْ تَلِدَ الأَمَةُ رَبَّتَها ، وأَنْ\nتَرَى الحُفَاةَ العُرَاةَ العالَةَ رعاءَ الشَّاءِ يَتَطَاوَلُونَ في\nالبنيان» ثُمَّ انْطَلَقَ فَلَبِثْتُ مَلِيًّا ، ثم قال : ( يا عُمَرُ ،\nأَتَدْرِي مَن السَّائِلُ ؟ « قُلْتُ : الله ورسولُهُ أَعلَمُ . قال :\n«\nفإِنَّهُ جِبْرِيلُ أَتَاكُمْ يُعَلِّمُكُمْ دِينَكُمْ\n.\n((\n[رواه مسلم]\n(1)\n-",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 1929,
+          "char_end": 1940,
+          "placement": "in_span",
+          "page_index": 4,
+          "confidence": 0.95
+        },
+        {
+          "role": "subtitle",
+          "char_start": 1941,
+          "char_end": 1966,
+          "placement": "in_span",
+          "page_index": 4,
+          "confidence": 0.9
+        },
+        {
+          "role": "number",
+          "char_start": 1967,
+          "char_end": 1970,
+          "placement": "in_span",
+          "page_index": 4,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 1971,
+          "char_end": 2862,
+          "placement": "in_span",
+          "page_index": 4,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 2876,
+          "char_end": 3358,
+          "placement": "in_span",
+          "page_index": 5,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 3359,
+          "char_end": 3370,
+          "placement": "in_span",
+          "page_index": 5,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 3371,
+          "char_end": 3374,
+          "marker": "(1)",
+          "footnote_id": "fn_002",
+          "placement": "in_span",
+          "page_index": 5,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 3700,
+          "char_end": 3729,
+          "footnote_id": "fn_002",
+          "footnote_marker": "(1) أخرجه مسلم في الإيمان (۱) قوله : ( أماراتها » أي علاماتها ، قوله :",
+          "placement": "displaced",
+          "page_index": 5,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 3730,
+          "char_end": 3855,
+          "footnote_id": "fn_002",
+          "footnote_marker": "(1) أخرجه مسلم في الإيمان (۱) قوله : ( أماراتها » أي علاماتها ، قوله :",
+          "placement": "displaced",
+          "page_index": 5,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0007"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0008"
+        }
+      ],
+      "foreign_spans": [],
+      "issue_ids": [
+        "issue_003",
+        "issue_009",
+        "issue_012"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_003",
+      "type": "hadith",
+      "ordinal": 3,
+      "number_raw": null,
+      "title": "أركان الإسلام",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 3377,
+        "char_end": 3919,
+        "page_start": 5,
+        "page_end": 5
+      },
+      "raw_text": "أركان الإسلام\nعَبدِ الرَّحمن\n-\nعبد الله\nالله\nبن عُمَرَ\nبن\nالخطاب - رضي الله تعالى عنهما – قال : سَمِعْتُ رَسُولَ\nالله يقول : ( بني الإِسْلَامُ عَلَى خَمْسٍ : شَهَادَةِ أَنْ لَا إِلَهَ\nإلا الله وأَنَّ محمَّدًا رسولُ اللهِ ، وإقام الصَّلَاةِ ، وإيتاء الزكاةِ ،\n)\nوحَجِّ البَيتِ ، وصوم رَمَضَانَ ) [ رواه البخاري ومسلم]\n•\n(۲)\n(1) أخرجه مسلم في الإيمان (۱) قوله : ( أماراتها » أي علاماتها ، قوله :\nربتها ، أي سيدتها ، قوله : « العالة ) أي الفقراء ، قوله : ( مليا أي زمنا طويلا .\n»\n)\n(٢) أخرجه البخاري في الإيمان (۷) ومسلم في الإيمان (۲۱)\n.رضي\n-\n٤",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 3377,
+          "char_end": 3390,
+          "placement": "in_span",
+          "page_index": 5,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 3391,
+          "char_end": 3405,
+          "placement": "in_span",
+          "page_index": 5,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 3408,
+          "char_end": 3671,
+          "placement": "in_span",
+          "page_index": 5,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 3672,
+          "char_end": 3693,
+          "placement": "in_span",
+          "page_index": 5,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 3696,
+          "char_end": 3699,
+          "marker": "(۲)",
+          "footnote_id": "fn_003",
+          "placement": "in_span",
+          "page_index": 5,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 3856,
+          "char_end": 3910,
+          "footnote_id": "fn_003",
+          "footnote_marker": "(٢) أخرجه البخاري في الإيمان (۷) ومسلم في الإيمان (۲۱)",
+          "placement": "in_span",
+          "page_index": 5,
+          "confidence": 0.8
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 3911,
+          "char_end": 3915,
+          "placement": "in_span",
+          "page_index": 5,
+          "confidence": 0.85
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0009"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0010"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0011"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 3700,
+          "char_end": 3729,
+          "belongs_to": "unit_002"
+        },
+        {
+          "char_start": 3730,
+          "char_end": 3855,
+          "belongs_to": "unit_002"
+        },
+        {
+          "char_start": 3918,
+          "char_end": 3919,
+          "belongs_to": "unit_004"
+        }
+      ],
+      "issue_ids": [
+        "issue_012",
+        "issue_018"
+      ],
+      "confidence": 0.77
+    },
+    {
+      "id": "unit_004",
+      "type": "hadith",
+      "ordinal": 4,
+      "number_raw": "٤",
+      "title": "الخلق والأجل والرزق",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 3920,
+        "char_end": 4969,
+        "page_start": 6,
+        "page_end": 7
+      },
+      "raw_text": "الخلق والأجل والرزق\n-\nالأربعين النووية\nبن مسعود\nعن أَبي عَبدِ الرحمن عبدِ الله\nالله تعالى\nتعالى عنه قال : حدَّثَنَا رسول الله\nوهُوَ الصَّادِقُ المَصْدُوق : « إِنَّ أَحَدَكُمْ يُجْمَعُ خَلْقُهُ في\nبَطْن أُمِّهِ أَرْبَعِينَ يومًا نُطْفَةً ، ثُمَّ يَكُونُ عَلَقَةً مِثْلَ ذَلِكَ ، ثُمَّ\nيَكُون مُضْغَةً مِثْلَ ذلك ، ثُمَّ يُرْسَلُ إِليه المَلَكُ فَيَنْفُخُ فِيه\nالرُّوحَ ، ويُؤمَرُ بأَرْبَعِ كَلِمَاتِ : بِكَتب رزْقِهِ ، وأَجَلِهِ ،\nوعَمَلِهِ ، وشَقِيٌّ أَو سَعِيدٌ . فَوَاللَّهِ الَّذِي لَا إِلَهَ غَيْرُهُ إِنَّ\nأَحَدَكُمْ لَيَعْمَلُ بِعَمَل أَهْل الجنةِ ، حتى مَا يَكُونَ بَينَهُ وبَينَهَا\nإلا ذِراعٌ ، فَيَسْبِقُ عليه الكتَابُ ، فَيَعْمَلُ بِعَمَل أَهْلِ النَّارِ\nفَيَدْخُلها . وإِنَّ أَحَدَكُمْ لَيَعْمَلُ بِعَمَل أَهْلِ النَّارِ ، حتى ما\nيَكُونَ بَينَهُ وبَينَهَا إِلَّا ذِرَاعٌ ، فَيَسْبِقُ عليه الْكِتَابُ ، فَيَعْمَلُ\nبِعَمَلِ أَهْلِ الجنةِ فَيَدْخُلَهَا » . [ رَوَاهُ البُخَارِيُّ ومسلم]\n(1)\n(1) أخرجه البخاري في بدء الخلق (٢٩٦٩) ومسلم في القدر (١)\nقوله : « علقة » هي قطعة صغيرة من دم متجمد ، قوله : « مضغة )\nقطعة صغيرة من لحم\n.الورع والإخلاص",
+      "segments": [
+        {
+          "role": "number",
+          "char_start": 3918,
+          "char_end": 3919,
+          "placement": "displaced",
+          "page_index": 5,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 3920,
+          "char_end": 3939,
+          "placement": "in_span",
+          "page_index": 6,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 3959,
+          "char_end": 4784,
+          "placement": "in_span",
+          "page_index": 6,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 4785,
+          "char_end": 4814,
+          "placement": "in_span",
+          "page_index": 6,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 4815,
+          "char_end": 4818,
+          "marker": "(1)",
+          "footnote_id": "fn_004",
+          "placement": "in_span",
+          "page_index": 6,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 4819,
+          "char_end": 4875,
+          "footnote_id": "fn_004",
+          "footnote_marker": "(1) أخرجه البخاري في بدء الخلق (٢٩٦٩) ومسلم في القدر (١)",
+          "placement": "in_span",
+          "page_index": 6,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 4876,
+          "char_end": 4953,
+          "footnote_id": "fn_004",
+          "footnote_marker": "(1) أخرجه البخاري في بدء الخلق (٢٩٦٩) ومسلم في القدر (١)",
+          "placement": "in_span",
+          "page_index": 6,
+          "confidence": 0.75
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 4954,
+          "char_end": 4955,
+          "placement": "in_span",
+          "page_index": 7,
+          "confidence": 0.85
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0012"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0013"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0014"
+        }
+      ],
+      "foreign_spans": [],
+      "issue_ids": [
+        "issue_001",
+        "issue_009",
+        "issue_011",
+        "issue_012",
+        "issue_018"
+      ],
+      "confidence": 0.77
+    },
+    {
+      "id": "unit_005",
+      "type": "hadith",
+      "ordinal": 5,
+      "number_raw": "٥",
+      "title": "إنكار البدع",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 4970,
+        "char_end": 5285,
+        "page_start": 7,
+        "page_end": 7
+      },
+      "raw_text": "إنكار البدع\n٥- عَنْ أُمَّ المُؤْمِنِينَ أُمَّ عَبدِ اللَّه عَائِشَةَ - رضي الله تعالى\nعنها - قالت : قال رسول الله\nﷺ : ( مَنْ أَحْدَثَ فِي أَمْرِنا\n«\nهذا ما لَيسَ منه فَهُوَ رَدُّ » . [ رَواهُ البُخَارِيُّ ومُسْلِمٌ ] (۱) . وفي\nرِوَايَةٍ  ِلمُسْلِم : ( مَنْ عَمِلَ عَمَلًا لَيسَ عَليهِ أَمْرُنَا فَهُوَ رَدُّ » (۲)\n-",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 4970,
+          "char_end": 4981,
+          "placement": "in_span",
+          "page_index": 7,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 4982,
+          "char_end": 4984,
+          "placement": "in_span",
+          "page_index": 7,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 4985,
+          "char_end": 5152,
+          "placement": "in_span",
+          "page_index": 7,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 5153,
+          "char_end": 5186,
+          "placement": "in_span",
+          "page_index": 7,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 5187,
+          "char_end": 5190,
+          "marker": "(۱)",
+          "footnote_id": "fn_005",
+          "placement": "in_span",
+          "page_index": 7,
+          "confidence": 0.8
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 5191,
+          "char_end": 5279,
+          "placement": "in_span",
+          "page_index": 7,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 5280,
+          "char_end": 5283,
+          "marker": "(۲)",
+          "footnote_id": "fn_006",
+          "placement": "in_span",
+          "page_index": 7,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 5684,
+          "char_end": 5741,
+          "footnote_id": "fn_005",
+          "footnote_marker": "(1) أخرجه البخاري في الصلح (٢٤۹۹) ومسلم في الأقضية (١٧) ،",
+          "placement": "displaced",
+          "page_index": 7,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 5742,
+          "char_end": 5802,
+          "footnote_id": "fn_005",
+          "footnote_marker": "(1) أخرجه البخاري في الصلح (٢٤۹۹) ومسلم في الأقضية (١٧) ،",
+          "placement": "displaced",
+          "page_index": 7,
+          "confidence": 0.75
+        },
+        {
+          "role": "takhrij",
+          "char_start": 5803,
+          "char_end": 5833,
+          "footnote_id": "fn_006",
+          "footnote_marker": "(٢) أخرجه مسلم في الأقضية (۱۸)الأربعين النووية",
+          "placement": "displaced",
+          "page_index": 7,
+          "confidence": 0.8
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0015"
+        }
+      ],
+      "foreign_spans": [],
+      "issue_ids": [
+        "issue_003",
+        "issue_012",
+        "issue_018"
+      ],
+      "confidence": 0.77
+    },
+    {
+      "id": "unit_006",
+      "type": "hadith",
+      "ordinal": 6,
+      "number_raw": "٦",
+      "title": "الورع والإخلاص",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 5286,
+        "char_end": 6126,
+        "page_start": 7,
+        "page_end": 8
+      },
+      "raw_text": "الورع والإخلاص\nالله\n٦ - عن أَبي عَبدِ اللَّهِ النُّعْمَانِ بنِ بَشِيرٍ – رضي\nتعالى عنهما - قالَ : سَمِعْتُ رسول الله من يقول :\n«إِنَّ الخَلَالَ بَيِّن وإِنَّ الحَرَامَ بَيِّن ، وبينهما أمُورٌ\nمُشْتَبِهَاتٌ لا يَعْلَمُهنَّ كَثِيرٌ مِنَ النَّاسِ ، فَمَن اتَّقَى\nالشُّبُهَاتِ فَقَدِ اسْتَبْرَأَ لِدِينه وعِرْضِهِ ، وَمَنْ وَقَعَ فِي\nالشُّبُهَاتِ وَقَعَ في الحَرَام ، كالرَّاعِي يَرْعَى حَولَ الْحِمَى\n(1) أخرجه البخاري في الصلح (٢٤۹۹) ومسلم في الأقضية (١٧) ،\nقوله : أحدث » أي ابتدع ، قوله : « رد » أي باطل مردود عليه\n((\n(٢) أخرجه مسلم في الأقضية (۱۸)الأربعين النووية\nيُوشِكُ أَنْ يَرْتَعَ فِيهِ ، أَلا وإِن لِكُلِّ مَلِكِ حِمَى ، أَلَا وَإِنَّ\nاللَّهِ مَحَارِمُهُ\nمَحَارِمُهُ ، أَلا وإن في الجَسَدِ مُضْغَةً ، إذا\n،\nصَلَحَتْ صَلَحَ الجَسَدُ كلُّهُ ، وإِذا فَسَدَتْ فَسَدَ الجَسَدُ\nحِمَى\nكله : أَلا وهي القَلْبُ ) [رواه البخارِيُّ ومُسْلِمٌ ]\n•",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 5286,
+          "char_end": 5300,
+          "placement": "in_span",
+          "page_index": 7,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 5301,
+          "char_end": 5305,
+          "placement": "in_span",
+          "page_index": 7,
+          "confidence": 0.85
+        },
+        {
+          "role": "number",
+          "char_start": 5306,
+          "char_end": 5309,
+          "placement": "in_span",
+          "page_index": 7,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 5310,
+          "char_end": 5683,
+          "placement": "in_span",
+          "page_index": 7,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 5850,
+          "char_end": 6095,
+          "placement": "in_span",
+          "page_index": 8,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 6096,
+          "char_end": 6124,
+          "placement": "in_span",
+          "page_index": 8,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 6149,
+          "char_end": 6152,
+          "marker": "(1)",
+          "footnote_id": "fn_007",
+          "placement": "displaced",
+          "page_index": 8,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 6516,
+          "char_end": 6573,
+          "footnote_id": "fn_007",
+          "footnote_marker": "(1) أخرجه البخاري في الإيمان (٥۰) ومسلم في المساقاة (۱۰۷) قوله :",
+          "placement": "displaced",
+          "page_index": 8,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 6574,
+          "char_end": 6648,
+          "footnote_id": "fn_007",
+          "footnote_marker": "(1) أخرجه البخاري في الإيمان (٥۰) ومسلم في المساقاة (۱۰۷) قوله :",
+          "placement": "displaced",
+          "page_index": 8,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0016"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0017"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 5684,
+          "char_end": 5741,
+          "belongs_to": "unit_005"
+        },
+        {
+          "char_start": 5742,
+          "char_end": 5802,
+          "belongs_to": "unit_005"
+        },
+        {
+          "char_start": 5803,
+          "char_end": 5833,
+          "belongs_to": "unit_005"
+        }
+      ],
+      "issue_ids": [
+        "issue_003",
+        "issue_005",
+        "issue_011",
+        "issue_012"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_007",
+      "type": "hadith",
+      "ordinal": 7,
+      "number_raw": "۷",
+      "title": "النصح من أصول الإسلام",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 6127,
+        "char_end": 6390,
+        "page_start": 8,
+        "page_end": 8
+      },
+      "raw_text": "النصح من أصول الإسلام\n(1)\n۷ - عن أَبي رُقَيَّةً تميم بن أوس الدَّارِيِّ - رَضِيَ\nالله تعالى\nعنه\nأَنَّ\nالنَّبي قال : « الدِّينُ\nالنَّصِيحَةُ » . قُلْنَا : لَمَنْ ؟ قال : « لله ، ولكتابه ،\nولِرَسُولِهِ ، وَلأئمة المُسْلِمِينَ وَعامَّتِهِم » . [ رَوَاهُ مُسْلِمٌ ]\n-",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 6127,
+          "char_end": 6148,
+          "placement": "in_span",
+          "page_index": 8,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 6153,
+          "char_end": 6156,
+          "placement": "in_span",
+          "page_index": 8,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 6157,
+          "char_end": 6367,
+          "placement": "in_span",
+          "page_index": 8,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 6368,
+          "char_end": 6388,
+          "placement": "in_span",
+          "page_index": 8,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 6412,
+          "char_end": 6415,
+          "marker": "(۲)",
+          "footnote_id": "fn_008",
+          "placement": "displaced",
+          "page_index": 8,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 6649,
+          "char_end": 6679,
+          "footnote_id": "fn_008",
+          "footnote_marker": "(٢) أخرجه مسلم في الإيمان (٩٥)الكسب الحلال سبب إجابة الدعاء .",
+          "placement": "displaced",
+          "page_index": 8,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 6709,
+          "char_end": 6710,
+          "footnote_id": "fn_008",
+          "footnote_marker": "(٢) أخرجه مسلم في الإيمان (٩٥)الكسب الحلال سبب إجابة الدعاء .",
+          "placement": "displaced",
+          "page_index": 9,
+          "confidence": 0.8
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0018"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 6149,
+          "char_end": 6152,
+          "belongs_to": "unit_006"
+        }
+      ],
+      "issue_ids": [
+        "issue_003",
+        "issue_005",
+        "issue_012"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_008",
+      "type": "hadith",
+      "ordinal": 8,
+      "number_raw": null,
+      "title": "حرمة دم المسلم وماله",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 6391,
+        "char_end": 6969,
+        "page_start": 8,
+        "page_end": 9
+      },
+      "raw_text": "حرمة دم المسلم وماله\n(۲)\n: أن\nعن ابن عُمَرَ - رضي الله تعالى عنهما - :\nرسول الله قال : « أُمِرْتُ أَنْ أُقاتِلَ النَّاسَ حتى\n(1) أخرجه البخاري في الإيمان (٥۰) ومسلم في المساقاة (۱۰۷) قوله :\nالحمى ) أي الأرض التي يُمنع عليه دخولها ، قوله : « يرتع » أي يدخل .\n(٢) أخرجه مسلم في الإيمان (٩٥)الكسب الحلال سبب إجابة الدعاء .\nيَشْهَدُوا أَنْ لا إلَهَ إِلَّا اللهُ وأَنَّ مُحَمَّدًا رسولُ الله ،\nويقيموا الصَّلَاة ، ويُؤتُوا الزَّكَاةَ ، فَإِذَا فَعَلُوا ذلك\nعَصَمُوا مِنِّى دِمَاءَهُمْ وَأَمْوَالَهُمْ إِلَّا بِحَقِّ الإسلام\nوَحِسَابُهُمْ على الله تعالى » [رواه البخارِيُّ ومُسْلِمٌ ]",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 6391,
+          "char_end": 6411,
+          "placement": "in_span",
+          "page_index": 8,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 6416,
+          "char_end": 6515,
+          "placement": "in_span",
+          "page_index": 8,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 6711,
+          "char_end": 6940,
+          "placement": "in_span",
+          "page_index": 9,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 6941,
+          "char_end": 6969,
+          "placement": "in_span",
+          "page_index": 9,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 7001,
+          "char_end": 7004,
+          "marker": "(1)",
+          "footnote_id": "fn_009",
+          "placement": "displaced",
+          "page_index": 9,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 7423,
+          "char_end": 7478,
+          "footnote_id": "fn_009",
+          "footnote_marker": "(1) أخرجه البخاري في الإيمان (٢٤) ومسلم في الإيمان (٣٤)",
+          "placement": "displaced",
+          "page_index": 9,
+          "confidence": 0.8
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0019"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 6412,
+          "char_end": 6415,
+          "belongs_to": "unit_007"
+        },
+        {
+          "char_start": 6516,
+          "char_end": 6573,
+          "belongs_to": "unit_006"
+        },
+        {
+          "char_start": 6574,
+          "char_end": 6648,
+          "belongs_to": "unit_006"
+        },
+        {
+          "char_start": 6649,
+          "char_end": 6679,
+          "belongs_to": "unit_007"
+        },
+        {
+          "char_start": 6709,
+          "char_end": 6710,
+          "belongs_to": "unit_007"
+        }
+      ],
+      "issue_ids": [
+        "issue_003",
+        "issue_005",
+        "issue_009"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_009",
+      "type": "hadith",
+      "ordinal": 9,
+      "number_raw": "۹",
+      "title": "الطاعة وعدم التعنت سبيل النجاة",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 6970,
+        "char_end": 7340,
+        "page_start": 9,
+        "page_end": 9
+      },
+      "raw_text": "الطاعة وعدم التعنت سبيل النجاة\n(1)\n۹ - عن أَبي هُرَيرَةَ عَبْدِ الرحمن بنِ صَخْرٍ – رضي\n-\nالله تعالى عنه\nقال : سَمِعْتُ رسول الله ﷺ يَقُولُ :\n« ما نَهَيتَكُمْ عنه فاجْتَنِبُوه ، وما أَمَرْتُكُمْ به فأتُوا منه ما\nاسْتَطَعْتُمْ ، فَإِنَّمَا أَهْلَكَ الَّذِينَ مِنْ قَبْلِكُمْ كَثْرَةُ مَسَائِلِهِمْ\nواخْتِلافُهُم على أَنْبِيَائِهِمْ » [رَوَاهُ البُخَارِيُّ ومُسْلِمٌ ]\n(۲)",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 6970,
+          "char_end": 7000,
+          "placement": "in_span",
+          "page_index": 9,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 7005,
+          "char_end": 7008,
+          "placement": "in_span",
+          "page_index": 9,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 7009,
+          "char_end": 7057,
+          "placement": "in_span",
+          "page_index": 9,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 7060,
+          "char_end": 7302,
+          "placement": "in_span",
+          "page_index": 9,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 7303,
+          "char_end": 7336,
+          "placement": "in_span",
+          "page_index": 9,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 7337,
+          "char_end": 7340,
+          "marker": "(۲)",
+          "footnote_id": "fn_010",
+          "placement": "in_span",
+          "page_index": 9,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 7479,
+          "char_end": 7582,
+          "footnote_id": "fn_010",
+          "footnote_marker": "(٢) أخرجه مسلم في الفضائل (۱۳۰) بلفظه إلا أنه قال : « فافعلوا",
+          "placement": "displaced",
+          "page_index": 9,
+          "confidence": 0.8
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0020"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 7001,
+          "char_end": 7004,
+          "belongs_to": "unit_008"
+        }
+      ],
+      "issue_ids": [
+        "issue_003",
+        "issue_012"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_010",
+      "type": "hadith",
+      "ordinal": 10,
+      "number_raw": null,
+      "title": "الكسب الحلال سبب إجابة الدعاء",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 7341,
+        "char_end": 8213,
+        "page_start": 9,
+        "page_end": 10
+      },
+      "raw_text": "الكسب الحلال سبب إجابة الدعاء\n-\n-\nاللَّهُ\nعن\nأَبِي هُرَيْرَةَ – رضي تعالى عنه\n•\n-\n(1) أخرجه البخاري في الإيمان (٢٤) ومسلم في الإيمان (٣٤)\n(٢) أخرجه مسلم في الفضائل (۱۳۰) بلفظه إلا أنه قال : « فافعلوا\nمنه » والبخاري في الاعتصام (٦٧٤٤) بنحوه .الأربعين النووية\nقال : قال رسول الله : « إِنَّ الله تعالى طَيْبٌ لا\nيَقْبَلُ إِلَّا طَيِّبًا ، وَإِنَّ اللَّهَ أَمَرَ الْمُؤْمِنِينَ بمَا أَمَرَ به\nالمُرْسَلِينَ ، فقال تعالى : ﴿ يَأَيُّهَا الرُّسُلُ كُلُوا مِنَ الطَّيِّبَاتِ\nوَاعْمَلُواْ صَلِحَا ﴾ [المؤمنون : ٥١] . وقال تعالى : يَتَأَيُّهَا\nالَّذِينَ ءَامَنُوا كُلُوا مِن طَيِّبَاتِ مَا رَزَقْنَاكُمْ\n[البقرة : ۱۷۲) . ثُمَّ ذَكَرَ الرَّجُلَ يُطِيلُ السَّفَرَ أَشْعَثَ\nأَغْبَرَ ، يَمُدُّ يَدَيهِ إِلى السماءِ يَارَبُّ ، يَارَبُّ ، ومَطْعَمُهُ\nحَرَامٌ ، ومَشْرَبُهُ حَرَامٌ ، ومَلْبَسُهُ حَرَامٌ ، وغُذِيَ بِالْحَرَامِ ،\nفأَنَّى يُسْتَجَابُ لَهُ ؟! » . [ رَواهُ مُسْلِمٌ ]\n۱۱\n-\n(1)",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 7341,
+          "char_end": 7370,
+          "placement": "in_span",
+          "page_index": 9,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 7375,
+          "char_end": 7418,
+          "placement": "in_span",
+          "page_index": 9,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 7599,
+          "char_end": 8184,
+          "placement": "in_span",
+          "page_index": 10,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 8185,
+          "char_end": 8204,
+          "placement": "in_span",
+          "page_index": 10,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 8210,
+          "char_end": 8213,
+          "marker": "(1)",
+          "footnote_id": "fn_011",
+          "placement": "in_span",
+          "page_index": 10,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 8347,
+          "char_end": 8376,
+          "footnote_id": "fn_011",
+          "footnote_marker": "(1) أخرجه مسلم في الزكاة (٦٥) قوله : « أشعث » الذي يكون",
+          "placement": "displaced",
+          "page_index": 10,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 8377,
+          "char_end": 8423,
+          "footnote_id": "fn_011",
+          "footnote_marker": "(1) أخرجه مسلم في الزكاة (٦٥) قوله : « أشعث » الذي يكون",
+          "placement": "displaced",
+          "page_index": 10,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0021"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0022"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0023"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0024"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 7423,
+          "char_end": 7478,
+          "belongs_to": "unit_008"
+        },
+        {
+          "char_start": 7479,
+          "char_end": 7582,
+          "belongs_to": "unit_009"
+        },
+        {
+          "char_start": 8205,
+          "char_end": 8207,
+          "belongs_to": "unit_011"
+        }
+      ],
+      "issue_ids": [
+        "issue_003",
+        "issue_011",
+        "issue_012"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_011",
+      "type": "hadith",
+      "ordinal": 11,
+      "number_raw": "۱۱",
+      "title": "البعد عن الشبهات",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 8214,
+        "char_end": 8554,
+        "page_start": 10,
+        "page_end": 11
+      },
+      "raw_text": "البعد عن الشبهات\nعن محمد الحسنِ بنِ\nعَلِيٌّ\nطالب - سبط رسول الله وريحانيه - رضي الله\nتعالى عنهما - قال : حَفِظْتُ مِنْ رسول الله ﷺ :\n(1) أخرجه مسلم في الزكاة (٦٥) قوله : « أشعث » الذي يكون\nشعره مغبرا وغير ممشطأخوة الإيمان والإسلام\n) دَعْ ما يَريبُك إلى ما لا يَريبُكَ ) . ( رواه الترمذي والنسائي ،\nوقال الترمذي : حديثٌ حَسَنٌ صَحِيحٌ ]\n۱۲\n-",
+      "segments": [
+        {
+          "role": "number",
+          "char_start": 8205,
+          "char_end": 8207,
+          "placement": "displaced",
+          "page_index": 10,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 8214,
+          "char_end": 8230,
+          "placement": "in_span",
+          "page_index": 10,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 8231,
+          "char_end": 8346,
+          "placement": "in_span",
+          "page_index": 10,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 8445,
+          "char_end": 8485,
+          "placement": "in_span",
+          "page_index": 11,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 8486,
+          "char_end": 8549,
+          "placement": "in_span",
+          "page_index": 11,
+          "confidence": 0.85
+        },
+        {
+          "role": "takhrij",
+          "char_start": 8976,
+          "char_end": 9039,
+          "footnote_id": "fn_012",
+          "footnote_marker": "(1) أخرجه الترمذي صفة القيامة (٢٤٤٢) والنسائي في الأشربة",
+          "placement": "displaced",
+          "page_index": 11,
+          "confidence": 0.65
+        },
+        {
+          "role": "gharib",
+          "char_start": 9040,
+          "char_end": 9073,
+          "footnote_id": "fn_012",
+          "footnote_marker": "(1) أخرجه الترمذي صفة القيامة (٢٤٤٢) والنسائي في الأشربة",
+          "placement": "displaced",
+          "page_index": 11,
+          "confidence": 0.65
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0025"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0026"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 8347,
+          "char_end": 8376,
+          "belongs_to": "unit_010"
+        },
+        {
+          "char_start": 8377,
+          "char_end": 8423,
+          "belongs_to": "unit_010"
+        },
+        {
+          "char_start": 8550,
+          "char_end": 8552,
+          "belongs_to": "unit_012"
+        }
+      ],
+      "issue_ids": [
+        "issue_001",
+        "issue_003",
+        "issue_004",
+        "issue_009",
+        "issue_012"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "unit_012",
+      "type": "hadith",
+      "ordinal": 12,
+      "number_raw": "۱۲",
+      "title": "الاشتغال بما يُفيد",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 8555,
+        "char_end": 8772,
+        "page_start": 11,
+        "page_end": 11
+      },
+      "raw_text": "الاشتغال بما يُفيد\nالله تعالى\nعن أبي هُرَيرَةً – رضي تعالى عنه\nقال : قال رسولُ اللهِ ﷺ : « مِنْ حُسْنِ إِسْلَامِ المَرْءِ\nتَرْكُهُ ما لا يَعْنِيهِ » . [ حديثٌ حَسَنٌ رَوَاهُ التَّرْمِذِيُّ وغَيْرَهُ هَكَذَا ] (۲)\n۱۳\n-",
+      "segments": [
+        {
+          "role": "number",
+          "char_start": 8550,
+          "char_end": 8552,
+          "placement": "displaced",
+          "page_index": 11,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 8555,
+          "char_end": 8573,
+          "placement": "in_span",
+          "page_index": 11,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 8574,
+          "char_end": 8705,
+          "placement": "in_span",
+          "page_index": 11,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 8706,
+          "char_end": 8763,
+          "placement": "in_span",
+          "page_index": 11,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 8764,
+          "char_end": 8767,
+          "marker": "(۲)",
+          "footnote_id": "fn_013",
+          "placement": "in_span",
+          "page_index": 11,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 9074,
+          "char_end": 9135,
+          "footnote_id": "fn_013",
+          "footnote_marker": "(٢) أخرجه الترمذي في الزهد (۲۲۳۹) وابن ماجه في الفتن (٣٩٦٦) .",
+          "placement": "displaced",
+          "page_index": 11,
+          "confidence": 0.8
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0027"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 8768,
+          "char_end": 8770,
+          "belongs_to": "unit_013"
+        }
+      ],
+      "issue_ids": [
+        "issue_001",
+        "issue_003",
+        "issue_012"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_013",
+      "type": "hadith",
+      "ordinal": 13,
+      "number_raw": "۱۳",
+      "title": "أخوة الإيمان والإسلام",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 8773,
+        "char_end": 9212,
+        "page_start": 11,
+        "page_end": 12
+      },
+      "raw_text": "أخوة الإيمان والإسلام\n-\nالله\nعن حَمْزَةَ أَنس بن مالك – رضِي\nتعالى عنه خادم رسول الله - عن النبي قال :\nلا يُؤْمِنُ أَحَدُكُمْ حتى يُحِبَّ لأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ »\n«\n[ رواه البخاري ومُسْلِمٌ ]\n•\n(1) أخرجه الترمذي صفة القيامة (٢٤٤٢) والنسائي في الأشربة\n(٥٦١٥) قوله : « ما يريبك » أي ما تشك فيه\n(٢) أخرجه الترمذي في الزهد (۲۲۳۹) وابن ماجه في الفتن (٣٩٦٦) .\n(۳) أخرجه البخاري في الإيمان (۱۲) ومسلم في الإيمان (۷۱) .١٤\nالأربعين النووية",
+      "segments": [
+        {
+          "role": "number",
+          "char_start": 8768,
+          "char_end": 8770,
+          "placement": "displaced",
+          "page_index": 11,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 8773,
+          "char_end": 8794,
+          "placement": "in_span",
+          "page_index": 11,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 8797,
+          "char_end": 8946,
+          "placement": "in_span",
+          "page_index": 11,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 8947,
+          "char_end": 8973,
+          "placement": "in_span",
+          "page_index": 11,
+          "confidence": 0.85
+        },
+        {
+          "role": "takhrij",
+          "char_start": 9136,
+          "char_end": 9195,
+          "footnote_id": "fn_014",
+          "footnote_marker": "(۳) أخرجه البخاري في الإيمان (۱۲) ومسلم في الإيمان (۷۱) .١٤",
+          "placement": "in_span",
+          "page_index": 11,
+          "confidence": 0.65
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0028"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0029"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0030"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 8976,
+          "char_end": 9039,
+          "belongs_to": "unit_011"
+        },
+        {
+          "char_start": 9040,
+          "char_end": 9073,
+          "belongs_to": "unit_011"
+        },
+        {
+          "char_start": 9074,
+          "char_end": 9135,
+          "belongs_to": "unit_012"
+        }
+      ],
+      "issue_ids": [
+        "issue_001",
+        "issue_004",
+        "issue_011",
+        "issue_012"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "unit_014",
+      "type": "hadith",
+      "ordinal": 14,
+      "number_raw": null,
+      "title": "حرمة دم المسلم ومتى تهدر ؟",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 9213,
+        "char_end": 9494,
+        "page_start": 12,
+        "page_end": 12
+      },
+      "raw_text": "حرمة دم المسلم ومتى تهدر ؟\n-\nاللَّهُ\nعن ابن مسعودٍ - رَضِي تعالى عنه\n-\nقال : قال رسولُ الله : « لا يَحِلُّ دَمُ امْرِيُّ مُسْلِم\nإِلَّا بِإِحْدَى ثَلَاثِ : الثَّيِّبُ الزَّانِي ، والنَّفْسُ بالنَّفْسِ\nوالتَّارِكُ  ِلدِينِهِ المُفَارِقُ لِلْجَمَاعَةِ » . [رواه البخاري ومُسْلِمٌ ] )",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 9213,
+          "char_end": 9239,
+          "placement": "in_span",
+          "page_index": 12,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 9242,
+          "char_end": 9281,
+          "placement": "in_span",
+          "page_index": 12,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 9284,
+          "char_end": 9466,
+          "placement": "in_span",
+          "page_index": 12,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 9467,
+          "char_end": 9492,
+          "placement": "in_span",
+          "page_index": 12,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 9493,
+          "char_end": 9494,
+          "placement": "in_span",
+          "page_index": 12,
+          "confidence": 0.85
+        },
+        {
+          "role": "takhrij",
+          "char_start": 9839,
+          "char_end": 9960,
+          "footnote_id": "fn_015",
+          "footnote_marker": "(1) أخرجه البخاري في الديات (٦٣٧٠) ومسلم في",
+          "placement": "displaced",
+          "page_index": 12,
+          "confidence": 0.65
+        },
+        {
+          "role": "gharib",
+          "char_start": 9961,
+          "char_end": 9998,
+          "footnote_id": "fn_015",
+          "footnote_marker": "(1) أخرجه البخاري في الديات (٦٣٧٠) ومسلم في",
+          "placement": "displaced",
+          "page_index": 12,
+          "confidence": 0.65
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0031"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0032"
+        }
+      ],
+      "foreign_spans": [],
+      "issue_ids": [
+        "issue_003",
+        "issue_004",
+        "issue_012",
+        "issue_018"
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "unit_015",
+      "type": "hadith",
+      "ordinal": 15,
+      "number_raw": "١٥",
+      "title": "حق الضيف والجار",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 9495,
+        "char_end": 10117,
+        "page_start": 12,
+        "page_end": 13
+      },
+      "raw_text": "حق الضيف والجار\n١٥ - عن أبي هريرةَ – رَضِي الله تعالى عنه - :\nأَنَّ رسول الله قال : ( مَنْ كانَ يُؤْمِنُ بالله واليوم\n«\nالآخِرِ فَلْيقُل خَيْرًا أَو لِيَصْمُتْ ، وَمَنْ كَانَ يُؤْمِنُ بَاللَّهِ\nواليوم الآخِرِ فَلْيُكرم جَارَهُ ، وَمَنْ كَانَ يُؤْمِنُ بَاللَّهِ وَاليَوم\nلآخِر فَلْيُكرِمْ ضَيفَهُ » . [ رواه البخاري ومُسْلِمٌ ]\n(۲)\nالقسامة (٢٥)\n(1) أخرجه البخاري في الديات (٦٣٧٠) ومسلم في\nكلاهما بلفظ ) امرئ مسلم يشهد أن لا إله الله وأني رسول الله إلا\nبإحدى ثلاث » ، قوله : ( الثيب » هي من سبق لها الزواج\n•\n(٢) أخرجه البخاري في الرقاق (٥٩٩٤) ومسلم في الإيمان (٧٥) .\nقوله : « يصمت » أي يسكت عن الكلام .\n•تقوى الله\nوحسن الخلق",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 9495,
+          "char_end": 9510,
+          "placement": "in_span",
+          "page_index": 12,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 9511,
+          "char_end": 9515,
+          "placement": "in_span",
+          "page_index": 12,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 9516,
+          "char_end": 9794,
+          "placement": "in_span",
+          "page_index": 12,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 9795,
+          "char_end": 9821,
+          "placement": "in_span",
+          "page_index": 12,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 9822,
+          "char_end": 9825,
+          "marker": "(۲)",
+          "footnote_id": "fn_016",
+          "placement": "in_span",
+          "page_index": 12,
+          "confidence": 0.8
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 9826,
+          "char_end": 9833,
+          "placement": "in_span",
+          "page_index": 12,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 9834,
+          "char_end": 9838,
+          "marker": "(٢٥)",
+          "placement": "in_span",
+          "page_index": 12,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 10001,
+          "char_end": 10059,
+          "footnote_id": "fn_016",
+          "footnote_marker": "(٢) أخرجه البخاري في الرقاق (٥٩٩٤) ومسلم في الإيمان (٧٥) .",
+          "placement": "in_span",
+          "page_index": 12,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 10060,
+          "char_end": 10097,
+          "footnote_id": "fn_016",
+          "footnote_marker": "(٢) أخرجه البخاري في الرقاق (٥٩٩٤) ومسلم في الإيمان (٧٥) .",
+          "placement": "in_span",
+          "page_index": 12,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0033"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0034"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 9839,
+          "char_end": 9960,
+          "belongs_to": "unit_014"
+        },
+        {
+          "char_start": 9961,
+          "char_end": 9998,
+          "belongs_to": "unit_014"
+        }
+      ],
+      "issue_ids": [
+        "issue_006",
+        "issue_009",
+        "issue_012",
+        "issue_018"
+      ],
+      "confidence": 0.77
+    },
+    {
+      "id": "unit_016",
+      "type": "hadith",
+      "ordinal": 16,
+      "number_raw": "١٦",
+      "title": "لا تغضب ولك الجنة",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 10118,
+        "char_end": 10320,
+        "page_start": 13,
+        "page_end": 13
+      },
+      "raw_text": "لا تغضب ولك الجنة\n١٦ - عن أبي هريرةَ - رَضِي اللَّهُ تعالى عنه - أَنَّ\nرَجُلًا قال للنبي : أَوصني . قال : « لا تَغْضَبْ ) .\n: »\nفَرَدَّدَ مِرَارًا ، قال : « لَا تَغْضَبْ » . [ رواه البخارِيُّ ] (۱)\n-\n۱۷",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 10118,
+          "char_end": 10135,
+          "placement": "in_span",
+          "page_index": 13,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 10136,
+          "char_end": 10140,
+          "placement": "in_span",
+          "page_index": 13,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 10141,
+          "char_end": 10291,
+          "placement": "in_span",
+          "page_index": 13,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 10292,
+          "char_end": 10311,
+          "placement": "in_span",
+          "page_index": 13,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 10312,
+          "char_end": 10315,
+          "marker": "(۱)",
+          "footnote_id": "fn_017",
+          "placement": "in_span",
+          "page_index": 13,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 10701,
+          "char_end": 10736,
+          "footnote_id": "fn_017",
+          "footnote_marker": "(1) أخرجه البخاري في الأدب (٥٦٥١) .",
+          "placement": "displaced",
+          "page_index": 13,
+          "confidence": 0.8
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0035"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 10318,
+          "char_end": 10320,
+          "belongs_to": "unit_017"
+        }
+      ],
+      "issue_ids": [
+        "issue_003",
+        "issue_012"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_017",
+      "type": "hadith",
+      "ordinal": 17,
+      "number_raw": "۱۷",
+      "title": "الإحسان",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 10321,
+        "char_end": 10624,
+        "page_start": 13,
+        "page_end": 13
+      },
+      "raw_text": "الإحسان\nيَعْلَي شَدَّادِ بْنِ أُوسِ – رَضِي\n•\nالله\nتعالى عنه - عن رسول الله قال : ( إن الله كَتَبَ\n«\nالإِحْسَانَ على كُلِّ شَيْءٍ ، فإِذا قَتَلْتُمْ فَأَحْسَنُوا القِتْلَةَ ،\nوإذا ذَبَحْتُمْ فَأَحْسِنوا الذَّبْحَةَ ، وَلْيُحِدَّ أَحَدُكُمْ شَفْرَتَهُ ،\nولْيُرِحْ ذَبِيحَتَهُ » . [ رَوَاهُ مُسْلِمٌ ]\n(۲)",
+      "segments": [
+        {
+          "role": "number",
+          "char_start": 10318,
+          "char_end": 10320,
+          "placement": "displaced",
+          "page_index": 13,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 10321,
+          "char_end": 10328,
+          "placement": "in_span",
+          "page_index": 13,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 10329,
+          "char_end": 10364,
+          "placement": "in_span",
+          "page_index": 13,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 10367,
+          "char_end": 10599,
+          "placement": "in_span",
+          "page_index": 13,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 10600,
+          "char_end": 10620,
+          "placement": "in_span",
+          "page_index": 13,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 10621,
+          "char_end": 10624,
+          "marker": "(۲)",
+          "footnote_id": "fn_018",
+          "placement": "in_span",
+          "page_index": 13,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 10737,
+          "char_end": 10778,
+          "footnote_id": "fn_018",
+          "footnote_marker": "(۲) أخرجه مسلم في الصيد والذبائح (٥٧) .١٤",
+          "placement": "displaced",
+          "page_index": 13,
+          "confidence": 0.8
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0036"
+        }
+      ],
+      "foreign_spans": [],
+      "issue_ids": [
+        "issue_001",
+        "issue_003",
+        "issue_012"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_018",
+      "type": "hadith",
+      "ordinal": 18,
+      "number_raw": "۱۸",
+      "title": "تقوى الله وحسن الخلق",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 10625,
+        "char_end": 11067,
+        "page_start": 13,
+        "page_end": 14
+      },
+      "raw_text": "تقوى الله وحسن الخلق\n۱۸\n-\nعن\nأبي\nذَرِّ جُنْدُبِ\nبن جُنَادَةَ ، وأَبي عَبْدِ\n(1) أخرجه البخاري في الأدب (٥٦٥١) .\n(۲) أخرجه مسلم في الصيد والذبائح (٥٧) .١٤\nالرحمن\nمُعَاذِ\nالأربعين النووية\nبنِ جَبَلٍ – رَضِي اللَّهُ تعالى عنهما – عن\nرسول الله قال : « اتَّقِ اللَّهَ حَيثُمَا كُنْتَ ، وَأَتَّبع\nالسَّيِّئَةَ الحَسَنَةَ تَمْحُهَا ، وخالِقِ النَّاسَ بِخُلُقٍ حَسَنِ » [ رَواهُ\nالترمذي وقال : حديثٌ حَسَنُ . وفي بعض النُّسَخِ : حَسَنٌ صَحِيحٌ ]\n۱۹\n-",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 10625,
+          "char_end": 10645,
+          "placement": "in_span",
+          "page_index": 13,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 10646,
+          "char_end": 10648,
+          "placement": "in_span",
+          "page_index": 13,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 10651,
+          "char_end": 10700,
+          "placement": "in_span",
+          "page_index": 13,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 10779,
+          "char_end": 10793,
+          "placement": "in_span",
+          "page_index": 14,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 10811,
+          "char_end": 10986,
+          "placement": "in_span",
+          "page_index": 14,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 10987,
+          "char_end": 11062,
+          "placement": "in_span",
+          "page_index": 14,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 11122,
+          "char_end": 11125,
+          "marker": "(1)",
+          "footnote_id": "fn_019",
+          "placement": "displaced",
+          "page_index": 14,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 11644,
+          "char_end": 11685,
+          "footnote_id": "fn_019",
+          "footnote_marker": "(1) أخرجه الترمذي في البر والصلة (۱۹۱۰) ، قوله : « تمحها »",
+          "placement": "displaced",
+          "page_index": 14,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 11686,
+          "char_end": 11712,
+          "footnote_id": "fn_019",
+          "footnote_marker": "(1) أخرجه الترمذي في البر والصلة (۱۹۱۰) ، قوله : « تمحها »",
+          "placement": "displaced",
+          "page_index": 14,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0037"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0038"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0039"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 10701,
+          "char_end": 10736,
+          "belongs_to": "unit_016"
+        },
+        {
+          "char_start": 10737,
+          "char_end": 10778,
+          "belongs_to": "unit_017"
+        },
+        {
+          "char_start": 11063,
+          "char_end": 11065,
+          "belongs_to": "unit_019"
+        }
+      ],
+      "issue_ids": [
+        "issue_002",
+        "issue_003",
+        "issue_005",
+        "issue_011",
+        "issue_012"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_019",
+      "type": "hadith",
+      "ordinal": 19,
+      "number_raw": "۱۹",
+      "title": "عون الله تعالى وحفظه",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 11068,
+        "char_end": 12133,
+        "page_start": 14,
+        "page_end": 15
+      },
+      "raw_text": "عون الله تعالى وحفظه\nعن أَبي العَبَّاسِ عَبْدِ اللَّه\n(1)\nبنِ عَبَّاسٍ – رَضِي\nالله تعالى عنهما - قال : كُنْتُ خَلْفَ النَّبِي يَومًا ،\nفقال : « ياغُلامُ إِنِّي أُعَلِّمُكَ كَلِمَاتٍ : احْفَظِ اللَّهِ\nيَحْفَظْكَ ، احْفَظِ اللَّهَ تَجِدْهُ تُجَاهَكَ ، إِذا سَأَلْتَ فَاسأَلِ\nلَو\nاللَّهَ ، وإِذَا اسْتَعَنْتَ فَاسْتَعِنْ بِاللَّهِ ، واعْلَمْ أَنَّ الأُمَّةَ\nاجْتَمَعَتْ على أَنْ يَنْفَعُوكَ بِشَيْءٍ لَمْ يَنْفَعُوكَ إِلا بِشَيْءٍ قَدْ\nكَتَبَهُ الله لَكَ ، وإن اجْتَمَعُوا على أنْ يَضُرُّوكَ بشيءٍ لَمْ\nيَضُرُّوكَ إِلا بِشَيْءٍ قَدْ كَتَبَهُ الله عَلَيْكَ ، رُفِعَتِ الأَقْلامُ\n(1) أخرجه الترمذي في البر والصلة (۱۹۱۰) ، قوله : « تمحها »\nأي تزيلهافضيلة الحياء\n•\nوجَفَّتِ الصُّحُفُ » [ رواه الترمذي وقال : حديثٌ حَسَنٌ\nصحيح (١). وفي رواية غَيرِ التُّرْمِذِيُّ : « احْفَظِ اللَّهَ تَجِدْهُ ]\nأَمَامَكَ ، تَعَرَّفَ إِلى اللَّهِ فِي الرَّحَاءِ يَعْرِفُكَ فِي الشِّدَّةِ ،\nواعْلَمْ أَنَّ ما أَخْطَأَكَ لَمْ يَكُنْ لِيُصِيبَكَ ، وما أصابَكَ لَمْ\nيَكُنْ لِيُخْطِتَكَ ، واعْلَمْ أَنَّ النَّصْرَ مَعَ الصَّبْرِ ، وأَنَّ الفَرَجَ\nمَعَ الكَرْبِ ، وأَنَّ مَعَ العُسْرِ يُسْرًا )\n-",
+      "segments": [
+        {
+          "role": "number",
+          "char_start": 11063,
+          "char_end": 11065,
+          "placement": "displaced",
+          "page_index": 14,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 11068,
+          "char_end": 11088,
+          "placement": "in_span",
+          "page_index": 14,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 11089,
+          "char_end": 11121,
+          "placement": "in_span",
+          "page_index": 14,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 11126,
+          "char_end": 11643,
+          "placement": "in_span",
+          "page_index": 14,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 11727,
+          "char_end": 11747,
+          "placement": "in_span",
+          "page_index": 15,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 11748,
+          "char_end": 11787,
+          "placement": "in_span",
+          "page_index": 15,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 11788,
+          "char_end": 11791,
+          "marker": "(١)",
+          "footnote_id": "fn_020",
+          "placement": "in_span",
+          "page_index": 15,
+          "confidence": 0.8
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 11791,
+          "char_end": 11854,
+          "placement": "in_span",
+          "page_index": 15,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 11855,
+          "char_end": 12131,
+          "placement": "in_span",
+          "page_index": 15,
+          "confidence": 0.85
+        },
+        {
+          "role": "takhrij",
+          "char_start": 12379,
+          "char_end": 12418,
+          "footnote_id": "fn_020",
+          "footnote_marker": "(1) أخرجه الترمذي في صفة القيامة (٢٤٤٠) قوله : « رفعت الأقلام »",
+          "placement": "displaced",
+          "page_index": 15,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 12419,
+          "char_end": 12469,
+          "footnote_id": "fn_020",
+          "footnote_marker": "(1) أخرجه الترمذي في صفة القيامة (٢٤٤٠) قوله : « رفعت الأقلام »",
+          "placement": "displaced",
+          "page_index": 15,
+          "confidence": 0.75
+        },
+        {
+          "role": "takhrij",
+          "char_start": 12470,
+          "char_end": 12500,
+          "footnote_id": "fn_021",
+          "footnote_marker": "(٢) أخرجه أحمد في مسنده (٢٥٣٧)",
+          "placement": "displaced",
+          "page_index": 15,
+          "confidence": 0.55
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0040"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0041"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0042"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 11122,
+          "char_end": 11125,
+          "belongs_to": "unit_018"
+        },
+        {
+          "char_start": 11644,
+          "char_end": 11685,
+          "belongs_to": "unit_018"
+        },
+        {
+          "char_start": 11686,
+          "char_end": 11712,
+          "belongs_to": "unit_018"
+        }
+      ],
+      "issue_ids": [
+        "issue_001",
+        "issue_003",
+        "issue_004",
+        "issue_009",
+        "issue_012",
+        "issue_018"
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "unit_020",
+      "type": "hadith",
+      "ordinal": 20,
+      "number_raw": null,
+      "title": "فضيلة الحياء",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 12134,
+        "char_end": 12589,
+        "page_start": 15,
+        "page_end": 15
+      },
+      "raw_text": "فضيلة الحياء\nمَسْعُودٍ عُقْبَةَ بنِ عَمْرٍو الأَنْصَارِيِّ\nالبَدْري - رَضِي الله تعالى عنه - قال : قال رسول الله\n: « إِنَّ مِمَّا أَدْرَكَ النَّاسُ مِنْ كَلَامِ النُّبُوَّةِ الأُولَى :\nإذا لَمْ تَسْتَح فَاصْنَعْ مَا شِئتَ » [ رواه البخاري ]\n(۳)\n(1) أخرجه الترمذي في صفة القيامة (٢٤٤٠) قوله : « رفعت الأقلام »\nأي قدرت المقادير قبل الخلق\n(٢) أخرجه أحمد في مسنده (٢٥٣٧)\n(۳) أخرجه البخاري في أحاديث الأنبياء (٣٢٢٤) ، قوله : « تستح »\nأي إذا لم تتب وتتحشم .ܙ\n۲۱",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 12134,
+          "char_end": 12146,
+          "placement": "in_span",
+          "page_index": 15,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 12147,
+          "char_end": 12357,
+          "placement": "in_span",
+          "page_index": 15,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 12358,
+          "char_end": 12374,
+          "placement": "in_span",
+          "page_index": 15,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 12375,
+          "char_end": 12378,
+          "marker": "(۳)",
+          "footnote_id": "fn_022",
+          "placement": "in_span",
+          "page_index": 15,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 12501,
+          "char_end": 12546,
+          "footnote_id": "fn_022",
+          "footnote_marker": "(۳) أخرجه البخاري في أحاديث الأنبياء (٣٢٢٤) ، قوله : « تستح »",
+          "placement": "in_span",
+          "page_index": 15,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 12547,
+          "char_end": 12585,
+          "footnote_id": "fn_022",
+          "footnote_marker": "(۳) أخرجه البخاري في أحاديث الأنبياء (٣٢٢٤) ، قوله : « تستح »",
+          "placement": "in_span",
+          "page_index": 15,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0043"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 12379,
+          "char_end": 12418,
+          "belongs_to": "unit_019"
+        },
+        {
+          "char_start": 12419,
+          "char_end": 12469,
+          "belongs_to": "unit_019"
+        },
+        {
+          "char_start": 12470,
+          "char_end": 12500,
+          "belongs_to": "unit_019"
+        },
+        {
+          "char_start": 12587,
+          "char_end": 12589,
+          "belongs_to": "unit_021"
+        }
+      ],
+      "issue_ids": [
+        "issue_008"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_021",
+      "type": "hadith",
+      "ordinal": 21,
+      "number_raw": "٢١",
+      "title": "الاستقامة لب الإسلام",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 12590,
+        "char_end": 12916,
+        "page_start": 16,
+        "page_end": 16
+      },
+      "raw_text": "الاستقامة لب الإسلام\nالأربعين النووية\n-\n٢١ - عَنْ أَبِي عَنْ أَبي عَمْرو - وقِيلَ : أَبِي عَمْرَةَ – سُفْيَانَ بن\nعَبدِ اللَّهِ - رَضِى الله تعالى عنه - قال : قُلْتُ : يا رَسولَ\nاللَّهِ ، قُلْ لِي في الإِسْلَام قَولًا لا أَسْأَلُ عنه أَحَدًا غَيركَ\nقالَ : « قُل : آمَنْتُ بِاللَّهِ ، ثُمَّ اسْتَقِمْ » . [ رَوَاهُ مُسْلِمٌ ]\n-",
+      "segments": [
+        {
+          "role": "number",
+          "char_start": 12587,
+          "char_end": 12589,
+          "placement": "displaced",
+          "page_index": 15,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 12590,
+          "char_end": 12610,
+          "placement": "in_span",
+          "page_index": 16,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 12630,
+          "char_end": 12634,
+          "placement": "in_span",
+          "page_index": 16,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 12635,
+          "char_end": 12893,
+          "placement": "in_span",
+          "page_index": 16,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 12894,
+          "char_end": 12914,
+          "placement": "in_span",
+          "page_index": 16,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 12928,
+          "char_end": 12931,
+          "marker": "(1)",
+          "footnote_id": "fn_023",
+          "placement": "displaced",
+          "page_index": 16,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 13330,
+          "char_end": 13360,
+          "footnote_id": "fn_023",
+          "footnote_marker": "(1) أخرجه مسلم في الإيمان (٦٢)",
+          "placement": "displaced",
+          "page_index": 16,
+          "confidence": 0.8
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0044"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0045"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0046"
+        }
+      ],
+      "foreign_spans": [],
+      "issue_ids": [
+        "issue_001",
+        "issue_003",
+        "issue_005",
+        "issue_011",
+        "issue_012"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_022",
+      "type": "hadith",
+      "ordinal": 22,
+      "number_raw": "۲۲",
+      "title": "طريق الجنة",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 12917,
+        "char_end": 13451,
+        "page_start": 16,
+        "page_end": 16
+      },
+      "raw_text": "طريق الجنة\n(1)\n۲۲ - عن أَبي عَبْدِ اللَّهِ جَابِرِ بنِ عَبْدِ اللَّهِ الْأَنْصَارِيِّ\n- رَضِي الله تعالى عنهما - أَنَّ رَجُلًا سَأَلَ رسول الله\nفقال : أَرَأَيتَ إذا صَلَّيتُ المَكْتُوباتِ ، وصُمْتُ\nرَمَضَانَ ، وأَحْلَلْتُ الحَلالَ ، وحَرَّمْتُ الحَرامَ ولَمْ أَزِدْ\nعلى ذلك شيئًا ، أَأَدْخُلُ الجَنَّةَ ؟ قال : ( نَعَمْ » . [ رَوَاهُ\nمُسْلِمٌ ] . ومَعْنَى أَعْلَلْتُ الحَلالَ : فَعَلْتُهُ مُعْتَقِدًا حِلَّهُ (۲)\n(1) أخرجه مسلم في الإيمان (٦٢)\n(۲) أخرجه مسلم في الإيمان (۱۷) ، قوله « المكتوبات أي الصلوات\nالمفروضة .فضل الله على\n۲۳\n-\n-",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 12917,
+          "char_end": 12927,
+          "placement": "in_span",
+          "page_index": 16,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 12932,
+          "char_end": 12936,
+          "placement": "in_span",
+          "page_index": 16,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 12937,
+          "char_end": 13240,
+          "placement": "in_span",
+          "page_index": 16,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 13241,
+          "char_end": 13261,
+          "placement": "in_span",
+          "page_index": 16,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 13262,
+          "char_end": 13325,
+          "placement": "in_span",
+          "page_index": 16,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 13326,
+          "char_end": 13329,
+          "marker": "(۲)",
+          "footnote_id": "fn_024",
+          "placement": "in_span",
+          "page_index": 16,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 13361,
+          "char_end": 13432,
+          "footnote_id": "fn_024",
+          "footnote_marker": "(۲) أخرجه مسلم في الإيمان (۱۷) ، قوله « المكتوبات أي الصلوات",
+          "placement": "in_span",
+          "page_index": 16,
+          "confidence": 0.8
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0047"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0048"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 12928,
+          "char_end": 12931,
+          "belongs_to": "unit_021"
+        },
+        {
+          "char_start": 13330,
+          "char_end": 13360,
+          "belongs_to": "unit_021"
+        },
+        {
+          "char_start": 13445,
+          "char_end": 13447,
+          "belongs_to": "unit_023"
+        }
+      ],
+      "issue_ids": [
+        "issue_009",
+        "issue_012",
+        "issue_018"
+      ],
+      "confidence": 0.77
+    },
+    {
+      "id": "unit_023",
+      "type": "hadith",
+      "ordinal": 23,
+      "number_raw": "۲۳",
+      "title": "جوامع الخير",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 13452,
+        "char_end": 13931,
+        "page_start": 17,
+        "page_end": 17
+      },
+      "raw_text": "جوامع الخير\n۱۷\nعَنْ أَبِي مَالِكِ – الحَارِثِ بن عَاصِم -\n-\nالأَشْعَرِيِّ - رَضِي الله تعالى عنه – قال : قال رسول الله\n: « الطَّهُورُ شَطْرُ الإيمان ، وَالْحَمْدُ لله تَمْلأُ الميزانَ ،\nوسُبْحَانَ الله والحَمْدُ لله تَمْلَآنِ – أَو تَمْلأُ - ما بَينَ\n-\nالسَّماءِ والأَرْضِ ، والصَّلاةُ نُورٌ ، والصَّدَقَةُ بُرْهانُ ، والصَّبْرُ\nضِيَاءٌ ، والقُرْآنُ حُجَّةٌ لَكَ أَو عَلَيْكَ . كُلُّ النَّاسِ يَغْدُو :\nفَبَائِعٌ نَفْسَهُ ، فَمُعْتِقُهَا ، أَو مُوبِقُهَا » . [ رَوَاهُ مُسْلِمٌ ]",
+      "segments": [
+        {
+          "role": "number",
+          "char_start": 13445,
+          "char_end": 13447,
+          "placement": "displaced",
+          "page_index": 16,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 13452,
+          "char_end": 13463,
+          "placement": "in_span",
+          "page_index": 17,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 13467,
+          "char_end": 13509,
+          "placement": "in_span",
+          "page_index": 17,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 13512,
+          "char_end": 13702,
+          "placement": "in_span",
+          "page_index": 17,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 13705,
+          "char_end": 13910,
+          "placement": "in_span",
+          "page_index": 17,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 13911,
+          "char_end": 13931,
+          "placement": "in_span",
+          "page_index": 17,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 13950,
+          "char_end": 13953,
+          "marker": "(1)",
+          "footnote_id": "fn_025",
+          "placement": "displaced",
+          "page_index": 17,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 14232,
+          "char_end": 14261,
+          "footnote_id": "fn_025",
+          "footnote_marker": "(1) أخرجه مسلم في الطهارة (۱) قوله : « شطر » أي نصف قوله :",
+          "placement": "displaced",
+          "page_index": 17,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 14262,
+          "char_end": 14341,
+          "footnote_id": "fn_025",
+          "footnote_marker": "(1) أخرجه مسلم في الطهارة (۱) قوله : « شطر » أي نصف قوله :",
+          "placement": "displaced",
+          "page_index": 17,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0049"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0050"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0051"
+        }
+      ],
+      "foreign_spans": [],
+      "issue_ids": [
+        "issue_001",
+        "issue_003",
+        "issue_005",
+        "issue_012",
+        "issue_013"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_024",
+      "type": "hadith",
+      "ordinal": 24,
+      "number_raw": "٢٤",
+      "title": "فضل الله على",
+      "title_variants": [
+        "فضل الله وعل (TOC)"
+      ],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 13932,
+        "char_end": 15660,
+        "page_start": 17,
+        "page_end": 18
+      },
+      "raw_text": "فضل الله على\n-\n٢٤\n(1)\nن أبي ذر الغفارِيِّ – رَضِي اللَّهُ تعالى عنه –\nعن النبي الله فيما يرويه عَنْ رَبِّهِ مَا أَنَّهُ قال : « يا عِبَادِي ،\nإنِّي حَرَّمْتُ الظُّلْمَ على نَفْسِي ، وجَعَلْتُهُ بَينَكُمْ مُحَرَّمًا ، فلا\nتَظَالُوا . يا عِبادِي ، كُلُّكُمْ ضَالَّ إِلا مَنْ هَدَيْتُهُ فَاسْتَهْدُونِي\n(1) أخرجه مسلم في الطهارة (۱) قوله : « شطر » أي نصف قوله :\nيغدو ( أي يسعى ويعمل ، قوله : « موبقها » أي مهلكها\n•۱۸\nالأربعين النووية\nأَهْدِكُمْ . يا عبادِي ، كُلُّكُمْ جائع\nكُلُّكُمْ جَائِعٌ إِلَّا مَنْ أَطْعَمْتُهُ ،\nفَاسْتَطْعِمُونِي أُطْعِمْكُمْ . ياعِبادي ، كُلُّكُمْ عَارِ إِلا مَنْ\nكَسَوتُهُ ، فَاسْتَكْسونِي أَكْسُكُمْ . يَا عِبَادِي ، إِنَّكُمْ تُخْطِئُونَ\nبالليل والنَّهارِ ، وأَنا أَغْفِرُ الذُّنُوبَ جَمِيعًا ، فَاسْتَغْفِرُونِي أَغْفِرْ\nلكُم . يا عِبَادِي ، إِنَّكُمْ لَنْ تَبْلُغُوا ضُرِّي فَتَضُرُّونِي ، ولَنْ\nتبْلُغُوا نَفْعِي فَتَفَعُونِي . يا عِبَادِي ، لو أَنَّ أَوَّلَكُم وَآخِرَكُمْ\nوإِنْسَكُمْ وجنَّكُمْ كانُوا على أَتْقَى قَلْب رَجُل واحدٍ مِنْكُمْ\nمَا زَادَ ذَلِكَ فِي مُلْكِي شَيْئًا . يَا عِبَادِي لَو أَنَّ أَوَّلَكُم وَآخِرَكُمْ\nوَإِنْسَكُمْ وَجِنَّكُم كَانُوا عَلَى أَفْجَر قَلْبِ رَجُل وَاحِدٍ مِنْكُم\nمَا نَقَصَ ذَلِكَ مِنْ مُلْكِي شَيئًا . يا عِبَادِي ، لَو أَنَّ أَوَّلَكُمْ\nوآخِرَكُمْ وإِنْسَكُمْ وجِنَّكُمْ قامُوا فِي صَعِيدٍ واحدٍ ، فَسَأَلُونِي ،\nفأَعْطَيْتُ كلَّ واحدٍ مَسْأَلَتَهُ ، ما نقص ذلك مما عِندي إلا كما\nينْقُصُ المِخْيَط إذا أُدْخِلَ البَحْرَ . يَا عِبَادِي إِنَّمَا هِيَ أَعْمَالَكُمْ\nأُحْصِيها لكُمْ ، ثُمَّ أُوَفِّيكُمْ إِيَّاهَا ، فَمَنْ وَجَدَ خيرًا فَلْيَحْمَدِ الله ،\nومَنْ وَجَدَ غَير ذلك فَلا يَلومَنَّ إِلَّا نَفْسَهُ » . [ رَوَاهُ مُسْلِمٌ ]\n(1)\n(1) أخرجه مسلم في البر والصلة (٥٥) وأخرجه المنذري في الترغيب\nوالترهيب (٤٧٥/٢) والبخاري في الأدب المفرد (٤٩٠)كثرة طرق الخير\n۲۰",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 13932,
+          "char_end": 13944,
+          "placement": "in_span",
+          "page_index": 17,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 13947,
+          "char_end": 13949,
+          "placement": "in_span",
+          "page_index": 17,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 13954,
+          "char_end": 14231,
+          "placement": "in_span",
+          "page_index": 17,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 14363,
+          "char_end": 15509,
+          "placement": "in_span",
+          "page_index": 18,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 15510,
+          "char_end": 15530,
+          "placement": "in_span",
+          "page_index": 18,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 15531,
+          "char_end": 15534,
+          "marker": "(1)",
+          "footnote_id": "fn_026",
+          "placement": "in_span",
+          "page_index": 18,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 15535,
+          "char_end": 15643,
+          "footnote_id": "fn_026",
+          "footnote_marker": "(1) أخرجه مسلم في البر والصلة (٥٥) وأخرجه المنذري في الترغيب",
+          "placement": "in_span",
+          "page_index": 18,
+          "confidence": 0.8
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0052"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0053"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0054"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0055"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0056"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 13950,
+          "char_end": 13953,
+          "belongs_to": "unit_023"
+        },
+        {
+          "char_start": 14232,
+          "char_end": 14261,
+          "belongs_to": "unit_023"
+        },
+        {
+          "char_start": 14262,
+          "char_end": 14341,
+          "belongs_to": "unit_023"
+        }
+      ],
+      "issue_ids": [
+        "issue_002",
+        "issue_009",
+        "issue_011",
+        "issue_012",
+        "issue_013",
+        "issue_014"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_025",
+      "type": "hadith",
+      "ordinal": 25,
+      "number_raw": null,
+      "title": "فضل الذكر",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 15661,
+        "char_end": 16446,
+        "page_start": 19,
+        "page_end": 19
+      },
+      "raw_text": "فضل الذكر\nن أَبِي ذَرِّ – رَضِي\n۱۹\nاللَّهُ تعالى عنه - أَيضًا :\nأَنَّ نَاسًا مِنْ أَصْحَاب رسول الله قالوا للنبي :\nلِلنَّبى\nيا رسولَ الله ، ذَهَبَ أَهْلُ الدُّثُورِ بالأجُورِ ، يُصَلُّونَ كما\nنُصَلِّي، ويَصُومُونَ كما نَصُومُ ، وَيَتَصَدَّقُونَ بِفُضُولِ\nأَمْوَالِهم . قال : « أَو لَيسَ قَدْ جَعَلَ اللَّهِ لَكُمْ ما تَصَدَّقُونَ ؟ إِنَّ\nلكم بِكُلِّ تَسْبِيحَةٍ صَدَقَةً ، وكلٌّ تَكْبِيرَةٍ صَدَقَةً ، وكلٌّ تَحْمِيدةٍ\nصَدَقَةً ، وكلٌّ تَهْلِيَلَةٍ صَدَقَةً ، وأَمْرِ بِالْمَعْرُوفِ صَدَقَةً ، ونَهْي\nعنْ مُنْكَرٍ صَدَقَةً ، وفي بُضْعِ أَحَدِكُمْ صَدَقَةً » .. قالُوا :\nيارسول الله ، أَيَأْتِي أَحَدُنا شَهْوَتَهُ وَيَكُونُ لَهُ فِيهَا أَجْرٌ؟\nقال : « أَرَأَيْتُمْ لو وَضَعَهَا في حَرَام أَكانَ عليه وِزْرٌ ؟ فكذلك\nإذا وضَعَهَا في الحَلالِ كانَ لَهُ أَجْرٌ » . [ رَوَاهُ مُسْلِمٌ ) )\n]",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 15661,
+          "char_end": 15670,
+          "placement": "in_span",
+          "page_index": 19,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 15671,
+          "char_end": 15692,
+          "placement": "in_span",
+          "page_index": 19,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 15696,
+          "char_end": 16421,
+          "placement": "in_span",
+          "page_index": 19,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 16422,
+          "char_end": 16446,
+          "placement": "in_span",
+          "page_index": 19,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 16462,
+          "char_end": 16465,
+          "marker": "(۱)",
+          "footnote_id": "fn_027",
+          "placement": "displaced",
+          "page_index": 19,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 16511,
+          "char_end": 16542,
+          "footnote_id": "fn_027",
+          "footnote_marker": "(1) أخرجه مسلم في الزكاة (١٦٧٤) قوله : ( بضع » أي فرج",
+          "placement": "displaced",
+          "page_index": 19,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 16543,
+          "char_end": 16564,
+          "footnote_id": "fn_027",
+          "footnote_marker": "(1) أخرجه مسلم في الزكاة (١٦٧٤) قوله : ( بضع » أي فرج",
+          "placement": "displaced",
+          "page_index": 19,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0057"
+        }
+      ],
+      "foreign_spans": [],
+      "issue_ids": [
+        "issue_003",
+        "issue_005",
+        "issue_013"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_026",
+      "type": "hadith",
+      "ordinal": 26,
+      "number_raw": "٢٦",
+      "title": "كثرة طرق الخير",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 16447,
+        "char_end": 16982,
+        "page_start": 19,
+        "page_end": 20
+      },
+      "raw_text": "كثرة طرق الخير\n(۱)\n٢٦ – عن أَبي هريرةَ – رَضِي\nالله\nتعالى عنه -\n(1) أخرجه مسلم في الزكاة (١٦٧٤) قوله : ( بضع » أي فرج\n-الأربعين النووية\nقال : قال رسول الله ﷺ : كُلَّ سُلَامَى مِنَ النَّاسِ عليه\nصَدَقَةٌ كلَّ يَومٍ تَطْلُعُ فِيهِ الشَّمْسُ : تَعْدِلُ بَينَ اثْنَينِ\nصَدَقَةٌ ، وتُعِينُ الرَّجُلَ فِي دَابَّتِهِ فَتَحْمِلُهُ عليها أَو تَرْفَعُ لَهُ\nعليها مَتَاعَهُ صَدَقَةٌ ، والكَلِمةُ الطَّيِّبَةُ صَدَقَةٌ ، وبِكُلِّ\nخَطْوَةٍ تَمشِيها إلى الصَّلَاةِ صَدَقَةٌ ، وتُمِيطُ الأَذَى عن\nالطَّرِيقِ صَدَقَةٌ » . [ رواه البخارِيُّ ومُسْلِمٌ ]",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 16447,
+          "char_end": 16461,
+          "placement": "in_span",
+          "page_index": 19,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 16466,
+          "char_end": 16470,
+          "placement": "in_span",
+          "page_index": 19,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 16471,
+          "char_end": 16510,
+          "placement": "in_span",
+          "page_index": 19,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 16565,
+          "char_end": 16566,
+          "placement": "in_span",
+          "page_index": 20,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 16583,
+          "char_end": 16952,
+          "placement": "in_span",
+          "page_index": 20,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 16953,
+          "char_end": 16982,
+          "placement": "in_span",
+          "page_index": 20,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 16995,
+          "char_end": 16998,
+          "marker": "(1)",
+          "footnote_id": "fn_028",
+          "placement": "displaced",
+          "page_index": 20,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 17299,
+          "char_end": 17361,
+          "footnote_id": "fn_028",
+          "footnote_marker": "(1) أخرجه البخاري في الجهاد والسير (٢٧٦٧) ومسلم في البر والصلة",
+          "placement": "displaced",
+          "page_index": 20,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 17362,
+          "char_end": 17368,
+          "footnote_id": "fn_029",
+          "footnote_marker": "( ١٤ ) قوله : « سلامى ) هي مفاصل العظام ، وقوله : « يميط » أي يزيل .",
+          "placement": "displaced",
+          "page_index": 20,
+          "confidence": 0.65
+        },
+        {
+          "role": "gharib",
+          "char_start": 17369,
+          "char_end": 17430,
+          "footnote_id": "fn_029",
+          "footnote_marker": "( ١٤ ) قوله : « سلامى ) هي مفاصل العظام ، وقوله : « يميط » أي يزيل .",
+          "placement": "displaced",
+          "page_index": 20,
+          "confidence": 0.65
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0058"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 16462,
+          "char_end": 16465,
+          "belongs_to": "unit_025"
+        },
+        {
+          "char_start": 16511,
+          "char_end": 16542,
+          "belongs_to": "unit_025"
+        },
+        {
+          "char_start": 16543,
+          "char_end": 16564,
+          "belongs_to": "unit_025"
+        }
+      ],
+      "issue_ids": [
+        "issue_003",
+        "issue_004",
+        "issue_005",
+        "issue_011"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "unit_027",
+      "type": "hadith",
+      "ordinal": 27,
+      "number_raw": "۲۷",
+      "title": "البر والإثم",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 16983,
+        "char_end": 17854,
+        "page_start": 20,
+        "page_end": 21
+      },
+      "raw_text": "البر والإثم\n(1)\n۲۷ - عن النَّوَّاسِ بنِ سَمْعَانَ - رَضِي الله تعالى عنه -\nعن النبي قال : ( البرحُسْنُ الخُلُق ، والالم ما حاك في\nنَفْسِك وكَرِهْتَ أَنْ يَطَّلِعَ عليه النَّاسُ » . [ رَوَاهُ مُسْلِمٌ ) (۲)\n]\nوعَنْ وابِصَةَ بنِ مَعَبَدٍ - رَضِي الله تعالى عنه - قال :\nأَتَيتُ رسول الله ، فقال : « جِئتَ\n(\nتَسْأَلُ\nعن\n(1) أخرجه البخاري في الجهاد والسير (٢٧٦٧) ومسلم في البر والصلة\n( ١٤ ) قوله : « سلامى ) هي مفاصل العظام ، وقوله : « يميط » أي يزيل .\n(٢) أخرجه مسلم في البر والصلة (۱٥) قوله : ( حاك ( أي لم ينشرح\nله صدركالطاعة والتزام السنة\n۲۱\n((\n(البر)؟ » . قُلْتُ : نَعَمْ . قال : « اسْتفَتِ قَلْبَكَ ، البر\nما اطْمَأَنَّتْ إليهِ النَّفْسُ واطْمَأَنَّ إليهِ القَلْبُ ، والإِثْم ما\nحاك في النَّفْسِ وتَرَدَّدَ في الصَّدْرِ ، وإِنْ أَفْتاك النَّاسُ\nوأَفْتَوكَ » ) . [ حديث حَسَنٌ رويناه في مُسْنَدَي الإِمَامَينِ : أَحمدَ\nحَنْبَل ، والدَّارِمي ، بِإِسْنَادٍ حَسَنٍ]\n-\n۲۸\n(۱)",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 16983,
+          "char_end": 16994,
+          "placement": "in_span",
+          "page_index": 20,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 16999,
+          "char_end": 17003,
+          "placement": "in_span",
+          "page_index": 20,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 17004,
+          "char_end": 17163,
+          "placement": "in_span",
+          "page_index": 20,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 17164,
+          "char_end": 17184,
+          "placement": "in_span",
+          "page_index": 20,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 17185,
+          "char_end": 17188,
+          "marker": "(۲)",
+          "footnote_id": "fn_030",
+          "placement": "in_span",
+          "page_index": 20,
+          "confidence": 0.8
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 17189,
+          "char_end": 17190,
+          "placement": "in_span",
+          "page_index": 20,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 17191,
+          "char_end": 17298,
+          "placement": "in_span",
+          "page_index": 20,
+          "confidence": 0.85
+        },
+        {
+          "role": "takhrij",
+          "char_start": 17431,
+          "char_end": 17465,
+          "footnote_id": "fn_030",
+          "footnote_marker": "(٢) أخرجه مسلم في البر والصلة (۱٥) قوله : ( حاك ( أي لم ينشرح",
+          "placement": "in_span",
+          "page_index": 20,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 17466,
+          "char_end": 17500,
+          "footnote_id": "fn_030",
+          "footnote_marker": "(٢) أخرجه مسلم في البر والصلة (۱٥) قوله : ( حاك ( أي لم ينشرح",
+          "placement": "in_span",
+          "page_index": 20,
+          "confidence": 0.75
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 17524,
+          "char_end": 17745,
+          "placement": "in_span",
+          "page_index": 20,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 17746,
+          "char_end": 17845,
+          "placement": "in_span",
+          "page_index": 21,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 17851,
+          "char_end": 17854,
+          "marker": "(۱)",
+          "footnote_id": "fn_031",
+          "placement": "in_span",
+          "page_index": 21,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 18408,
+          "char_end": 18489,
+          "footnote_id": "fn_031",
+          "footnote_marker": "(۱) أخرجه أحمد في مسنده (۱۷۳۱۳) والدارمي في البيوع (٢٤٢١)",
+          "placement": "displaced",
+          "page_index": 21,
+          "confidence": 0.8
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0059"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0060"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0061"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 16995,
+          "char_end": 16998,
+          "belongs_to": "unit_026"
+        },
+        {
+          "char_start": 17299,
+          "char_end": 17361,
+          "belongs_to": "unit_026"
+        },
+        {
+          "char_start": 17362,
+          "char_end": 17368,
+          "belongs_to": "unit_026"
+        },
+        {
+          "char_start": 17369,
+          "char_end": 17430,
+          "belongs_to": "unit_026"
+        },
+        {
+          "char_start": 17848,
+          "char_end": 17850,
+          "belongs_to": "unit_028"
+        }
+      ],
+      "issue_ids": [
+        "issue_003",
+        "issue_009",
+        "issue_012",
+        "issue_013"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_028",
+      "type": "hadith",
+      "ordinal": 28,
+      "number_raw": "۲۸",
+      "title": "الطاعة والتزام السنة",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 17855,
+        "char_end": 18586,
+        "page_start": 21,
+        "page_end": 22
+      },
+      "raw_text": "الطاعة والتزام السنة\nبن\nعن أبي نجيح العرباض بن سارية – رضي\nالله تعالى عنه - قال : وعَظَنَا رسول الله مَوعِظَةٌ\nالله\nوَجِلَتْ مِنهَا القُلُوبُ ، وذَرَفَتْ منها العُيُونُ ، فَقُلْنَا :\nيا رسولَ الله ، كأَنَّها مَوعِظَةٌ مُوَدِّع ، فأَوصِنَا . قال :\nأوصيكُمْ بِتَقوى الله ، والسَّمْعُ والطَّاعَةِ ، وإِنْ تَأَمَّرَ\nعَلَيْكُمْ عَبْدٌ ، فَإِنَّهُ مَنْ يَعِشُ مِنْكُمْ فَسَيَرَى اخْتِلَافًا كَثِيرًا .\nفَعَلَيْكُمْ بِسُنَتِي وسُنَّةِ الخُلَفَاءِ الرَّاشِدِينَ المَهْدِيِّينَ ، عَضُوا\nعليها بالنواجذ ، وإِيَّاكُمْ ومُحْدَثاتِ الأمُور ، فإِنَّ كلَّ بِدْعَةٍ\n))\n(۱) أخرجه أحمد في مسنده (۱۷۳۱۳) والدارمي في البيوع (٢٤٢١)\nفي اللفظ\nباختلاف يسير۲۲\nالأربعين النووية\nضَلَالَةٌ\n[ رَواهُ أَبو دَاودَ والتّرْمِذِيُّ وقال : حديثُ حَسَنٌ صَحِيحُ ]\n(1)",
+      "segments": [
+        {
+          "role": "number",
+          "char_start": 17848,
+          "char_end": 17850,
+          "placement": "displaced",
+          "page_index": 21,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 17855,
+          "char_end": 17875,
+          "placement": "in_span",
+          "page_index": 21,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 17876,
+          "char_end": 18407,
+          "placement": "in_span",
+          "page_index": 21,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 18507,
+          "char_end": 18516,
+          "placement": "in_span",
+          "page_index": 22,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 18517,
+          "char_end": 18582,
+          "placement": "in_span",
+          "page_index": 22,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 18583,
+          "char_end": 18586,
+          "marker": "(1)",
+          "footnote_id": "fn_032",
+          "placement": "in_span",
+          "page_index": 22,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 19293,
+          "char_end": 19352,
+          "footnote_id": "fn_032",
+          "footnote_marker": "(1) أخرجه أبو داود في السنة (۳۹۹۱) والترمذي في العلم (٢٦٠٠)",
+          "placement": "displaced",
+          "page_index": 22,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 19353,
+          "char_end": 19494,
+          "footnote_id": "fn_032",
+          "footnote_marker": "(1) أخرجه أبو داود في السنة (۳۹۹۱) والترمذي في العلم (٢٦٠٠)",
+          "placement": "displaced",
+          "page_index": 22,
+          "confidence": 0.75
+        },
+        {
+          "role": "gharib",
+          "char_start": 19516,
+          "char_end": 19518,
+          "footnote_id": "fn_032",
+          "footnote_marker": "(1) أخرجه أبو داود في السنة (۳۹۹۱) والترمذي في العلم (٢٦٠٠)",
+          "placement": "displaced",
+          "page_index": 22,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0062"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 18408,
+          "char_end": 18489,
+          "belongs_to": "unit_027"
+        }
+      ],
+      "issue_ids": [
+        "issue_001",
+        "issue_003",
+        "issue_011"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_029",
+      "type": "hadith",
+      "ordinal": 29,
+      "number_raw": "۲۹",
+      "title": "ذروة الإسلام وعموده",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 18587,
+        "char_end": 20074,
+        "page_start": 22,
+        "page_end": 23
+      },
+      "raw_text": "ذروة الإسلام وعموده\n۲۹ – عن مُعاذ بن جَبَلِ – رَضِي اللَّهُ تعالى عنه -\nقال : قُلتُ : يا رسول الله ، أَخْبرنِي بِعَمَل يُدْخِلُني الجنَّةَ\nويُبَاعِدُني عن النَّارِ . قال : « لَقَد سَأَلْتَ عن عَظِيمٍ ،\nوإِنَّهُ لَيَسيرٌ على مَنْ يَسَّرَهُ اللَّه تعالى عليه : تَعْبُدُ الله لا\nتُشْرِكُ به شيئًا ، وتُقيمُ الصَّلَاةَ ، وتُؤتي الزَّكَاةَ ، وتَصُومُ\nرَمَضَانَ ، وتَحُجُ البَيتَ » .. ثُمَّ قال : ( أَلا أَدُلُّكَ على\n«\nأَبواب الخير ؟ : الصومُ جُنَّةٌ ، والصَّدَقَةُ تُطْفِئُ الخَطِيئَةَ كما\nيُطْفِئُ المَاءُ النَّارَ ،  َوصَلَاةُ الرَّجُل في جَوفِ الليل » .. ثُمَّ\nثلا : ﴿ تَتَجَافَى جُنُوبُهُمْ عَنِ الْمَضَاجِعِ ... حَتَّى بَلَغَ :\nيَعْمَلُونَ . ثُمَّ قَالَ : ( أَلَا أَخْبَرُكَ بِرَأْسِ الْأَمْرِ وعَمُودِهِ\n(1) أخرجه أبو داود في السنة (۳۹۹۱) والترمذي في العلم (٢٦٠٠)\nقوله : « ذرفت » أي دمعت ، وقوله : ( وجلت » أي خافت\nوفزعت ، وقوله : ( ومحدثات » أي ما يبتدع في الدين ، وقوله :\nالنواجذ ، هي الأنياب أو الأضراسالوقوف عند حدود الشرع\n((\nوذِرْوَةِ سَنَامِهِ؟ » . قُلْتُ : بَلَى يا رسول الله ، قال : «\n: « رَأَسُ\nالأمر : الإِسْلَامُ ، وعَمُودُهُ : الصَّلاةُ ، وذِرْوَةُ سَنَامِهِ :\nالجِهَادُ » .. ثُمَّ قال : « أَلا أُخْبرُك بمَلَاكَ ذلك كُلِّهِ ؟ » .\nقُلتُ : بَلَى يا رسول الله . فَأَخَذَ بِلِسَانِهِ وقال : « كُفَّ\nعليكَ هذا » . قُلْتُ : يانبي الله وإِنَّا لَمُؤَاخَذُونَ بِمَا نَتَكَلَّمُ\nبه ؟ قال : « ثَكِلَتْكَ أُمُّكَ ، وهَلْ يَكُبُّ النَّاسَ في النَّار على\nأو قال : « على مَنَاخِرِهِمْ – إِلَّا حَصَائِدُ\nوُجُوهِهِمْ )\nالسِنَتِهِمْ\nرضی\n((\n-\n-\n[ رواه الترمذي وقال : حديثٌ حَسَنٌ صَحِيحٌ ]",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 18587,
+          "char_end": 18606,
+          "placement": "in_span",
+          "page_index": 22,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 18607,
+          "char_end": 18611,
+          "placement": "in_span",
+          "page_index": 22,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 18612,
+          "char_end": 19292,
+          "placement": "in_span",
+          "page_index": 22,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 19519,
+          "char_end": 20025,
+          "placement": "in_span",
+          "page_index": 23,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 20030,
+          "char_end": 20074,
+          "placement": "in_span",
+          "page_index": 23,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 20097,
+          "char_end": 20100,
+          "marker": "(1)",
+          "footnote_id": "fn_033",
+          "placement": "displaced",
+          "page_index": 23,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 20401,
+          "char_end": 20436,
+          "footnote_id": "fn_033",
+          "footnote_marker": "(1) أخرجه الترمذي في الإيمان (٢٥٤١) قوله : ( جنة » أي وقاية",
+          "placement": "displaced",
+          "page_index": 23,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 20437,
+          "char_end": 20517,
+          "footnote_id": "fn_033",
+          "footnote_marker": "(1) أخرجه الترمذي في الإيمان (٢٥٤١) قوله : ( جنة » أي وقاية",
+          "placement": "displaced",
+          "page_index": 23,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0063"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0064"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 19293,
+          "char_end": 19352,
+          "belongs_to": "unit_028"
+        },
+        {
+          "char_start": 19353,
+          "char_end": 19494,
+          "belongs_to": "unit_028"
+        },
+        {
+          "char_start": 19516,
+          "char_end": 19518,
+          "belongs_to": "unit_028"
+        }
+      ],
+      "issue_ids": [
+        "issue_003",
+        "issue_005",
+        "issue_009",
+        "issue_012"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_030",
+      "type": "hadith",
+      "ordinal": 30,
+      "number_raw": "٣٠",
+      "title": "الوقوف عند حدود الشرع",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 20075,
+        "char_end": 20593,
+        "page_start": 23,
+        "page_end": 24
+      },
+      "raw_text": "الوقوف عند حدود الشرع\n(1)\n٣٠ - عن أَبي ثَعْلَبَة الخُشَني – جُرثُومِ بنِ ناشِرٍ\nالله تعالى عنه - عن رسول الله ﷺ قال : « إِنَّ\nالله تعالى فَرَضَ فَرَائِضَ فَلَا تُضَيَّعُوهَا ، وحَدَّ حُدُودًا فَلَا\nتعتدوها ، وحَرَّمَ أَشْيَاءَ فَلَا تَنْتَهِكُوهَا ، وَسَكَتَ عن\nأَشْيَاءَ رَحْمَةً لَكُمْ غَيرَ نِسْيان فلا تَبْحَثُوا عنها ) .\n(1) أخرجه الترمذي في الإيمان (٢٥٤١) قوله : ( جنة » أي وقاية\nوحماية ، قوله : ( ثكلتك ( أي فقدتك ( كناية عن التعجب )٢٤\nالأربعين النووية\nحديثٌ حَسَنٌ رَوَاهُ الدَّارِقُطْنِيُّ وغَيرُهُ ]\n۳۱\n-\n(1)",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 20075,
+          "char_end": 20096,
+          "placement": "in_span",
+          "page_index": 23,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 20101,
+          "char_end": 20105,
+          "placement": "in_span",
+          "page_index": 23,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 20106,
+          "char_end": 20400,
+          "placement": "in_span",
+          "page_index": 23,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 20535,
+          "char_end": 20584,
+          "placement": "in_span",
+          "page_index": 24,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 20590,
+          "char_end": 20593,
+          "marker": "(1)",
+          "footnote_id": "fn_034",
+          "placement": "in_span",
+          "page_index": 24,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 21190,
+          "char_end": 21226,
+          "footnote_id": "fn_034",
+          "footnote_marker": "(١) أخرجه البيهقي في السنن (١٣/١٠) .",
+          "placement": "displaced",
+          "page_index": 24,
+          "confidence": 0.8
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0065"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0066"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 20097,
+          "char_end": 20100,
+          "belongs_to": "unit_029"
+        },
+        {
+          "char_start": 20401,
+          "char_end": 20436,
+          "belongs_to": "unit_029"
+        },
+        {
+          "char_start": 20437,
+          "char_end": 20517,
+          "belongs_to": "unit_029"
+        },
+        {
+          "char_start": 20585,
+          "char_end": 20587,
+          "belongs_to": "unit_031"
+        }
+      ],
+      "issue_ids": [
+        "issue_003",
+        "issue_011",
+        "issue_012"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_031",
+      "type": "hadith",
+      "ordinal": 31,
+      "number_raw": "۳۱",
+      "title": "الزهد وثمرته",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 20594,
+        "char_end": 20967,
+        "page_start": 24,
+        "page_end": 24
+      },
+      "raw_text": "الزهد وثمرته\nعن العَبَّاسِ\n-\nسَهْلِ بن سعْدِ\nالسَّاعِدِيُّ - رَضِى الله تعالى عنه\nعنه - قال : جَاءَ رَجُل\nإلى النبي فقال : يا رسول الله ، دُلَّنِي على عَمَل\nإِذَا عَمِلْتُهُ أَحَبَّنِي اللَّه وأَحَبَّنِي النَّاسُ . فقال : « ازْهَدَّ\nفي الدُّنْيَا يُحبَّكَ الله ، واذْهَدْ فيما عِنْدَ النَّاسِ يُحِبَّكَ\nالنَّاسُ » . [ حديثٌ حَسَنٌ رَوَاهُ ابن ماجه وغَيرُه بأسانيد حَسَنةٍ ]",
+      "segments": [
+        {
+          "role": "number",
+          "char_start": 20585,
+          "char_end": 20587,
+          "placement": "displaced",
+          "page_index": 24,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 20594,
+          "char_end": 20606,
+          "placement": "in_span",
+          "page_index": 24,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 20607,
+          "char_end": 20620,
+          "placement": "in_span",
+          "page_index": 24,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 20623,
+          "char_end": 20909,
+          "placement": "in_span",
+          "page_index": 24,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 20910,
+          "char_end": 20967,
+          "placement": "in_span",
+          "page_index": 24,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 20984,
+          "char_end": 20987,
+          "marker": "(۲)",
+          "footnote_id": "fn_035",
+          "placement": "displaced",
+          "page_index": 24,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 21227,
+          "char_end": 21261,
+          "footnote_id": "fn_035",
+          "footnote_marker": "(٢) أخرجه ابن ماجه في الزهد (٤٠٩٢)",
+          "placement": "displaced",
+          "page_index": 24,
+          "confidence": 0.8
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0067"
+        }
+      ],
+      "foreign_spans": [],
+      "issue_ids": [
+        "issue_001",
+        "issue_003",
+        "issue_005",
+        "issue_012"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_032",
+      "type": "hadith",
+      "ordinal": 32,
+      "number_raw": "۳۲",
+      "title": "لا ضرر ولا ضرار",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 20968,
+        "char_end": 21522,
+        "page_start": 24,
+        "page_end": 25
+      },
+      "raw_text": "لا ضرر ولا ضرار\n(۲)\n-\n۳۲ - عن أبي سعيد - سَعْدِ بن سنان - الخُدْرِي -\nرَضِي اللَّهُ تعالى عنه - أَنَّ رسول الله ﷺ قال : «لا ضَرَرَ ولا\nضِرَارَ » . [ حديث حَسَنٌ ، رَواهُ ابنُ مَاجَة والدَّارِ قُطْنِيُّ وغيرهما مُسْنَدًا ]\n(١) أخرجه البيهقي في السنن (١٣/١٠) .\n(٢) أخرجه ابن ماجه في الزهد (٤٠٩٢)\n•\n(۳)\n(3) أخرجه ابن ماجه في الأحكام (٢٣۳۱) ومالك في الأقضية (١٢٣٤) .إزالة المنكر فريضة إسلامية محكمة\n۲۵\nورواه مالِكٌ فى المُوَطَّأ مُرْسَلًا : عَنْ عَمْرِو بنِ يَحْيِي ،\nعن أبيه ، عن النَّبيِّ ، فَأَسْقَطَ أَبا سَعِيدٍ ، ولهُ طُرُقٌ\nيُقوِّي بَعْضُهَا بَعْضًا\n•",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 20968,
+          "char_end": 20983,
+          "placement": "in_span",
+          "page_index": 24,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 20990,
+          "char_end": 20994,
+          "placement": "in_span",
+          "page_index": 24,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 20995,
+          "char_end": 21114,
+          "placement": "in_span",
+          "page_index": 24,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 21115,
+          "char_end": 21189,
+          "placement": "in_span",
+          "page_index": 24,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 21264,
+          "char_end": 21267,
+          "marker": "(۳)",
+          "footnote_id": "fn_036",
+          "placement": "in_span",
+          "page_index": 24,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 21268,
+          "char_end": 21330,
+          "footnote_id": "fn_036",
+          "footnote_marker": "(3) أخرجه ابن ماجه في الأحكام (٢٣۳۱) ومالك في الأقضية (١٢٣٤) .إزالة المنكر فريضة إسلامية محكمة",
+          "placement": "in_span",
+          "page_index": 24,
+          "confidence": 0.8
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 21366,
+          "char_end": 21520,
+          "placement": "in_span",
+          "page_index": 25,
+          "confidence": 0.85
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0068"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0069"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0070"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0071"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0072"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 20984,
+          "char_end": 20987,
+          "belongs_to": "unit_031"
+        },
+        {
+          "char_start": 21190,
+          "char_end": 21226,
+          "belongs_to": "unit_030"
+        },
+        {
+          "char_start": 21227,
+          "char_end": 21261,
+          "belongs_to": "unit_031"
+        }
+      ],
+      "issue_ids": [
+        "issue_009",
+        "issue_012",
+        "issue_013"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_033",
+      "type": "hadith",
+      "ordinal": 33,
+      "number_raw": "۳۳",
+      "title": "أسس القضاء في الإسلام",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 21523,
+        "char_end": 21859,
+        "page_start": 25,
+        "page_end": 25
+      },
+      "raw_text": "أسس القضاء في الإسلام\n۳۳ - عن ابنِ عَبَّاسِ - رَضِي الله تعالى عنهما - :\nأنَّ رسول الله قال : « لَو يُعْطَى النَّاسُ بدَعْواهُمْ ،\nلَادَّعَى رِجَالٌ أَمْوَالَ قَومٍ وَدِمَاءَهُمْ ، لَكِنِ البَيِّنَةُ عَلَى\nالمُدَّعِي ، واليَمِينُ عَلَى مَنْ أَنْكَرَ » [ حديثٌ حسنٌ رَوَاهُ البيهقي\nوَغَيْرُهُ هَكَذَا ، وبَعْضُهُ في الصَّحِيحَين ]\n((\n(1)",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 21523,
+          "char_end": 21544,
+          "placement": "in_span",
+          "page_index": 25,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 21545,
+          "char_end": 21549,
+          "placement": "in_span",
+          "page_index": 25,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 21550,
+          "char_end": 21774,
+          "placement": "in_span",
+          "page_index": 25,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 21775,
+          "char_end": 21852,
+          "placement": "in_span",
+          "page_index": 25,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 21853,
+          "char_end": 21855,
+          "placement": "in_span",
+          "page_index": 25,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 21856,
+          "char_end": 21859,
+          "marker": "(1)",
+          "footnote_id": "fn_037",
+          "placement": "in_span",
+          "page_index": 25,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 22130,
+          "char_end": 22195,
+          "footnote_id": "fn_037",
+          "footnote_marker": "(1) أخرجه البيهقي في السنن (۲٥٢/١) وبنحوه مسلم في الأقضية (۱) .٢٦",
+          "placement": "displaced",
+          "page_index": 25,
+          "confidence": 0.8
+        }
+      ],
+      "foreign_spans": [],
+      "issue_ids": [
+        "issue_003",
+        "issue_018"
+      ],
+      "confidence": 0.77
+    },
+    {
+      "id": "unit_034",
+      "type": "hadith",
+      "ordinal": 34,
+      "number_raw": "34",
+      "title": "إزالة المنكر فريضة إسلامية محكمة",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 21860,
+        "char_end": 22261,
+        "page_start": 25,
+        "page_end": 26
+      },
+      "raw_text": "إزالة المنكر فريضة إسلامية محكمة\n34 - عَنْ أَبِي سَعِيدٍ الْخُدْرِي\n-\nرَضِي اللَّهُ\nتعالى عنه - قالَ : سَمِعْتُ رسول الله ﷺ :\nيقولُ : ( مَنْ رَأَى مِنْكُمْ مُنْكَرًا فَلْيُغَيرَهُ بِيَدِهِ ، فَإِنْ\nلمْ يَسْتَطِعْ فَبِلِسَانِهِ ، فَإِنْ لَمْ يَسْتَطِعْ فَبِقَلْبِهِ وذلك\n(1) أخرجه البيهقي في السنن (۲٥٢/١) وبنحوه مسلم في الأقضية (۱) .٢٦\nالأربعين النووية\nأَضْعَفُ الإِيمَانِ » [ رَواهُ مُسْلِمٌ ]\n۳۵\n(1)",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 21860,
+          "char_end": 21892,
+          "placement": "in_span",
+          "page_index": 25,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 21893,
+          "char_end": 21897,
+          "placement": "in_span",
+          "page_index": 25,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 21898,
+          "char_end": 21927,
+          "placement": "in_span",
+          "page_index": 25,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 21930,
+          "char_end": 22129,
+          "placement": "in_span",
+          "page_index": 25,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 22213,
+          "char_end": 22234,
+          "placement": "in_span",
+          "page_index": 26,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 22235,
+          "char_end": 22254,
+          "placement": "in_span",
+          "page_index": 26,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 22258,
+          "char_end": 22261,
+          "marker": "(1)",
+          "footnote_id": "fn_038",
+          "placement": "in_span",
+          "page_index": 26,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 22899,
+          "char_end": 22929,
+          "footnote_id": "fn_038",
+          "footnote_marker": "(1) أخرجه مسلم في الإيمان (۷۸)",
+          "placement": "displaced",
+          "page_index": 26,
+          "confidence": 0.8
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0073"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0074"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 22130,
+          "char_end": 22195,
+          "belongs_to": "unit_033"
+        },
+        {
+          "char_start": 22255,
+          "char_end": 22257,
+          "belongs_to": "unit_035"
+        }
+      ],
+      "issue_ids": [
+        "issue_003",
+        "issue_011",
+        "issue_012"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_035",
+      "type": "hadith",
+      "ordinal": 35,
+      "number_raw": "۳۵",
+      "title": "حقوق الأخوة في الإسلام",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 22262,
+        "char_end": 22824,
+        "page_start": 26,
+        "page_end": 26
+      },
+      "raw_text": "حقوق الأخوة في الإسلام\nأَبي هريرة -\nهريرة – رَضِي الله تعالى عنه - قال :\nقال رسول الله ﷺ : لا تَحَاسَدُوا ، ولا تَنَاجَشُوا ،\n«\nولا تَباغَضُوا ، ولا تَدَابَرُوا ، ولا يَبِعْ بَعْضُكُمُ على بَيع\nبَعْض ، وكُونُوا عِبادَ اللَّه إِخْوَانًا . المُسْلِمُ أَخُو المُسْلِم\nلا يَظْلِمُهُ ، ولا يَخْذُلُه ، ولا يَكْذِبُهُ ، ولا يَحْقِرُهُ . التَّقْوَى\nهَهُنَا - ويشير إلى صَدْرِهِ ) ثَلَاثَ مَرَّاتٍ ) - بِحَسْبِ\nامْرِيُّ مِنَ الشَّرِّ أَنْ يَحْقِرَ أَخاهُ المُسْلِمَ . كُلُّ المُسْلِم على\nالمُسْلِمِ حَرَامٌ : دَمُهُ ، وَمَالُهُ ، وعِرْضُهُ » [رَوَاهُ مُسْلِمٌ ) (۲)\n٣٦\n-",
+      "segments": [
+        {
+          "role": "number",
+          "char_start": 22255,
+          "char_end": 22257,
+          "placement": "displaced",
+          "page_index": 26,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 22262,
+          "char_end": 22284,
+          "placement": "in_span",
+          "page_index": 26,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 22285,
+          "char_end": 22795,
+          "placement": "in_span",
+          "page_index": 26,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 22796,
+          "char_end": 22815,
+          "placement": "in_span",
+          "page_index": 26,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 22816,
+          "char_end": 22819,
+          "marker": "(۲)",
+          "footnote_id": "fn_039",
+          "placement": "in_span",
+          "page_index": 26,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 22932,
+          "char_end": 22966,
+          "footnote_id": "fn_039",
+          "footnote_marker": "(۲) أخرجه مسلم في البر والصلة (۲۳) قوله : « تناجشوا» أي لا تزيدوا في ثمن",
+          "placement": "displaced",
+          "page_index": 26,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 22967,
+          "char_end": 23078,
+          "footnote_id": "fn_039",
+          "footnote_marker": "(۲) أخرجه مسلم في البر والصلة (۲۳) قوله : « تناجشوا» أي لا تزيدوا في ثمن",
+          "placement": "displaced",
+          "page_index": 26,
+          "confidence": 0.75
+        },
+        {
+          "role": "gharib",
+          "char_start": 23098,
+          "char_end": 23099,
+          "footnote_id": "fn_039",
+          "footnote_marker": "(۲) أخرجه مسلم في البر والصلة (۲۳) قوله : « تناجشوا» أي لا تزيدوا في ثمن",
+          "placement": "displaced",
+          "page_index": 26,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0075"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 22820,
+          "char_end": 22822,
+          "belongs_to": "unit_036"
+        }
+      ],
+      "issue_ids": [
+        "issue_001",
+        "issue_003",
+        "issue_012"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_036",
+      "type": "hadith",
+      "ordinal": 36,
+      "number_raw": "٣٦",
+      "title": "التعاون والعلم والعمل",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 22825,
+        "char_end": 23869,
+        "page_start": 26,
+        "page_end": 27
+      },
+      "raw_text": "التعاون والعلم والعمل\n-\nعن\nمن أَبِي هُرَيرَةَ – رَضِي الله تعالى عنه - عن\n(1) أخرجه مسلم في الإيمان (۷۸)\n•\n(۲) أخرجه مسلم في البر والصلة (۲۳) قوله : « تناجشوا» أي لا تزيدوا في ثمن\nالسلعة لتخدعوا غير كم ، قوله : « تدابروا ) أي يعادي بعضكم بعضًا ويقاطعه .عظيم لطف الله وفضله\n،\n۲۷\nالنَّبيِّ ﷺ قال : « مَنْ نَفَّسَ عَن مُؤْمِن كُرْبَةً مِنْ كُرَبِ\nالدُّنْيَا ، نَفْسَ اللَّه عَنْهُ كُرْبَةً مِنْ كُرَب يَومَ القِيامَةِ ، ومَنْ\n؛\nيَسَّرَ على مُعْسِرٍ ؛ يَسَّرَ الله عليه في الدُّنْيا وَالآخِرَةِ ، وَمَنْ\nسَتَرَ مُسْلِمًا ؛ سَتَرَهُ اللَّه في الدُّنْيَا وَالآخِرَةِ ، واللَّهُ في\nعَونِ العَبْدِ ما كان العَبْدُ في عُونِ أَخِيهِ . وَمَنْ سَلَكَ طريقًا\nيَلْتَمِسُ فيهِ عِلْمًا ؛ سَهَّلَ اللهُ لَهُ بِهِ طَرِيقًا إلى الجَنَّةِ ، وما\nاجْتَمَعَ قَومٌ فِي بَيتٍ مِنْ بُيُوتِ اللهِ يَتْلُونَ كِتَابَ الله\nوَيَتَدَارَسُونَهُ بَينَهُمْ ؛ إِلا نَزَلَتْ عليهمُ السَّكِينَةُ ، وَغَشِيَتْهُم\nالرَّحْمَةُ ، وحَفَّتهُم المَلَائِكَةُ ، وذَكَرَهُمُ اللَّهُ فِيمَنْ عِنْدَه ، وَمَنْ\nبَطَّأَ بِهِ عَمَلُهُ لمْ يُسْرِعْ به نَسَبُهُ » [ رَوَاهُ مُسْلِمٌ بهذا اللَّفْظِ ]",
+      "segments": [
+        {
+          "role": "number",
+          "char_start": 22820,
+          "char_end": 22822,
+          "placement": "displaced",
+          "page_index": 26,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 22825,
+          "char_end": 22846,
+          "placement": "in_span",
+          "page_index": 26,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 22849,
+          "char_end": 22898,
+          "placement": "in_span",
+          "page_index": 26,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 23103,
+          "char_end": 23833,
+          "placement": "in_span",
+          "page_index": 27,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 23834,
+          "char_end": 23869,
+          "placement": "in_span",
+          "page_index": 27,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 23890,
+          "char_end": 23893,
+          "marker": "(1)",
+          "footnote_id": "fn_040",
+          "placement": "displaced",
+          "page_index": 27,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 24048,
+          "char_end": 24086,
+          "footnote_id": "fn_040",
+          "footnote_marker": "(1) أخرجه مسلم في الذكر والدعاء (٤٨٦٧) قوله : ( نفس » أي",
+          "placement": "displaced",
+          "page_index": 27,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 24087,
+          "char_end": 24168,
+          "footnote_id": "fn_040",
+          "footnote_marker": "(1) أخرجه مسلم في الذكر والدعاء (٤٨٦٧) قوله : ( نفس » أي",
+          "placement": "displaced",
+          "page_index": 27,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0076"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0077"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0078"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0079"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 22899,
+          "char_end": 22929,
+          "belongs_to": "unit_034"
+        },
+        {
+          "char_start": 22932,
+          "char_end": 22966,
+          "belongs_to": "unit_035"
+        },
+        {
+          "char_start": 22967,
+          "char_end": 23078,
+          "belongs_to": "unit_035"
+        },
+        {
+          "char_start": 23098,
+          "char_end": 23099,
+          "belongs_to": "unit_035"
+        }
+      ],
+      "issue_ids": [
+        "issue_001",
+        "issue_003",
+        "issue_005",
+        "issue_009",
+        "issue_012",
+        "issue_013"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_037",
+      "type": "hadith",
+      "ordinal": 37,
+      "number_raw": "۳۷",
+      "title": "عظيم لطف الله وفضله",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 23870,
+        "char_end": 25288,
+        "page_start": 27,
+        "page_end": 29
+      },
+      "raw_text": "عظيم لطف الله وفضله\n(1)\n۳۷ - عن ابن عباس - رَضِي الله تعالى عنهما -\nعن رسول الله فيما يرويه عن رَبِّهِ - تَبَارَكَ\nوتعالى - قال : « إِنَّ الله كَتَبَ الحَسَنَاتِ والسَّيِّئاتِ ،\n(1) أخرجه مسلم في الذكر والدعاء (٤٨٦٧) قوله : ( نفس » أي\nخفف أو خرج ، قوله : ( كربة ) أي ضيق ، قوله : « ملك و أي سار .\n:\n(۲۸\nالأربعين النووية\nثُمَّ بَيَّن ذلك : فَمَنْ هَمَّ بِحَسَنَةٍ فَلَمْ يَعْمَلُهَا ؛ كَتَبَهَا اللَّهُ\nعِنْدَهُ حَسَنَةً كَامِلَة ، وإِنْ هَمَّ بِهَا فَعَمِلَهَا ؛ كَتَبَهَا اللَّهُ عِنْدَهُ\nعَشْرَ حَسَناتٍ إِلى سَبْعِمَائِةِ ضِعْفِ إِلى أَضْعَافِ كَثِيرةٍ\nوإن هَمَّ بِسَيِّئَةٍ فَلَمْ يَعْمَلْهَا ؛ كَتَبَهَا الله عِنْدِهُ حَسَنَةٌ\nكَامِلَةٍ ، وإِنْ هَمَّ بها فَعَمِلَها ؛ كَتَبَها اللَّهُ سَيِّئَةً واحِدَةً » .\n.\nلطف\n[ رواه البخارِيٌّ ومُسْلِمٌ في صَحِيحَيهِما بِهذِهِ الحُرُوفِ ] (١)\nفانْظُرْ يَا أَخِي وَفَقَنَا اللهُ وإِيَّاكَ إلى عَظِيمٍ\nالله تعالى ، وتأَمَّلْ هذِهِ الأَلفاظ . وقوله : « عِنْدَهُ »\nإِشَارَةً إلى الاعْتِنَاءِ بها . وقولُهُ » كامِلَةً » لِلتَّأكِيدِ\nوشِدَّةِ الاعْتِنَاءِ بها\nوقال : في السَّيِّئَةِ الَّتِي هَمَّ بها ثُمَّ تَرَكَهَا : (\n: « كَتَبَهَا\nالله عِندَهُ حَسَنَةً كامِلَةً ، فَأَكْدَهَا بِكَامِلةً . « وإنْ عَمِلَهَا\nكَتَبَهَا سَيْئةً واحِدَةً ، فَأَكَّدَ تَقْلِيلَهَا بوَاحِدَةٍ وَلَمْ\nيُؤكِّدْهَا بِكامِلةٍ، فللَّهِ الحمد والْمِنْةُ ، سُبْحَانَهُ\n((\n(۱) أخرجه مسلم في الإيمان (١٨٦) والبخاري في الإيمان (٤٠)\nكلاهما بنحوه .رفع الحرج في الإسلام\nلا نُحْصي ثناء عليه ، وبالله التوفيق .\n٣٨\n-",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 23870,
+          "char_end": 23889,
+          "placement": "in_span",
+          "page_index": 27,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 23894,
+          "char_end": 23898,
+          "placement": "in_span",
+          "page_index": 27,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 23899,
+          "char_end": 24047,
+          "placement": "in_span",
+          "page_index": 27,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 24169,
+          "char_end": 24172,
+          "placement": "in_span",
+          "page_index": 27,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 24190,
+          "char_end": 24588,
+          "placement": "in_span",
+          "page_index": 28,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 24589,
+          "char_end": 24652,
+          "placement": "in_span",
+          "page_index": 28,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 24653,
+          "char_end": 24656,
+          "marker": "(١)",
+          "footnote_id": "fn_041",
+          "placement": "in_span",
+          "page_index": 28,
+          "confidence": 0.8
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 24657,
+          "char_end": 25152,
+          "placement": "in_span",
+          "page_index": 28,
+          "confidence": 0.85
+        },
+        {
+          "role": "takhrij",
+          "char_start": 25153,
+          "char_end": 25224,
+          "footnote_id": "fn_041",
+          "footnote_marker": "(۱) أخرجه مسلم في الإيمان (١٨٦) والبخاري في الإيمان (٤٠)",
+          "placement": "in_span",
+          "page_index": 28,
+          "confidence": 0.8
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 25245,
+          "char_end": 25283,
+          "placement": "in_span",
+          "page_index": 29,
+          "confidence": 0.85
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0080"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0081"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0082"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 23890,
+          "char_end": 23893,
+          "belongs_to": "unit_036"
+        },
+        {
+          "char_start": 24048,
+          "char_end": 24086,
+          "belongs_to": "unit_036"
+        },
+        {
+          "char_start": 24087,
+          "char_end": 24168,
+          "belongs_to": "unit_036"
+        },
+        {
+          "char_start": 25284,
+          "char_end": 25286,
+          "belongs_to": "unit_038"
+        }
+      ],
+      "issue_ids": [
+        "issue_009",
+        "issue_011",
+        "issue_012",
+        "issue_018"
+      ],
+      "confidence": 0.77
+    },
+    {
+      "id": "unit_038",
+      "type": "hadith",
+      "ordinal": 38,
+      "number_raw": "٣٨",
+      "title": "محبة الله تعالى لأوليائه",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 25289,
+        "char_end": 25838,
+        "page_start": 29,
+        "page_end": 29
+      },
+      "raw_text": "محبة الله تعالى لأوليائه\nعن\nأَبِي هُرَيرَ\n-\n۲۹\nرَضِي\nالله تعالى عنه -\nقَالَ : قَالَ رسولُ الله : « إِنَّ الله تعالى قال : مَنْ\nعادَى لِي وَلِيَّا فَقَدْ آذَنْتُهُ بِالْحَرْبِ ، وما تَقَرَّبَ إِلَيَّ عَبْدِي\nبشيءٍ أَحَبُّ إِلَيَّ مِمَّا افْتَرَضْتُهُ عليه ، ولا يَزَالُ عَبْدِي\nيَتَقْربُ إليَّ بالنَّوَافِل حَتى أُحِبَّهُ ، فإذا أَحْبَبْتُهُ كُنْتُ سَمْعَهُ\nالذي يَسْمَعُ بِهِ ، وبَصَرَهُ الَّذِي يُبْصِرُ به ، وَيَدَهُ التي\nيَنطِشُ بها ، ورجله التي يمشي بها ، وَلَئِنْ سَأَلَنِي\nلأُعْطِينَّه، ولَئِنْ اسْتَعَاذَنِي لأَعِيذَنَّهُ » [رواه البخارِيُّ ]",
+      "segments": [
+        {
+          "role": "number",
+          "char_start": 25284,
+          "char_end": 25286,
+          "placement": "displaced",
+          "page_index": 29,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 25289,
+          "char_end": 25313,
+          "placement": "in_span",
+          "page_index": 29,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 25314,
+          "char_end": 25330,
+          "placement": "in_span",
+          "page_index": 29,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 25336,
+          "char_end": 25819,
+          "placement": "in_span",
+          "page_index": 29,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 25820,
+          "char_end": 25838,
+          "placement": "in_span",
+          "page_index": 29,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 25860,
+          "char_end": 25863,
+          "marker": "(1)",
+          "footnote_id": "fn_042",
+          "placement": "displaced",
+          "page_index": 29,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 25973,
+          "char_end": 26033,
+          "footnote_id": "fn_042",
+          "footnote_marker": "(1) أخرجه البخاري في الرقاق (٦٥٠۲) والبيهقي في السنن (٣٤٦/٣)",
+          "placement": "displaced",
+          "page_index": 29,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 26034,
+          "char_end": 26064,
+          "footnote_id": "fn_042",
+          "footnote_marker": "(1) أخرجه البخاري في الرقاق (٦٥٠۲) والبيهقي في السنن (٣٤٦/٣)",
+          "placement": "displaced",
+          "page_index": 29,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0083"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0084"
+        }
+      ],
+      "foreign_spans": [],
+      "issue_ids": [
+        "issue_001",
+        "issue_003",
+        "issue_005",
+        "issue_012",
+        "issue_013"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_039",
+      "type": "hadith",
+      "ordinal": 39,
+      "number_raw": "٣٩",
+      "title": "رفع الحرج في الإسلام",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 25839,
+        "char_end": 26182,
+        "page_start": 29,
+        "page_end": 30
+      },
+      "raw_text": "رفع الحرج في الإسلام\n(1)\n٣٩- عن ابنِ عَبَّاس - رَضِي الله تعالى عنهما - :\nرسول الله ﷺ قال : « إِنَّ اللَّه تَجَاوَزَ لِي عن أُمَتِي :\n(1) أخرجه البخاري في الرقاق (٦٥٠۲) والبيهقي في السنن (٣٤٦/٣)\nقوله : « آذنته » أي أعلنت عليهالأربعين النووية\nالخَطَأَ ، والنِّسْيَانَ ، وما اسْتُكْرِهُوا عليه » [ حديث حسن ،\nرواه ابن ماجة والبيهقي ، وغيرهما ]\n•",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 25839,
+          "char_end": 25859,
+          "placement": "in_span",
+          "page_index": 29,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 25864,
+          "char_end": 25867,
+          "placement": "in_span",
+          "page_index": 29,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 25868,
+          "char_end": 25972,
+          "placement": "in_span",
+          "page_index": 29,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 26081,
+          "char_end": 26132,
+          "placement": "in_span",
+          "page_index": 30,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 26133,
+          "char_end": 26180,
+          "placement": "in_span",
+          "page_index": 30,
+          "confidence": 0.85
+        },
+        {
+          "role": "takhrij",
+          "char_start": 26732,
+          "char_end": 26793,
+          "footnote_id": "fn_043",
+          "footnote_marker": "(1) أخرجه ابن ماجه في الطلاق (۲۰۳۳) والبيهقي في السنن (٣٥٦/٧)",
+          "placement": "displaced",
+          "page_index": 30,
+          "confidence": 0.65
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0085"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0086"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 25860,
+          "char_end": 25863,
+          "belongs_to": "unit_038"
+        },
+        {
+          "char_start": 25973,
+          "char_end": 26033,
+          "belongs_to": "unit_038"
+        },
+        {
+          "char_start": 26034,
+          "char_end": 26064,
+          "belongs_to": "unit_038"
+        }
+      ],
+      "issue_ids": [
+        "issue_003",
+        "issue_004",
+        "issue_011",
+        "issue_012"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "unit_040",
+      "type": "hadith",
+      "ordinal": 40,
+      "number_raw": "٤٠",
+      "title": "كن في الدنيا غريبا",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 26183,
+        "char_end": 26583,
+        "page_start": 30,
+        "page_end": 30
+      },
+      "raw_text": "كن في الدنيا غريبا\n٤٠ - عن ابن عُمَرَ - رَضِي الله تعالى عنهما - قال :\nأَخَذَ رسول الله مَنْكِبَيَّ فقال : « كُنْ فِي الدُّنْيا\nكأَنَّكَ غَرِيبٌ أَو عابِرُ سَبِيل » . وَكَانَ ابْنُ عمرَ - رَضِي\nالله تعالى عنهما - يقول : إذا أَمْسَيتَ فلا تَنْتَظِرِ الصَّبَاحَ ،\nوإذا أَصْبَحْتَ فلا تَنْتَظِرِ المَسَاءَ ، وخُذْ مِنْ صِحْتِكَ\n-\nلِمَرَضِكَ ، ومِنْ حَيَاتِكَ لِموتِكَ . [ رَواهُ البُخَارِيَّ ]\nرَضِي\n(۲)",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 26183,
+          "char_end": 26201,
+          "placement": "in_span",
+          "page_index": 30,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 26202,
+          "char_end": 26206,
+          "placement": "in_span",
+          "page_index": 30,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 26207,
+          "char_end": 26507,
+          "placement": "in_span",
+          "page_index": 30,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 26510,
+          "char_end": 26549,
+          "placement": "in_span",
+          "page_index": 30,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 26550,
+          "char_end": 26573,
+          "placement": "in_span",
+          "page_index": 30,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 26574,
+          "char_end": 26579,
+          "placement": "in_span",
+          "page_index": 30,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 26580,
+          "char_end": 26583,
+          "marker": "(۲)",
+          "footnote_id": "fn_044",
+          "placement": "in_span",
+          "page_index": 30,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 26794,
+          "char_end": 26828,
+          "footnote_id": "fn_044",
+          "footnote_marker": "(٢) أخرجه البخاري في الرقاق (٥۹۳۷) قوله : « عابر سبيل » هو",
+          "placement": "displaced",
+          "page_index": 30,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 26829,
+          "char_end": 26875,
+          "footnote_id": "fn_044",
+          "footnote_marker": "(٢) أخرجه البخاري في الرقاق (٥۹۳۷) قوله : « عابر سبيل » هو",
+          "placement": "displaced",
+          "page_index": 30,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0087"
+        }
+      ],
+      "foreign_spans": [],
+      "issue_ids": [
+        "issue_003",
+        "issue_012",
+        "issue_018"
+      ],
+      "confidence": 0.77
+    },
+    {
+      "id": "unit_041",
+      "type": "hadith",
+      "ordinal": 41,
+      "number_raw": "٤١",
+      "title": "اتباع شرع الله على عماد الإيمان",
+      "title_variants": [
+        "اتباع شرع الله وعل (TOC, split over lines)"
+      ],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 26584,
+        "char_end": 27038,
+        "page_start": 30,
+        "page_end": 31
+      },
+      "raw_text": "اتباع شرع الله على عماد الإيمان\n-\n6\n٤١ - عَنْ أَبِي مُحَمَّدٍ عبدِ اللَّه بن عَمْرِو بنِ العَاصِ\nالله تعالى عنهما - قَالَ : قَالَ رَسُولُ اللهِ ﷺ :\n(1) أخرجه ابن ماجه في الطلاق (۲۰۳۳) والبيهقي في السنن (٣٥٦/٧)\n(٢) أخرجه البخاري في الرقاق (٥۹۳۷) قوله : « عابر سبيل » هو\nالذي انقطعت به السبل .سعة مغفرة الله عل\nلَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يَكُونَ هَوَاهُ تَبَعًا لِمَا جِئْتُ بِهِ » .\n[ حديثٌ حَسَنٌ صَحِيحٌ ، رَوَينَاهُ في كتاب الحجة بإسناد صحيح ]\n-\n٤٢",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 26584,
+          "char_end": 26615,
+          "placement": "in_span",
+          "page_index": 30,
+          "confidence": 0.95
+        },
+        {
+          "role": "number",
+          "char_start": 26620,
+          "char_end": 26624,
+          "placement": "in_span",
+          "page_index": 30,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 26625,
+          "char_end": 26731,
+          "placement": "in_span",
+          "page_index": 30,
+          "confidence": 0.85
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 26893,
+          "char_end": 26969,
+          "placement": "in_span",
+          "page_index": 31,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 26970,
+          "char_end": 27033,
+          "placement": "in_span",
+          "page_index": 31,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 27057,
+          "char_end": 27060,
+          "marker": "(1)",
+          "footnote_id": "fn_045",
+          "placement": "displaced",
+          "page_index": 31,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 27537,
+          "char_end": 27608,
+          "footnote_id": "fn_045",
+          "footnote_marker": "(1) أخرجه البغوي في شرح السنة (٢٣١/١) والتبريزي في مشكاة",
+          "placement": "displaced",
+          "page_index": 31,
+          "confidence": 0.8
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0088"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0089"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0090"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0091"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 26732,
+          "char_end": 26793,
+          "belongs_to": "unit_039"
+        },
+        {
+          "char_start": 26794,
+          "char_end": 26828,
+          "belongs_to": "unit_040"
+        },
+        {
+          "char_start": 26829,
+          "char_end": 26875,
+          "belongs_to": "unit_040"
+        },
+        {
+          "char_start": 27036,
+          "char_end": 27038,
+          "belongs_to": "unit_042"
+        }
+      ],
+      "issue_ids": [
+        "issue_003",
+        "issue_005",
+        "issue_009",
+        "issue_012",
+        "issue_013",
+        "issue_015"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_042",
+      "type": "hadith",
+      "ordinal": 42,
+      "number_raw": "٤٢",
+      "title": "سعة مغفرة الله عل",
+      "title_variants": [
+        "سعة مغفرة الله على (TOC)"
+      ],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 27039,
+        "char_end": 27754,
+        "page_start": 31,
+        "page_end": 31
+      },
+      "raw_text": "سعة مغفرة الله عل\n(1)\nعن أنس – رضي الله تعالى عنه - قال :\nسمعت رسول الله ﷺ يَقُول : « قال الله تعالى : يا ابنَ\nآدَمَ ، إِنَّكَ ما دَعَوْتَنِي ورَجَوتَنِي غَفَرْتُ لَكَ على ما كانَ\nمِنكَ ولا أُبَالِي . يا ابْنَ آدَمَ ، لَو بَلَغَتْ ذُنُوبُكَ عَنَانَ\nالسَّمَاءِ ثُمَّ اسْتَغْفَرْتَنِي غَفَرْتُ لَكَ . يا ابنَ آدَمَ ،\nإِنَّكَ لَو أَتَيْتَنِي بِقُرَاب الْأَرْضِ خَطَايَا ثُمَّ لَقِيتَي لا تُشْرِكُ\nبي شَيْئًا لأتَيْتُكَ بقُرابِها مَغْفِرَةً » ( رَوَاهُ التَّرْمِذِيُّ وقال :\nحديثُ حَسَنٌ صَحِيحٌ ]\n(۲)\n(1) أخرجه البغوي في شرح السنة (٢٣١/١) والتبريزي في مشكاة\nالمصابيح (١٦٧)\n(٢) أخرجه الترمذي في الدعوات (٣٥٤٠) ، وأخرجه الهيثمي في\nمجمع الزوائد (۲۱۰/۱۰) والألباني في الصحيحة (۱۲۷) ، وقوله :\nبقراب » أي بما يقارب ملئها\n•۳۲",
+      "segments": [
+        {
+          "role": "number",
+          "char_start": 27036,
+          "char_end": 27038,
+          "placement": "displaced",
+          "page_index": 31,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 27039,
+          "char_end": 27056,
+          "placement": "in_span",
+          "page_index": 31,
+          "confidence": 0.95
+        },
+        {
+          "role": "hadith_text",
+          "char_start": 27061,
+          "char_end": 27477,
+          "placement": "in_span",
+          "page_index": 31,
+          "confidence": 0.85
+        },
+        {
+          "role": "source_attribution",
+          "char_start": 27478,
+          "char_end": 27532,
+          "placement": "in_span",
+          "page_index": 31,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 27533,
+          "char_end": 27536,
+          "marker": "(۲)",
+          "footnote_id": "fn_046",
+          "placement": "in_span",
+          "page_index": 31,
+          "confidence": 0.8
+        },
+        {
+          "role": "takhrij",
+          "char_start": 27609,
+          "char_end": 27715,
+          "footnote_id": "fn_046",
+          "footnote_marker": "(٢) أخرجه الترمذي في الدعوات (٣٥٤٠) ، وأخرجه الهيثمي في",
+          "placement": "in_span",
+          "page_index": 31,
+          "confidence": 0.8
+        },
+        {
+          "role": "gharib",
+          "char_start": 27716,
+          "char_end": 27750,
+          "footnote_id": "fn_046",
+          "footnote_marker": "(٢) أخرجه الترمذي في الدعوات (٣٥٤٠) ، وأخرجه الهيثمي في",
+          "placement": "in_span",
+          "page_index": 31,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0092"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 27057,
+          "char_end": 27060,
+          "belongs_to": "unit_041"
+        },
+        {
+          "char_start": 27537,
+          "char_end": 27608,
+          "belongs_to": "unit_041"
+        }
+      ],
+      "issue_ids": [
+        "issue_001",
+        "issue_013",
+        "issue_016"
+      ],
+      "confidence": 0.8
+    }
+  ]
+}

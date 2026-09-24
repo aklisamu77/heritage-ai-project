@@ -1,0 +1,18 @@
+{
+  "_about": "Planted mistakes on unit_002 of الأربعون النووية (hadith of Jibril). Each case must be rejected with the listed reason code(s).",
+  "unit_id": "unit_002",
+  "cases": [
+    {"name": "the Prophet's words given without his name in the text", "expect": ["E_NAME_NOT_IN_TEXT"],
+     "object": {"type": "belief", "statement": "الإيمان أن تؤمن بالله وملائكته.", "said_by": {"kind": "prophet", "name_in_text": "محمد بن عبد الله"}, "basis": "explicit",
+                "evidence": [{"piece": "p02", "quote": "أن تؤمن بالله وملائكته وكتبه ورسله"}]}},
+    {"name": "a gharib footnote given to the Prophet", "expect": ["E_SPEAKER_ROLE"],
+     "object": {"type": "word_meaning", "statement": "أماراتها أي علاماتها.", "said_by": {"kind": "prophet", "name_in_text": "رسول الله"}, "basis": "explicit",
+                "evidence": [{"piece": "p04", "quote": "أماراتها أي علاماتها"}]}},
+    {"name": "a word added to the hadith", "expect": ["E_QUOTE_NOT_FOUND"],
+     "object": {"type": "worship", "statement": "الإسلام أن تشهد أن لا إله إلا الله.", "said_by": {"kind": "prophet", "name_in_text": "رسول الله"}, "basis": "explicit",
+                "evidence": [{"piece": "p02", "quote": "الإسلام أن تشهد أن لا إله إلا الله وحده لا شريك له"}]}},
+    {"name": "takhrij quoted though the config excludes it from the sheet", "expect": ["E_QUOTE_NOT_FOUND"],
+     "object": {"type": "word_meaning", "statement": "أخرجه مسلم في الإيمان.", "said_by": {"kind": "editor"}, "basis": "explicit",
+                "evidence": [{"piece": "p04", "quote": "أخرجه مسلم في الإيمان"}]}}
+  ]
+}

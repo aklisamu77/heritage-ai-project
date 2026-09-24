@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": {},
+  "warnings": {},
+  "stats": {
+    "source_length_chars": 50884,
+    "nodes": 20,
+    "units": 8,
+    "issues": 12,
+    "noise_spans": 29,
+    "pages": 56,
+    "segment_roles": {
+      "text": 58,
+      "heading": 8,
+      "number": 6,
+      "anchor": 33,
+      "footnote": 44,
+      "noise_ref": 19
+    },
+    "body_role_share": 0.0,
+    "covered_non_whitespace_chars": 40884,
+    "non_whitespace_chars": 40884
+  }
+}

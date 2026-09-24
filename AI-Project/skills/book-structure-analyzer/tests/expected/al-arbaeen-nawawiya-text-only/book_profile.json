@@ -1,0 +1,48 @@
+{
+  "title": "الأربعين النووية",
+  "author": "أبو زكريا يحيى بن شرف النووي",
+  "editor_commentator": "أحمد عبد الرازق البكري (خرج أحاديثه وشرح غريبه)",
+  "publisher": "دار السلام للطباعة والنشر والتوزيع والترجمة",
+  "edition": "الطبعة الرابعة",
+  "publication_year": "١٤٢٨هـ - ٢٠٠٧م",
+  "isbn": "977-342-075-2",
+  "genre": "hadith_collection",
+  "language": "ar",
+  "source_file": "the-40-ocr-fastocr.txt",
+  "source_sha256": "4a26d629416e12673e1df6d61f21a6c8c0e35bb27ea8247e4d127411d8233244",
+  "source_length_chars": 28672,
+  "line_endings": "LF",
+  "sources_used": [
+    "the-40-ocr-fastocr.txt",
+    "pages.text-only.json (page model)"
+  ],
+  "generated_by": "book-structure-analyzer/scripts/engine.py",
+  "config_file": "book_config.json",
+  "overrides_file": "overrides.json",
+  "overrides_applied": 2,
+  "expected_components": [
+    {
+      "component": "author_introduction",
+      "status": "absent_or_undetermined",
+      "note": "no khutbat al-kitab found between the publisher page and hadith 1; the edition may omit it or OCR may have lost it",
+      "confidence": 0.6
+    },
+    {
+      "component": "toc",
+      "status": "present"
+    }
+  ],
+  "segment_roles_used": [
+    "anchor",
+    "gharib",
+    "hadith_text",
+    "heading",
+    "noise_ref",
+    "number",
+    "source_attribution",
+    "subtitle",
+    "takhrij"
+  ],
+  "structure_summary": "Flat collection: front matter (title page + publisher data) → 42 hadith units, each with a topic heading → index (الفهرس).",
+  "notes": []
+}

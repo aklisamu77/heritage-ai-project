@@ -1,0 +1,17 @@
+{
+  "_about": "أصول السنة للحميدي — a short creed treatise in 8 numbered paragraphs; al-Humaydi states beliefs, quotes Sufyan and others, and refutes opposing views. The editor added the bracketed headings and wrote the footnotes.",
+  "book": "asul-elsona",
+  "heading_by": "editor",
+  "_heading_by_note": "the editor says in his introduction that he gave each paragraph a number and a heading between brackets",
+  "main_text_by": "author",
+  "footnote_roles": {"gharib": "include", "takhrij": "exclude", "footnote": "include"},
+  "types": [
+    {"id": "creed_issue", "label": "مسألة اعتقاد", "description": "a point of belief the text affirms (faith, the Qur'an, God's attributes, the companions, the vision of God)", "example": "القرآن كلام الله"},
+    {"id": "refutation", "label": "رد على مخالف", "description": "a view the text rejects, and who holds it when the text names them", "example": "من قال القرآن مخلوق فهو مبتدع"},
+    {"id": "method", "label": "منهج", "description": "how belief is to be taken and held: following the texts, not interpreting the attributes, what is not debated", "example": "لا نزيد فيه ولا نفسره، نقف على ما وقف عليه القرآن والسنة"},
+    {"id": "word_meaning", "label": "معنى كلمة أو مصطلح", "description": "the meaning of a word or term, as the editor's footnote explains it (said_by editor)", "example": "التعطيل لغة: الإخلاء"}
+  ],
+  "max_objects_per_unit": 8,
+  "min_quote_letters": 8,
+  "max_statement_chars": 300
+}

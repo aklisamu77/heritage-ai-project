@@ -1,0 +1,30 @@
+{
+  "_about": "Per-book settings for the knowledge extractor. Written once per book (Phase A) from the book itself; the prompt and the scripts never change per book.",
+  "book": "<work folder name>",
+  "heading_by": "editor",
+  "_heading_by_help": "whose words the unit headings are: 'editor' when the editor/publisher added them (say where the book says so), 'author' when they are the author's own",
+  "main_text_by": "author",
+  "footnote_roles": {
+    "_help": "which footnote roles of units.json go into the sheets: include | exclude. Only word/term meanings are taken from footnotes.",
+    "gharib": "include",
+    "takhrij": "exclude",
+    "footnote": "include"
+  },
+  "types": [
+    {
+      "id": "<ascii id>",
+      "label": "<Arabic label>",
+      "description": "<one sentence: what belongs here>",
+      "example": "<a short example statement from this book>"
+    },
+    {
+      "id": "word_meaning",
+      "label": "معنى كلمة أو مصطلح",
+      "description": "the meaning of a word or term, as the editor's footnote explains it (said_by editor)",
+      "example": "<from this book>"
+    }
+  ],
+  "max_objects_per_unit": 8,
+  "min_quote_letters": 8,
+  "max_statement_chars": 300
+}

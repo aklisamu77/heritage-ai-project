@@ -1,0 +1,43 @@
+{
+  "unit_id": "unit_004",
+  "model_used": "test-fixture",
+  "prompt_version": "ke-v1",
+  "no_knowledge_reason": null,
+  "objects": [
+    {
+      "type": "creed_issue",
+      "statement": "القرآن كلام الله.",
+      "said_by": {"kind": "author"},
+      "basis": "explicit",
+      "evidence": [{"piece": "p02", "quote": "والقرآن كلام الله"}]
+    },
+    {
+      "type": "refutation",
+      "statement": "من قال إن القرآن مخلوق فهو مبتدع، ولم يُسمع أحد يقول ذلك.",
+      "said_by": {"kind": "quoted", "name_in_text": "سفيان", "reported_by": "author"},
+      "basis": "explicit",
+      "evidence": [{"piece": "p02", "quote": "ومن قال مخلوق فهو مبتدع، لم نسمع أحداً يقول هذا"}]
+    },
+    {
+      "type": "creed_issue",
+      "statement": "الإيمان قول وعمل، ويزيد.",
+      "said_by": {"kind": "quoted", "name_in_text": "سفيان", "reported_by": "author"},
+      "basis": "explicit",
+      "evidence": [{"piece": "p02", "quote": "الإيمان قول وعمل ويزيد"}]
+    },
+    {
+      "type": "creed_issue",
+      "statement": "الإيمان ينقص حتى لا يبقى منه شيء.",
+      "said_by": {"kind": "quoted", "name_in_text": "سفيان", "reported_by": "author"},
+      "basis": "explicit",
+      "evidence": [{"piece": "p02", "quote": "بل حتى لا يبقى منه شيء"}]
+    },
+    {
+      "type": "word_meaning",
+      "statement": "«كلام الله» في قوله تعالى «حتى يسمع كلام الله» معناه: القرآن.",
+      "said_by": {"kind": "editor"},
+      "basis": "explicit",
+      "evidence": [{"piece": "p03", "quote": "أي: حتى يسمع القرآن"}]
+    }
+  ]
+}
