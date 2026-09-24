@@ -1,0 +1,1097 @@
+{
+  "root": "node_000",
+  "pages": [
+    {
+      "page_index": 1,
+      "printed_page_number": null,
+      "char_start": 0,
+      "char_end": 191,
+      "evidence": "document_start",
+      "confidence": 0.9
+    },
+    {
+      "page_index": 2,
+      "printed_page_number": null,
+      "char_start": 191,
+      "char_end": 1093,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 3,
+      "printed_page_number": null,
+      "char_start": 1093,
+      "char_end": 1910,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 395.6,
+        "continuation_lines": 0,
+        "line_pitch": 21.3
+      }
+    },
+    {
+      "page_index": 4,
+      "printed_page_number": null,
+      "char_start": 1910,
+      "char_end": 2862,
+      "evidence": "pdf_line_layout+running_header",
+      "confidence": 0.85
+    },
+    {
+      "page_index": 5,
+      "printed_page_number": null,
+      "char_start": 2862,
+      "char_end": 3920,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 380.0,
+        "continuation_lines": 0,
+        "line_pitch": 20.5
+      }
+    },
+    {
+      "page_index": 6,
+      "printed_page_number": null,
+      "char_start": 3920,
+      "char_end": 4954,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 380.8,
+        "continuation_lines": 0,
+        "line_pitch": 21.1
+      }
+    },
+    {
+      "page_index": 7,
+      "printed_page_number": null,
+      "char_start": 4954,
+      "char_end": 5833,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 372.7,
+        "continuation_lines": 0,
+        "line_pitch": 21.6
+      }
+    },
+    {
+      "page_index": 8,
+      "printed_page_number": null,
+      "char_start": 5833,
+      "char_end": 6679,
+      "evidence": "pdf_line_layout+running_header",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 385.5,
+        "continuation_lines": 0,
+        "line_pitch": 21.7
+      }
+    },
+    {
+      "page_index": 9,
+      "printed_page_number": null,
+      "char_start": 6679,
+      "char_end": 7582,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 379.9,
+        "continuation_lines": 0,
+        "line_pitch": 22.1
+      }
+    },
+    {
+      "page_index": 10,
+      "printed_page_number": null,
+      "char_start": 7582,
+      "char_end": 8423,
+      "evidence": "pdf_line_layout+running_header",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 394.2,
+        "continuation_lines": 0,
+        "line_pitch": 21.9
+      }
+    },
+    {
+      "page_index": 11,
+      "printed_page_number": null,
+      "char_start": 8423,
+      "char_end": 9196,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 360.6,
+        "continuation_lines": 0,
+        "line_pitch": 22.3
+      }
+    },
+    {
+      "page_index": 12,
+      "printed_page_number": null,
+      "char_start": 9196,
+      "char_end": 10096,
+      "evidence": "pdf_line_layout+running_header",
+      "confidence": 0.85
+    },
+    {
+      "page_index": 13,
+      "printed_page_number": null,
+      "char_start": 10096,
+      "char_end": 10779,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 392.6,
+        "continuation_lines": 0,
+        "line_pitch": 25.0
+      }
+    },
+    {
+      "page_index": 14,
+      "printed_page_number": null,
+      "char_start": 10779,
+      "char_end": 11727,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 393.2,
+        "continuation_lines": 0,
+        "line_pitch": 22.6
+      }
+    },
+    {
+      "page_index": 15,
+      "printed_page_number": null,
+      "char_start": 11727,
+      "char_end": 12590,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75
+    },
+    {
+      "page_index": 16,
+      "printed_page_number": null,
+      "char_start": 12590,
+      "char_end": 13452,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 379.1,
+        "continuation_lines": 0,
+        "line_pitch": 22.0
+      }
+    },
+    {
+      "page_index": 17,
+      "printed_page_number": null,
+      "char_start": 13452,
+      "char_end": 14346,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 395.0,
+        "continuation_lines": 0,
+        "line_pitch": 21.7
+      }
+    },
+    {
+      "page_index": 18,
+      "printed_page_number": null,
+      "char_start": 14346,
+      "char_end": 15661,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 395.1,
+        "continuation_lines": 0,
+        "line_pitch": 21.5
+      }
+    },
+    {
+      "page_index": 19,
+      "printed_page_number": null,
+      "char_start": 15661,
+      "char_end": 16565,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 417.6,
+        "continuation_lines": 0,
+        "line_pitch": 22.2
+      }
+    },
+    {
+      "page_index": 20,
+      "printed_page_number": null,
+      "char_start": 16565,
+      "char_end": 17527,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 366.2,
+        "continuation_lines": 0,
+        "line_pitch": 21.3
+      }
+    },
+    {
+      "page_index": 21,
+      "printed_page_number": null,
+      "char_start": 17527,
+      "char_end": 18490,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 396.6,
+        "continuation_lines": 0,
+        "line_pitch": 22.1
+      }
+    },
+    {
+      "page_index": 22,
+      "printed_page_number": null,
+      "char_start": 18490,
+      "char_end": 19519,
+      "evidence": "pdf_line_layout+running_header",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 362.3,
+        "continuation_lines": 0,
+        "line_pitch": 21.7
+      }
+    },
+    {
+      "page_index": 23,
+      "printed_page_number": null,
+      "char_start": 19519,
+      "char_end": 20518,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 397.6,
+        "continuation_lines": 0,
+        "line_pitch": 21.3
+      }
+    },
+    {
+      "page_index": 24,
+      "printed_page_number": null,
+      "char_start": 20518,
+      "char_end": 21366,
+      "evidence": "pdf_line_layout+running_header",
+      "confidence": 0.85
+    },
+    {
+      "page_index": 25,
+      "printed_page_number": null,
+      "char_start": 21366,
+      "char_end": 22196,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85
+    },
+    {
+      "page_index": 26,
+      "printed_page_number": null,
+      "char_start": 22196,
+      "char_end": 23103,
+      "evidence": "pdf_line_layout+running_header",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 378.2,
+        "continuation_lines": 0,
+        "line_pitch": 21.7
+      }
+    },
+    {
+      "page_index": 27,
+      "printed_page_number": null,
+      "char_start": 23103,
+      "char_end": 24173,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 395.7,
+        "continuation_lines": 0,
+        "line_pitch": 21.2
+      }
+    },
+    {
+      "page_index": 28,
+      "printed_page_number": null,
+      "char_start": 24173,
+      "char_end": 25224,
+      "evidence": "pdf_line_layout+running_header",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 393.9,
+        "continuation_lines": 0,
+        "line_pitch": 21.3
+      }
+    },
+    {
+      "page_index": 29,
+      "printed_page_number": null,
+      "char_start": 25224,
+      "char_end": 26064,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 401.0,
+        "continuation_lines": 0,
+        "line_pitch": 21.5
+      }
+    },
+    {
+      "page_index": 30,
+      "printed_page_number": null,
+      "char_start": 26064,
+      "char_end": 26875,
+      "evidence": "pdf_line_layout+running_header",
+      "confidence": 0.85,
+      "footnote_zone": {
+        "footnote_zone_top_y": 382.7,
+        "continuation_lines": 0,
+        "line_pitch": 21.6
+      }
+    },
+    {
+      "page_index": 31,
+      "printed_page_number": null,
+      "char_start": 26875,
+      "char_end": 27755,
+      "evidence": "pdf_line_layout",
+      "confidence": 0.75,
+      "footnote_zone": {
+        "footnote_zone_top_y": 346.1,
+        "continuation_lines": 0,
+        "line_pitch": 21.9
+      }
+    },
+    {
+      "page_index": 32,
+      "printed_page_number": null,
+      "char_start": 27755,
+      "char_end": 28672,
+      "evidence": "pdf_line_layout+page_number",
+      "confidence": 0.85
+    }
+  ],
+  "noise_spans": [
+    {
+      "id": "noise_0001",
+      "type": "garbled_glyph",
+      "char_start": 385,
+      "char_end": 386
+    },
+    {
+      "id": "noise_0002",
+      "type": "displaced_heading",
+      "char_start": 1112,
+      "char_end": 1127
+    },
+    {
+      "id": "noise_0003",
+      "type": "decorative",
+      "char_start": 1149,
+      "char_end": 1167,
+      "source": "override"
+    },
+    {
+      "id": "noise_0004",
+      "type": "garbled_glyph",
+      "char_start": 1908,
+      "char_end": 1909
+    },
+    {
+      "id": "noise_0005",
+      "type": "running_header",
+      "char_start": 1910,
+      "char_end": 1926
+    },
+    {
+      "id": "noise_0006",
+      "type": "separator",
+      "char_start": 1927,
+      "char_end": 1928
+    },
+    {
+      "id": "noise_0007",
+      "type": "displaced_heading",
+      "char_start": 2862,
+      "char_end": 2875
+    },
+    {
+      "id": "noise_0008",
+      "type": "separator",
+      "char_start": 3375,
+      "char_end": 3376
+    },
+    {
+      "id": "noise_0009",
+      "type": "separator",
+      "char_start": 3406,
+      "char_end": 3407
+    },
+    {
+      "id": "noise_0010",
+      "type": "separator",
+      "char_start": 3694,
+      "char_end": 3695
+    },
+    {
+      "id": "noise_0011",
+      "type": "separator",
+      "char_start": 3916,
+      "char_end": 3917
+    },
+    {
+      "id": "noise_0012",
+      "type": "separator",
+      "char_start": 3940,
+      "char_end": 3941
+    },
+    {
+      "id": "noise_0013",
+      "type": "running_header",
+      "char_start": 3942,
+      "char_end": 3958
+    },
+    {
+      "id": "noise_0014",
+      "type": "displaced_heading",
+      "char_start": 4955,
+      "char_end": 4969
+    },
+    {
+      "id": "noise_0015",
+      "type": "separator",
+      "char_start": 5284,
+      "char_end": 5285
+    },
+    {
+      "id": "noise_0016",
+      "type": "running_header",
+      "char_start": 5833,
+      "char_end": 5849
+    },
+    {
+      "id": "noise_0017",
+      "type": "separator",
+      "char_start": 6125,
+      "char_end": 6126
+    },
+    {
+      "id": "noise_0018",
+      "type": "separator",
+      "char_start": 6389,
+      "char_end": 6390
+    },
+    {
+      "id": "noise_0019",
+      "type": "displaced_heading",
+      "char_start": 6679,
+      "char_end": 6708
+    },
+    {
+      "id": "noise_0020",
+      "type": "separator",
+      "char_start": 7058,
+      "char_end": 7059
+    },
+    {
+      "id": "noise_0021",
+      "type": "separator",
+      "char_start": 7371,
+      "char_end": 7374
+    },
+    {
+      "id": "noise_0022",
+      "type": "separator",
+      "char_start": 7419,
+      "char_end": 7422
+    },
+    {
+      "id": "noise_0023",
+      "type": "running_header",
+      "char_start": 7582,
+      "char_end": 7598
+    },
+    {
+      "id": "noise_0024",
+      "type": "separator",
+      "char_start": 8208,
+      "char_end": 8209
+    },
+    {
+      "id": "noise_0025",
+      "type": "displaced_heading",
+      "char_start": 8423,
+      "char_end": 8444
+    },
+    {
+      "id": "noise_0026",
+      "type": "separator",
+      "char_start": 8553,
+      "char_end": 8554
+    },
+    {
+      "id": "noise_0027",
+      "type": "separator",
+      "char_start": 8771,
+      "char_end": 8772
+    },
+    {
+      "id": "noise_0028",
+      "type": "separator",
+      "char_start": 8795,
+      "char_end": 8796
+    },
+    {
+      "id": "noise_0029",
+      "type": "separator",
+      "char_start": 8974,
+      "char_end": 8975
+    },
+    {
+      "id": "noise_0030",
+      "type": "running_header",
+      "char_start": 9196,
+      "char_end": 9212
+    },
+    {
+      "id": "noise_0031",
+      "type": "separator",
+      "char_start": 9240,
+      "char_end": 9241
+    },
+    {
+      "id": "noise_0032",
+      "type": "separator",
+      "char_start": 9282,
+      "char_end": 9283
+    },
+    {
+      "id": "noise_0033",
+      "type": "separator",
+      "char_start": 9999,
+      "char_end": 10000
+    },
+    {
+      "id": "noise_0034",
+      "type": "displaced_heading",
+      "char_start": 10097,
+      "char_end": 10117
+    },
+    {
+      "id": "noise_0035",
+      "type": "separator",
+      "char_start": 10316,
+      "char_end": 10317
+    },
+    {
+      "id": "noise_0036",
+      "type": "separator",
+      "char_start": 10365,
+      "char_end": 10366
+    },
+    {
+      "id": "noise_0037",
+      "type": "separator",
+      "char_start": 10649,
+      "char_end": 10650
+    },
+    {
+      "id": "noise_0038",
+      "type": "running_header",
+      "char_start": 10794,
+      "char_end": 10810
+    },
+    {
+      "id": "noise_0039",
+      "type": "separator",
+      "char_start": 11066,
+      "char_end": 11067
+    },
+    {
+      "id": "noise_0040",
+      "type": "displaced_heading",
+      "char_start": 11712,
+      "char_end": 11724
+    },
+    {
+      "id": "noise_0041",
+      "type": "separator",
+      "char_start": 11725,
+      "char_end": 11726
+    },
+    {
+      "id": "noise_0042",
+      "type": "separator",
+      "char_start": 12132,
+      "char_end": 12133
+    },
+    {
+      "id": "noise_0043",
+      "type": "garbled_glyph",
+      "char_start": 12585,
+      "char_end": 12586
+    },
+    {
+      "id": "noise_0044",
+      "type": "running_header",
+      "char_start": 12611,
+      "char_end": 12627
+    },
+    {
+      "id": "noise_0045",
+      "type": "separator",
+      "char_start": 12628,
+      "char_end": 12629
+    },
+    {
+      "id": "noise_0046",
+      "type": "separator",
+      "char_start": 12915,
+      "char_end": 12916
+    },
+    {
+      "id": "noise_0047",
+      "type": "displaced_heading",
+      "char_start": 13432,
+      "char_end": 13444
+    },
+    {
+      "id": "noise_0048",
+      "type": "separator",
+      "char_start": 13448,
+      "char_end": 13451
+    },
+    {
+      "id": "noise_0049",
+      "type": "page_number",
+      "char_start": 13464,
+      "char_end": 13466
+    },
+    {
+      "id": "noise_0050",
+      "type": "separator",
+      "char_start": 13510,
+      "char_end": 13511
+    },
+    {
+      "id": "noise_0051",
+      "type": "separator",
+      "char_start": 13703,
+      "char_end": 13704
+    },
+    {
+      "id": "noise_0052",
+      "type": "separator",
+      "char_start": 13945,
+      "char_end": 13946
+    },
+    {
+      "id": "noise_0053",
+      "type": "page_number",
+      "char_start": 14342,
+      "char_end": 14345
+    },
+    {
+      "id": "noise_0054",
+      "type": "running_header",
+      "char_start": 14346,
+      "char_end": 14362
+    },
+    {
+      "id": "noise_0055",
+      "type": "displaced_heading",
+      "char_start": 15643,
+      "char_end": 15657
+    },
+    {
+      "id": "noise_0056",
+      "type": "page_number",
+      "char_start": 15658,
+      "char_end": 15660
+    },
+    {
+      "id": "noise_0057",
+      "type": "page_number",
+      "char_start": 15693,
+      "char_end": 15695
+    },
+    {
+      "id": "noise_0058",
+      "type": "running_header",
+      "char_start": 16566,
+      "char_end": 16582
+    },
+    {
+      "id": "noise_0059",
+      "type": "displaced_heading",
+      "char_start": 17500,
+      "char_end": 17520
+    },
+    {
+      "id": "noise_0060",
+      "type": "page_number",
+      "char_start": 17521,
+      "char_end": 17523
+    },
+    {
+      "id": "noise_0061",
+      "type": "separator",
+      "char_start": 17846,
+      "char_end": 17847
+    },
+    {
+      "id": "noise_0062",
+      "type": "running_header",
+      "char_start": 18490,
+      "char_end": 18506
+    },
+    {
+      "id": "noise_0063",
+      "type": "displaced_heading",
+      "char_start": 19494,
+      "char_end": 19515
+    },
+    {
+      "id": "noise_0064",
+      "type": "separator",
+      "char_start": 20026,
+      "char_end": 20029
+    },
+    {
+      "id": "noise_0065",
+      "type": "running_header",
+      "char_start": 20518,
+      "char_end": 20534
+    },
+    {
+      "id": "noise_0066",
+      "type": "separator",
+      "char_start": 20588,
+      "char_end": 20589
+    },
+    {
+      "id": "noise_0067",
+      "type": "separator",
+      "char_start": 20621,
+      "char_end": 20622
+    },
+    {
+      "id": "noise_0068",
+      "type": "separator",
+      "char_start": 20988,
+      "char_end": 20989
+    },
+    {
+      "id": "noise_0069",
+      "type": "separator",
+      "char_start": 21262,
+      "char_end": 21263
+    },
+    {
+      "id": "noise_0070",
+      "type": "displaced_heading",
+      "char_start": 21330,
+      "char_end": 21362
+    },
+    {
+      "id": "noise_0071",
+      "type": "page_number",
+      "char_start": 21363,
+      "char_end": 21365
+    },
+    {
+      "id": "noise_0072",
+      "type": "separator",
+      "char_start": 21521,
+      "char_end": 21522
+    },
+    {
+      "id": "noise_0073",
+      "type": "separator",
+      "char_start": 21928,
+      "char_end": 21929
+    },
+    {
+      "id": "noise_0074",
+      "type": "running_header",
+      "char_start": 22196,
+      "char_end": 22212
+    },
+    {
+      "id": "noise_0075",
+      "type": "separator",
+      "char_start": 22823,
+      "char_end": 22824
+    },
+    {
+      "id": "noise_0076",
+      "type": "separator",
+      "char_start": 22847,
+      "char_end": 22848
+    },
+    {
+      "id": "noise_0077",
+      "type": "separator",
+      "char_start": 22930,
+      "char_end": 22931
+    },
+    {
+      "id": "noise_0078",
+      "type": "displaced_heading",
+      "char_start": 23078,
+      "char_end": 23097
+    },
+    {
+      "id": "noise_0079",
+      "type": "page_number",
+      "char_start": 23100,
+      "char_end": 23102
+    },
+    {
+      "id": "noise_0080",
+      "type": "running_header",
+      "char_start": 24173,
+      "char_end": 24189
+    },
+    {
+      "id": "noise_0081",
+      "type": "displaced_heading",
+      "char_start": 25224,
+      "char_end": 25244
+    },
+    {
+      "id": "noise_0082",
+      "type": "separator",
+      "char_start": 25287,
+      "char_end": 25288
+    },
+    {
+      "id": "noise_0083",
+      "type": "separator",
+      "char_start": 25331,
+      "char_end": 25332
+    },
+    {
+      "id": "noise_0084",
+      "type": "page_number",
+      "char_start": 25333,
+      "char_end": 25335
+    },
+    {
+      "id": "noise_0085",
+      "type": "running_header",
+      "char_start": 26064,
+      "char_end": 26080
+    },
+    {
+      "id": "noise_0086",
+      "type": "separator",
+      "char_start": 26181,
+      "char_end": 26182
+    },
+    {
+      "id": "noise_0087",
+      "type": "separator",
+      "char_start": 26508,
+      "char_end": 26509
+    },
+    {
+      "id": "noise_0088",
+      "type": "separator",
+      "char_start": 26616,
+      "char_end": 26617
+    },
+    {
+      "id": "noise_0089",
+      "type": "page_number",
+      "char_start": 26618,
+      "char_end": 26619
+    },
+    {
+      "id": "noise_0090",
+      "type": "displaced_heading",
+      "char_start": 26875,
+      "char_end": 26892
+    },
+    {
+      "id": "noise_0091",
+      "type": "separator",
+      "char_start": 27034,
+      "char_end": 27035
+    },
+    {
+      "id": "noise_0092",
+      "type": "page_number",
+      "char_start": 27751,
+      "char_end": 27754
+    },
+    {
+      "id": "noise_0093",
+      "type": "garbled_glyph",
+      "char_start": 27876,
+      "char_end": 27881
+    },
+    {
+      "id": "noise_0094",
+      "type": "garbled_glyph",
+      "char_start": 28080,
+      "char_end": 28081
+    },
+    {
+      "id": "noise_0095",
+      "type": "garbled_glyph",
+      "char_start": 28633,
+      "char_end": 28635
+    }
+  ],
+  "nodes": [
+    {
+      "id": "node_000",
+      "type": "book",
+      "title": "الأربعين النووية",
+      "parent_id": null,
+      "children": [
+        "node_001",
+        "node_002",
+        "node_003"
+      ],
+      "source": {
+        "char_start": 0,
+        "char_end": 28672,
+        "page_start": 1,
+        "page_end": 32
+      },
+      "evidence": "whole source",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_001",
+      "type": "front_matter",
+      "title": "صفحة العنوان وبيانات النشر",
+      "parent_id": "node_000",
+      "children": [],
+      "source": {
+        "char_start": 0,
+        "char_end": 1128,
+        "page_start": 1,
+        "page_end": 3
+      },
+      "evidence": "text before the main text",
+      "confidence": 0.9,
+      "segments": [
+        {
+          "role": "front_matter",
+          "char_start": 0,
+          "char_end": 384
+        },
+        {
+          "role": "front_matter",
+          "char_start": 387,
+          "char_end": 1112
+        }
+      ]
+    },
+    {
+      "id": "node_002",
+      "type": "hadith_collection",
+      "title": "متن الأربعين النووية",
+      "parent_id": "node_000",
+      "children": [
+        "unit_001",
+        "unit_002",
+        "unit_003",
+        "unit_004",
+        "unit_005",
+        "unit_006",
+        "unit_007",
+        "unit_008",
+        "unit_009",
+        "unit_010",
+        "unit_011",
+        "unit_012",
+        "unit_013",
+        "unit_014",
+        "unit_015",
+        "unit_016",
+        "unit_017",
+        "unit_018",
+        "unit_019",
+        "unit_020",
+        "unit_021",
+        "unit_022",
+        "unit_023",
+        "unit_024",
+        "unit_025",
+        "unit_026",
+        "unit_027",
+        "unit_028",
+        "unit_029",
+        "unit_030",
+        "unit_031",
+        "unit_032",
+        "unit_033",
+        "unit_034",
+        "unit_035",
+        "unit_036",
+        "unit_037",
+        "unit_038",
+        "unit_039",
+        "unit_040",
+        "unit_041",
+        "unit_042"
+      ],
+      "source": {
+        "char_start": 1128,
+        "char_end": 27755,
+        "page_start": 3,
+        "page_end": 31
+      },
+      "evidence": "42 unit headings from book_config, located in order",
+      "confidence": 0.95
+    },
+    {
+      "id": "node_003",
+      "type": "index",
+      "title": "الفهرس",
+      "parent_id": "node_000",
+      "children": [],
+      "source": {
+        "char_start": 27755,
+        "char_end": 28672,
+        "page_start": 32,
+        "page_end": 32
+      },
+      "evidence": "starts at 'الموضوع'",
+      "confidence": 0.8,
+      "segments": [
+        {
+          "role": "toc",
+          "char_start": 27755,
+          "char_end": 27875
+        },
+        {
+          "role": "toc",
+          "char_start": 27882,
+          "char_end": 28079
+        },
+        {
+          "role": "toc",
+          "char_start": 28082,
+          "char_end": 28632
+        },
+        {
+          "role": "toc",
+          "char_start": 28636,
+          "char_end": 28672
+        }
+      ]
+    }
+  ]
+}

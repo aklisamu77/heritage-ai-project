@@ -1,0 +1,193 @@
+{
+  "prompt_version": "ke-v1",
+  "units_checked": [
+    "unit_004"
+  ],
+  "per_unit": {
+    "unit_004": {
+      "accepted": 5,
+      "rejected": 0,
+      "no_knowledge_reason": null
+    }
+  },
+  "objects": [
+    {
+      "id": "ko_unit_004_01",
+      "unit_id": "unit_004",
+      "type": "creed_issue",
+      "statement": "القرآن كلام الله.",
+      "said_by": {
+        "kind": "author"
+      },
+      "basis": "explicit",
+      "evidence": [
+        {
+          "piece": "p02",
+          "quote": "والقرآن كلام الله",
+          "char_start": 36258,
+          "char_end": 36275,
+          "role": "text",
+          "page": 40,
+          "page_end": 40,
+          "parts": [
+            {
+              "char_start": 36258,
+              "char_end": 36275,
+              "role": "text",
+              "page": 40
+            }
+          ]
+        }
+      ],
+      "confidence": 0.75,
+      "model_used": "test-fixture",
+      "prompt_version": "ke-v1",
+      "status": "experimental"
+    },
+    {
+      "id": "ko_unit_004_02",
+      "unit_id": "unit_004",
+      "type": "refutation",
+      "statement": "من قال إن القرآن مخلوق فهو مبتدع، ولم يُسمع أحد يقول ذلك.",
+      "said_by": {
+        "kind": "quoted",
+        "name_in_text": "سفيان",
+        "reported_by": "author"
+      },
+      "basis": "explicit",
+      "evidence": [
+        {
+          "piece": "p02",
+          "quote": "ومن قال مخلوق فهو مبتدع، لم نسمع أحداً يقول هذا",
+          "char_start": 36319,
+          "char_end": 36366,
+          "role": "text",
+          "page": 40,
+          "page_end": 40,
+          "parts": [
+            {
+              "char_start": 36319,
+              "char_end": 36366,
+              "role": "text",
+              "page": 40
+            }
+          ]
+        }
+      ],
+      "confidence": 0.75,
+      "model_used": "test-fixture",
+      "prompt_version": "ke-v1",
+      "status": "experimental"
+    },
+    {
+      "id": "ko_unit_004_03",
+      "unit_id": "unit_004",
+      "type": "creed_issue",
+      "statement": "الإيمان قول وعمل، ويزيد.",
+      "said_by": {
+        "kind": "quoted",
+        "name_in_text": "سفيان",
+        "reported_by": "author"
+      },
+      "basis": "explicit",
+      "evidence": [
+        {
+          "piece": "p02",
+          "quote": "الإيمان قول وعمل ويزيد",
+          "char_start": 37609,
+          "char_end": 37631,
+          "role": "text",
+          "page": 41,
+          "page_end": 41,
+          "parts": [
+            {
+              "char_start": 37609,
+              "char_end": 37631,
+              "role": "text",
+              "page": 41
+            }
+          ]
+        }
+      ],
+      "confidence": 0.75,
+      "model_used": "test-fixture",
+      "prompt_version": "ke-v1",
+      "status": "experimental"
+    },
+    {
+      "id": "ko_unit_004_04",
+      "unit_id": "unit_004",
+      "type": "creed_issue",
+      "statement": "الإيمان ينقص حتى لا يبقى منه شيء.",
+      "said_by": {
+        "kind": "quoted",
+        "name_in_text": "سفيان",
+        "reported_by": "author"
+      },
+      "basis": "explicit",
+      "evidence": [
+        {
+          "piece": "p02",
+          "quote": "بل حتى لا يبقى منه شيء",
+          "char_start": 37725,
+          "char_end": 37750,
+          "role": "text",
+          "page": 41,
+          "page_end": 41,
+          "parts": [
+            {
+              "char_start": 37725,
+              "char_end": 37727,
+              "role": "text",
+              "page": 41
+            },
+            {
+              "char_start": 37731,
+              "char_end": 37750,
+              "role": "text",
+              "page": 41
+            }
+          ]
+        }
+      ],
+      "confidence": 0.75,
+      "model_used": "test-fixture",
+      "prompt_version": "ke-v1",
+      "status": "experimental"
+    },
+    {
+      "id": "ko_unit_004_05",
+      "unit_id": "unit_004",
+      "type": "word_meaning",
+      "statement": "«كلام الله» في قوله تعالى «حتى يسمع كلام الله» معناه: القرآن.",
+      "said_by": {
+        "kind": "editor"
+      },
+      "basis": "explicit",
+      "evidence": [
+        {
+          "piece": "p03",
+          "quote": "أي: حتى يسمع القرآن",
+          "char_start": 36711,
+          "char_end": 36730,
+          "role": "footnote",
+          "page": 40,
+          "page_end": 40,
+          "parts": [
+            {
+              "char_start": 36711,
+              "char_end": 36730,
+              "role": "footnote",
+              "page": 40
+            }
+          ]
+        }
+      ],
+      "confidence": 0.75,
+      "model_used": "test-fixture",
+      "prompt_version": "ke-v1",
+      "status": "experimental"
+    }
+  ],
+  "rejected": []
+}

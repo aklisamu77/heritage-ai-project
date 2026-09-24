@@ -1,0 +1,1748 @@
+{
+  "units": [
+    {
+      "id": "unit_001",
+      "type": "mas'ala",
+      "ordinal": 1,
+      "number_raw": "۱",
+      "title": "الإيمان بالقدر",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 30497,
+        "char_end": 31869,
+        "page_start": 36,
+        "page_end": 37
+      },
+      "raw_text": "[الإيمان بالقدر ]\n۱ - «السنةُ عندنا (۳) : أن يؤمن الرجل بالقدر خيره وشره،\nحلوه ومره (٤ (4) ، وأن يعلم أن ما أصابه لم يكن ليخطئه وأن ما أخطأه\n=\n(ε)\nوحَدَّث عنه : أبو بكر الشافعي وأبو القاسم الطبراني، وأبو بكر\nالقطيعي، وخلائق.\nوَثْقَهُ الدارقطني والخطيب والذهبي وغيرهم.\nقال الخلال: كان أحمد بن حنبل يُكرم بشر بن موسى، وكتب له إلى\nالحميدي إلى مكة».\n(انظر : تاریخ بغداد ۸٦/٧-۸۸ ، التقييد ص ۲۱۷ ، السير ٣٥٢/١٣ - ٣٥٤).\n(Ʌ\nمن حديث\n(۱) من ط.\n(۲) في ص كرر لفظ «قال». واختصر حدثنا وكذا في ظ.\n(۳) مراده من قوله عندنا ) أي : عند أهل السنة - الذين أنا واحد منهم -\nوبه عبر الإمام أحمد، كما في شرح أصول اعتقاد أهل السنة\nوالجماعة للالكائي (١٥٦/١). وقوله «عندنا» ليس في ظ.\n(٤) دلیله ما روى الإمام مسلم في صحيحه (٣٦/١ ـ ٣٧: ١ - کتاب\nالإيمان، ۱ - باب الإيمان والإسلام والإحسان...، ح\nعمر بن الخطاب - رضي الله عنه -\nالله عنه - مرفوعاً وهو جزء من حديث جبريل\nالطويل وفيه: «قال: فأخبرني عن الإيمان قال: «أن تؤمن بالله،\nوملائكته وكتبه ورسله واليوم الآخر، وتؤمن بالقدر خيره وشره».\nأما زيادة «حلوه ومره فقد أخرجها ابن ماجه في سننه (٣٤/١:\nالمقدمة، ١٠ ـ باب في القدر، ح (۸۷ ،وغيره من حديث عدي بن\nحاتم مرفوعاً ..... وتؤمن بالأقدار كلها خيرها وشرها، حلوها ومرها»\nقال البوصيري في الزوائد (٥٣/١) : هذا إسناد ضعيف؛ لاتفاقهم على\nضعف عبد الأعلى وله شاهد من حديث جابر رواه الترمذي في\nجامعه»، وقال الألباني في ضعيف سنن ابن ماجه (۸ - ۹) : =\n،\n->\n،\n٣٦لم يكن ليصيبه (۱) ، وأن ذلك كله قضاء من الله - عز وجل -\n===\n-",
+      "segments": [
+        {
+          "role": "text",
+          "char_start": 30497,
+          "char_end": 30498,
+          "placement": "in_span",
+          "page_index": 36,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 30498,
+          "char_end": 30512,
+          "placement": "in_span",
+          "page_index": 36,
+          "confidence": 0.95
+        },
+        {
+          "role": "text",
+          "char_start": 30513,
+          "char_end": 30514,
+          "placement": "in_span",
+          "page_index": 36,
+          "confidence": 0.85
+        },
+        {
+          "role": "number",
+          "char_start": 30515,
+          "char_end": 30518,
+          "placement": "in_span",
+          "page_index": 36,
+          "confidence": 0.85
+        },
+        {
+          "role": "text",
+          "char_start": 30519,
+          "char_end": 30532,
+          "placement": "in_span",
+          "page_index": 36,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 30533,
+          "char_end": 30536,
+          "marker": "(۳)",
+          "footnote_id": "fn_003",
+          "placement": "in_span",
+          "page_index": 36,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 30537,
+          "char_end": 30583,
+          "placement": "in_span",
+          "page_index": 36,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 30584,
+          "char_end": 30587,
+          "marker": "(4)",
+          "placement": "in_span",
+          "page_index": 36,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 30588,
+          "char_end": 30637,
+          "placement": "in_span",
+          "page_index": 36,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 30640,
+          "char_end": 30643,
+          "marker": "(ε)",
+          "footnote_id": "fn_004",
+          "placement": "in_span",
+          "page_index": 36,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 30910,
+          "char_end": 30912,
+          "placement": "in_span",
+          "page_index": 36,
+          "confidence": 0.85
+        },
+        {
+          "role": "footnote",
+          "char_start": 30913,
+          "char_end": 30920,
+          "footnote_id": "fn_004",
+          "footnote_marker": "(٤) دلیله ما روى الإمام مسلم في صحيحه (٣٦/١ ـ ٣٧: ١ - کتاب",
+          "placement": "in_span",
+          "page_index": 36,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 30979,
+          "char_end": 31152,
+          "footnote_id": "fn_003",
+          "footnote_marker": "(۳) مراده من قوله عندنا ) أي : عند أهل السنة - الذين أنا واحد منهم -",
+          "placement": "in_span",
+          "page_index": 36,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 31153,
+          "char_end": 31800,
+          "footnote_id": "fn_004",
+          "footnote_marker": "(٤) دلیله ما روى الإمام مسلم في صحيحه (٣٦/١ ـ ٣٧: ١ - کتاب",
+          "placement": "in_span",
+          "page_index": 36,
+          "confidence": 0.75
+        },
+        {
+          "role": "text",
+          "char_start": 31801,
+          "char_end": 31805,
+          "placement": "in_span",
+          "page_index": 36,
+          "confidence": 0.85
+        },
+        {
+          "role": "text",
+          "char_start": 31808,
+          "char_end": 31821,
+          "placement": "in_span",
+          "page_index": 37,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 31822,
+          "char_end": 31825,
+          "marker": "(۱)",
+          "footnote_id": "fn_005",
+          "placement": "in_span",
+          "page_index": 37,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 31826,
+          "char_end": 31863,
+          "placement": "in_span",
+          "page_index": 37,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 31931,
+          "char_end": 31934,
+          "marker": "(۲)",
+          "footnote_id": "fn_006",
+          "placement": "displaced",
+          "page_index": 37,
+          "confidence": 0.8
+        },
+        {
+          "role": "footnote",
+          "char_start": 31935,
+          "char_end": 32222,
+          "footnote_id": "fn_004",
+          "footnote_marker": "(٤) دلیله ما روى الإمام مسلم في صحيحه (٣٦/١ ـ ٣٧: ١ - کتاب",
+          "placement": "displaced",
+          "page_index": 37,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 32223,
+          "char_end": 32864,
+          "footnote_id": "fn_005",
+          "footnote_marker": "(1) يشهد له ما أخرجه الترمذي في جامعه (٥٧٥/٤ - ٥٧٦: ٣٨ ـ كتاب",
+          "placement": "displaced",
+          "page_index": 37,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 32865,
+          "char_end": 33238,
+          "footnote_id": "fn_006",
+          "footnote_marker": "(۲) لقوله تعالى : (قُل لَّن يُصِيبَنَا إِلَّا مَا كَتَبَ اللهُ لَنَا هُوَ مَوْلَمْنَا وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ",
+          "placement": "displaced",
+          "page_index": 37,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0007"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0008"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0009"
+        }
+      ],
+      "foreign_spans": [],
+      "issue_ids": [
+        "issue_001",
+        "issue_002",
+        "issue_004",
+        "issue_005",
+        "issue_008",
+        "issue_011"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_002",
+      "type": "mas'ala",
+      "ordinal": 2,
+      "number_raw": "۲",
+      "title": "الإيمان قول وعمل يزيد وينقص",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 31870,
+        "char_end": 33425,
+        "page_start": 37,
+        "page_end": 38
+      },
+      "raw_text": "الإيمان قول وعمل يزيد وينقص ]\n۲ - وأن الإيمان قول وعمل(۳)،\n-\n(۲)\nضعيف جداً»، وحديث جابر أخرجه الترمذي في سننه (٣٩٣/٤: ٣٣\nكتاب القدر، ۱۰ ـ باب ما جاء في الإيمان بالقدر خيره وشره، ح\n٢١٤٤) بمعناه وليس فيه حلوه ومره»، وقال: «وفي الباب عن عبادة\nوجابر وعبد الله بن عمرو، وهذا حديث غريب لا نعرفه إلا من حديث\nعبد الله بن ميمون، وعبد الله بن میمون منكر الحديث».\n(1) يشهد له ما أخرجه الترمذي في جامعه (٥٧٥/٤ - ٥٧٦: ٣٨ ـ كتاب\nصفة القيامة والرقاق والورع، باب ٥٩ ، ح ٢٥١٦) عن ابن عباس\n.\nرضي الله عنهما - أنه قال : كنت خلف رسول الله ﷺ يوماً، فقال: «يا\nغلام إني أعلمك كلمات احفظ الله يحفظك، احفظ الله تجده\nتجاهك، إذا سألت فاسأل الله، وإذا استعنت فاستعن بالله، واعلم أن\nالأمة لو اجتمعت على أن ينفعوك بشيء لم ينفعوك إلا بشيء قد\nكتبه الله لك، ولو اجتمعوا على أن يضروك بشيء لم يضروك إلا\nبشيء قد كتبه الله عليك، رفعت الأقلام وجفت الصحف». وقال: هذا\nحديث حسن صحيح. وفي رواية عبد بن حميد (كما في المنتخب،\nمسند ابن عباس، ص\nح ٦٣٦) ... واعلم أن ما أصابك لم\nيكن ليخطئك وأن ما أخطأك لم يكن ليصيبك...».\nوفي إسناده ضعف.\n،٢١٤\n(۲) لقوله تعالى : (قُل لَّن يُصِيبَنَا إِلَّا مَا كَتَبَ اللهُ لَنَا هُوَ مَوْلَمْنَا وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ\nالْمُؤْمِنُونَ ﴾ [التوبة: ٥١]، وقوله: ﴿ وَاللهُ خَلَقَكُمْ وَمَا تَعْمَلُونَ الله\n[الصافات: ٩٦] ، وقوله : اللَّهُ خَلِقُ كُلِّ شَيْءٍ وَهُوَ عَلَى كُلِّ شَيْءٍ وَكِيلٌ )\n[الزمر: ٦٢] وقوله : ... وَخَلَقَ كُلَّ شَيْءٍ فَقَدَّدَمُ نَقدِيرًا ﴾ [الفرقان : ۲] .\n(۳) المراد قول القلب واللسان وعمل القلب والجوارح. (انظر: مجموع\nالفتاوى ۱۷۱/۷).\n۳۷يزيد وينقص ولا ينفع\n(۱)\n،\n(۲)\n(†)\nقول إلا بعمل، ولا عمل وقول إلا\nبنية، ولا قول وعمل ونية (۳) إلا بسنة (٤)",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 31870,
+          "char_end": 31897,
+          "placement": "in_span",
+          "page_index": 37,
+          "confidence": 0.95
+        },
+        {
+          "role": "text",
+          "char_start": 31898,
+          "char_end": 31899,
+          "placement": "in_span",
+          "page_index": 37,
+          "confidence": 0.85
+        },
+        {
+          "role": "number",
+          "char_start": 31900,
+          "char_end": 31903,
+          "placement": "in_span",
+          "page_index": 37,
+          "confidence": 0.85
+        },
+        {
+          "role": "text",
+          "char_start": 31904,
+          "char_end": 31924,
+          "placement": "in_span",
+          "page_index": 37,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 31924,
+          "char_end": 31927,
+          "marker": "(۳)",
+          "footnote_id": "fn_007",
+          "placement": "in_span",
+          "page_index": 37,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 31927,
+          "char_end": 31928,
+          "placement": "in_span",
+          "page_index": 37,
+          "confidence": 0.85
+        },
+        {
+          "role": "footnote",
+          "char_start": 33239,
+          "char_end": 33317,
+          "footnote_id": "fn_007",
+          "footnote_marker": "(۳) المراد قول القلب واللسان وعمل القلب والجوارح. (انظر: مجموع",
+          "placement": "in_span",
+          "page_index": 37,
+          "confidence": 0.75
+        },
+        {
+          "role": "text",
+          "char_start": 33320,
+          "char_end": 33339,
+          "placement": "in_span",
+          "page_index": 38,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 33340,
+          "char_end": 33343,
+          "marker": "(۱)",
+          "footnote_id": "fn_008",
+          "placement": "in_span",
+          "page_index": 38,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 33344,
+          "char_end": 33345,
+          "placement": "in_span",
+          "page_index": 38,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 33346,
+          "char_end": 33349,
+          "marker": "(۲)",
+          "footnote_id": "fn_009",
+          "placement": "in_span",
+          "page_index": 38,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 33350,
+          "char_end": 33408,
+          "placement": "in_span",
+          "page_index": 38,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 33409,
+          "char_end": 33412,
+          "marker": "(۳)",
+          "footnote_id": "fn_010",
+          "placement": "in_span",
+          "page_index": 38,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 33413,
+          "char_end": 33421,
+          "placement": "in_span",
+          "page_index": 38,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 33422,
+          "char_end": 33425,
+          "marker": "(٤)",
+          "footnote_id": "fn_011",
+          "placement": "in_span",
+          "page_index": 38,
+          "confidence": 0.8
+        },
+        {
+          "role": "footnote",
+          "char_start": 33515,
+          "char_end": 33890,
+          "footnote_id": "fn_008",
+          "footnote_marker": "(۱) المقصود : يزيد بالطاعات وينقص بالمعاصي. قال تعالى: ﴿إِنَّمَا",
+          "placement": "displaced",
+          "page_index": 38,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 33891,
+          "char_end": 33910,
+          "footnote_id": "fn_009",
+          "footnote_marker": "(۲) في ط «لا ينفع».",
+          "placement": "displaced",
+          "page_index": 38,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 33911,
+          "char_end": 33934,
+          "footnote_id": "fn_010",
+          "footnote_marker": "(۳)",
+          "placement": "displaced",
+          "page_index": 38,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 33935,
+          "char_end": 34795,
+          "footnote_id": "fn_011",
+          "footnote_marker": "(٤) تنوعت عبارات السلف في تفسير «الإيمان فمنهم من يقول : هو قول",
+          "placement": "displaced",
+          "page_index": 38,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0010"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0011"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 31931,
+          "char_end": 31934,
+          "belongs_to": "unit_001"
+        },
+        {
+          "char_start": 31935,
+          "char_end": 32222,
+          "belongs_to": "unit_001"
+        },
+        {
+          "char_start": 32223,
+          "char_end": 32864,
+          "belongs_to": "unit_001"
+        },
+        {
+          "char_start": 32865,
+          "char_end": 33238,
+          "belongs_to": "unit_001"
+        }
+      ],
+      "issue_ids": [
+        "issue_002",
+        "issue_008",
+        "issue_011"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_003",
+      "type": "mas'ala",
+      "ordinal": 3,
+      "number_raw": "٣",
+      "title": "الثناء على الصحابة رضوان الله عليهم",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 33426,
+        "char_end": 36226,
+        "page_start": 38,
+        "page_end": 39
+      },
+      "raw_text": "[ الثناء على الصحابة رضوان الله عليهم ]\n٣ - والترحم على أصحاب محمد ﷺ كلهم؛ فإن الله\n-\nعز\n(۱) المقصود : يزيد بالطاعات وينقص بالمعاصي. قال تعالى: ﴿إِنَّمَا\nالمؤمنون الذين إذا ذكر الله وَجِلَتْ قُلُوبُهم وإذا تُلِيَتْ عَلَيْهِمْ وَايَتُهُ زَادَتْهُمْ\nإيمانا وعلى ربهم يَتَوَكَّلُونَ الَّذِينَ يُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَهُمْ\nيُنفِقُونَ أَوَلَيْكَ هُمُ الْمُؤْمِنُونَ حَقًّا لَمْ دَرَجَتُ عِندَ رَبِّهِمْ وَمَغْفِرَةٌ وَرِزْقٌ\nكَرِيمٌ ﴾ [الأنفال : ٢ - ٤] .\n(۲) في ط «لا ينفع».\n(۳)\nفي ط وظ وعمل بنية».\n(٤) تنوعت عبارات السلف في تفسير «الإيمان فمنهم من يقول : هو قول\nوعمل، ومنهم من يقول : هو قول وعمل ونية ومنهم من يقول: قول\nوعمل ونية واتباع السنة ومنهم من يقول قول باللسان واعتقاد\nبالقلب وعمل بالجوارح، وكل ذلك صحيح.\nقال شيخ الإسلام ابن تيمية رحمه الله :\nوالمقصود هنا أن من قال من السلف : الإيمان قول وعمل، أراد قول\nالقلب واللسان وعمل القلب والجوارح ومن أراد الاعتقاد رأى أن\nلفظ القول لا يفهم منه إلا القول الظاهر أو خاف ذلك فزاد الاعتقاد\nبالقلب، ومن قال: قول وعمل ونية قال : القول يتناول الاعتقاد وقول\nاللسان، وأما العمل فقد لا يفهم منه النية فزاد ذلك، ومن زاد اتباع\nالسنة فلأن ذلك كله لا يكون محبوباً لله إلا باتباع السنة، وأولئك لم\nيريدوا كل قول وعمل إنما أرادوا ما كان مشروعاً من الأقوال\nوالأعمال، ولكن كان مقصودهم الرد على المرجئة» الذين جعلوه قولاً\nفقط، فقالوا: بل هو قول وعمل». (انظر: مجموع الفتاوى ۱۷۰/۷ -\n۱۷۱ ، الآثار الواردة عن أئمة السنة ٤٦٢/٢ - ٤٦٣).\n۳۸\n.وجل - قال: ﴿ وَالَّذِينَ جَاءُو مِنْ بَعْدِهِمْ يَقُولُون ربنا اغفر لنا\nولإخواننا الذين سبقونا بالإيمان کار [الحشر: ١١٠) فلن يؤمن\nمنهم\n(۲)\nفلیس\nأو تنقصهم أو أحداً\nإلا بالاستغفار لهم، فمن سبهم\nعلى السنة(۳)، وليس له في الفيء حق، أخبرنا بذلك غير واحد\nبن أنس أنه قال : قسم الله - تعالى - الفيء فقال :\nعن\nمالك\n(٤)\nقال :\nلِلْفُقَرَاءِ الْمُهَاجِرِينَ الَّذِينَ أُخْرِجُوا مِن دِيَرِهِمْ ﴾ ـ ثـ\nالله والذين جاءو مِن بَعْدِهِم يَقُولُونَ رَبَّنا اغفر لنا ولإخوانينا (٥) كه\nالآية [الحشر: ٨ - ١٠]، فمن لم يقل هذا لهم فليس ممن جعل\nله الفيء» (٦) .\n(۱) وتتمة الآية: ﴿وَلَا تَجْعَلْ فِي قُلُوبِنَا غِلا لِلَّذِينَ آمَنُوا رَبَّنَا إِنَّكَ رَءُوفٌ رَحِيمُ الله.\nوانظر تفسير الصحابي سعيد بن أبي وقاص لهذه الآية في منهاج\nالسنة» (١٩/٢) وغيره.\nb\n-\nح\n.(٢٥٤٠\n-\n(۲) في و ظ «فلم يؤمن.\n(۳) لمخالفته الآية وقوله : «لا تسبوا أصحابي، لا تسبوا أصحابي،\nفوالذي نفسي بيده لو أن أحدكم أنفق مثل أحد ذهباً ما أدرك مد\nأحدهم ولا نصيفه أخرجه مسلم في صحيحه (١٩٦٧/٤ : ٤٤ ـ كتاب\nفضائل الصحابة ٥٤ ـ باب تحريم سب الصحابة،\nقال الإمام ابن كثير - رحمه الله تعالى - : والصحابة كلهم عدول عند\nأهل السنة والجماعة؛ لما أثنى الله عليهم في كتابه العزيز، وبما نطقت\nبه السنة النبوية في المدح لهم في جميع أخلاقهم وأفعالهم، وما بذلوه\nمن الأموال والأرواح بين يدي رسول الله ؛ رغبة فيما عند الله من\nالثواب الجزيل، والجزاء الجميل».\n(اختصار علوم الحديث: ص ١٧٦ - ١٧٧).\n(٤) ليست في ظ.\n(٥) قوله وَلِإِخْوَانِنَا ليس في ظ.\n(1) أخرجه اللالكائي في شرح أصول اعتقاد أهل السنة والجماعة» (١٢٦٨/٤ :",
+      "segments": [
+        {
+          "role": "text",
+          "char_start": 33426,
+          "char_end": 33427,
+          "placement": "in_span",
+          "page_index": 38,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 33428,
+          "char_end": 33463,
+          "placement": "in_span",
+          "page_index": 38,
+          "confidence": 0.95
+        },
+        {
+          "role": "text",
+          "char_start": 33464,
+          "char_end": 33465,
+          "placement": "in_span",
+          "page_index": 38,
+          "confidence": 0.85
+        },
+        {
+          "role": "number",
+          "char_start": 33466,
+          "char_end": 33469,
+          "placement": "in_span",
+          "page_index": 38,
+          "confidence": 0.85
+        },
+        {
+          "role": "text",
+          "char_start": 33470,
+          "char_end": 33509,
+          "placement": "in_span",
+          "page_index": 38,
+          "confidence": 0.85
+        },
+        {
+          "role": "text",
+          "char_start": 33512,
+          "char_end": 33514,
+          "placement": "in_span",
+          "page_index": 38,
+          "confidence": 0.85
+        },
+        {
+          "role": "text",
+          "char_start": 34799,
+          "char_end": 34934,
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 34935,
+          "char_end": 34938,
+          "marker": "(۲)",
+          "footnote_id": "fn_013",
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 34939,
+          "char_end": 35001,
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 35001,
+          "char_end": 35004,
+          "marker": "(۳)",
+          "footnote_id": "fn_014",
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 35004,
+          "char_end": 35104,
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 35105,
+          "char_end": 35108,
+          "marker": "(٤)",
+          "footnote_id": "fn_015",
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 35109,
+          "char_end": 35257,
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 35258,
+          "char_end": 35261,
+          "marker": "(٥)",
+          "footnote_id": "fn_016",
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 35262,
+          "char_end": 35329,
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 35330,
+          "char_end": 35333,
+          "marker": "(٦)",
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 35334,
+          "char_end": 35335,
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.85
+        },
+        {
+          "role": "footnote",
+          "char_start": 35336,
+          "char_end": 35524,
+          "footnote_id": "fn_012",
+          "footnote_marker": "(۱) وتتمة الآية: ﴿وَلَا تَجْعَلْ فِي قُلُوبِنَا غِلا لِلَّذِينَ آمَنُوا رَبَّنَا إِنَّكَ رَءُوفٌ رَحِيمُ الله.",
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.55
+        },
+        {
+          "role": "footnote",
+          "char_start": 35529,
+          "char_end": 35537,
+          "footnote_id": "fn_014",
+          "footnote_marker": "(۳) لمخالفته الآية وقوله : «لا تسبوا أصحابي، لا تسبوا أصحابي،",
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 35540,
+          "char_end": 35561,
+          "footnote_id": "fn_013",
+          "footnote_marker": "(۲) في و ظ «فلم يؤمن.",
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 35562,
+          "char_end": 36106,
+          "footnote_id": "fn_014",
+          "footnote_marker": "(۳) لمخالفته الآية وقوله : «لا تسبوا أصحابي، لا تسبوا أصحابي،",
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 36107,
+          "char_end": 36121,
+          "footnote_id": "fn_015",
+          "footnote_marker": "(٤) ليست في ظ.",
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 36122,
+          "char_end": 36157,
+          "footnote_id": "fn_016",
+          "footnote_marker": "(٥) قوله وَلِإِخْوَانِنَا ليس في ظ.",
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 36158,
+          "char_end": 36226,
+          "footnote_id": "fn_017",
+          "footnote_marker": "(1) أخرجه اللالكائي في شرح أصول اعتقاد أهل السنة والجماعة» (١٢٦٨/٤ :",
+          "placement": "in_span",
+          "page_index": 39,
+          "confidence": 0.55
+        },
+        {
+          "role": "footnote",
+          "char_start": 36369,
+          "char_end": 36594,
+          "footnote_id": "fn_017",
+          "footnote_marker": "(1) أخرجه اللالكائي في شرح أصول اعتقاد أهل السنة والجماعة» (١٢٦٨/٤ :",
+          "placement": "displaced",
+          "page_index": 40,
+          "confidence": 0.55
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0012"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0013"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0014"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0015"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0016"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 33515,
+          "char_end": 33890,
+          "belongs_to": "unit_002"
+        },
+        {
+          "char_start": 33891,
+          "char_end": 33910,
+          "belongs_to": "unit_002"
+        },
+        {
+          "char_start": 33911,
+          "char_end": 33934,
+          "belongs_to": "unit_002"
+        },
+        {
+          "char_start": 33935,
+          "char_end": 34795,
+          "belongs_to": "unit_002"
+        }
+      ],
+      "issue_ids": [
+        "issue_001",
+        "issue_003",
+        "issue_004",
+        "issue_008",
+        "issue_010",
+        "issue_011"
+      ],
+      "confidence": 0.7
+    },
+    {
+      "id": "unit_004",
+      "type": "mas'ala",
+      "ordinal": 4,
+      "number_raw": "٤",
+      "title": "القرآن كلام الله تعالى",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 36227,
+        "char_end": 37756,
+        "page_start": 39,
+        "page_end": 41
+      },
+      "raw_text": "۳۹القرآن كلام الله تعالى ]\n٤ - والقرآن كلام الله (۱) سمعت سفيان(٢) يقول: «القرآن\nكلام الله، ومن قال مخلوق فهو مبتدع، لم نسمع أحداً يقول\nهذا».\nسياق ما روي عن السلف في أجناس العقوبات والحدود التي\nأوجبوها وأقاموها على من سب الصحابة ، ح ٢٤٠٠) بمعناه. وانظر\nمنهاج السنة) (۱۹/۲) و «الصارم المسلول (ص ٥٧٤) وعزاه لابن\nبطة وغيره ولم أجده في المطبوع من الإبانة» الصغرى والكبرى.\n(۱) قال تعالى: ﴿وَإِنْ أَحَدٌ مِنَ الْمُشْرِكِينَ اسْتَجَارَكَ فَأَجِرْهُ حَتَّى يَسْمَعَ كَلم الله له\n[التوبة : ٦] أي: حتى يسمع القرآن (انظر: تفسير ابن كثير ٥٤٩/٢).\n(۲) هو سفيان بن عيينة بن أبي عمران ميمون مولى محمد بن مزاحم،\nأخي الضحاك بن مزاحم أبو محمد الهلالي الكوفي، ثم المكي (۱۰۷)\n- ۱۹۸ هـ)، الإمامُ الكبيرُ حافظ العصر، شيخ الإسلام»، ومن كبار\nأصحابه المكثرين عنه الحميدي والشافعي، وابن المديني، وأحمد،\nوإبراهيم الرمادي.\n(انظر: السير ٤٥٤/٨ - ٤٧٥).\n،\n(۳) أخرجه أبو نعيم في الحلية (۲۹٦/٧) في ترجمة سفيان بن عيينة) من\nطريق أبي بكر عبد الرحمن بن عفان قال: سمعت ابن عيينة في السنة\nالتي أخذوا بشراً المريسي بمنى فقام سفيان من المجلس مغضباً،\nفأخذ بيد إسحاق بن المسيب فدخل يسب الناس وقال : لقد تكلموا في\nالقدر والاعتزال وأمرنا باجتناب القوم فقال: رأينا علماءنا، هذا\nعمرو بن دينار وهذا ابن المنكدر حتى ذكر أيوب بن موسى حتى\nآخرين ذكر الأعمش ومنصوراً ومسعراً ما يعرفونه إلا كلام الله، فمن\nقال غير هذا فعليه لعنة الله ،مرتين فما أشبه هذا بكلام النصارى فلا\nتجالسوهم».\n٤٠وينقص .\n[ قول سفيان في الإيمان ]\nوسمعت سفيان يقول: «الإيمان قول وعمل ويزيد\nفقال له أخوه إبراهيم بن عيينة (۱): «يا أبا محمد؛ لا\nتقول (٢) ينقص». فغضب، وقال: اسكت يا صبي، بل(۳) حتى\nلا يبقى منه شيء» (٤).",
+      "segments": [
+        {
+          "role": "heading",
+          "char_start": 36229,
+          "char_end": 36251,
+          "placement": "in_span",
+          "page_index": 40,
+          "confidence": 0.95
+        },
+        {
+          "role": "text",
+          "char_start": 36252,
+          "char_end": 36253,
+          "placement": "in_span",
+          "page_index": 40,
+          "confidence": 0.85
+        },
+        {
+          "role": "number",
+          "char_start": 36254,
+          "char_end": 36257,
+          "placement": "in_span",
+          "page_index": 40,
+          "confidence": 0.85
+        },
+        {
+          "role": "text",
+          "char_start": 36258,
+          "char_end": 36275,
+          "placement": "in_span",
+          "page_index": 40,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 36276,
+          "char_end": 36279,
+          "marker": "(۱)",
+          "footnote_id": "fn_018",
+          "placement": "in_span",
+          "page_index": 40,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 36280,
+          "char_end": 36290,
+          "placement": "in_span",
+          "page_index": 40,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 36290,
+          "char_end": 36293,
+          "marker": "(٢)",
+          "footnote_id": "fn_019",
+          "placement": "in_span",
+          "page_index": 40,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 36294,
+          "char_end": 36368,
+          "placement": "in_span",
+          "page_index": 40,
+          "confidence": 0.85
+        },
+        {
+          "role": "footnote",
+          "char_start": 36595,
+          "char_end": 36760,
+          "footnote_id": "fn_018",
+          "footnote_marker": "(۱) قال تعالى: ﴿وَإِنْ أَحَدٌ مِنَ الْمُشْرِكِينَ اسْتَجَارَكَ فَأَجِرْهُ حَتَّى يَسْمَعَ كَلم الله له",
+          "placement": "in_span",
+          "page_index": 40,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 36761,
+          "char_end": 37049,
+          "footnote_id": "fn_019",
+          "footnote_marker": "(۲) هو سفيان بن عيينة بن أبي عمران ميمون مولى محمد بن مزاحم،",
+          "placement": "in_span",
+          "page_index": 40,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 37050,
+          "char_end": 37554,
+          "footnote_id": "fn_020",
+          "footnote_marker": "(۳) أخرجه أبو نعيم في الحلية (۲۹٦/٧) في ترجمة سفيان بن عيينة) من",
+          "placement": "in_span",
+          "page_index": 40,
+          "confidence": 0.55
+        },
+        {
+          "role": "text",
+          "char_start": 37557,
+          "char_end": 37661,
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 37662,
+          "char_end": 37665,
+          "marker": "(۱)",
+          "footnote_id": "fn_021",
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 37665,
+          "char_end": 37688,
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 37689,
+          "char_end": 37692,
+          "marker": "(٢)",
+          "footnote_id": "fn_022",
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 37693,
+          "char_end": 37727,
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 37727,
+          "char_end": 37730,
+          "marker": "(۳)",
+          "footnote_id": "fn_023",
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 37731,
+          "char_end": 37751,
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 37752,
+          "char_end": 37755,
+          "marker": "(٤)",
+          "footnote_id": "fn_024",
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 37755,
+          "char_end": 37756,
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.85
+        },
+        {
+          "role": "footnote",
+          "char_start": 37828,
+          "char_end": 37928,
+          "footnote_id": "fn_021",
+          "footnote_marker": "(۱) هو أبو إسحاق (نحو ۱۲۰ - ۱۹۹ هـ)، محدث، إمامٌ خَيْرٌ» وليس",
+          "placement": "displaced",
+          "page_index": 41,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 37929,
+          "char_end": 37947,
+          "footnote_id": "fn_022",
+          "footnote_marker": "(۲) في ظ لا تقل»..",
+          "placement": "displaced",
+          "page_index": 41,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 37948,
+          "char_end": 37963,
+          "footnote_id": "fn_023",
+          "footnote_marker": "(۳) في ظ «بلی».",
+          "placement": "displaced",
+          "page_index": 41,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 37964,
+          "char_end": 38224,
+          "footnote_id": "fn_024",
+          "footnote_marker": "(٤) أخرجه الآجري في الشريعة) (ص ۱۱۷) من طريق خلف بن عمرو",
+          "placement": "displaced",
+          "page_index": 41,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0017"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0018"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 36369,
+          "char_end": 36594,
+          "belongs_to": "unit_003"
+        }
+      ],
+      "issue_ids": [
+        "issue_002",
+        "issue_003",
+        "issue_008"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "unit_005",
+      "type": "mas'ala",
+      "ordinal": 5,
+      "number_raw": "ه",
+      "title": "رؤية المؤمنين ربهم يوم القيامة",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 37757,
+        "char_end": 38614,
+        "page_start": 41,
+        "page_end": 41
+      },
+      "raw_text": "[ رؤية المؤمنين ربهم يوم القيامة ]\nه - والإقرار بالرؤية بعد الموت(٥) .\n(۱) هو أبو إسحاق (نحو ۱۲۰ - ۱۹۹ هـ)، محدث، إمامٌ خَيْرٌ» وليس\nبالمكثر من الحديث.\n(انظر: السير ٤٧٥/٨)\n(۲) في ظ لا تقل»..\n(۳) في ظ «بلی».\n(٤) أخرجه الآجري في الشريعة) (ص ۱۱۷) من طريق خلف بن عمرو\nالعكبري عن المصنف بلفظ لا تقولن يزيد وينقص.. بل حتى..،\nح\n(١٧٤٥\nمن طريق\nواللالكائي في شرح أصول الاعتقاد» (٩٦٠/٣،\nحنبل عن المصنف بلفظ «لا تقل يزيد» ولم يذكر العمل في أوله .\nوأظنه سقط سهواً ، وحذف المناداة.\n(٥) المراد من الإقرار بالرؤية : التصديق بنعمة نظر المؤمنين إلى ربهم - عز\nوجل - يوم القيامة. قال تعالى: ﴿وُجُوهٌ يَوْمهذ ناضرة له إلى ربها ناظرة\n[القيامة : ٢٢ - ٢٣]. يقول ابن القيم رحمه الله : «وإضافة النظر\nإلى الوجه الذي هو محله في هذه الآية وتعديته بأداة إلى الصريحة في\nنظر العين، وإخلاء الكلام من قرينة تدلّ على أن المراد بالنظر\nالمضاف إلى الوجه المعدى بإلى خلاف حقيقته وموضوعه صريح=\n٤١-",
+      "segments": [
+        {
+          "role": "text",
+          "char_start": 37757,
+          "char_end": 37758,
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 37759,
+          "char_end": 37789,
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.95
+        },
+        {
+          "role": "text",
+          "char_start": 37790,
+          "char_end": 37791,
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.85
+        },
+        {
+          "role": "number",
+          "char_start": 37792,
+          "char_end": 37795,
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.85
+        },
+        {
+          "role": "text",
+          "char_start": 37796,
+          "char_end": 37822,
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 37822,
+          "char_end": 37825,
+          "marker": "(٥)",
+          "footnote_id": "fn_025",
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 37826,
+          "char_end": 37827,
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.85
+        },
+        {
+          "role": "footnote",
+          "char_start": 38225,
+          "char_end": 38610,
+          "footnote_id": "fn_025",
+          "footnote_marker": "(٥) المراد من الإقرار بالرؤية : التصديق بنعمة نظر المؤمنين إلى ربهم - عز",
+          "placement": "in_span",
+          "page_index": 41,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 39007,
+          "char_end": 39110,
+          "footnote_id": "fn_025",
+          "footnote_marker": "(٥) المراد من الإقرار بالرؤية : التصديق بنعمة نظر المؤمنين إلى ربهم - عز",
+          "placement": "displaced",
+          "page_index": 42,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 39156,
+          "char_end": 39161,
+          "footnote_id": "fn_025",
+          "footnote_marker": "(٥) المراد من الإقرار بالرؤية : التصديق بنعمة نظر المؤمنين إلى ربهم - عز",
+          "placement": "displaced",
+          "page_index": 42,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0019"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 37828,
+          "char_end": 37928,
+          "belongs_to": "unit_004"
+        },
+        {
+          "char_start": 37929,
+          "char_end": 37947,
+          "belongs_to": "unit_004"
+        },
+        {
+          "char_start": 37948,
+          "char_end": 37963,
+          "belongs_to": "unit_004"
+        },
+        {
+          "char_start": 37964,
+          "char_end": 38224,
+          "belongs_to": "unit_004"
+        }
+      ],
+      "issue_ids": [
+        "issue_001",
+        "issue_008"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_006",
+      "type": "mas'ala",
+      "ordinal": 6,
+      "number_raw": "٦",
+      "title": "إثبات الصفات",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 38615,
+        "char_end": 40034,
+        "page_start": 42,
+        "page_end": 42
+      },
+      "raw_text": "[ إثبات الصفات ]\n٦ ـ وما نطق به القرآن والحديث مثل : ﴿ وَقَالَتِ الْيَهُودُ يَدُ اللَّهِ\nمَعْلُولَةٌ غُلَتْ أَيْدِيهِمْ ﴾ [المائدة: ٦٤] ، ومثل : ﴿ وَالسَّمَوَاتُ مَطْوِيَّتُ\nبيمينه (۱) [الزمر: ٦٧] ، وما أشبه هذا من القرآن والحديث،\nلا نزيد فيه ولا نفسره نقف على ما وقف عليه القرآن والسنة،\nونقول : الرَّحْمَنُ عَلَى الْعَرْشِ اسْتَوَى (٢) [طه: 5]، ومن زعم\nغير هذا فهو معطل\nفي\n(۳)\nجهمي\n(٤)\n(Y).\nأن الله - سبحانه وتعالى - أراد بذلك نظر العين التي في الوجه،\nإلى نفس الربّ جل جلاله». (حادي الأرواح : ص\n(1) الواو الأولى من المصحف وليست في الأصل.\n،\n.(۳۷۲\n(۲) وهو توحيد الأسماء والصفات الذي قال عنه شيخ الإسلام -\nرحمه الله -: ومن الإيمان بالله الإيمان بما وصف به نفسه في كتابه\nووصفه به رسوله محمد ﷺ من غير تحريف ولا تعطيل، ومن غير\nتكييف ولا تمثيل بل يؤمنون بأن الله سبحانه ليس كمثله شيء وهو\nالسميع البصير فلا ينفون عنه ما وصف به نفسه، ولا يحرفون الكلم\nعن مواضعه ولا يلحدون في أسماء الله وآياته ولا يكيفون ولا يمثلون\nصفاته بصفات خلقه؛ لأنه سبحانه لا له ولا كفؤ له ولا ند له\nسمي\nولا يقاس بخلقه سبحانه وتعالى؛ فإنه سبحانه أعلم بنفسه وبغيره\nوأصدق قيلاً وأحسن حديثاً من خلقه الواسطية : ص ١٣ - ١٧ مع\nشرح الشيخ الفوزان).\n(۳) التعطيل لغة : الإخلاء، يقال عطله أي أخلاه.\nوالمراد به هنا نفي الصفات عن الله سبحانه وتعالى.\n(شرح فضيلة الشيخ الفوزان للواسطية : ص۱۳).\nعلى\n(٤) الجهمية هم أتباع الجهم بن صفوان (ت ۱۲۸ هـ) وهو تلميذ\nالجعد بن درهم الذي قتله خالد بن عبد الله القسري سنة ١٢٤ هـ\nالزندقة والإلحاد والجعد أول من ابتدع القول بخلق القرآن =",
+      "segments": [
+        {
+          "role": "text",
+          "char_start": 38615,
+          "char_end": 38616,
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 38617,
+          "char_end": 38629,
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.95
+        },
+        {
+          "role": "text",
+          "char_start": 38630,
+          "char_end": 38631,
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.85
+        },
+        {
+          "role": "number",
+          "char_start": 38632,
+          "char_end": 38635,
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.85
+        },
+        {
+          "role": "text",
+          "char_start": 38636,
+          "char_end": 38795,
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 38796,
+          "char_end": 38799,
+          "marker": "(۱)",
+          "footnote_id": "fn_026",
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 38800,
+          "char_end": 38947,
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 38948,
+          "char_end": 38951,
+          "marker": "(٢)",
+          "footnote_id": "fn_027",
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 38952,
+          "char_end": 38988,
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 38989,
+          "char_end": 38992,
+          "marker": "(۳)",
+          "footnote_id": "fn_028",
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 38993,
+          "char_end": 38997,
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 38998,
+          "char_end": 39001,
+          "marker": "(٤)",
+          "footnote_id": "fn_029",
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 39002,
+          "char_end": 39003,
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.85
+        },
+        {
+          "role": "text",
+          "char_start": 39004,
+          "char_end": 39006,
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.85
+        },
+        {
+          "role": "footnote",
+          "char_start": 39111,
+          "char_end": 39155,
+          "footnote_id": "fn_026",
+          "footnote_marker": "(1) الواو الأولى من المصحف وليست في الأصل.",
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 39162,
+          "char_end": 39719,
+          "footnote_id": "fn_027",
+          "footnote_marker": "(۲) وهو توحيد الأسماء والصفات الذي قال عنه شيخ الإسلام -",
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 39720,
+          "char_end": 39861,
+          "footnote_id": "fn_028",
+          "footnote_marker": "(۳) التعطيل لغة : الإخلاء، يقال عطله أي أخلاه.",
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 39862,
+          "char_end": 40034,
+          "footnote_id": "fn_029",
+          "footnote_marker": "(٤) الجهمية هم أتباع الجهم بن صفوان (ت ۱۲۸ هـ) وهو تلميذ",
+          "placement": "in_span",
+          "page_index": 42,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 40552,
+          "char_end": 40675,
+          "footnote_id": "fn_029",
+          "footnote_marker": "(٤) الجهمية هم أتباع الجهم بن صفوان (ت ۱۲۸ هـ) وهو تلميذ",
+          "placement": "displaced",
+          "page_index": 43,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0020"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 39007,
+          "char_end": 39110,
+          "belongs_to": "unit_005"
+        },
+        {
+          "char_start": 39156,
+          "char_end": 39161,
+          "belongs_to": "unit_005"
+        }
+      ],
+      "issue_ids": [
+        "issue_001",
+        "issue_010"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "unit_007",
+      "type": "mas'ala",
+      "ordinal": 7,
+      "number_raw": null,
+      "title": "الفرق بين أهل السنة والخوارج",
+      "title_variants": [],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 40035,
+        "char_end": 40349,
+        "page_start": 42,
+        "page_end": 43
+      },
+      "raw_text": "٤٢[ الفرق بين أهل السنة والخوارج ]\n(۲)\n(۱): «من أصاب كبيرة\nالخوارج من\n- وأن لا نقول كما قالت\nفقد كفر . ولا تكفير ) بشيء من الذنوب ، إنما الكفر في ترك\nالخَمْس التي قال رسول الله ﷺ : بني الإسلام على خمس:\nشهادة أن لا إله إلا الله وأن محمداً رسول الله [ ])، وإقام\nالصلاة، وإيتاء الزكاة وصوم رمضان، وحج البيت (ه) .\n(o),",
+      "segments": [
+        {
+          "role": "text",
+          "char_start": 40037,
+          "char_end": 40038,
+          "placement": "in_span",
+          "page_index": 43,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 40039,
+          "char_end": 40067,
+          "placement": "in_span",
+          "page_index": 43,
+          "confidence": 0.95
+        },
+        {
+          "role": "text",
+          "char_start": 40068,
+          "char_end": 40069,
+          "placement": "in_span",
+          "page_index": 43,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 40070,
+          "char_end": 40073,
+          "marker": "(۲)",
+          "footnote_id": "fn_031",
+          "placement": "in_span",
+          "page_index": 43,
+          "confidence": 0.8
+        },
+        {
+          "role": "anchor",
+          "char_start": 40074,
+          "char_end": 40077,
+          "marker": "(۱)",
+          "footnote_id": "fn_030",
+          "placement": "in_span",
+          "page_index": 43,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 40077,
+          "char_end": 40338,
+          "placement": "in_span",
+          "page_index": 43,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 40339,
+          "char_end": 40342,
+          "marker": "(ه)",
+          "footnote_id": "fn_034",
+          "placement": "in_span",
+          "page_index": 43,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 40343,
+          "char_end": 40346,
+          "placement": "in_span",
+          "page_index": 43,
+          "confidence": 0.85
+        },
+        {
+          "role": "text",
+          "char_start": 40347,
+          "char_end": 40349,
+          "placement": "in_span",
+          "page_index": 43,
+          "confidence": 0.85
+        },
+        {
+          "role": "footnote",
+          "char_start": 40676,
+          "char_end": 40845,
+          "footnote_id": "fn_030",
+          "footnote_marker": "(1) الخوارج هم الذين خرجوا على الإمام علي ـ رضي الله عنه ـ،",
+          "placement": "displaced",
+          "page_index": 43,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 40846,
+          "char_end": 40986,
+          "footnote_id": "fn_031",
+          "footnote_marker": "(۲) ما لم يستحله ويستثنى من الذنوب الشرك؛ لقوله تعالى: ﴿إِنَّ الله",
+          "placement": "displaced",
+          "page_index": 43,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 40987,
+          "char_end": 41007,
+          "footnote_id": "fn_032",
+          "footnote_marker": "(۳) في ظ «ولا نكفر».",
+          "placement": "displaced",
+          "page_index": 43,
+          "confidence": 0.7
+        },
+        {
+          "role": "footnote",
+          "char_start": 41008,
+          "char_end": 41017,
+          "footnote_id": "fn_033",
+          "footnote_marker": "(٤) من ظ.",
+          "placement": "displaced",
+          "page_index": 43,
+          "confidence": 0.7
+        },
+        {
+          "role": "footnote",
+          "char_start": 41020,
+          "char_end": 41189,
+          "footnote_id": "fn_034",
+          "footnote_marker": "(٥) أخرجه البخاري في صحيحه (٢:٤٩/١ ـ كتاب الإيمان، ۲ -",
+          "placement": "displaced",
+          "page_index": 43,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 41192,
+          "char_end": 41228,
+          "footnote_id": "fn_034",
+          "footnote_marker": "(٥) أخرجه البخاري في صحيحه (٢:٤٩/١ ـ كتاب الإيمان، ۲ -",
+          "placement": "displaced",
+          "page_index": 43,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0021"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0022"
+        }
+      ],
+      "foreign_spans": [],
+      "issue_ids": [
+        "issue_001",
+        "issue_002",
+        "issue_003",
+        "issue_008",
+        "issue_010"
+      ],
+      "confidence": 0.7
+    },
+    {
+      "id": "unit_008",
+      "type": "mas'ala",
+      "ordinal": 8,
+      "number_raw": null,
+      "title": "متى تقوم الحجة على تارك أركان الإسلام أو بعضها ؟",
+      "title_variants": [
+        "متى تقوم الحجة على تارك أركان الإسلام أو بعضها؟ (TOC)"
+      ],
+      "parent_id": "node_002",
+      "span": {
+        "char_start": 40350,
+        "char_end": 41959,
+        "page_start": 43,
+        "page_end": 44
+      },
+      "raw_text": "[ متى تقوم الحجة على تارك أركان الإسلام أو بعضها ؟]\nفأَما ثلاث منها فلا يناظر تاركه من لم يتشهد، ولم\nهذا (٦) يصل، ولم يصم؛ لأنه لا يؤخر شيء من عن وقته، ولا\nيجزىء من قضاه بعد تفريطه فيه عامداً\nعن وقته .\nوتعطيل الله - عز وجل - عن صفاته وقتل الجهم في مرو، قتله\nمسلم بن أحوز المازني. (انظر: الملل والنحل ٨٦/١، السير ٥/\n.(٣٣،\n٢٦/٦\n(1) الخوارج هم الذين خرجوا على الإمام علي ـ رضي الله عنه ـ،\nواعترضوا على قبول التحكيم وكفروا صاحب الكبيرة وخلدوه في\nالنار. (انظر الملل ،١١٤/١ ، مقالات الإسلاميين ١٦٧/١).\n(۲) ما لم يستحله ويستثنى من الذنوب الشرك؛ لقوله تعالى: ﴿إِنَّ الله\nلا يَغْفِرُ أَن يُشرك بلده ويغفر ما دون ذالك لمَن يَشَاء ﴾ [النساء : ٤٨].\n(۳) في ظ «ولا نكفر».\n(٤) من ظ.\n-\nباب\n(٥) أخرجه البخاري في صحيحه (٢:٤٩/١ ـ كتاب الإيمان، ۲ -\nدعاؤكم إيمانكم ، ح ۸ مع الفتح لكنه قدم الحج على الصوم، ومسلم\nفي صحيحه (١:٤٥/١ كتاب الإيمان، ٥ - باب بيان أركان\n-\nالإسلام ودعائمه العظام، ح١٦) بمعناه.\n(٦) في ظ لأنه لا يؤخر من هذا شيء\".\n٤٣الحبس .\nمتى\nآثماً\nفأَمَّا الزكاة فمتى ما أداها أجزأت عنه، وكان\n(1)\n(۲)\nآئماً\nوأَمَّا الحج فمن وجب عليه، ووجد السبيل إليه وجب\nعليه ولا يجب عليه في عامه ذلك حتى لا يكون له منه بد،\nأداه كان مؤدياً ولم يكن آثماً في تأخيره إذا أداه، كما كان\nفي الزكاة؛ لأن الزكاة حق المسلمين ) مساكين حبسه عليهم\nفكان آثماً حتى وصل إليهم، وأما الحج فكان في ما بينه وبين ربه\nإذا أذاه فقد أدى، وإن هو مات وهو واجد مستطيع ولم يحج\nسأل الرجعة إلى الدنيا أن يحج، ويجب لأهله أن يحجوا عنه،\nونرجو أن يكون ذلك مؤدياً عنه كما لو كان عليه دين فقضي عنه\nبعد موته(۳).\nتمت الرسالة والحمد لله رب العالمين].\n(۱)\nفي ظ «فمتی».\n(۲) كذا في ص وظ. وفي ط «المسلمي».\n(۳) للاستزادة انظر: جامع العلوم والحكم لابن رجب شرح الحديث الثالث\nوالثامن .",
+      "segments": [
+        {
+          "role": "text",
+          "char_start": 40350,
+          "char_end": 40351,
+          "placement": "in_span",
+          "page_index": 43,
+          "confidence": 0.85
+        },
+        {
+          "role": "heading",
+          "char_start": 40352,
+          "char_end": 40400,
+          "placement": "in_span",
+          "page_index": 43,
+          "confidence": 0.95
+        },
+        {
+          "role": "text",
+          "char_start": 40400,
+          "char_end": 40454,
+          "placement": "in_span",
+          "page_index": 43,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 40455,
+          "char_end": 40458,
+          "marker": "(٦)",
+          "footnote_id": "fn_035",
+          "placement": "in_span",
+          "page_index": 43,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 40459,
+          "char_end": 40551,
+          "placement": "in_span",
+          "page_index": 43,
+          "confidence": 0.85
+        },
+        {
+          "role": "footnote",
+          "char_start": 41229,
+          "char_end": 41263,
+          "footnote_id": "fn_035",
+          "footnote_marker": "(٦) في ظ لأنه لا يؤخر من هذا شيء\".",
+          "placement": "in_span",
+          "page_index": 43,
+          "confidence": 0.75
+        },
+        {
+          "role": "text",
+          "char_start": 41266,
+          "char_end": 41328,
+          "placement": "in_span",
+          "page_index": 44,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 41329,
+          "char_end": 41332,
+          "marker": "(1)",
+          "footnote_id": "fn_036",
+          "placement": "in_span",
+          "page_index": 44,
+          "confidence": 0.8
+        },
+        {
+          "role": "anchor",
+          "char_start": 41333,
+          "char_end": 41336,
+          "marker": "(۲)",
+          "footnote_id": "fn_037",
+          "placement": "in_span",
+          "page_index": 44,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 41337,
+          "char_end": 41791,
+          "placement": "in_span",
+          "page_index": 44,
+          "confidence": 0.85
+        },
+        {
+          "role": "anchor",
+          "char_start": 41791,
+          "char_end": 41794,
+          "marker": "(۳)",
+          "footnote_id": "fn_038",
+          "placement": "in_span",
+          "page_index": 44,
+          "confidence": 0.8
+        },
+        {
+          "role": "text",
+          "char_start": 41794,
+          "char_end": 41832,
+          "placement": "in_span",
+          "page_index": 44,
+          "confidence": 0.85
+        },
+        {
+          "role": "footnote",
+          "char_start": 41833,
+          "char_end": 41849,
+          "footnote_id": "fn_036",
+          "footnote_marker": "(۱)",
+          "placement": "in_span",
+          "page_index": 44,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 41850,
+          "char_end": 41883,
+          "footnote_id": "fn_037",
+          "footnote_marker": "(۲) كذا في ص وظ. وفي ط «المسلمي».",
+          "placement": "in_span",
+          "page_index": 44,
+          "confidence": 0.75
+        },
+        {
+          "role": "footnote",
+          "char_start": 41884,
+          "char_end": 41959,
+          "footnote_id": "fn_038",
+          "footnote_marker": "(۳) للاستزادة انظر: جامع العلوم والحكم لابن رجب شرح الحديث الثالث",
+          "placement": "in_span",
+          "page_index": 44,
+          "confidence": 0.75
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0023"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0024"
+        },
+        {
+          "role": "noise_ref",
+          "noise_id": "noise_0025"
+        }
+      ],
+      "foreign_spans": [
+        {
+          "char_start": 40552,
+          "char_end": 40675,
+          "belongs_to": "unit_006"
+        },
+        {
+          "char_start": 40676,
+          "char_end": 40845,
+          "belongs_to": "unit_007"
+        },
+        {
+          "char_start": 40846,
+          "char_end": 40986,
+          "belongs_to": "unit_007"
+        },
+        {
+          "char_start": 40987,
+          "char_end": 41007,
+          "belongs_to": "unit_007"
+        },
+        {
+          "char_start": 41008,
+          "char_end": 41017,
+          "belongs_to": "unit_007"
+        },
+        {
+          "char_start": 41020,
+          "char_end": 41189,
+          "belongs_to": "unit_007"
+        },
+        {
+          "char_start": 41192,
+          "char_end": 41228,
+          "belongs_to": "unit_007"
+        }
+      ],
+      "issue_ids": [
+        "issue_008",
+        "issue_011",
+        "issue_012"
+      ],
+      "confidence": 0.8
+    }
+  ]
+}

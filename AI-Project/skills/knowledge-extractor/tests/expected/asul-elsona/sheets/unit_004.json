@@ -1,0 +1,208 @@
+{
+  "unit_id": "unit_004",
+  "type": "mas'ala",
+  "ordinal": 4,
+  "confidence": 0.75,
+  "pieces": [
+    {
+      "id": "p01",
+      "kind": "heading",
+      "by": "editor",
+      "label": "heading",
+      "text": "القرآن كلام الله تعالى",
+      "spans": [
+        {
+          "piece_start": 0,
+          "char_start": 36229,
+          "char_end": 36251,
+          "role": "heading",
+          "page": 40
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "kind": "main",
+      "by": "author",
+      "label": "main text",
+      "text": "] والقرآن كلام الله سمعت سفيان يقول: «القرآن كلام الله، ومن قال مخلوق فهو مبتدع، لم نسمع أحداً يقول هذا». وينقص . [ قول سفيان في الإيمان ] وسمعت سفيان يقول: «الإيمان قول وعمل ويزيد فقال له أخوه إبراهيم بن عيينة : «يا أبا محمد؛ لا تقول ينقص». فغضب، وقال: اسكت يا صبي، بل حتى لا يبقى منه شيء» .",
+      "spans": [
+        {
+          "piece_start": 0,
+          "char_start": 36252,
+          "char_end": 36253,
+          "role": "text",
+          "page": 40
+        },
+        {
+          "piece_start": 2,
+          "char_start": 36258,
+          "char_end": 36275,
+          "role": "text",
+          "page": 40
+        },
+        {
+          "piece_start": 20,
+          "char_start": 36280,
+          "char_end": 36290,
+          "role": "text",
+          "page": 40
+        },
+        {
+          "piece_start": 31,
+          "char_start": 36294,
+          "char_end": 36368,
+          "role": "text",
+          "page": 40
+        },
+        {
+          "piece_start": 106,
+          "char_start": 37557,
+          "char_end": 37661,
+          "role": "text",
+          "page": 41
+        },
+        {
+          "piece_start": 211,
+          "char_start": 37665,
+          "char_end": 37688,
+          "role": "text",
+          "page": 41
+        },
+        {
+          "piece_start": 235,
+          "char_start": 37693,
+          "char_end": 37727,
+          "role": "text",
+          "page": 41
+        },
+        {
+          "piece_start": 270,
+          "char_start": 37731,
+          "char_end": 37751,
+          "role": "text",
+          "page": 41
+        },
+        {
+          "piece_start": 291,
+          "char_start": 37755,
+          "char_end": 37756,
+          "role": "text",
+          "page": 41
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "kind": "footnote",
+      "by": "editor",
+      "label": "footnote (۱) (footnote)",
+      "text": "(۱) قال تعالى: ﴿وَإِنْ أَحَدٌ مِنَ الْمُشْرِكِينَ اسْتَجَارَكَ فَأَجِرْهُ حَتَّى يَسْمَعَ كَلم الله له [التوبة : ٦] أي: حتى يسمع القرآن (انظر: تفسير ابن كثير ٥٤٩/٢).",
+      "spans": [
+        {
+          "piece_start": 0,
+          "char_start": 36595,
+          "char_end": 36760,
+          "role": "footnote",
+          "page": 40
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "kind": "footnote",
+      "by": "editor",
+      "label": "footnote (۲) (footnote)",
+      "text": "(۲) هو سفيان بن عيينة بن أبي عمران ميمون مولى محمد بن مزاحم، أخي الضحاك بن مزاحم أبو محمد الهلالي الكوفي، ثم المكي (۱۰۷) - ۱۹۸ هـ)، الإمامُ الكبيرُ حافظ العصر، شيخ الإسلام»، ومن كبار أصحابه المكثرين عنه الحميدي والشافعي، وابن المديني، وأحمد، وإبراهيم الرمادي. (انظر: السير ٤٥٤/٨ - ٤٧٥). ،",
+      "spans": [
+        {
+          "piece_start": 0,
+          "char_start": 36761,
+          "char_end": 37049,
+          "role": "footnote",
+          "page": 40
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "kind": "footnote",
+      "by": "editor",
+      "label": "footnote (۳) (footnote)",
+      "text": "(۳) أخرجه أبو نعيم في الحلية (۲۹٦/٧) في ترجمة سفيان بن عيينة) من طريق أبي بكر عبد الرحمن بن عفان قال: سمعت ابن عيينة في السنة التي أخذوا بشراً المريسي بمنى فقام سفيان من المجلس مغضباً، فأخذ بيد إسحاق بن المسيب فدخل يسب الناس وقال : لقد تكلموا في القدر والاعتزال وأمرنا باجتناب القوم فقال: رأينا علماءنا، هذا عمرو بن دينار وهذا ابن المنكدر حتى ذكر أيوب بن موسى حتى آخرين ذكر الأعمش ومنصوراً ومسعراً ما يعرفونه إلا كلام الله، فمن قال غير هذا فعليه لعنة الله ،مرتين فما أشبه هذا بكلام النصارى فلا تجالسوهم».",
+      "spans": [
+        {
+          "piece_start": 0,
+          "char_start": 37050,
+          "char_end": 37554,
+          "role": "footnote",
+          "page": 40
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "kind": "footnote",
+      "by": "editor",
+      "label": "footnote (۱) (footnote)",
+      "text": "(۱) هو أبو إسحاق (نحو ۱۲۰ - ۱۹۹ هـ)، محدث، إمامٌ خَيْرٌ» وليس بالمكثر من الحديث. (انظر: السير ٤٧٥/٨)",
+      "spans": [
+        {
+          "piece_start": 0,
+          "char_start": 37828,
+          "char_end": 37928,
+          "role": "footnote",
+          "page": 41
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "kind": "footnote",
+      "by": "editor",
+      "label": "footnote (۲) (footnote)",
+      "text": "(۲) في ظ لا تقل»..",
+      "spans": [
+        {
+          "piece_start": 0,
+          "char_start": 37929,
+          "char_end": 37947,
+          "role": "footnote",
+          "page": 41
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "kind": "footnote",
+      "by": "editor",
+      "label": "footnote (۳) (footnote)",
+      "text": "(۳) في ظ «بلی».",
+      "spans": [
+        {
+          "piece_start": 0,
+          "char_start": 37948,
+          "char_end": 37963,
+          "role": "footnote",
+          "page": 41
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "kind": "footnote",
+      "by": "editor",
+      "label": "footnote (٤) (footnote)",
+      "text": "(٤) أخرجه الآجري في الشريعة) (ص ۱۱۷) من طريق خلف بن عمرو العكبري عن المصنف بلفظ لا تقولن يزيد وينقص.. بل حتى..، ح (١٧٤٥ من طريق واللالكائي في شرح أصول الاعتقاد» (٩٦٠/٣، حنبل عن المصنف بلفظ «لا تقل يزيد» ولم يذكر العمل في أوله . وأظنه سقط سهواً ، وحذف المناداة.",
+      "spans": [
+        {
+          "piece_start": 0,
+          "char_start": 37964,
+          "char_end": 38224,
+          "role": "footnote",
+          "page": 41
+        }
+      ]
+    }
+  ]
+}

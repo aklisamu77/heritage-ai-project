@@ -28,10 +28,15 @@ book-structure-analyzer/
 ├── templates/
 │   ├── book_config.template.json
 │   └── overrides.template.json
-└── examples/
-    ├── al-arbaeen-nawawiya/   hadith collection: 42 headed units, editor footnotes (takhrij/gharib)
-    └── asul-elsona/           creed treatise in a critical edition: introduction + multi-level study
-                               (sections), treatise preamble, 8 numbered paragraphs, facsimile noise range
+├── examples/
+│   ├── al-arbaeen-nawawiya/   hadith collection: 42 headed units, editor footnotes (takhrij/gharib)
+│   └── asul-elsona/           creed treatise in a critical edition: introduction + multi-level study
+│                              (sections), treatise preamble, 8 numbered paragraphs, facsimile noise range
+└── tests/
+    ├── run_regression.py      rebuilds every approved book and compares it with its snapshot
+    ├── cases.json             the approved cases (book, config, overrides, pages.json, optional PDF)
+    ├── books/                 their source TXT and pages.json (byte-exact, see .gitattributes)
+    └── expected/              the approved outputs (snapshots)
 ```
 
 **Your job (the AI):** read the book, understand it, and express that understanding as
@@ -45,7 +50,8 @@ book-structure-analyzer/
 1. **Never write a new builder or per-book script.** No code that hard-codes line numbers, unit ranges, footnote assignments or confidence values for a specific book. That is the failure this design exists to prevent: it produces output that looks validated but is really a hand annotation that cannot be reused or trusted.
 2. **Never edit the output JSON by hand.** Change the config or the overrides and rebuild.
 3. **Never edit `validate.py`** to make a check pass, and never delete or relabel real text to make coverage pass.
-4. **If the engine cannot handle something in a new book**, stop and tell the user. The fix is a *generic* rule added to `engine.py`, controlled by a config key, that would apply to any book with the same pattern — and it must be approved by the user and re-tested on `examples/`. Book-specific exceptions go in `overrides.json`, never in the engine.
+4. **If the engine cannot handle something in a new book**, stop and tell the user. The fix is a *generic* rule added to `engine.py`, controlled by a config key, that would apply to any book with the same pattern — and it must be approved by the user. Book-specific exceptions go in `overrides.json`, never in the engine.
+5. **After any change to `engine.py` or `extract_pages.py`, run the regression test** — `python tests/run_regression.py` — and report its result to the user. Every case must pass. A difference is never "fixed" by re-approving: show the user each reported difference (it names the characters, issues and pages that changed); only when the user has checked them against the page images and accepted them, store the new output with `--approve <case>`. A change that helps one book and silently changes another is exactly what this test exists to catch.
 
 ---
 
@@ -106,6 +112,7 @@ book-structure-analyzer/
    - a single local case → add an entry to `overrides.json` with a reason;
    - a pattern the engine has no rule for → stop and tell the user (Hard rule 4).
 5. Rebuild and re-validate until clean. Report to the user: validation summary, unit count, issue summary by type, overrides used (with reasons), and anything left for human visual check.
+6. **When the user approves the book**, add it to the regression test: copy its TXT and `pages.json` to `tests/books/<book>/`, its config and overrides to `examples/<book>/`, add a case to `tests/cases.json` (with the path of its searchable PDF), run `python tests/run_regression.py --approve <case>`, then run the whole test once more.
 
 ### Review checklist (after every build)
 

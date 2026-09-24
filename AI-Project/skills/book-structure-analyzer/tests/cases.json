@@ -1,0 +1,31 @@
+{
+  "_about": "Approved regression cases. Paths are relative to this folder. A case's snapshot (tests/expected/<name>) is replaced only with --approve, after the user has reviewed the differences.",
+  "cases": [
+    {
+      "name": "al-arbaeen-nawawiya-layout",
+      "about": "hadith collection, page layout from the searchable PDF; footnote ownership checked by hand, three corrections accepted by the user (hadith 11 text on p.11, al-Nawawi's comment after hadith 37 on p.29, anchor (1) of hadith 18 on p.14)",
+      "source": "books/al-arbaeen-nawawiya/the-40-ocr-fastocr.txt",
+      "config": "../examples/al-arbaeen-nawawiya/book_config.json",
+      "overrides": "../examples/al-arbaeen-nawawiya/overrides.json",
+      "pages": "books/al-arbaeen-nawawiya/pages.json",
+      "pdf": "../../../work/al-arbaeen-nawawiya/the-40-searchable-fastocr.pdf"
+    },
+    {
+      "name": "al-arbaeen-nawawiya-text-only",
+      "about": "same book without line layout: the text rules alone (keeps the known limits the layout fixes)",
+      "source": "books/al-arbaeen-nawawiya/the-40-ocr-fastocr.txt",
+      "config": "../examples/al-arbaeen-nawawiya/book_config.json",
+      "overrides": "../examples/al-arbaeen-nawawiya/overrides.json",
+      "pages": "books/al-arbaeen-nawawiya/pages.text-only.json"
+    },
+    {
+      "name": "asul-elsona-layout",
+      "about": "creed treatise in a critical edition: sections, preamble, per-page footnotes and their continuations; reviewed line by line against the PDF",
+      "source": "books/asul-elsona/asul-elsona-ocr-fastocr.txt",
+      "config": "../examples/asul-elsona/book_config.json",
+      "overrides": "../examples/asul-elsona/overrides.json",
+      "pages": "books/asul-elsona/pages.json",
+      "pdf": "../../../work/asul-elsona/asul-elsona-searchable-fastocr.pdf"
+    }
+  ]
+}

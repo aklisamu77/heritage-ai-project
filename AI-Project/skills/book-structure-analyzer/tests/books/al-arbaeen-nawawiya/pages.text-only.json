@@ -1,0 +1,258 @@
+[
+  {
+    "page_index": 1,
+    "printed_page_number": null,
+    "char_start": 0,
+    "char_end": 150,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 2,
+    "printed_page_number": null,
+    "char_start": 150,
+    "char_end": 1112,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 3,
+    "printed_page_number": null,
+    "char_start": 1112,
+    "char_end": 1910,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 4,
+    "printed_page_number": null,
+    "char_start": 1910,
+    "char_end": 2744,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 5,
+    "printed_page_number": null,
+    "char_start": 2744,
+    "char_end": 3861,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 6,
+    "printed_page_number": null,
+    "char_start": 3861,
+    "char_end": 4918,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 7,
+    "printed_page_number": null,
+    "char_start": 4918,
+    "char_end": 5767,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 8,
+    "printed_page_number": null,
+    "char_start": 5767,
+    "char_end": 6657,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 9,
+    "printed_page_number": null,
+    "char_start": 6657,
+    "char_end": 7537,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 10,
+    "printed_page_number": null,
+    "char_start": 7537,
+    "char_end": 8349,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 11,
+    "printed_page_number": null,
+    "char_start": 8349,
+    "char_end": 9138,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 12,
+    "printed_page_number": null,
+    "char_start": 9138,
+    "char_end": 10097,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 13,
+    "printed_page_number": null,
+    "char_start": 10097,
+    "char_end": 10812,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 14,
+    "printed_page_number": null,
+    "char_start": 10812,
+    "char_end": 11626,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 15,
+    "printed_page_number": null,
+    "char_start": 11626,
+    "char_end": 12611,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 16,
+    "printed_page_number": null,
+    "char_start": 12611,
+    "char_end": 13363,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 17,
+    "printed_page_number": null,
+    "char_start": 13363,
+    "char_end": 14163,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 18,
+    "printed_page_number": null,
+    "char_start": 14163,
+    "char_end": 15644,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 19,
+    "printed_page_number": null,
+    "char_start": 15644,
+    "char_end": 16490,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 20,
+    "printed_page_number": null,
+    "char_start": 16490,
+    "char_end": 17446,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 21,
+    "printed_page_number": null,
+    "char_start": 17446,
+    "char_end": 18490,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 22,
+    "printed_page_number": null,
+    "char_start": 18490,
+    "char_end": 19494,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 23,
+    "printed_page_number": null,
+    "char_start": 19494,
+    "char_end": 20518,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 24,
+    "printed_page_number": null,
+    "char_start": 20518,
+    "char_end": 21273,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 25,
+    "printed_page_number": null,
+    "char_start": 21273,
+    "char_end": 22134,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 26,
+    "printed_page_number": null,
+    "char_start": 22134,
+    "char_end": 23027,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 27,
+    "printed_page_number": null,
+    "char_start": 23027,
+    "char_end": 24087,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 28,
+    "printed_page_number": null,
+    "char_start": 24087,
+    "char_end": 25155,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 29,
+    "printed_page_number": null,
+    "char_start": 25155,
+    "char_end": 25888,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 30,
+    "printed_page_number": null,
+    "char_start": 25888,
+    "char_end": 26794,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 31,
+    "printed_page_number": null,
+    "char_start": 26794,
+    "char_end": 27755,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  },
+  {
+    "page_index": 32,
+    "printed_page_number": null,
+    "char_start": 27755,
+    "char_end": 28672,
+    "evidence": "pdf_text_alignment",
+    "confidence": 0.75
+  }
+]

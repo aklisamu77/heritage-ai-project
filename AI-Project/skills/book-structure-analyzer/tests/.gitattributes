@@ -1,0 +1,5 @@
+# Test inputs and snapshots must stay byte-exact: character offsets depend on every byte
+# (Git for Windows would otherwise turn LF into CRLF on checkout).
+books/** -text
+expected/** -text
+cases.json -text
